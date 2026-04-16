@@ -1,0 +1,75 @@
+{
+  "_notes": "Ten questions used to evaluate end-to-end QA accuracy. Mix of single-hop, multi-hop, and aggregation questions. Each has a short canonical answer plus the source articles a correct answer should rely on. Phrasing is intentionally varied — some terse, some verbose — to catch surface-similarity retrieval failures.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "single-hop",
+      "question": "Which company developed tazemetostat?",
+      "answer": "Epizyme",
+      "expected_evidence_articles": ["EZH2"]
+    },
+    {
+      "id": 2,
+      "type": "multi-hop",
+      "question": "What drugs treat epithelioid sarcoma and target the EZH2 gene product?",
+      "answer": "Tazemetostat",
+      "expected_evidence_articles": ["EZH2"]
+    },
+    {
+      "id": 3,
+      "type": "single-hop",
+      "question": "What was the original tradename of trastuzumab when it was first approved?",
+      "answer": "Herceptin",
+      "expected_evidence_articles": ["Trastuzumab"]
+    },
+    {
+      "id": 4,
+      "type": "multi-hop",
+      "question": "Imatinib is used to treat which leukemia, and what fusion protein does it inhibit?",
+      "answer": "Chronic myeloid leukemia; BCR-ABL",
+      "expected_evidence_articles": ["Imatinib", "Chronic myeloid leukemia"]
+    },
+    {
+      "id": 5,
+      "type": "comparison",
+      "question": "Which is more selective for EZH2 over EZH1 — GSK126 or EPZ005687?",
+      "answer": "GSK126 is more selective (150-fold over EZH1, vs 50-fold for EPZ005687).",
+      "expected_evidence_articles": ["EZH2"]
+    },
+    {
+      "id": 6,
+      "type": "single-hop",
+      "question": "Which tumour-suppressor gene encodes a protein commonly called 'the guardian of the genome'?",
+      "answer": "TP53 (p53)",
+      "expected_evidence_articles": ["P53"]
+    },
+    {
+      "id": 7,
+      "type": "multi-hop",
+      "question": "Mutations in which gene predispose women to a much higher lifetime risk of breast cancer, and what type of protein does it encode?",
+      "answer": "BRCA1; a tumour suppressor / DNA repair protein",
+      "expected_evidence_articles": ["BRCA1", "Breast cancer"]
+    },
+    {
+      "id": 8,
+      "type": "aggregation",
+      "question": "List at least three EZH2 inhibitors mentioned in the corpus.",
+      "answer": "Any three of: DZNep, EPZ005687, EI1, GSK126, UNC1999, tazemetostat",
+      "expected_evidence_articles": ["EZH2"]
+    },
+    {
+      "id": 9,
+      "type": "multi-hop",
+      "question": "Pembrolizumab is a checkpoint inhibitor — which immune-checkpoint receptor does it target, and which skin cancer is it commonly used to treat?",
+      "answer": "Targets PD-1; used to treat melanoma (also other cancers)",
+      "expected_evidence_articles": ["Pembrolizumab", "Melanoma"]
+    },
+    {
+      "id": 10,
+      "type": "mechanism",
+      "question": "Apoptosis is regulated by two main protein families — name them and say briefly what each does.",
+      "answer": "Caspases (proteases that execute the cell-death programme) and the Bcl-2 family (anti- and pro-apoptotic regulators of mitochondrial outer-membrane permeabilisation).",
+      "expected_evidence_articles": ["Apoptosis"]
+    }
+  ]
+}

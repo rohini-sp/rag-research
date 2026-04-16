@@ -1,0 +1,33 @@
+# ---- Secrets ----
+.env
+
+# ---- Python ----
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- Results (regenerable, may contain API responses) ----
+# Uncomment these if you want to track results in git:
+# results/
+# logs/
+# graphs/
+# plots/
+
+# ---- LaTeX build artifacts ----
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Ollama (if installed) ----
+ollama.log

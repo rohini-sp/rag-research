@@ -1,0 +1,11 @@
+title,entity_type,n_chunks,min_tokens,max_tokens,mean_tokens,total_tokens
+Breast cancer,disease,26,33,1112,492.7,12810
+Chronic myeloid leukemia,disease,10,198,499,368.1,3681
+Melanoma,disease,24,317,992,481.8,11563
+Trastuzumab,drug,9,183,988,506.8,4561
+Imatinib,drug,12,52,786,484.4,5813
+Pembrolizumab,drug,8,48,2551,794.8,6358
+BRCA1,gene,16,84,783,399.4,6390
+EZH2,gene,9,99,647,420.0,3780
+Apoptosis,pathway,21,80,905,405.6,8518
+P53,pathway,13,253,644,403.8,5250

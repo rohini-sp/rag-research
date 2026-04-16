@@ -1,0 +1,42 @@
+chunk_id,source_article,subject,subject_type,predicate,object,object_type,evidence_span
+112,EZH2,DZNep,drug,lowers,EZH2,gene,it lowers EZH2 levels
+112,EZH2,DZNep,drug,induces_apoptosis_in,breast cancer cells,disease,induces apoptosis in breast and colon cancer cells
+112,EZH2,DZNep,drug,induces_apoptosis_in,colon cancer cells,disease,induces apoptosis in breast and colon cancer cells
+112,EZH2,DZNep,drug,inhibits,hydrolysis of S-adenosyl-L-homocysteine (SAH),pathway,DZNep inhibits the hydrolysis of S-adenosyl-L-homocysteine (SAH)
+112,EZH2,S-adenosyl-L-homocysteine (SAH),chemical,inhibits,all protein methyltransferases,other,"SAH, which is a product-based inhibitor of all protein methyltransferases"
+112,EZH2,S-adenosyl-L-homocysteine (SAH),chemical,inhibits,EZH2,gene,increased cellular concentrations of SAH which in turn inhibits EZH2
+112,EZH2,DZNep,drug,inhibits,DNA methyltransferases,other,also inhibits other DNA methyltransferases
+112,EZH2,EPZ005687,drug,developed_by,Epizyme,organisation,a company called Epizyme revealed EPZ005687
+112,EZH2,EPZ005687,drug,is_a,S-adenosylmethionine (SAM) competitive inhibitor,other,an S-adenosylmethionine (SAM) competitive inhibitor
+112,EZH2,EPZ005687,drug,more_selective_than,DZNep,drug,that is more selective than DZNep
+112,EZH2,EPZ005687,drug,selective_for,EZH2,gene,it has a 50-fold increase in selectivity for EZH2 compared to EZH1
+112,EZH2,EPZ005687,drug,binds_to,SET domain active site,other,by binding to the SET domain active site of the enzyme
+112,EZH2,EPZ005687,drug,inhibits,EZH2,gene,The drug blocks EZH2 activity
+112,EZH2,EPZ005687,drug,inhibits,EZH2 Y641 mutant,gene,can also inhibit the Y641 and A677 mutants of EZH2
+112,EZH2,EPZ005687,drug,inhibits,EZH2 A677 mutant,gene,can also inhibit the Y641 and A677 mutants of EZH2
+112,EZH2,EPZ005687,drug,may_treat,non-Hodgkin's lymphoma,disease,which may be applicable for treating non-Hodgkin's lymphoma
+112,EZH2,tazemetostat (EPZ-6438),drug,is_a,EZH2 inhibitor,other,"another EZH2 inhibitor, tazemetostat (EPZ-6438)"
+112,EZH2,Epizyme,organisation,began_clinical_trials_with,tazemetostat (EPZ-6438),drug,"Epizyme began Phase I clinical trials with another EZH2 inhibitor, tazemetostat (EPZ-6438)"
+112,EZH2,tazemetostat (EPZ-6438),drug,tested_for,B-cell lymphoma,disease,for patients with B-cell lymphoma
+112,EZH2,tazemetostat (EPZ-6438),drug,has_tradename,Tazverik,other,"tazemetostat, with the tradename Tazverik"
+112,EZH2,tazemetostat (EPZ-6438),drug,approved_by,FDA for metastatic or locally advanced epithelioid sarcoma,organisation,gained an FDA accelerated approval for the treatment of metastatic or locally advanced epithelioid sarcoma
+112,EZH2,tazemetostat (EPZ-6438),drug,approved_by,FDA for relapsed follicular lymphoma,organisation,accelerated approval for the treatment of patients with relapsed follicular lymphoma
+112,EZH2,Sinefungin,drug,is_a,SAM-competitive inhibitor,other,Sinefungin is another SAM-competitive inhibitor
+112,EZH2,Sinefungin,drug,binds_to,cofactor binding pocket of DNA methyltransferases,other,binding in the cofactor binding pocket of DNA methyltransferases
+112,EZH2,Sinefungin,drug,blocks,methyl transfer,pathway,to block methyl transfer
+112,EZH2,EI1,drug,developed_by,Novartis,organisation,"EI1 is another inhibitor, developed by Novartis"
+112,EZH2,EI1,drug,inhibits,EZH2,gene,showed EZH2 inhibitory activity in lymphoma tumor cells
+112,EZH2,EI1,drug,inhibits,EZH2 Y641 mutant,gene,including cells with the Y641 mutation
+112,EZH2,EI1,drug,competes_with_SAM_for_binding_to,EZH2,gene,competing with the SAM cofactor for binding to EZH2
+112,EZH2,GSK126,drug,is_a,SAM-competitive EZH2 inhibitor,other,"GSK126 is a potent, SAM-competitive EZH2 inhibitor"
+112,EZH2,GSK126,drug,developed_by,GlaxoSmithKline,organisation,developed by GlaxoSmithKline
+112,EZH2,GSK126,drug,selective_over,EZH1,gene,has 150-fold selectivity over EZH1
+112,EZH2,UNC1999,drug,analogue_of,GSK126,drug,UNC1999 was developed as an analogue of GSK126
+112,EZH2,UNC1999,drug,is_a,orally bioavailable EZH2 inhibitor,other,the first orally bioavailable EZH2 inhibitor to show activity
+112,EZH2,UNC1999,drug,less_selective_than,GSK126,drug,it is less selective than its counterpart GSK126
+112,EZH2,UNC1999,drug,binds_to,EZH1,gene,and it binds to EZH1 as well
+112,EZH2,UNC1999,drug,increases_potential_for,off-target effects,other,increasing the potential for off-target effects
+112,EZH2,Etoposide,drug,is_a,topoisomerase inhibitor,other,"Etoposide, a topoisomerase inhibitor"
+112,EZH2,Etoposide,drug,combined_with,EZH2 inhibitor increases_effectiveness_for non-small cell lung cancers with BRG1 and EGFR mutations,disease,"when combined with an EZH2 inhibitor, becomes more effective for non-small cell lung cancers with BRG1 and EGFR mutations"
+112,EZH2,EZH2,gene,has_tumor_suppressing_activity_in,myelodysplastic syndrome,disease,"EZH2 and lysine methylation can have tumor suppressing activity, for example in myelodysplastic syndrome"
+112,EZH2,lysine methylation,pathway,has_tumor_suppressing_activity_in,myelodysplastic syndrome,disease,"EZH2 and lysine methylation can have tumor suppressing activity, for example in myelodysplastic syndrome"

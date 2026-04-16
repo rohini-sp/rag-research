@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Breast cancer",
+    "entity_type": "disease",
+    "slug": "breast_cancer",
+    "url": "https://en.wikipedia.org/wiki/Breast_cancer",
+    "word_count": 9586,
+    "file": "articles/breast_cancer.txt"
+  },
+  {
+    "title": "Chronic myeloid leukemia",
+    "entity_type": "disease",
+    "slug": "chronic_myeloid_leukemia",
+    "url": "https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia",
+    "word_count": 2560,
+    "file": "articles/chronic_myeloid_leukemia.txt"
+  },
+  {
+    "title": "Melanoma",
+    "entity_type": "disease",
+    "slug": "melanoma",
+    "url": "https://en.wikipedia.org/wiki/Melanoma",
+    "word_count": 8201,
+    "file": "articles/melanoma.txt"
+  },
+  {
+    "title": "Trastuzumab",
+    "entity_type": "drug",
+    "slug": "trastuzumab",
+    "url": "https://en.wikipedia.org/wiki/Trastuzumab",
+    "word_count": 3060,
+    "file": "articles/trastuzumab.txt"
+  },
+  {
+    "title": "Imatinib",
+    "entity_type": "drug",
+    "slug": "imatinib",
+    "url": "https://en.wikipedia.org/wiki/Imatinib",
+    "word_count": 3890,
+    "file": "articles/imatinib.txt"
+  },
+  {
+    "title": "Pembrolizumab",
+    "entity_type": "drug",
+    "slug": "pembrolizumab",
+    "url": "https://en.wikipedia.org/wiki/Pembrolizumab",
+    "word_count": 4186,
+    "file": "articles/pembrolizumab.txt"
+  },
+  {
+    "title": "BRCA1",
+    "entity_type": "gene",
+    "slug": "brca1",
+    "url": "https://en.wikipedia.org/wiki/BRCA1",
+    "word_count": 4524,
+    "file": "articles/brca1.txt"
+  },
+  {
+    "title": "EZH2",
+    "entity_type": "gene",
+    "slug": "ezh2",
+    "url": "https://en.wikipedia.org/wiki/EZH2",
+    "word_count": 2472,
+    "file": "articles/ezh2.txt"
+  },
+  {
+    "title": "Apoptosis",
+    "entity_type": "pathway",
+    "slug": "apoptosis",
+    "url": "https://en.wikipedia.org/wiki/Apoptosis",
+    "word_count": 6105,
+    "file": "articles/apoptosis.txt"
+  },
+  {
+    "title": "P53",
+    "entity_type": "pathway",
+    "slug": "p53",
+    "url": "https://en.wikipedia.org/wiki/P53",
+    "word_count": 3463,
+    "file": "articles/p53.txt"
+  }
+]

@@ -1,0 +1,16 @@
+llm_a,llm_b,jaccard
+gpt_5,gpt_5_mini,0.4259
+gpt_5,kimi_k2_5,0.0
+gpt_5,llama_3_1_8b,0.1455
+gpt_5,llama_3_3_70b,0.359
+gpt_5,o4_mini,0.6
+gpt_5_mini,kimi_k2_5,0.0
+gpt_5_mini,llama_3_1_8b,0.1636
+gpt_5_mini,llama_3_3_70b,0.2558
+gpt_5_mini,o4_mini,0.4314
+kimi_k2_5,llama_3_1_8b,0.0
+kimi_k2_5,llama_3_3_70b,0.0
+kimi_k2_5,o4_mini,0.0
+llama_3_1_8b,llama_3_3_70b,0.2121
+llama_3_1_8b,o4_mini,0.1569
+llama_3_3_70b,o4_mini,0.4

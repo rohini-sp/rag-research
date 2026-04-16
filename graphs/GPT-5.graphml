@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="dznep">
+      <data key="d0">drug</data>
+    </node>
+    <node id="ezh2">
+      <data key="d0">gene</data>
+    </node>
+    <node id="breast cancer">
+      <data key="d0">disease</data>
+    </node>
+    <node id="colon cancer">
+      <data key="d0">disease</data>
+    </node>
+    <node id="hydrolysis of s-adenosyl-l-homocysteine">
+      <data key="d0">pathway</data>
+    </node>
+    <node id="s-adenosyl-l-homocysteine">
+      <data key="d0">chemical</data>
+    </node>
+    <node id="protein methyltransferases">
+      <data key="d0">other</data>
+    </node>
+    <node id="dna methyltransferases">
+      <data key="d0">other</data>
+    </node>
+    <node id="epz005687">
+      <data key="d0">drug</data>
+    </node>
+    <node id="s-adenosylmethionine">
+      <data key="d0">chemical</data>
+    </node>
+    <node id="ezh1">
+      <data key="d0">gene</data>
+    </node>
+    <node id="set domain active site">
+      <data key="d0">other</data>
+    </node>
+    <node id="ezh2 y641 mutant">
+      <data key="d0">gene</data>
+    </node>
+    <node id="ezh2 a677 mutant">
+      <data key="d0">gene</data>
+    </node>
+    <node id="non-hodgkin's lymphoma">
+      <data key="d0">disease</data>
+    </node>
+    <node id="epizyme">
+      <data key="d0">organisation</data>
+    </node>
+    <node id="tazemetostat">
+      <data key="d0">drug</data>
+    </node>
+    <node id="b-cell lymphoma">
+      <data key="d0">disease</data>
+    </node>
+    <node id="tazverik">
+      <data key="d0">drug</data>
+    </node>
+    <node id="fda">
+      <data key="d0">organisation</data>
+    </node>
+    <node id="metastatic or locally advanced epithelioid sarcoma">
+      <data key="d0">disease</data>
+    </node>
+    <node id="relapsed follicular lymphoma">
+      <data key="d0">disease</data>
+    </node>
+    <node id="sinefungin">
+      <data key="d0">chemical</data>
+    </node>
+    <node id="methyl transfer">
+      <data key="d0">pathway</data>
+    </node>
+    <node id="ei1">
+      <data key="d0">drug</data>
+    </node>
+    <node id="novartis">
+      <data key="d0">organisation</data>
+    </node>
+    <node id="gsk126">
+      <data key="d0">drug</data>
+    </node>
+    <node id="glaxosmithkline">
+      <data key="d0">organisation</data>
+    </node>
+    <node id="unc1999">
+      <data key="d0">drug</data>
+    </node>
+    <node id="etoposide">
+      <data key="d0">drug</data>
+    </node>
+    <node id="topoisomerase">
+      <data key="d0">other</data>
+    </node>
+    <node id="ezh2 inhibitor">
+      <data key="d0">drug</data>
+    </node>
+    <node id="etoposide + ezh2 inhibitor">
+      <data key="d0">other</data>
+    </node>
+    <node id="non-small cell lung cancer">
+      <data key="d0">disease</data>
+    </node>
+    <node id="brg1">
+      <data key="d0">gene</data>
+    </node>
+    <node id="egfr">
+      <data key="d0">gene</data>
+    </node>
+    <node id="myelodysplastic syndrome">
+      <data key="d0">disease</data>
+    </node>
+    <node id="lysine methylation">
+      <data key="d0">pathway</data>
+    </node>
+    <edge source="dznep" target="ezh2" id="0">
+      <data key="d1">downregulates</data>
+    </edge>
+    <edge source="dznep" target="breast cancer" id="0">
+      <data key="d1">induces_apoptosis_in</data>
+    </edge>
+    <edge source="dznep" target="colon cancer" id="0">
+      <data key="d1">induces_apoptosis_in</data>
+    </edge>
+    <edge source="dznep" target="hydrolysis of s-adenosyl-l-homocysteine" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="dznep" target="dna methyltransferases" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="ezh2" target="myelodysplastic syndrome" id="0">
+      <data key="d1">has_tumor_suppressive_activity_in</data>
+    </edge>
+    <edge source="s-adenosyl-l-homocysteine" target="protein methyltransferases" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="s-adenosyl-l-homocysteine" target="ezh2" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="epz005687" target="s-adenosylmethionine" id="0">
+      <data key="d1">competes_with</data>
+    </edge>
+    <edge source="epz005687" target="ezh1" id="0">
+      <data key="d1">more_selective_than</data>
+    </edge>
+    <edge source="epz005687" target="ezh2" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="epz005687" target="set domain active site" id="0">
+      <data key="d1">binds_to</data>
+    </edge>
+    <edge source="epz005687" target="ezh2 y641 mutant" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="epz005687" target="ezh2 a677 mutant" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="epz005687" target="non-hodgkin's lymphoma" id="0">
+      <data key="d1">potentially_treats</data>
+    </edge>
+    <edge source="epz005687" target="epizyme" id="0">
+      <data key="d1">revealed_by</data>
+    </edge>
+    <edge source="tazemetostat" target="ezh2" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="tazemetostat" target="b-cell lymphoma" id="0">
+      <data key="d1">tested_in</data>
+    </edge>
+    <edge source="tazemetostat" target="tazverik" id="0">
+      <data key="d1">trade_name</data>
+    </edge>
+    <edge source="tazemetostat" target="fda" id="0">
+      <data key="d1">approved_by</data>
+    </edge>
+    <edge source="tazemetostat" target="metastatic or locally advanced epithelioid sarcoma" id="0">
+      <data key="d1">approved_for</data>
+    </edge>
+    <edge source="tazemetostat" target="relapsed follicular lymphoma" id="0">
+      <data key="d1">approved_for</data>
+    </edge>
+    <edge source="sinefungin" target="s-adenosylmethionine" id="0">
+      <data key="d1">competes_with</data>
+    </edge>
+    <edge source="sinefungin" target="dna methyltransferases" id="0">
+      <data key="d1">binds_to</data>
+    </edge>
+    <edge source="sinefungin" target="methyl transfer" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="ei1" target="novartis" id="0">
+      <data key="d1">developed_by</data>
+    </edge>
+    <edge source="ei1" target="ezh2" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="ei1" target="ezh2" id="1">
+      <data key="d1">binds_to</data>
+    </edge>
+    <edge source="ei1" target="ezh2 y641 mutant" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="ei1" target="s-adenosylmethionine" id="0">
+      <data key="d1">competes_with</data>
+    </edge>
+    <edge source="gsk126" target="glaxosmithkline" id="0">
+      <data key="d1">developed_by</data>
+    </edge>
+    <edge source="gsk126" target="ezh2" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="gsk126" target="s-adenosylmethionine" id="0">
+      <data key="d1">competes_with</data>
+    </edge>
+    <edge source="gsk126" target="ezh1" id="0">
+      <data key="d1">more_selective_than</data>
+    </edge>
+    <edge source="unc1999" target="gsk126" id="0">
+      <data key="d1">analogue_of</data>
+    </edge>
+    <edge source="unc1999" target="gsk126" id="1">
+      <data key="d1">less_selective_than</data>
+    </edge>
+    <edge source="unc1999" target="ezh2" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="unc1999" target="ezh1" id="0">
+      <data key="d1">binds_to</data>
+    </edge>
+    <edge source="etoposide" target="topoisomerase" id="0">
+      <data key="d1">inhibits</data>
+    </edge>
+    <edge source="etoposide" target="ezh2 inhibitor" id="0">
+      <data key="d1">combined_with</data>
+    </edge>
+    <edge source="etoposide + ezh2 inhibitor" target="non-small cell lung cancer" id="0">
+      <data key="d1">more_effective_for</data>
+    </edge>
+    <edge source="non-small cell lung cancer" target="brg1" id="0">
+      <data key="d1">has_mutation_in</data>
+    </edge>
+    <edge source="non-small cell lung cancer" target="egfr" id="0">
+      <data key="d1">has_mutation_in</data>
+    </edge>
+    <edge source="lysine methylation" target="myelodysplastic syndrome" id="0">
+      <data key="d1">has_tumor_suppressive_activity_in</data>
+    </edge>
+  </graph>
+</graphml>

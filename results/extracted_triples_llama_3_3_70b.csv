@@ -1,0 +1,15 @@
+chunk_id,source_article,subject,subject_type,predicate,object,object_type,evidence_span
+112,EZH2,DZNep,drug,inhibits,EZH2,gene,DZNep inhibits the hydrolysis of S-adenosyl-L-homocysteine
+112,EZH2,DZNep,drug,inhibits,DNA methyltransferases,gene,DZNep is not specific to EZH2 and also inhibits other DNA methyltransferases
+112,EZH2,EPZ005687,drug,inhibits,EZH2,gene,EPZ005687 inhibits EZH2 activity by binding to the SET domain active site
+112,EZH2,EPZ005687,drug,inhibits,EZH1,gene,it has a 50-fold increase in selectivity for EZH2 compared to EZH1
+112,EZH2,Tazemetostat,drug,inhibits,EZH2,gene,tazemetostat is an EZH2 inhibitor
+112,EZH2,Tazemetostat,drug,treats,metastatic or locally advanced epithelioid sarcoma,disease,tazemetostat gained an FDA accelerated approval for the treatment of metastatic or locally advanced epithelioid sarcoma
+112,EZH2,Tazemetostat,drug,treats,relapsed follicular lymphoma,disease,tazemetostat gained an FDA accelerated approval for the treatment of patients with relapsed follicular lymphoma
+112,EZH2,Sinefungin,drug,inhibits,DNA methyltransferases,gene,Sinefungin is not specific to EZH2 and works by binding in the cofactor binding pocket of DNA methyltransferases
+112,EZH2,EI1,drug,inhibits,EZH2,gene,EI1 showed EZH2 inhibitory activity in lymphoma tumor cells
+112,EZH2,GSK126,drug,inhibits,EZH2,gene,"GSK126 is a potent, SAM-competitive EZH2 inhibitor"
+112,EZH2,GSK126,drug,inhibits,EZH1,gene,GSK126 has 150-fold selectivity over EZH1
+112,EZH2,UNC1999,drug,inhibits,EZH2,gene,UNC1999 was developed as an analogue of GSK126
+112,EZH2,Etoposide,drug,treats,non-small cell lung cancers with BRG1 and EGFR mutations,disease,"Etoposide, when combined with an EZH2 inhibitor, becomes more effective for non-small cell lung cancers with BRG1 and EGFR mutations"
+112,EZH2,EZH2,gene,has_tumor_suppressing_activity,myelodysplastic syndrome,disease,"EZH2 and lysine methylation can have tumor suppressing activity, for example in myelodysplastic syndrome"

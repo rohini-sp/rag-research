@@ -92,11 +92,16 @@ pip install -U pip
 pip install -r requirements.txt
 ```
 
-### API keys
+### API keys / credentials
 ```bash
 cp .env.template .env
-# Fill in your keys in .env
+# fill keys you need in .env (openai/gemini/groq/etc)
 ```
+
+for claude without anthropic api key:
+- install claude cli
+- run `claude auth login` once
+- set model provider to `claude_cli` in `code/config.py`
 
 ### Run manifest
 Every `run_all.py` invocation automatically saves a manifest to

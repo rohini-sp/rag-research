@@ -13,6 +13,7 @@ import argparse
 import json
 import os
 import platform
+import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -66,8 +67,11 @@ def build_manifest() -> dict:
             "OPENAI_API_KEY":    bool(os.environ.get("OPENAI_API_KEY")),
             "ANTHROPIC_API_KEY": bool(os.environ.get("ANTHROPIC_API_KEY")),
             "GEMINI_API_KEY":    bool(os.environ.get("GEMINI_API_KEY")),
-            "GROQ_API_KEY":     bool(os.environ.get("GROQ_API_KEY")),
-            "MISTRAL_API_KEY":  bool(os.environ.get("MISTRAL_API_KEY")),
+            "GROQ_API_KEY":      bool(os.environ.get("GROQ_API_KEY")),
+            "MISTRAL_API_KEY":   bool(os.environ.get("MISTRAL_API_KEY")),
+        },
+        "tooling": {
+            "claude_cli_on_path": bool(shutil.which("claude")),
         },
     }
 

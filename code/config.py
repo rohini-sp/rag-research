@@ -41,7 +41,7 @@ CHUNK_OVERLAP_TOKENS = 50
 
 # ---- Model registry ----
 # Each entry: (display_name, provider, model_id)
-# provider must be one of: openai, anthropic, gemini, groq, openrouter
+# provider must be one of: openai, anthropic, gemini, groq, kimi, openrouter, claude_cli
 #
 # To add/remove models, comment/uncomment lines below.
 # Use the exact model_id each provider lists in their docs.

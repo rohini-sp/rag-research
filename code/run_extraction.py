@@ -106,7 +106,7 @@ def parse_json_response(text: str) -> list[dict]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--provider", required=True,
-                    choices=["openai", "anthropic", "gemini", "groq", "kimi", "openrouter"])
+                    choices=["openai", "anthropic", "gemini", "groq", "kimi", "openrouter", "claude_cli"])
     ap.add_argument("--model",   required=True, help="provider-specific model id")
     ap.add_argument("--display-name", required=True,
                     help="friendly name used in output filenames + result tables")

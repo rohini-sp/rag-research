@@ -90,7 +90,7 @@ def main() -> int:
     ap.add_argument("--llm",      required=True,
                     help="display name; must match the one used in run_extraction.py")
     ap.add_argument("--provider", required=True,
-                    choices=["openai", "anthropic", "gemini", "groq", "kimi", "openrouter"])
+                    choices=["openai", "anthropic", "gemini", "groq", "kimi", "openrouter", "claude_cli"])
     ap.add_argument("--model",    required=True)
     ap.add_argument("--hops",     type=int, default=2)
     ap.add_argument("--temperature", type=float, default=0.0)

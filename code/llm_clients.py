@@ -7,6 +7,7 @@ Currently supports:
     - gemini      (Google AI Studio)
     - groq        (Groq, OpenAI-compatible)
     - openrouter  (OpenRouter, OpenAI-compatible)
+    - claude_cli  (local Claude CLI via `claude -p`, no Anthropic API key)
 
 Each call returns a uniform dict:
     {"text": str, "n_input_tokens": int, "n_output_tokens": int, "raw": <provider response>}
@@ -17,6 +18,7 @@ just edit config.MODELS.
 from __future__ import annotations
 import os
 import time
+import subprocess
 from dataclasses import dataclass
 from typing import Optional
 
@@ -237,6 +239,39 @@ def chat(
                 text  = r.choices[0].message.content or ""
                 n_in  = r.usage.prompt_tokens
                 n_out = r.usage.completion_tokens
+
+            elif provider == "claude_cli":
+                # Uses local Claude CLI auth/session (no Anthropic API key needed).
+                # Requires `claude` binary to be installed and authenticated.
+                prompt = (
+                    "You are a strict JSON-capable assistant.\n\n"
+                    f"SYSTEM:\n{system}\n\n"
+                    f"USER:\n{user}"
+                )
+                cmd = [
+                    "claude", "-p",
+                    "--output-format", "text",
+                    "--model", model_id,
+                    prompt,
+                ]
+                cp = subprocess.run(
+                    cmd,
+                    capture_output=True,
+                    text=True,
+                    timeout=180,
+                    check=False,
+                )
+                if cp.returncode != 0:
+                    err = (cp.stderr or cp.stdout or "").strip()
+                    raise RuntimeError(f"claude cli failed (code={cp.returncode}): {err[:500]}")
+
+                text = (cp.stdout or "").strip()
+                if not text:
+                    raise RuntimeError("claude cli returned empty output")
+
+                # CLI mode does not reliably expose token counts.
+                n_in = 0
+                n_out = 0
 
             else:
                 raise ValueError(f"Unknown provider: {provider}")

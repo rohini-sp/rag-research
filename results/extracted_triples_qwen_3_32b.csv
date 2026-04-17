@@ -1,0 +1,768 @@
+chunk_id,source_article,subject,subject_type,predicate,object,object_type,evidence_span
+0,Breast cancer,Breast cancer,disease,develops_from,breast tissue,tissue,Breast cancer is a cancer that develops from breast tissue.
+0,Breast cancer,Breast cancer,disease,has_sign,lump in the breast,symptom,Signs of breast cancer may include: a lump in the breast...
+0,Breast cancer,Breast cancer,disease,has_sign,change in breast shape,symptom,"Signs of breast cancer may include: a lump in the breast, a change in breast shape..."
+0,Breast cancer,Breast cancer,disease,has_sign,dimpling of the skin,symptom,Signs of breast cancer may include: ... dimpling of the skin...
+0,Breast cancer,Breast cancer,disease,has_sign,fluid coming from the nipple,symptom,Signs of breast cancer may include: ... fluid coming from the nipple...
+0,Breast cancer,Breast cancer,disease,has_sign,newly inverted nipple,symptom,Signs of breast cancer may include: ... a newly inverted nipple...
+0,Breast cancer,Breast cancer,disease,has_sign,red or scaly patch of skin,symptom,Signs of breast cancer may include: ... a red or scaly patch of skin.
+0,Breast cancer,Breast cancer,disease,has_sign,bone pain,symptom,"In those with distant spread of the disease, there may be bone pain..."
+0,Breast cancer,Breast cancer,disease,has_sign,swollen lymph nodes,symptom,"In those with distant spread of the disease, there may be ... swollen lymph nodes..."
+0,Breast cancer,Breast cancer,disease,has_sign,shortness of breath,symptom,"In those with distant spread of the disease, there may be ... shortness of breath..."
+0,Breast cancer,Breast cancer,disease,has_sign,yellow skin,symptom,"In those with distant spread of the disease, there may be ... yellow skin."
+0,Breast cancer,Obesity,risk_factor,risk_factor_for,Breast cancer,disease,Risk factors for developing breast cancer include obesity...
+0,Breast cancer,Lack of physical exercise,risk_factor,risk_factor_for,Breast cancer,disease,Risk factors for developing breast cancer include ... a lack of physical exercise...
+0,Breast cancer,Alcohol consumption,risk_factor,risk_factor_for,Breast cancer,disease,Risk factors for developing breast cancer include ... alcohol consumption...
+0,Breast cancer,Ionizing radiation,risk_factor,risk_factor_for,Breast cancer,disease,Risk factors for developing breast cancer include ... ionizing radiation...
+1,Breast cancer,Breast cancer,disease,has symptom,New lump in the breast,symptom,"For those who do have symptoms, a new lump in the breast is most common."
+1,Breast cancer,Breast cancer,disease,has symptom,Skin thickening (peau d'orange),symptom,Other symptoms include skin thickening known as peau d'orange swelling or pain in the breast...
+1,Breast cancer,Breast cancer,disease,has symptom,"Breast skin dimpling, thickening, redness, or dryness",symptom,"Other symptoms include... dimpling, thickening, redness, or dryness of the breast skin..."
+1,Breast cancer,Breast cancer,disease,has symptom,Nipple pain or inversion,symptom,"Other symptoms include... pain, or inversion of the nipple."
+1,Breast cancer,Breast cancer,disease,has symptom,Unusual breast discharge,symptom,Some may experience unusual discharge from the breasts...
+1,Breast cancer,Breast cancer,disease,has symptom,Lymph node swelling under arms or collar bone,symptom,Some may experience... swelling of the lymph nodes under the arms or along the collar bone.
+1,Breast cancer,Inflammatory breast cancer,disease,causes symptom,Substantial breast swelling and redness,symptom,Inflammatory breast cancer... causing the breast to substantially swell and redden...
+1,Breast cancer,Paget's disease of the breast,disease,causes symptom,"Eczema-like red, scaly irritation on nipple and areola",symptom,"Paget's disease of the breast, with eczema-like red, scaly irritation on the nipple and areola."
+1,Breast cancer,Breast cancer,disease,metastasizes to,Bones,body_part,Advanced tumors can spread... most commonly to the bones...
+1,Breast cancer,Bone metastases,disease,causes symptom,"Swelling, progressive bone pain, bone weakening",symptom,"Bone metastases can cause swelling, progressive bone pain, and weakening of the bones..."
+1,Breast cancer,Breast cancer,disease,metastasizes to,Liver,body_part,"Liver metastases can cause abdominal pain, nausea, vomiting..."
+1,Breast cancer,Liver metastases,disease,causes symptom,"Abdominal pain, nausea, vomiting, rash, itchy skin, jaundice",symptom,"Liver metastases can cause abdominal pain, nausea, vomiting, and skin problems..."
+1,Breast cancer,Breast cancer,disease,metastasizes to,Lungs,body_part,"Lung metastases experience chest pain, shortness of breath..."
+1,Breast cancer,Lung metastases,disease,causes symptom,"Chest pain, shortness of breath, regular coughing",symptom,"Those with lung metastases experience chest pain, shortness of breath..."
+1,Breast cancer,Breast cancer,disease,metastasizes to,Brain,body_part,"Metastases in the brain can cause persistent headache, seizures..."
+1,Breast cancer,Brain metastases,disease,causes symptom,"Persistent headache, seizures, nausea, vomiting, speech/vision/memory/behavior disruptions",symptom,"Metastases in the brain can cause persistent headache, seizures, nausea, vomiting..."
+4,Breast cancer,Breast Cancer,disease,classified_by,grading system,other,"Breast cancers are classified by several grading systems, each of which assesses a tumor characteristic that impacts a person's prognosis."
+4,Breast cancer,Ductal Carcinoma,disease,derived_from,mammary ducts,other,Most breast cancers (85%) are ductal carcinoma – derived from the lining of the mammary ducts.
+4,Breast cancer,Lobular Carcinoma,disease,derived_from,mammary lobes,other,10% are lobular carcinoma – derived from the mammary lobes – or mixed ductal/lobular carcinoma.
+4,Breast cancer,Carcinoma in Situ,disease,considered,precancerous,other,"This condition, called carcinoma in situ, is often considered 'precancerous' rather than a dangerous cancer itself."
+4,Breast cancer,Ductal Carcinoma in Situ,disease,increases_risk_of,invasive breast cancer,disease,Those with ductal carcinoma in situ ... are at increased risk for developing true invasive breast cancer – around a third develop breast cancer within five years.
+4,Breast cancer,Lobular Carcinoma in Situ,disease,increases_risk_of,breast cancer,disease,Those with lobular carcinoma in situ also have an increased risk of developing breast cancer – around 1% develop breast cancer each year.
+4,Breast cancer,Breast Tumor,disease,graded_by,three features,other,"Breast tumors are graded on three features: the proportion of cancer cells that form tubules, the appearance of the cell nucleus, and how many cells are actively replicating."
+4,Breast cancer,Estrogen Receptor,protein,tested_by,immunohistochemistry,other,"In addition to grading, tumor biopsy samples are now tested by immunohistochemistry to determine if the tissue contains the proteins estrogen receptor (ER), progesterone receptor (PR), or human epidermal growth factor receptor 2 (HER2)."
+4,Breast cancer,Hormone Receptor-Positive Tumor,disease,treated_with,hormone therapy,drug,Tumors containing either ER or PR are called 'hormone receptor-positive' and can be treated with hormone therapies.
+4,Breast cancer,HER2-Positive Tumor,disease,treated_with,HER2-targeted therapy,drug,Around 15 to 20% of tumors contain HER2; these can be treated with HER2-targeted therapies.
+4,Breast cancer,Triple-Negative Tumor,disease,characterized_by,rapid growth,other,"The remainder that do not contain ER, PR, or HER2 are called 'triple-negative' tumors, and tend to grow more quickly than other breast cancer types."
+7,Breast cancer,capecitabine,drug,treats,metastatic breast cancer,disease,"Those with metastatic disease can receive further chemotherapy, typically starting with capecitabine, an anthracycline, or a taxane."
+7,Breast cancer,anthracycline,drug,treats,metastatic breast cancer,disease,"Those with metastatic disease can receive further chemotherapy, typically starting with capecitabine, an anthracycline, or a taxane."
+7,Breast cancer,taxane,drug,treats,metastatic breast cancer,disease,"Those with metastatic disease can receive further chemotherapy, typically starting with capecitabine, an anthracycline, or a taxane."
+7,Breast cancer,gemcitabine,drug,treats,metastatic breast cancer,disease,"In addition to the chemotherapeutic drugs used for localized cancer, gemcitabine, vinorelbine, etoposide, and epothilones are sometimes effective."
+7,Breast cancer,vinorelbine,drug,treats,metastatic breast cancer,disease,"In addition to the chemotherapeutic drugs used for localized cancer, gemcitabine, vinorelbine, etoposide, and epothilones are sometimes effective."
+7,Breast cancer,etoposide,drug,treats,metastatic breast cancer,disease,"In addition to the chemotherapeutic drugs used for localized cancer, gemcitabine, vinorelbine, etoposide, and epothilones are sometimes effective."
+7,Breast cancer,epothilones,drug,treats,metastatic breast cancer,disease,"In addition to the chemotherapeutic drugs used for localized cancer, gemcitabine, vinorelbine, etoposide, and epothilones are sometimes effective."
+7,Breast cancer,denosumab,drug,treats,bone metastases,disease,Those with bone metastases benefit from regular infusion of the bone-strengthening agents denosumab and the bisphosphonates;
+7,Breast cancer,bisphosphonates,drug,treats,bone metastases,disease,Those with bone metastases benefit from regular infusion of the bone-strengthening agents denosumab and the bisphosphonates;
+7,Breast cancer,toremifene,drug,treats,ER-positive metastatic breast cancer,disease,"Therapy options include those used in localized cancer, plus toremifene and fulvestrant, often used in combination with CDK4/6 inhibitors"
+7,Breast cancer,fulvestrant,drug,treats,ER-positive metastatic breast cancer,disease,"Therapy options include those used in localized cancer, plus toremifene and fulvestrant, often used in combination with CDK4/6 inhibitors"
+7,Breast cancer,palbociclib,drug,used_in_combination_with,fulvestrant,drug,"often used in combination with CDK4/6 inhibitors (palbociclib, ribociclib, or abemaciclib)."
+7,Breast cancer,ribociclib,drug,used_in_combination_with,fulvestrant,drug,"often used in combination with CDK4/6 inhibitors (palbociclib, ribociclib, or abemaciclib)."
+7,Breast cancer,abemaciclib,drug,used_in_combination_with,fulvestrant,drug,"often used in combination with CDK4/6 inhibitors (palbociclib, ribociclib, or abemaciclib)."
+7,Breast cancer,everolimus,drug,treats,ER-positive metastatic breast cancer,disease,"Adding an mTOR inhibitor, everolimus, can further slow the tumors' progression."
+7,Breast cancer,trastuzumab,drug,treats,HER2-positive metastatic breast cancer,disease,"Those with HER2-positive metastatic disease can benefit from continued use of trastuzumab, alone, in combination with pertuzumab, or in combination with chemotherapy."
+9,Breast cancer,United States,organisation,has_survival_rate,92%,other,"In the United States, UK, South Korea, Japan and Australia, more than 90% of women survive breast cancer for at least five years from diagnosis."
+9,Breast cancer,China,organisation,has_survival_rate,82%,other,"In China, this is 82%."
+9,Breast cancer,India,organisation,has_survival_rate,66%,other,India saw a 66% survival rate.
+9,Breast cancer,Breast cancer,disease,has_survival_rate,92%,other,"Overall, 92% of women diagnosed with breast cancer in the United States survive at least five years from diagnosis."
+9,Breast cancer,Breast cancer,disease,has_survival_rate,100%,other,Those whose tumor(s) are completely confined to the breast (nearly two thirds of cases) have the best prognoses – 100% survive at least five years.
+9,Breast cancer,Breast cancer,disease,has_survival_rate,33%,other,Those whose tumors have metastasized to distant sites have relatively poor prognoses – 33% survive at least five years from the time of diagnosis.
+9,Breast cancer,Triple-negative breast cancer,disease,has_survival_rate,78%–92%,other,Those with triple-negative breast cancer have an overall five-year survival rate of 78% – 92% for those whose tumors are confined to the breast.
+9,Breast cancer,Triple-negative breast cancer,disease,has_survival_rate,15%,other,15% for those with metastases.
+9,Breast cancer,Inflammatory breast cancer,disease,has_survival_rate,40%,other,Those with inflammatory breast cancer are diagnosed after the cancer has already spread to the skin of the breast. They have an overall five-year survival rate of 40%; 22% for those with metastases.
+9,Breast cancer,Inflammatory breast cancer,disease,is_diagnosed_after_spreading_to_skin,breast skin,other,Those with inflammatory breast cancer are diagnosed after the cancer has already spread to the skin of the breast.
+9,Breast cancer,"Tubular, mucinous, or medullary tumors",disease,has_better_prognosis,breast cancer,disease,"The relatively rare tumors with tubular, mucinous, or medullary growth tend to have better prognoses."
+9,Breast cancer,Breast cancer before age 35,disease,is_associated_with,genetic predisposition to aggressive cancer,other,"Breast cancer before age 35 is rare, and is more likely to be associated with genetic predisposition to aggressive cancer."
+9,Breast cancer,Breast cancer in those aged over 75,disease,has_poorer_prognosis,breast cancer,disease,"Conversely, breast cancer in those aged over 75 is associated with poorer prognosis."
+3,Breast cancer,diagnostic mammogram,other,used_to_confirm,suspected tumor,other,additional imaging – typically a second 'diagnostic' mammogram and ultrasound – to confirm its presence and location
+3,Breast cancer,ultrasound,other,used_to_confirm,suspected tumor,other,additional imaging – typically a second 'diagnostic' mammogram and ultrasound – to confirm its presence and location
+3,Breast cancer,biopsy,other,taken_of,suspected tumor,other,A biopsy is then taken of the suspected tumor
+3,Breast cancer,biopsy,other,performed_by,core needle biopsy,other,Breast biopsy is typically done by core needle biopsy
+3,Breast cancer,biopsy,other,performed_by,fine-needle aspiration,other,Suspected tumors that appear to be filled with fluid are often instead sampled by fine-needle aspiration
+3,Breast cancer,biopsy,other,percentage_positive_for,cancer,disease,Around 10–20% of breast biopsies are positive for cancer
+3,Breast cancer,biopsied breast masses,other,caused_by,fibrocystic breast changes,disease,Most biopsied breast masses are instead caused by fibrocystic breast changes
+5,Breast cancer,breast cancer,disease,depends_on,affected person's health,other,The management of breast cancer depends on the affected person's health
+5,Breast cancer,breast cancer,disease,depends_on,cancer case's molecular characteristics,other,the cancer case's molecular characteristics
+5,Breast cancer,breast cancer,disease,depends_on,tumor spread at the time of diagnosis,other,how far the tumor has spread at the time of diagnosis
+6,Breast cancer,Breast cancer,disease,treated_by,Surgery,other,Those whose tumors have not spread beyond the breast often undergo surgery to remove the tumor and some surrounding breast tissue.
+6,Breast cancer,Surgery,other,includes,Lumpectomy,other,"The surgery method is typically chosen to spare as much healthy breast tissue as possible, removing just the tumor (lumpectomy) or a larger part of the breast (partial mastectomy)."
+6,Breast cancer,Surgery,other,includes,Partial mastectomy,other,"The surgery method is typically chosen to spare as much healthy breast tissue as possible, removing just the tumor (lumpectomy) or a larger part of the breast (partial mastectomy)."
+6,Breast cancer,Surgery,other,includes,Full mastectomy,other,"Those with large or multiple tumors, high genetic risk of subsequent cancers, or who are unable to receive radiation therapy may instead opt for full removal of the affected breast(s) (full mastectomy)."
+6,Breast cancer,Surgery,other,includes,Sentinel lymph node biopsy,other,"To reduce the risk of cancer spreading, women will often have the nearest lymph node removed in a procedure called sentinel lymph node biopsy."
+6,Breast cancer,Breast cancer,disease,treated_by,Radiotherapy,other,"After surgery, many undergo radiotherapy to decrease the chance of cancer recurrence."
+6,Breast cancer,Radiotherapy,other,includes,External beam radiotherapy,other,"Radiotherapy for breast cancer is typically delivered via external beam radiotherapy, where a device focuses radiation beams onto the targeted parts of the body."
+6,Breast cancer,Radiotherapy,other,includes,Brachytherapy,other,"Instead, some undergo brachytherapy, where radioactive material is placed into a device inserted at the surgical site the tumor was removed from."
+6,Breast cancer,Breast cancer,disease,treated_by,Chemotherapy,other,Chemotherapy reduces the chance of cancer recurring in the next ten years by around a third.
+8,Breast cancer,Supportive care,other,alleviates,side effects,other,Many breast cancer therapies have side effects that can be alleviated with appropriate supportive care.
+8,Breast cancer,Chemotherapy,other,causes,hair loss,other,"Chemotherapy causes hair loss, nausea, and vomiting in nearly everyone who receives it."
+8,Breast cancer,Chemotherapy,other,causes,nausea,other,"Chemotherapy causes hair loss, nausea, and vomiting in nearly everyone who receives it."
+8,Breast cancer,Chemotherapy,other,causes,vomiting,other,"Chemotherapy causes hair loss, nausea, and vomiting in nearly everyone who receives it."
+8,Breast cancer,Antiemetic drugs,drug,alleviates,nausea,other,Antiemetic drugs can alleviate nausea and vomiting; cooling the scalp with a cold cap during chemotherapy treatments may reduce hair loss.
+8,Breast cancer,Antiemetic drugs,drug,alleviates,vomiting,other,Antiemetic drugs can alleviate nausea and vomiting; cooling the scalp with a cold cap during chemotherapy treatments may reduce hair loss.
+8,Breast cancer,Cold cap,other,reduces,hair loss,other,Cooling the scalp with a cold cap during chemotherapy treatments may reduce hair loss.
+8,Breast cancer,Chemotherapy,other,causes,cognitive issues,other,Many complain of cognitive issues during chemotherapy treatment.
+8,Breast cancer,Endocrine therapy,other,causes,hot flashes,other,"Those on endocrine therapy often experience hot flashes, muscle and joint pain, and vaginal dryness/discomfort that can lead to issues having sex."
+8,Breast cancer,Endocrine therapy,other,causes,muscle and joint pain,other,"Those on endocrine therapy often experience hot flashes, muscle and joint pain, and vaginal dryness/discomfort that can lead to issues having sex."
+8,Breast cancer,Endocrine therapy,other,causes,vaginal dryness/discomfort,other,"Those on endocrine therapy often experience hot flashes, muscle and joint pain, and vaginal dryness/discomfort that can lead to issues having sex."
+8,Breast cancer,Antidepressants,drug,alleviates,hot flashes,other,Around half of women have their hot flashes alleviated by taking antidepressants; pain can be treated with physical therapy and nonsteroidal anti-inflammatory drugs; counseling and use of personal lubricants can improve sexual issues.
+8,Breast cancer,Physical therapy,other,treats,pain,other,Around half of women have their hot flashes alleviated by taking antidepressants; pain can be treated with physical therapy and nonsteroidal anti-inflammatory drugs; counseling and use of personal lubricants can improve sexual issues.
+10,Breast cancer,Early menstruation (before age 12),other,increases_risk_of,Breast cancer,disease,Women who begin menstruating earlier (before age 12) or who undergo menopause later (after 51) are at increased risk of developing breast cancer.
+10,Breast cancer,Late menopause (after 51),other,increases_risk_of,Breast cancer,disease,Women who begin menstruating earlier (before age 12) or who undergo menopause later (after 51) are at increased risk of developing breast cancer.
+10,Breast cancer,Early childbirth (teenage),other,reduces_risk_of,Breast cancer,disease,Women who give birth early in life are protected from breast cancer – someone who gives birth as a teenager has around a 70% lower risk of developing breast cancer than someone who does not have children.
+10,Breast cancer,Higher maternal age at first birth (after 35),other,increases_risk_of,Breast cancer,disease,"That protection wanes with higher maternal age at first birth, and disappears completely by age 35."
+10,Breast cancer,Breastfeeding,other,reduces_risk_of,Breast cancer,disease,"Breastfeeding also reduces one's chance of developing breast cancer, with an approximately 4% reduction in breast cancer risk for every 12 months of breastfeeding experience."
+10,Breast cancer,Lack of functioning ovaries,other,reduces_risk_of,Breast cancer,disease,"Those who lack functioning ovaries have reduced levels of estrogens, and therefore greatly reduced breast cancer risk."
+10,Breast cancer,Hormone replacement therapy,drug,increases_risk_of,Breast cancer,disease,Hormone replacement therapy for treatment of menopause symptoms can also increase a woman's risk of developing breast cancer...
+10,Breast cancer,Combined progesterone/estrogen therapy,drug,increases_risk_of,Breast cancer,disease,Combined progesterone/estrogen therapy increases breast cancer risk – approximately doubling one's risk after 6–7 years of treatment...
+10,Breast cancer,Combined progesterone/estrogen therapy,drug,decreases_risk_of,Colorectal cancer,disease,...though the same therapy decreases the risk of colorectal cancer.
+11,Breast cancer,Alcoholic beverages,chemical,increases_risk_of,Breast cancer,disease,"Drinking alcoholic beverages increases the risk of breast cancer, even among very light drinkers"
+11,Breast cancer,Alcohol use,other,causes,Breast cancer,disease,"Globally, about one in ten cases of breast cancer is caused by women drinking alcoholic beverages"
+11,Breast cancer,Obesity,disease,increases_risk_of,Breast cancer,disease,Obesity and diabetes increase the risk of breast cancer
+11,Breast cancer,Diabetes,disease,increases_risk_of,Breast cancer,disease,Obesity and diabetes increase the risk of breast cancer
+11,Breast cancer,High body mass index,other,causes,Breast cancer,disease,A high body mass index (BMI) causes 7% of breast cancers
+11,Breast cancer,Diabetes,disease,causes,Breast cancer,disease,diabetes is responsible for 2%
+11,Breast cancer,Rapid weight gain in adulthood,other,increases_risk_of,Breast cancer,disease,those who rapidly gain weight in adulthood are at higher risk than those who have been overweight since childhood
+11,Breast cancer,Excess fat in the midriff,other,increases_risk_of,Breast cancer,disease,excess fat in the midriff seems to induce a higher risk than excess weight carried in the lower body
+12,Breast cancer,Family history of breast cancer,other,increases_risk_of,Breast cancer,disease,Around 10% of those with breast cancer have a family history of the disease or genetic factors that put them at higher risk.
+12,Breast cancer,First-degree relative (mother or sister) diagnosed with breast cancer,other,increases_risk_of,Breast cancer,disease,Women who have had a first-degree relative (mother or sister) diagnosed with breast cancer are at a 30–50% increased risk of being diagnosed with breast cancer themselves.
+12,Breast cancer,Zero affected relatives,other,increases_risk_of,Breast cancer,disease,"In those with zero, one or two affected relatives, the risk of breast cancer before the age of 80 is 7.8%, 13.3%, and 21.1% with a subsequent mortality from the disease of 2.3%, 4.2%, and 7.6% respectively."
+12,Breast cancer,One affected relative,other,increases_risk_of,Breast cancer,disease,"In those with zero, one or two affected relatives, the risk of breast cancer before the age of 80 is 7.8%, 13.3%, and 21.1% with a subsequent mortality from the disease of 2.3%, 4.2%, and 7.6% respectively."
+12,Breast cancer,Two affected relatives,other,increases_risk_of,Breast cancer,disease,"In those with zero, one or two affected relatives, the risk of breast cancer before the age of 80 is 7.8%, 13.3%, and 21.1% with a subsequent mortality from the disease of 2.3%, 4.2%, and 7.6% respectively."
+12,Breast cancer,Pathogenic variant in BRCA1,gene,increases_risk_of,Breast cancer,disease,"Women with pathogenic variants in either gene have around a 70% chance of developing breast cancer in their lifetime, as well as an approximately 33% chance of developing ovarian cancer."
+12,Breast cancer,Pathogenic variant in BRCA2,gene,increases_risk_of,Breast cancer,disease,"Women with pathogenic variants in either gene have around a 70% chance of developing breast cancer in their lifetime, as well as an approximately 33% chance of developing ovarian cancer."
+12,Breast cancer,Pathogenic variant in PALB2,gene,increases_risk_of,Breast cancer,disease,Pathogenic variants in PALB2 – a gene whose product directly interacts with that of BRCA2 – also increase breast cancer risk; a woman with such a variant has around a 50% increased risk of developing breast cancer.
+12,Breast cancer,p53,gene,causes,Li–Fraumeni syndrome,disease,"Variants in other tumor suppressor genes can also increase one's risk of developing breast cancer, namely p53 (causes Li–Fraumeni syndrome), PTEN (causes Cowden syndrome), and PALB1."
+12,Breast cancer,PTEN,gene,causes,Cowden syndrome,disease,"Variants in other tumor suppressor genes can also increase one's risk of developing breast cancer, namely p53 (causes Li–Fraumeni syndrome), PTEN (causes Cowden syndrome), and PALB1."
+13,Breast cancer,Estrogen receptor,gene,is_marker_for,breast cancer,disease,"Based on the existence or lack of molecular markers for the estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor receptor 2 (ERBB2; formerly HER2), breast cancer is divided into three main categories."
+13,Breast cancer,Progesterone receptor,gene,is_marker_for,breast cancer,disease,"Based on the existence or lack of molecular markers for the estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor receptor 2 (ERBB2; formerly HER2), breast cancer is divided into three main categories."
+13,Breast cancer,Human epidermal growth factor receptor 2,gene,is_marker_for,breast cancer,disease,"Based on the existence or lack of molecular markers for the estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor receptor 2 (ERBB2; formerly HER2), breast cancer is divided into three main categories."
+13,Breast cancer,Hormone receptor-positive/ERBB2-negative tumor,disease,is_subtype_of,breast cancer,disease,"About 70% of patients have hormone receptor-positive/ERBB2-negative tumours, which are the most prevalent type."
+13,Breast cancer,Triple-negative breast cancer,disease,lacks,Estrogen receptor,gene,"About 15% of cases are triple-negative (lacking all three conventional markers), whereas 15%–20% of cases are ERBB2-positive."
+13,Breast cancer,Triple-negative breast cancer,disease,lacks,Progesterone receptor,gene,"About 15% of cases are triple-negative (lacking all three conventional markers), whereas 15%–20% of cases are ERBB2-positive."
+13,Breast cancer,Triple-negative breast cancer,disease,lacks,Human epidermal growth factor receptor 2,gene,"About 15% of cases are triple-negative (lacking all three conventional markers), whereas 15%–20% of cases are ERBB2-positive."
+13,Breast cancer,Estrogen,chemical,promotes,breast cancer,disease,"Breast cancer is promoted by estrogen. This hormone activates the development of breast throughout puberty, menstrual cycles and pregnancy."
+13,Breast cancer,Estrogen,chemical,causes,cell proliferation,other,The imbalance between estrogen and progesterone during the menstrual phases causes cell proliferation.
+13,Breast cancer,Estrogen,chemical,increases,DNA damage,other,"Moreover, oxidative metabolites of estrogen can increase DNA damage and mutations."
+13,Breast cancer,PI3K/AKT pathway,pathway,is_protective_against,cancer,disease,One of the protective pathways is the PI3K/AKT pathway; another is the RAS/MEK/ERK pathway.
+13,Breast cancer,PTEN protein,gene,inhibits,PI3K/AKT pathway,pathway,"Normally, the PTEN protein turns off the PI3K/AKT pathway when the cell is ready for programmed cell death."
+14,Breast cancer,Maintaining a healthy weight,other,reduces_risk_of,breast cancer,disease,Women can reduce their risk of breast cancer by maintaining a healthy weight...
+14,Breast cancer,Reducing alcohol use,other,reduces_risk_of,breast cancer,disease,Women can reduce their risk of breast cancer by... reducing alcohol use...
+14,Breast cancer,Increasing physical activity,other,reduces_risk_of,breast cancer,disease,Women can reduce their risk of breast cancer by... increasing physical activity...
+14,Breast cancer,Breastfeeding,other,reduces_risk_of,breast cancer,disease,Women can reduce their risk of breast cancer by... breastfeeding.
+14,Breast cancer,Moderate exercise,other,reduces_risk_of,breast cancer,disease,The benefits with moderate exercise... are seen at all age groups...
+14,Breast cancer,High levels of physical activity,other,reduces_risk_of,breast cancer,disease,High levels of physical activity reduce the risk of breast cancer by about 14%.
+14,Breast cancer,Regular physical activity,other,reduces_risk_of,cardiovascular disease,disease,Strategies that encourage regular physical activity... reduced risks of cardiovascular disease...
+14,Breast cancer,Regular physical activity,other,reduces_risk_of,diabetes,disease,Strategies that encourage regular physical activity... reduced risks of diabetes.
+14,Breast cancer,American Cancer Society,organisation,advised,"diet high in vegetables, fruits, whole grains, and legumes",other,The American Cancer Society and the American Society of Clinical Oncology advised...
+14,Breast cancer,Soluble fiber,chemical,reduces_risk_of,breast cancer,disease,Eating foods rich in soluble fiber contributes to reducing breast cancer risk.
+14,Breast cancer,Citrus fruit,chemical,reduces_risk_of,breast cancer,disease,High intake of citrus fruit has been associated with a 10% reduction in the risk...
+14,Breast cancer,Marine omega-3 polyunsaturated fatty acids,chemical,reduces_risk_of,breast cancer,disease,Marine omega-3 polyunsaturated fatty acids appear to reduce the risk.
+14,Breast cancer,Soy-based foods,chemical,reduces_risk_of,breast cancer,disease,High consumption of soy-based foods may reduce risk.
+14,Breast cancer,Preventive mastectomy,other,reduces_risk_of,breast cancer,disease,Removal of the breasts... reduces the risk of developing breast cancer by more than 95%.
+14,Breast cancer,Preventive mastectomy,other,reduces_risk_of,death from breast cancer,disease,In women genetically predisposed... reduces their risk of dying from breast cancer.
+14,Breast cancer,Contralateral risk-reducing mastectomy,other,reduces_risk_of,cancer in the second breast,disease,Removing the second breast... may reduce the risk of cancer in the second breast.
+15,Breast cancer,Selective estrogen receptor modulators,drug,reduces_risk_of,breast_cancer,disease,Selective estrogen receptor modulators (SERMs) reduce the risk of breast cancer
+15,Breast cancer,Selective estrogen receptor modulators,drug,increases_risk_of,thromboembolism,disease,but increase the risk of thromboembolism and endometrial cancer
+15,Breast cancer,Selective estrogen receptor modulators,drug,increases_risk_of,endometrial_cancer,disease,but increase the risk of thromboembolism and endometrial cancer
+15,Breast cancer,Aromatase inhibitors,drug,more_effective_than,Selective estrogen receptor modulators,drug,Aromatase inhibitors (such as exemestane and anastrozole) may be more effective than SERMs (such as tamoxifen) at reducing breast cancer risk
+15,Breast cancer,Aromatase inhibitors,drug,not_associated_with_increased_risk_of,endometrial_cancer,disease,they are not associated with an increased risk of endometrial cancer and thromboembolism
+15,Breast cancer,Aromatase inhibitors,drug,not_associated_with_increased_risk_of,thromboembolism,disease,they are not associated with an increased risk of endometrial cancer and thromboembolism
+15,Breast cancer,Breast_cancer,disease,accounts_for,30%_of_cancer_cases_in_women,other,"Breast cancer is the most common invasive cancer in women in most countries, accounting for 30% of cancer cases in women"
+16,Breast cancer,Breast cancer,disease,described_in,ancient documents,organisation,"Because of its visibility, breast cancer was the form of cancer most often described in ancient documents."
+16,Breast cancer,Breast cancer,disease,treated_by,cauterization,other,The Edwin Smith Papyrus describes eight cases of tumors or ulcers of the breast that were treated by cauterization.
+16,Breast cancer,Edwin Smith Papyrus,organisation,describes,tumors or ulcers of the breast,disease,The Edwin Smith Papyrus describes eight cases of tumors or ulcers of the breast that were treated by cauterization.
+16,Breast cancer,Ancient medicine,organisation,based_on,humoralism,pathway,"Ancient medicine, from the time of the Greeks through the 17th century, was based on humoralism."
+17,Breast cancer,Improvements in sanitation and control of deadly infectious diseases,other,resulted_in,dramatic increases in lifespan,other,improvements in sanitation and control of deadly infectious diseases resulted in dramatic increases in lifespan.
+17,Breast cancer,William Stewart Halsted,other,started_performing,radical mastectomies,other,William Stewart Halsted started performing radical mastectomies in 1882
+17,Breast cancer,Radical mastectomies,other,involved_removing,"both breasts, associated lymph nodes, and the underlying chest muscles",other,"The Halsted radical mastectomy often involved removing both breasts, associated lymph nodes, and the underlying chest muscles."
+17,Breast cancer,Halsted radical mastectomy,other,increased,20-year survival rates from 10% to 50%,other,"Before the advent of the Halsted radical mastectomy, 20-year survival rates were only 10%; Halsted's surgery raised that rate to 50%."
+18,Breast cancer,breast cancer,disease,discussed_in_hushed_tones,20th century,other,"Before the 20th century, breast cancer was feared and discussed in hushed tones, as if it were shameful."
+18,Breast cancer,American Society for the Control of Cancer,organisation,ran,Women's Field Army,organisation,"The 'Women's Field Army', run by the American Society for the Control of Cancer (later the American Cancer Society) during the 1930s and 1940s was one of the first organized campaigns."
+18,Breast cancer,Reach to Recovery,organisation,developed,post-mastectomy support,other,"In 1952, the first peer-to-peer support group, called 'Reach to Recovery', began providing post-mastectomy, in-hospital visits from women who had survived breast cancer."
+18,Breast cancer,breast cancer movement,organisation,developed_from,feminist movements,organisation,The breast cancer movement of the 1980s and 1990s developed out of the larger feminist movements and women's health movement of the 20th century.
+18,Breast cancer,breast cancer awareness campaigns,organisation,inspired_by,AIDS awareness campaigns,organisation,"This series of political and educational campaigns, partly inspired by the politically and socially effective AIDS awareness campaigns..."
+18,Breast cancer,breast cancer awareness campaigns,organisation,resulted_in,second opinions before surgery,other,"...resulted in the widespread acceptance of second opinions before surgery, less invasive surgical procedures, support groups, and other advances in care."
+18,Breast cancer,breast cancer awareness campaigns,organisation,resulted_in,less invasive surgical procedures,other,"...resulted in the widespread acceptance of second opinions before surgery, less invasive surgical procedures, support groups, and other advances in care."
+18,Breast cancer,breast cancer awareness campaigns,organisation,resulted_in,support groups,organisation,"...resulted in the widespread acceptance of second opinions before surgery, less invasive surgical procedures, support groups, and other advances in care."
+19,Breast cancer,pink ribbon,other,symbol_of,breast cancer awareness,disease,A pink ribbon is the most prominent symbol of breast cancer awareness.
+19,Breast cancer,pink ribbon,other,used_for,fundraisers,other,"Pink ribbons, which can be made inexpensively, are sometimes sold as fundraisers."
+19,Breast cancer,pink ribbon,other,honors,those diagnosed with breast cancer,disease,They may be worn to honor those who have been diagnosed with breast cancer.
+19,Breast cancer,US-based corporations,organisation,launched,breast cancer awareness campaigns,pathway,"In the 1990s, breast cancer awareness campaigns were launched by US-based corporations."
+19,Breast cancer,US-based corporations,organisation,donated_to,breast cancer initiatives,disease,"As part of these cause-related marketing campaigns, corporations donated to a variety of breast cancer initiatives for every pink ribbon product that was purchased."
+19,Breast cancer,The Wall Street Journal,organisation,noted,the strong emotions provoked by breast cancer translate to a company's bottom line,other,"The Wall Street Journal noted that ""the strong emotions provoked by breast cancer translate to a company's bottom line""."
+19,Breast cancer,Avon,organisation,established,breast cancer foundations,organisation,others such as Avon established their own breast cancer foundations on the back of pink ribbon products.
+19,Breast cancer,wearing or displaying a pink ribbon,other,criticized_as,slacktivism,other,Wearing or displaying a pink ribbon has been criticized by the opponents of this practice as a kind of slacktivism.
+19,Breast cancer,wearing or displaying a pink ribbon,other,criticized_as,hypocrisy,other,"It has also been criticized as hypocrisy, because some people wear the pink ribbon to show good will towards women with breast cancer, but then oppose these women's practical goals."
+19,Breast cancer,feel-good nature of pink ribbons,other,distracts_from,preventing and curing breast cancer,disease,Critics say that the feel-good nature of pink ribbons and pink consumption distracts society from the lack of progress on preventing and curing breast cancer.
+19,Breast cancer,pink ribbons,other,reinforces,gender stereotypes,other,It is also criticized for reinforcing gender stereotypes and objectifying women and their breasts.
+20,Breast cancer,Samantha King,organisation,wrote,"Pink Ribbons, Inc.: Breast Cancer and the Politics of Philanthropy",other,"In her 2006 book Pink Ribbons, Inc.: Breast Cancer and the Politics of Philanthropy Samantha King claimed that breast cancer has been transformed from a serious disease and individual tragedy to a market-driven industry of survivorship and corporate sales pitch."
+20,Breast cancer,Samantha King,organisation,claimed,breast cancer has been transformed into a market-driven industry of survivorship and corporate sales pitch,other,"In her 2006 book Pink Ribbons, Inc.: Breast Cancer and the Politics of Philanthropy Samantha King claimed that breast cancer has been transformed from a serious disease and individual tragedy to a market-driven industry of survivorship and corporate sales pitch."
+20,Breast cancer,Gayle Sulik,organisation,argued,the primary purposes of breast cancer culture are to maintain breast cancer's dominance as the pre-eminent women's health issue,other,"In 2010 Gayle Sulik argued that the primary purposes or goals of breast cancer culture are to maintain breast cancer's dominance as the pre-eminent women's health issue, to promote the appearance that society is doing something effective about breast cancer, and to sustain and expand the social, political, and financial power of breast cancer activists."
+20,Breast cancer,Gayle Sulik,organisation,argued,the primary purposes of breast cancer culture are to promote the appearance that society is doing something effective about breast cancer,other,"In 2010 Gayle Sulik argued that the primary purposes or goals of breast cancer culture are to maintain breast cancer's dominance as the pre-eminent women's health issue, to promote the appearance that society is doing something effective about breast cancer, and to sustain and expand the social, political, and financial power of breast cancer activists."
+20,Breast cancer,Gayle Sulik,organisation,argued,"the primary purposes of breast cancer culture are to sustain and expand the social, political, and financial power of breast cancer activists",other,"In 2010 Gayle Sulik argued that the primary purposes or goals of breast cancer culture are to maintain breast cancer's dominance as the pre-eminent women's health issue, to promote the appearance that society is doing something effective about breast cancer, and to sustain and expand the social, political, and financial power of breast cancer activists."
+20,Breast cancer,Barbara Ehrenreich,organisation,lamented,breast cancer therapy is viewed as a rite of passage rather than a disease,other,"In the same year Barbara Ehrenreich published an opinion piece in Harper's Magazine, lamenting that in breast cancer culture, breast cancer therapy is viewed as a rite of passage rather than a disease."
+20,Breast cancer,Breast cancer culture,organisation,requires,women with breast cancer to normalize and feminize their appearance,other,"To fit into this mold, the woman with breast cancer needs to normalize and feminize her appearance, and minimize the disruption that her health issues cause anyone else."
+20,Breast cancer,Breast cancer culture,organisation,requires,women with breast cancer to minimize disruption caused by health issues,other,"To fit into this mold, the woman with breast cancer needs to normalize and feminize her appearance, and minimize the disruption that her health issues cause anyone else."
+20,Breast cancer,Breast cancer culture,organisation,silences,"anger, sadness, and negativity",other,"Anger, sadness, and negativity must be silenced."
+20,Breast cancer,Breast cancer culture,organisation,confers_social_status,cancer survivors,other,"As with most cultural models, people who conform to the model are given social status, in this case as cancer survivors."
+20,Breast cancer,Breast cancer culture,organisation,shuns,women who reject the model,other,"Women who reject the model are shunned, punished and shamed."
+20,Breast cancer,Breast cancer culture,organisation,treats,adult women like little girls,other,"The culture is criticized for treating adult women like little girls, as evidenced by 'baby' toys such as pink teddy bears given to adult women."
+21,Breast cancer,Black women,other,has_higher_mortality_rate_than,White women,other,Black women at every age are more likely to die of breast cancer.
+21,Breast cancer,Black women,other,has_higher_incidence_rate_than,White women,other,Breast cancer incidence among Black women aged 45 and older is higher than that of white women in the same age group.
+21,Breast cancer,White women,other,has_higher_incidence_rate_than,Black women,other,White women aged 60–84 have higher incidence rates of breast cancer than Black women.
+21,Breast cancer,Socioeconomic status,other,contributes_to,breast cancer disparities,disease,"Risk factors such as socioeconomic status, late-stage, or breast cancer at diagnosis, genetic differences in tumor subtypes, and differences in healthcare access all contribute to these disparities."
+21,Breast cancer,Healthcare access,other,contributes_to,breast cancer disparities,disease,"Risk factors such as socioeconomic status, late-stage, or breast cancer at diagnosis, genetic differences in tumor subtypes, and differences in healthcare access all contribute to these disparities."
+21,Breast cancer,Black women,other,is_diagnosed_at_younger_age_than,White women,other,Black women are usually diagnosed with breast cancer at a younger age than white women.
+21,Breast cancer,Asian/Pacific Islander women,other,has_increasing_incidence_rate,breast cancer,disease,The incidence of breast cancer in Black women has increased by 0.4% per year since 1975 and 1.5% per year among Asian/Pacific Islander women since 1992.
+21,Breast cancer,Black women,other,has_lower_survival_rate_than,White women,other,The five-year survival rate is noted to be 81% in Black women and 92% in White women.
+21,Breast cancer,Chinese women,other,has_higher_survival_rate_than,White women,other,Chinese and Japanese women have the highest survival rates.
+22,Breast cancer,Low-income women,other,less_likely_to_undergo,breast cancer screening,disease,"Low-income, immigrant, disabled, and racial and sexual minority women are less likely to undergo breast cancer screening"
+22,Breast cancer,Low-income women,other,more_likely_to_receive,late-stage diagnoses,disease,and thus are more likely to receive late-stage diagnoses
+22,Breast cancer,Equitable healthcare,other,positively_affect,disparities in breast cancer screening,disease,"Ensuring equitable health care, including breast cancer screenings, can positively affect these disparities"
+22,Breast cancer,Informational materials,other,ineffective_in_reducing,disparities in breast cancer screening,disease,"Efforts to promote awareness about the significance of screenings, such as informational materials, are ineffective in reducing these disparities"
+22,Breast cancer,Patient navigators and advocates,organisation,offer_personalized_assistance,attending screening and follow-up appointments,other,patient navigators and advocates can offer women personalized assistance with attending screening and follow-up appointments
+22,Breast cancer,Legislation requiring mandatory insurance coverage,organisation,increase_screening_rates,among ethnic minority communities,other,"Legislation that requires mandatory insurance coverage of language assistance and mammograms has also increased screening rates, particularly among ethnic minority communities"
+22,Breast cancer,Black patients,other,underrepresented_in,clinical trials,other,"less than 3% of patients in clinical trials identify as Black, despite representing 12.7% of the national population"
+22,Breast cancer,Hispanic and indigenous women,other,underrepresented_in,breast cancer research,disease,Hispanic and indigenous women are also significantly underrepresented in breast cancer research
+22,Breast cancer,Monetary compensation,other,increase_diversity,participants in research and clinical trials,other,"Monetary compensation, language interpreters, and patient navigators can increase the diversity of participants in research and clinical trials"
+23,Breast cancer,BRCA2 gene,gene,increased_risk_of,breast cancer,disease,"Men who develop gynecomastia ... are at increased risk, as are men with disease-associated variations in the BRCA2 gene"
+23,Breast cancer,Klinefelter syndrome,disease,increased_risk_of,breast cancer,disease,"Men who develop gynecomastia ... are at increased risk, as are men with ... Klinefelter syndrome"
+23,Breast cancer,high exposure to estrogens,chemical,increased_risk_of,breast cancer,disease,"Men who develop gynecomastia ... are at increased risk, as are men with ... high exposure to estrogens"
+23,Breast cancer,breast cancer,disease,treated_with,surgery,treatment,"Treatment typically involves surgery, followed by radiation if needed"
+23,Breast cancer,ER-positive tumors,disease,treated_with,endocrine therapy,treatment,"Around 90% men's tumors are ER-positive, and are treated with endocrine therapy"
+23,Breast cancer,endocrine therapy,treatment,includes,tamoxifen,drug,"treated with endocrine therapy, typically tamoxifen"
+23,Breast cancer,breast cancer,disease,delayed_diagnosis_due_to,pregnancy-related breast changes,disease,Diagnosing breast cancer in pregnant women is often delayed as symptoms can be masked by pregnancy-related breast changes
+23,Breast cancer,chemotherapy,treatment,avoided_during,first trimester,other,Chemotherapy is avoided during the first trimester
+23,Breast cancer,chemotherapy,treatment,administered_during,rest of pregnancy term,other,but can be safely administered through the rest of the pregnancy term
+23,Breast cancer,anti-HER2 treatments,treatment,delayed_until,after delivery,other,Anti-HER2 treatments ... are delayed until after delivery
+23,Breast cancer,endocrine therapies,treatment,delayed_until,after delivery,other,endocrine therapies are delayed until after delivery
+23,Breast cancer,anti-HER2 treatments,treatment,contraindicated_with,breastfeeding,other,"These treatments given after delivery can cross into the breast milk, and so breast feeding is generally not possible"
+23,Breast cancer,endocrine therapies,treatment,contraindicated_with,breastfeeding,other,"These treatments given after delivery can cross into the breast milk, and so breast feeding is generally not possible"
+23,Breast cancer,targeted therapy,treatment,evaluated_in,clinical trials,organisation,"Treatments are being evaluated in clinical trials. This includes individual drugs, combinations of drugs, and surgical and radiation techniques Investigations include new types of targeted therapy"
+23,Breast cancer,cancer vaccines,treatment,evaluated_in,clinical trials,organisation,"Investigations include new types of targeted therapy, cancer vaccines"
+23,Breast cancer,oncolytic virotherapy,treatment,evaluated_in,clinical trials,organisation,Investigations include ... oncolytic virotherapy
+23,Breast cancer,gene therapy,treatment,evaluated_in,clinical trials,organisation,Investigations include ... gene therapy
+23,Breast cancer,immunotherapy,treatment,evaluated_in,clinical trials,organisation,Investigations include ... immunotherapy
+23,Breast cancer,latest research,other,reported_at,American Society of Clinical Oncology,organisation,The latest research is reported annually at scientific meetings such as that of the American Society of Clinical Oncology
+24,Breast cancer,Cryoablation,other,studied_as_substitute_for,Lumpectomy,other,As of 2014 cryoablation is being studied to see if it could be a substitute for a lumpectomy in small cancers.
+24,Breast cancer,Cryoablation,other,has_tentative_evidence_for,Tumors less than 2 centimeters across,disease,There is tentative evidence in those with tumors less than 2 centimeters across.
+24,Breast cancer,Cryoablation,other,used_in_place_of,Surgery,other,It may also be used in those in who surgery is not possible.
+24,Breast cancer,BT-20,other,established_in,1958,other,"The first breast cancer cell line described, BT-20, was established in 1958."
+24,Breast cancer,Breast cancer cell lines,other,has_low_number,About 100,other,the number of permanent lines obtained has been strikingly low (about 100).
+24,Breast cancer,Attempts to culture breast cancer cell lines,other,attempts_to_culture_unsuccessful,Primary tumors,disease,attempts to culture breast cancer cell lines from primary tumors have been largely unsuccessful.
+24,Breast cancer,Effusions,other,provided_source_for,Breast cancer cell lines,other,"Effusions provided generally large numbers of dissociated, viable tumor cells..."
+24,Breast cancer,"MCF-7, T-47D, MDA-MB-231, SK-BR-3",other,account_for_majority_of_studies,Breast cancer cell line research,other,Many of the currently used BCC lines were established in the late 1970s...
+24,Breast cancer,Mammary tumor,disease,used_as_model_for,Breast cancer in other animals,disease,Mammary tumor for breast cancer in other animals
+24,Breast cancer,Mouse models,organisation,used_to_study,Breast cancer metastasis,disease,Mouse models of breast cancer metastasis
+25,Breast cancer,Mammary tumor,disease,models,breast cancer,disease,Mammary tumor for breast cancer in other animals
+25,Breast cancer,Mouse models,pathway,models,breast cancer metastasis,disease,Mouse models of breast cancer metastasis
+27,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,linked_to,Philadelphia chromosome,pathway,"CML was the first cancer to be linked to a clear genetic abnormality, the chromosomal translocation known as the Philadelphia chromosome."
+27,Chronic myeloid leukemia,Philadelphia chromosome,pathway,involves,chromosome 9,gene,"In this translocation, parts of two chromosomes (the 9th and 22nd) switch places."
+27,Chronic myeloid leukemia,Philadelphia chromosome,pathway,involves,chromosome 22,gene,"In this translocation, parts of two chromosomes (the 9th and 22nd) switch places."
+27,Chronic myeloid leukemia,Philadelphia chromosome,pathway,results_in,BCR-ABL fusion gene,gene,"As a result, part of the BCR...gene from chromosome 22 is fused with the ABL gene on chromosome 9."
+27,Chronic myeloid leukemia,BCR-ABL fusion gene,gene,produces,p210 protein,chemical,This abnormal 'fusion' gene generates a protein of p210 or sometimes p185 weight.
+27,Chronic myeloid leukemia,BCR-ABL fusion gene,gene,has_function,tyrosine kinase,other,"Because ABL carries a domain that can add phosphate groups to tyrosine residues (a tyrosine kinase), the BCR-ABL fusion gene product is also a tyrosine kinase."
+27,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,has_risk_factor,male gender,other,CML is more common in males than in females (male to female ratio of 1.4:1)
+27,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,has_risk_factor,advanced age,other,appears more commonly in the elderly with a median age at diagnosis of 65 years
+27,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,has_risk_factor,ionising radiation exposure,chemical,Exposure to ionising radiation appears to be a risk factor
+27,Chronic myeloid leukemia,ionising radiation,chemical,increases_incidence_of,Chronic Myeloid Leukemia,disease,based on a 50 fold higher incidence of CML in Hiroshima and Nagasaki nuclear bombing survivors
+27,Chronic myeloid leukemia,ionising radiation,chemical,has_peak_incidence,10 years post-exposure,other,The rate of CML in these individuals seems to peak about 10 years after the exposure.
+27,Chronic myeloid leukemia,Philadelphia chromosome,pathway,discovered_by,Peter Nowell,organisation,it was first discovered and described in 1960 by two scientists from Philadelphia...Peter Nowell of the University of Pennsylvania
+27,Chronic myeloid leukemia,Philadelphia chromosome,pathway,discovered_by,David Hungerford,organisation,it was first discovered and described in 1960 by two scientists from Philadelphia...David Hungerford of Fox Chase Cancer Center.
+28,Chronic myeloid leukemia,BCR-ABL protein,gene,interacts_with,interleukin 3beta(c) receptor subunit,gene,The fused BCR-ABL protein interacts with the interleukin 3beta(c) receptor subunit.
+28,Chronic myeloid leukemia,BCR-ABL protein,gene,activates,cell cycle proteins,gene,"In turn, BCR-ABL activates a cascade of proteins that control the cell cycle, speeding up cell division."
+28,Chronic myeloid leukemia,BCR-ABL protein,gene,inhibits,DNA repair,process,"Moreover, the BCR-ABL protein inhibits DNA repair, causing genomic instability..."
+28,Chronic myeloid leukemia,BCR-ABL protein,gene,causes,chronic myelogenous leukemia,disease,...the action of the BCR-ABL protein is the pathophysiologic cause of chronic myelogenous leukemia.
+28,Chronic myeloid leukemia,imatinib,drug,inhibits,BCR-ABL protein,gene,...targeted therapies (the first of which was imatinib) that specifically inhibit the activity of the BCR-ABL protein...
+28,Chronic myeloid leukemia,tyrosine kinase inhibitors,drug,inhibits,BCR-ABL protein,gene,...targeted therapies [...] that specifically inhibit the activity of the BCR-ABL protein have been developed.
+28,Chronic myeloid leukemia,tyrosine kinase inhibitors,drug,induces_remissions,chronic myelogenous leukemia,disease,...tyrosine kinase inhibitors can induce complete remissions in CML...
+29,Chronic myeloid leukemia,Chronic Myeloid Leukemia (CML),disease,diagnosed_by,cytogenetics,pathway,CML is diagnosed by cytogenetics that detects the translocation t(9;22)(q34;q11.2)
+29,Chronic myeloid leukemia,Chronic Myeloid Leukemia (CML),disease,has_symptom,increased granulocytes,other,"CML is often suspected on the basis of a complete blood count, which shows increased granulocytes of all types"
+29,Chronic myeloid leukemia,Chronic Myeloid Leukemia (CML),disease,differentiated_from,leukemoid reaction,disease,"CML must be distinguished from a leukemoid reaction, which can have a similar appearance on a blood smear"
+29,Chronic myeloid leukemia,Translocation t(9;22)(q34;q11.2),pathway,involves,ABL1 gene,gene,the translocation t(9;22)(q34;q11.2) which involves the ABL1 gene in chromosome 9 and the BCR gene in chromosome 22
+29,Chronic myeloid leukemia,Translocation t(9;22)(q34;q11.2),pathway,involves,BCR gene,gene,the translocation t(9;22)(q34;q11.2) which involves the ABL1 gene in chromosome 9 and the BCR gene in chromosome 22
+29,Chronic myeloid leukemia,Translocation t(9;22)(q34;q11.2),pathway,causes,Philadelphia chromosome,chromosomal_abnormality,"As a result of this translocation, the chromosome looks smaller than its homologue chromosome, and this appearance is known as the Philadelphia chromosome chromosomal abnormality"
+29,Chronic myeloid leukemia,Philadelphia chromosome,chromosomal_abnormality,detected_by,routine cytogenetics,pathway,this abnormality can be detected by routine cytogenetics
+30,Chronic myeloid leukemia,Chronic phase,disease,progresses_to,Accelerated phase,disease,"In the absence of treatment, the disease progresses to an accelerated phase."
+30,Chronic myeloid leukemia,Accelerated phase,disease,defined_by,World Health Organization,organisation,"The WHO criteria are perhaps most widely used, and define the accelerated phase by the presence of ≥1 of the following haematological/cytogenetic criteria"
+30,Chronic myeloid leukemia,Accelerated phase,disease,has_criteria,tyrosine kinase inhibitor therapy response,other,or provisional criteria concerning response to tyrosine kinase inhibitor (TKI) therapy
+30,Chronic myeloid leukemia,World Health Organization,organisation,developed_by,Accelerated phase criteria,other,"the most widely used criteria are those put forward by investigators at M.D. Anderson Cancer Center, by Sokal et al., and the World Health Organization"
+30,Chronic myeloid leukemia,Chronic phase,disease,has_symptom,fatigue,other,patients are usually asymptomatic or have only mild symptoms of fatigue
+30,Chronic myeloid leukemia,Chronic phase,disease,has_symptom,left side pain,other,"patients are usually asymptomatic or have only mild symptoms of fatigue, left side pain"
+30,Chronic myeloid leukemia,Chronic phase,disease,has_symptom,joint and/or hip pain,other,"patients are usually asymptomatic or have only mild symptoms of fatigue, left side pain, joint and/or hip pain"
+30,Chronic myeloid leukemia,Chronic phase,disease,has_symptom,abdominal fullness,other,"patients are usually asymptomatic or have only mild symptoms of fatigue, left side pain, joint and/or hip pain, or abdominal fullness"
+31,Chronic myeloid leukemia,"Persistent or increasing high white blood cell count (> 10 billion/L), unresponsive to therapy",other,is_a_criterion_for,accelerated phase,disease,"Persistent or increasing high white blood cell count (> 10 billion/L), unresponsive to therapy"
+31,Chronic myeloid leukemia,"Persistent or increasing splenomegaly, unresponsive to therapy",other,is_a_criterion_for,accelerated phase,disease,"Persistent or increasing splenomegaly, unresponsive to therapy"
+31,Chronic myeloid leukemia,"Persistent thrombocytosis (> 1000 billion/L), unresponsive to therapy",other,is_a_criterion_for,accelerated phase,disease,"Persistent thrombocytosis (> 1000 billion/L), unresponsive to therapy"
+31,Chronic myeloid leukemia,"Persistent thrombocytopenia (< 100 billion/L), unrelated to therapy",other,is_a_criterion_for,accelerated phase,disease,"Persistent thrombocytopenia (< 100 billion/L), unrelated to therapy"
+31,Chronic myeloid leukemia,≥ 20% basophils in the peripheral blood,other,is_a_criterion_for,accelerated phase,disease,≥ 20% basophils in the peripheral blood
+31,Chronic myeloid leukemia,10–19% blasts in the peripheral blood and/or bone marrow,other,is_a_criterion_for,accelerated phase,disease,10–19% blasts in the peripheral blood and/or bone marrow
+31,Chronic myeloid leukemia,Additional clonal chromosomal abnormalities in Philadelphia (Ph) chromosome-positive (Ph+) cells at diagnosis,other,is_a_criterion_for,accelerated phase,disease,Additional clonal chromosomal abnormalities in Philadelphia (Ph) chromosome-positive (Ph+) cells at diagnosis
+31,Chronic myeloid leukemia,Any new clonal chromosomal abnormality in Ph+ cells that occurs during therapy,other,is_a_criterion_for,accelerated phase,disease,Any new clonal chromosomal abnormality in Ph+ cells that occurs during therapy
+31,Chronic myeloid leukemia,Haematological resistance to the first TKI,other,is_a_criterion_for,accelerated phase,disease,Haematological resistance (or failure to achieve a complete haematological response d) to the first TKI
+31,Chronic myeloid leukemia,Resistance to two sequential TKIs,other,is_a_criterion_for,accelerated phase,disease,"Any haematological, cytogenetic, or molecular indications of resistance to two sequential TKIs"
+32,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,treated_by,bone marrow transplant,treatment,The only curative treatment for CML is a bone marrow transplant or an allogeneic stem cell transplant.
+32,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,treated_by,allogeneic stem cell transplant,treatment,The only curative treatment for CML is a bone marrow transplant or an allogeneic stem cell transplant.
+32,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,treated_by,tyrosine kinase inhibitors,drug,Other than this there are four major mainstays of treatment in CML: treatment with tyrosine kinase inhibitors...
+32,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,treated_by,myelosuppressive therapy,treatment,Other than this there are four major mainstays of treatment in CML: ... myelosuppressive or leukapheresis therapy...
+32,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,treated_by,splenectomy,treatment,Other than this there are four major mainstays of treatment in CML: ... splenectomy...
+32,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,treated_by,interferon alfa-2b,drug,Other than this there are four major mainstays of treatment in CML: ... interferon alfa-2b treatment.
+32,Chronic myeloid leukemia,Cytarabine,drug,replaced_by,Bcr-Abl tyrosine-kinase inhibitors,drug,"In the past, antimetabolites (e.g., cytarabine, hydroxyurea)... have been replaced by Bcr-Abl tyrosine-kinase inhibitors..."
+32,Chronic myeloid leukemia,Hydroxyurea,drug,replaced_by,Bcr-Abl tyrosine-kinase inhibitors,drug,"In the past, ... hydroxyurea... have been replaced by Bcr-Abl tyrosine-kinase inhibitors..."
+32,Chronic myeloid leukemia,Alkylating agents,drug,replaced_by,Bcr-Abl tyrosine-kinase inhibitors,drug,"In the past, ... alkylating agents... have been replaced by Bcr-Abl tyrosine-kinase inhibitors..."
+32,Chronic myeloid leukemia,Interferon alfa 2b,drug,replaced_by,Bcr-Abl tyrosine-kinase inhibitors,drug,"In the past, ... interferon alfa 2b... have been replaced by Bcr-Abl tyrosine-kinase inhibitors..."
+32,Chronic myeloid leukemia,Steroids,drug,replaced_by,Bcr-Abl tyrosine-kinase inhibitors,drug,"In the past, ... steroids... have been replaced by Bcr-Abl tyrosine-kinase inhibitors..."
+32,Chronic myeloid leukemia,Hydroxyurea,drug,used_to_counteract,leukocytosis,disease,hydroxyurea is still used to counteract the high leukocyte counts encountered during treatment...
+32,Chronic myeloid leukemia,Hydroxyurea,drug,preferred_over,other myelosuppressive agents,treatment,it may be the preferred myelosuppressive agent due to its relative lack of leukemogenic effects...
+36,Melanoma,Melanoma,disease,is_a,cancer,disease,"Melanoma is a type of cancer, typically skin cancer; it develops from the melanin-producing cells known as melanocytes."
+36,Melanoma,Melanoma,disease,develops_from,melanocytes,other,"Melanoma is a type of cancer, typically skin cancer; it develops from the melanin-producing cells known as melanocytes."
+36,Melanoma,Melanoma,disease,occurs_in,skin,other,"It typically occurs in the skin, but may rarely occur in the mouth, intestines, or eye (uveal melanoma)."
+36,Melanoma,Melanoma,disease,occurs_in,mouth,other,"It typically occurs in the skin, but may rarely occur in the mouth, intestines, or eye (uveal melanoma)."
+36,Melanoma,Melanoma,disease,occurs_in,intestines,other,"It typically occurs in the skin, but may rarely occur in the mouth, intestines, or eye (uveal melanoma)."
+36,Melanoma,Melanoma,disease,occurs_in,eye,other,"It typically occurs in the skin, but may rarely occur in the mouth, intestines, or eye (uveal melanoma)."
+36,Melanoma,Melanoma,disease,occurs_in,lung,other,"In very rare cases melanoma can also happen in the lung, which is known as primary pulmonary melanoma and only happens in 0.01% of primary lung tumors."
+36,Melanoma,Melanoma,disease,has_common_location,legs,other,"In females, melanomas most commonly occur on the legs; while in men, on the back."
+36,Melanoma,Melanoma,disease,has_common_location,back,other,"In females, melanomas most commonly occur on the legs; while in men, on the back."
+36,Melanoma,Melanoma,disease,has_alternative_name,malignant melanoma,other,Melanoma is frequently referred to as malignant melanoma.
+36,Melanoma,Medical community,organisation,recommends_avoiding_term,malignant melanoma,other,"However, the medical community stresses that there is no such thing as a 'benign melanoma' and recommends that the term 'malignant melanoma' should be avoided as it is redundant."
+36,Melanoma,Melanoma,disease,develops_from,mole,other,About 30% of melanomas develop from moles.
+36,Melanoma,Melanoma,disease,has_indicative_change,increase in size,other,"Changes in a mole that can indicate melanoma include increase—especially rapid increase—in size, irregular edges, change in color, itchiness, or skin breakdown."
+37,Melanoma,Melanoma,disease,has_symptom,Changes to the shape or color of existing moles,other,Early signs of melanoma are changes to the shape or color of existing moles
+37,Melanoma,Nodular melanoma,disease,has_symptom,Appearance of a new lump on the skin,other,"in the case of nodular melanoma, the appearance of a new lump anywhere on the skin"
+37,Melanoma,Melanoma,disease,has_symptom,Itching,other,"At later stages, the mole may itch, ulcerate, or bleed"
+37,Melanoma,Melanoma,disease,has_symptom,Ulceration,other,"At later stages, the mole may itch, ulcerate, or bleed"
+37,Melanoma,Melanoma,disease,has_symptom,Bleeding,other,"At later stages, the mole may itch, ulcerate, or bleed"
+37,Melanoma,Melanoma,disease,has_symptom,Asymmetry,other,Early signs of melanoma are summarized by the mnemonic 'ABCDEEFG': Asymmetry
+37,Melanoma,Melanoma,disease,has_symptom,Irregular borders,other,Borders (irregular with edges and corners)
+37,Melanoma,Melanoma,disease,has_symptom,Variegated color,other,Colour (variegated)
+38,Melanoma,UV radiation,other,is_a_risk_factor_for,melanoma,disease,The main risk factor for melanoma formation is exposure to UV radiation
+38,Melanoma,Tanning beds,other,increases_risk_of,melanoma,disease,UV radiation exposure from tanning beds increases the risk of melanoma
+38,Melanoma,International Agency for Research on Cancer,organisation,classifies_as_carcinogenic_to_humans,tanning beds,other,The International Agency for Research on Cancer finds that tanning beds are 'carcinogenic to humans'
+38,Melanoma,People starting tanning device use before age thirty,other,increases_risk_by_75_percent,melanoma,disease,people who begin using tanning devices before the age of thirty years are 75% more likely to develop melanoma
+38,Melanoma,Airplane workers,other,have_increased_risk_due_to,UV radiation,other,"Those who work in airplanes also appear to have an increased risk, believed to be due to greater exposure to UV"
+38,Melanoma,UVB light,other,absorbed_by,DNA in skin cells,other,UVB light... is absorbed directly by DNA in skin cells
+38,Melanoma,UVA light,other,absorbed_by,DNA in skin cells,other,UVA light... can also be absorbed directly by DNA in skin cells
+38,Melanoma,Radiation exposure (UVA and UVB),other,is_a_major_contributor_to,melanoma,disease,Radiation exposure (UVA and UVB) is a major contributor to the development of melanoma
+38,Melanoma,Sunburn,other,is_causally_related_to,melanoma,disease,Occasional extreme sun exposure that results in 'sunburn'... is causally related to melanoma
+38,Melanoma,Socioeconomic conditions,other,influences_risk,melanoma,disease,The risk appears to be strongly influenced by socioeconomic conditions
+38,Melanoma,Tumor suppressor genes,gene,mutations_increase_risk_of,melanoma,disease,Other factors are mutations in (or total loss of) tumor suppressor genes
+38,Melanoma,Intensity of sun exposure,other,is_significant_element_in_determining_risk,melanoma,disease,Possible significant elements in determining risk include the intensity and duration of sun exposure
+38,Melanoma,Duration of sun exposure,other,is_significant_element_in_determining_risk,melanoma,disease,Possible significant elements in determining risk include the intensity and duration of sun exposure
+38,Melanoma,Age of sun exposure,other,is_significant_element_in_determining_risk,melanoma,disease,Possible significant elements in determining risk include... the age at which sun exposure occurs
+38,Melanoma,Skin pigmentation,other,is_significant_element_in_determining_risk,melanoma,disease,Possible significant elements in determining risk include... the degree of skin pigmentation
+39,Melanoma,Family history,other,increases_risk_of,Melanoma,disease,Having a family history of melanoma increases one's risk
+39,Melanoma,First-degree relative,other,increases_risk_of,Melanoma,disease,Having a first-degree relative increasing one's risk of developing melanoma by 1.74 times
+39,Melanoma,Personal history of melanoma,other,increases_risk_of,Melanoma,disease,Having a personal history of melanoma increases the risk of developing another melanoma in the future
+39,Melanoma,Familial melanoma,disease,presents_as,Multiple skin lesions,other,Familial melanoma is more likely to present as multiple skin lesions than non-familial melanoma
+39,Melanoma,Familial melanoma,disease,presents_as,Thinner lesions,other,Familial melanoma is also more likely to present as thinner lesions
+39,Melanoma,CDKN2A mutation,gene,destabilizes,p53,protein,An alternative reading frame mutation in this gene leads to the destabilization of p53
+39,Melanoma,CDKN2A mutation,gene,results_in,Nonfunctional CDK4 inhibitor,protein,Another mutation in the same gene results in a nonfunctional inhibitor of CDK4
+39,Melanoma,Xeroderma pigmentosum mutation,gene,increases_risk_of,Melanoma,disease,Mutations that cause the skin condition xeroderma pigmentosum (XP) also increase melanoma susceptibility
+39,Melanoma,CDKN2A mutation,gene,localized_to,Chromosome 9p,other,The multiple tumor suppressor 1 (CDKN2A/MTS1) gene... has been localised to the p21 region of human chromosome 9
+39,Melanoma,FAMMM syndrome,disease,associated_with,CDKN2A mutation,gene,It is transmitted autosomal dominantly and mostly associated with the CDKN2A mutations
+39,Melanoma,CDKN2A mutation,gene,increases_risk_of,Pancreatic cancer,disease,People who have a CDKN2A mutation associated with FAMMM have a 38-fold increased risk of pancreatic cancer
+39,Melanoma,MC1R mutation,gene,increases_risk_of,Melanoma,disease,People with mutations in the MC1R gene are two to 2.7-3.6 times more likely to develop melanoma
+39,Melanoma,MDM2 SNP309 mutation,gene,increases_risk_of,Melanoma,disease,Mutation of the MDM2 SNP309 gene is associated with increased risks for younger women
+39,Melanoma,Fair skin,other,results_from,Low melanin,other,Fair skin is the result of having less melanin in the skin
+39,Melanoma,Low melanin,other,reduces_protection_from,UV radiation,other,which means less protection from UV radiation exists
+40,Melanoma,Melanoma,disease,has_stage,Radial Growth Phase,disease,"The earliest stage of the disease is called the radial growth phase, when the tumor is less than 1 mm thick"
+40,Melanoma,Melanoma,disease,has_stage,Invasive Radial Growth Phase,disease,"The next step in the evolution is the invasive radial growth phase, in which individual cells start to acquire invasive potential"
+40,Melanoma,Melanoma,disease,has_stage,Vertical Growth Phase,disease,The vertical growth phase (VGP) following invasive melanoma. The tumor becomes able to grow into the surrounding tissue
+40,Melanoma,Melanoma,disease,has_stage,Regression,disease,"These cells sometimes completely destroy the primary tumor; this is called regression, which is the latest stage of development"
+40,Melanoma,Melanocytes,cell,located_in,Epidermis,anatomical_structure,Melanocytes are found between the outer layer of the skin (the epidermis) and the next layer (the dermis)
+40,Melanoma,Melanocytes,cell,located_in,Dermis,anatomical_structure,Melanocytes are found between the outer layer of the skin (the epidermis) and the next layer (the dermis)
+40,Melanoma,B-Raf protein,gene,has_mutation,Activating mutation,mutation,About 40% of human melanomas contain activating mutations affecting the structure of the B-Raf protein
+40,Melanoma,B-Raf protein,gene,part_of,Raf to MAP kinase pathway,pathway,resulting in constitutive signaling through the Raf to MAP kinase pathway
+40,Melanoma,UV radiation,chemical,causes,Thymine dimerization,process,UVA light mainly causes thymine dimers. UVA also produces reactive oxygen species
+40,Melanoma,UV radiation,chemical,causes,Reactive oxygen species,chemical,UVA also produces reactive oxygen species and these inflict other DNA damage
+40,Melanoma,Thymine dimerization,process,leads_to,C>T transition mutations,mutation,"If unrepaired, cyclobutane pyrimidine dimer (CPD) photoproducts can lead to mutations by inaccurate translesion synthesis"
+40,Melanoma,Melanoma,disease,has_characteristic,High mutation burden,characteristic,This strong mutagenic factor makes cutaneous melanoma the tumor type with the highest number of mutations
+40,Melanoma,Tumor infiltrating lymphocytes (TILs),cell,part_of,Host immunological reaction,process,"The host elicits an immunological reaction against the tumor during the VGP, which is judged by the presence and activity of the tumor infiltrating lymphocytes (TILs)"
+40,Melanoma,Melanoma,disease,has_gene_expression,Tyrosinase,gene,"Examples of melanoma specific genes are tyrosinase, MLANA, and PMEL"
+40,Melanoma,Melanoma,disease,has_gene_expression,MLANA,gene,"Examples of melanoma specific genes are tyrosinase, MLANA, and PMEL"
+40,Melanoma,Melanoma,disease,has_gene_expression,PMEL,gene,"Examples of melanoma specific genes are tyrosinase, MLANA, and PMEL"
+40,Melanoma,Activating transcription factor-2,gene,associated_with,Metastatic activity,phenotype,Data from patients suggest that aberrant levels of activating transcription factor in the nucleus of melanoma cells are associated with increased metastatic activity
+41,Melanoma,The Cancer Genome Atlas,organisation,established,cutaneous melanoma,disease,"Large-scale studies, such as The Cancer Genome Atlas, have characterized recurrent somatic alterations likely driving initiation and development of cutaneous melanoma."
+41,Melanoma,The Cancer Genome Atlas,organisation,established,BRAF mutant,gene,"The Cancer Genome Atlas study has established four subtypes: BRAF mutant, RAS mutant, NF1 mutant, and triple wild-type."
+41,Melanoma,The Cancer Genome Atlas,organisation,established,RAS mutant,gene,"The Cancer Genome Atlas study has established four subtypes: BRAF mutant, RAS mutant, NF1 mutant, and triple wild-type."
+41,Melanoma,The Cancer Genome Atlas,organisation,established,NF1 mutant,gene,"The Cancer Genome Atlas study has established four subtypes: BRAF mutant, RAS mutant, NF1 mutant, and triple wild-type."
+41,Melanoma,BRAF,gene,has_mutation,codon 600,other,The most frequent mutation occurs in the 600th codon of BRAF (50% of cases).
+41,Melanoma,BRAF,gene,involved_in,cell growth,other,"BRAF is normally involved in cell growth, and this specific mutation renders the protein constitutively active and independent of normal physiological regulation, thus fostering tumor growth."
+41,Melanoma,BRAF mutation,gene,causes,tumor growth,disease,"BRAF is normally involved in cell growth, and this specific mutation renders the protein constitutively active and independent of normal physiological regulation, thus fostering tumor growth."
+41,Melanoma,RAS,gene,has_mutation,codon 61 and 12,other,"RAS genes (NRAS, HRAS and KRAS) are also recurrently mutated (30% of TCGA cases) and mutations in the 61st or 12th codons trigger oncogenic activity."
+41,Melanoma,RAS,gene,has_mutation,TCGA cases,other,"RAS genes (NRAS, HRAS and KRAS) are also recurrently mutated (30% of TCGA cases) and mutations in the 61st or 12th codons trigger oncogenic activity."
+42,Melanoma,Visual inspection,other,used_for_diagnosing,melanoma,disease,Visually inspecting the skin lesion in question is the first step in diagnosing a suspected a melanoma.
+42,Melanoma,Moles,other,suspicious_for,melanoma,disease,Moles that are irregular in color or shape are suspicious for melanoma.
+42,Melanoma,ABCDE mnemonic,other,used_for_detecting,melanoma,disease,"To detect melanomas, it is recommended to learn to recognize them (see ""ABCDE"" mnemonic), to regularly examine moles for changes..."
+42,Melanoma,Dermoscopy,other,more_helpful_than,naked eye,other,"When used by trained specialists, dermoscopy is more helpful to identify malignant lesions than use of the naked eye alone."
+42,Melanoma,Reflectance confocal microscopy,other,has_better_sensitivity_and_specificity_than,dermoscopy,other,Reflectance confocal microscopy may have better sensitivity and specificity than dermoscopy in diagnosing cutaneous melanoma...
+42,Melanoma,Melanoma,disease,presents_as,lesions smaller than 6 mm,other,Many melanomas present as lesions smaller than 6 mm in diameter.
+42,Melanoma,Physicians,organisation,examine,moles,other,"Physicians typically examine all moles, including those less than 6 mm in diameter."
+42,Melanoma,Seborrheic keratosis,disease,may_be_mistaken_for,melanoma,disease,Seborrheic keratosis may meet some or all of the ABCD criteria and may be sometimes mistaken for melanoma.
+42,Melanoma,Total body photography,other,used_for_observing,evolution of body moles,other,Total body photography... is sometimes used to objectively observe the evolution of body moles over time...
+42,Melanoma,Total body photography,other,used_for_early_detection,melanoma,disease,...to potentially find moles that become suspicious. It is often used during follow-up for high-risk patients. The technique has been reported to enable early detection...
+42,Melanoma,Total body photography,other,has_questioned_efficacy_due_to,inability to detect microscopic changes,other,...but its efficacy has been questioned due to its inability to detect microscopic changes.
+43,Melanoma,Ugly duckling sign,other,used_for,melanoma,disease,"One method of finding lesions that are suspected melanomas is the ""ugly duckling sign""."
+43,Melanoma,Little Red Riding Hood sign,other,indicates,amelanotic melanoma,disease,"The ""Little Red Riding Hood"" sign suggests that individuals with fair skin and light-colored hair might have difficult-to-diagnose amelanotic melanomas."
+43,Melanoma,Amelanotic melanoma,disease,is_subtype_of,melanoma,disease,Amelanotic melanomas (a rare subtype) have very little to no pigmentation and are therefore more difficult to detect.
+43,Melanoma,Acral melanoma,disease,is_subtype_of,melanoma,disease,"The acral subtype of melanoma presents in areas that do not usually get sun exposure and are difficult to see by a person (the soles of the feet, and palms of hand) making detection difficult."
+43,Melanoma,Acral melanoma,disease,has_percentage_subtype,amelanotic melanoma,disease,"Thirty to 40% of acral melanomas are amelanotic (producing little to no pigment), also making the diagnosis challenging."
+43,Melanoma,Skin biopsy,other,required_for,melanoma,disease,A skin biopsy is required for definitive diagnosis of melanoma and staging the cancer.
+43,Melanoma,Elliptical excisional biopsy,other,used_for,melanoma,disease,"Elliptical excisional biopsies may remove the tumor, followed by histological analysis and Breslow scoring."
+44,Melanoma,Melanoma in situ,disease,has_not_invaded_beyond,basement membrane,other,A melanoma in situ has not invaded beyond the basement membrane
+44,Melanoma,Invasive melanoma,disease,has_spread_beyond,basement membrane,other,an invasive melanoma has spread beyond it
+44,Melanoma,Nodular melanoma,disease,is_inherently_invasive,Melanoma,disease,"Some histopathological types of melanoma are inherently invasive, including nodular melanoma"
+44,Melanoma,Lentigo maligna melanoma,disease,is_inherently_invasive,Melanoma,disease,including nodular melanoma and lentigo maligna melanoma
+44,Melanoma,Lentigo maligna,disease,is_counterpart_to,Lentigo maligna melanoma,disease,the in situ counterpart to lentigo maligna melanoma is lentigo maligna
+44,Melanoma,Superficial spreading melanoma,disease,can_be,in situ,other,Superficial spreading melanomas and acral lentiginous melanomas can be either in situ or invasive
+44,Melanoma,Acral lentiginous melanoma,disease,can_be,invasive,other,acral lentiginous melanomas are almost always invasive
+44,Melanoma,Melanoma,disease,is_staged_based_on,depth of invasion,other,Melanomas are staged based on the depth of invasion in various layers of the skin
+44,Melanoma,Melanoma,disease,is_staged_based_on,presence of ulceration,other,"staged based on the depth of invasion in various layers of the skin, the presence of ulceration"
+44,Melanoma,Metastatic melanoma,disease,can_be_detected_by,CT scan,other,"Metastatic melanomas can be detected by CT scans, MRIs, and PET/CTs"
+44,Melanoma,PET/CT,other,is_recommended_for,Stage IIB melanoma,disease,PET/CT to assess for metastasis is generally recommended for people with stage IIB or greater melanoma
+44,Melanoma,Sentinel lymph node biopsy,other,is_recommended_for,ulcerated melanoma lesion,disease,"If a person has an ulcerated lesion, or if the depth of tumor invasion is greater than 0.8 mm, then a sentinel lymph node biopsy is recommended"
+44,Melanoma,LDH levels,other,may_be_elevated_in,Metastatic melanoma,disease,LDH levels may sometimes be elevated in metastatic melanoma
+44,Melanoma,Clark level,other,quantifies,microscopic depth of tumor invasion,other,"Older systems include ""Clark level"" and ""Breslow's depth"", quantifying microscopic depth of tumor invasion"
+44,Melanoma,Breslow's depth,other,quantifies,microscopic depth of tumor invasion,other,"Older systems include ""Clark level"" and ""Breslow's depth"", quantifying microscopic depth of tumor invasion"
+47,Melanoma,Wide local excision (WLE),other,is_type_of,Surgery,other,Often this is done by a wide local excision (WLE) with 5 mm to 2 cm margins.
+47,Melanoma,Wide local excision (WLE),other,has_margins,5 mm to 2 cm,other,Often this is done by a wide local excision (WLE) with 5 mm to 2 cm margins.
+47,Melanoma,Melanoma-in-situ,disease,treated_with,narrower surgical margins,other,"Melanoma-in-situ and lentigo malignas are treated with narrower surgical margins, usually 0.2 to 5 cm."
+47,Melanoma,Lentigo malignas,disease,treated_with,narrower surgical margins,other,"Melanoma-in-situ and lentigo malignas are treated with narrower surgical margins, usually 0.2 to 5 cm."
+47,Melanoma,Breslow Depth,other,determines_margins,Wide local excision (WLE),other,The margins are determined by the Breslow Depth (2 cm margins are removed for a Breslow tumor Depth greater than 2 mm).
+47,Melanoma,Mohs surgery,other,has_cure_rate,77% to 98.0%,other,Mohs surgery has been reported with cure rate as low as 77% and as high as 98.0% for melanoma-in-situ.
+47,Melanoma,CCPDMA,other,equivalent_to,Mohs surgery,other,CCPDMA and the 'double scalpel' peripheral margin controlled surgery is equivalent to Mohs surgery in removal of melanoma in-situ.
+47,Melanoma,Melanoma,disease,spreads_to,lymph nodes,other,Melanomas that spread usually do so to the lymph nodes in the area of the tumor before spreading elsewhere.
+47,Melanoma,Lymph node dissection,other,associated_with,complications,other,"Attempts to improve survival by removing lymph nodes surgically (lymph node dissection) were associated with many complications, but no overall survival benefit."
+47,Melanoma,Sentinel lymph node biopsy,other,indicated_for,ulcerated melanomas,disease,Sentinel lymph node biopsy is indicated for ulcerated melanomas or melanomas of greater than 0.8 mm thickness.
+48,Melanoma,Adjuvant treatment,other,reduces_risk_of_recurrence_for,melanoma,disease,"Adjuvant treatment after surgery may reduce the risk of recurrence, especially in high-risk melanomas."
+48,Melanoma,Immune checkpoint inhibitor treatment,other,is_part_of,adjuvant treatment,other,The most common adjuvant treatment is immune checkpoint inhibitor treatment for up to a year post-surgery.
+48,Melanoma,High-dose interferon treatment,other,treats,high-risk melanoma,disease,a relatively common strategy was to treat patients with a high risk of recurrence with up to a year of high-dose interferon treatment.
+2,Breast cancer,Breast cancer screening,disease,used_for,diagnosis of breast tumors,disease,Breast cancer screening refers to testing women without breast cancer symptoms in an attempt to diagnose breast tumors early when treatments are more successful.
+2,Breast cancer,Mammography,procedure,is_type_of,low-dose X-ray imaging,procedure,"The most common screening test for breast cancer is low-dose X-ray imaging of the breast, called mammography."
+2,Breast cancer,Mammography,procedure,detects,breast tumors,disease,"Tumors can appear unusually dense within the breast, distort the shape of surrounding tissue, or cause small dense flecks called microcalcifications."
+2,Breast cancer,BI-RADS,system,categorizes,breast density,characteristic,BI-RADS categorizes breast density into four categories.
+2,Breast cancer,Mammography,procedure,affects_detection_of,breast tumors,disease,A mammogram also reveals breast density; dense breast tissue appears opaque on a mammogram and can obscure tumors.
+2,Breast cancer,Mammography,procedure,has_disadvantage_of_missing,breast cancers,disease,"Still, mammography has its disadvantages. Overall, screening mammograms miss about 1 in 8 breast cancers..."
+2,Breast cancer,Mammography,procedure,has_disadvantage_of_false_positives,results,other,"...they can also give false-positive results, causing extra anxiety and making patients undergo unnecessary additional exams..."
+2,Breast cancer,Screening mammography,procedure,reduces_mortality,breast cancer,disease,Regular screening mammography reduces breast cancer deaths by at least 20%.
+2,Breast cancer,Breast self-examination,procedure,does_not_reduce_risk,breast cancer mortality,disease,"Regularly feeling one's own breasts for lumps or other abnormalities, called breast self-examination, does not reduce a person's chance of dying from breast cancer."
+2,Breast cancer,Clinical breast exams,procedure,uncertain_effect_on,breast cancer mortality,disease,"Clinical breast exams, where a health professional feels the breasts for abnormalities, are common; whether they reduce the risk of dying from breast cancer is not known."
+26,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,is_a,clonal bone marrow stem cell disorder,disease,"It is a clonal bone marrow stem cell disorder in which a proliferation of mature granulocytes (neutrophils, eosinophils and basophils) and their precursors is found; characteristic increase in basophils is clinically relevant."
+26,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,is_a,myeloproliferative neoplasm,disease,It is a type of myeloproliferative neoplasm associated with a characteristic chromosomal translocation called the Philadelphia chromosome.
+26,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,associated_with,Philadelphia chromosome,gene,It is a type of myeloproliferative neoplasm associated with a characteristic chromosomal translocation called the Philadelphia chromosome.
+26,Chronic myeloid leukemia,tyrosine-kinase inhibitors,drug,treats,Chronic myelogenous leukemia,disease,CML is largely treated with targeted drugs called tyrosine-kinase inhibitors (TKIs) which have led to dramatically improved long-term survival rates since 2001.
+26,Chronic myeloid leukemia,tyrosine-kinase inhibitors,drug,improves_survival,Chronic myelogenous leukemia,disease,which have led to dramatically improved long-term survival rates since 2001.
+26,Chronic myeloid leukemia,Chronic myelogenous leukemia,disease,accounts_for,adult leukemias,disease,"In Western countries, CML accounts for 15–25% of all adult leukemias and 14% of leukemias overall (including the pediatric population, where CML is less common)."
+33,Chronic myeloid leukemia,Imatinib mesylate,drug,marketed_as,Gleevec,drug,Imatinib mesylate (marketed as Gleevec or Glivec)
+33,Chronic myeloid leukemia,Imatinib mesylate,drug,marketed_as,Glivec,drug,Imatinib mesylate (marketed as Gleevec or Glivec)
+33,Chronic myeloid leukemia,Imatinib mesylate,drug,approved_by,US Food and Drug Administration,organisation,approved by the US Food and Drug Administration (FDA) in 2001
+33,Chronic myeloid leukemia,Imatinib,drug,inhibits_progression_of,Chronic Myeloid Leukemia,disease,Imatinib was found to inhibit the progression of CML
+33,Chronic myeloid leukemia,Imatinib,drug,achieves,cytogenetic response,other,sufficiently to achieve regrowth of their normal bone marrow stem cell population (a cytogenetic response)
+33,Chronic myeloid leukemia,Imatinib,drug,requires_continuation_due_to,persistence of leukemic cells,other,"Because some leukemic cells...persist in nearly all patients, the treatment has to be continued indefinitely"
+33,Chronic myeloid leukemia,Dasatinib,drug,developed_to_overcome,imatinib resistance,other,To overcome imatinib resistance...four novel agents were later developed
+33,Chronic myeloid leukemia,Dasatinib,drug,inhibits,BCR-ABL protein,gene,blocks several further oncogenic proteins...more potent inhibition of the BCR-ABL protein
+33,Chronic myeloid leukemia,Dasatinib,drug,approved_by,U.S. Food and Drug Administration,organisation,"approved in 2007, by the U.S. Food and Drug Administration (FDA)"
+33,Chronic myeloid leukemia,Nilotinib,drug,approved_by,U.S. Food and Drug Administration,organisation,"Nilotinib, was approved by the FDA for the same indication"
+33,Chronic myeloid leukemia,Nilotinib,drug,approved_for_first_line_therapy,Chronic Myeloid Leukemia,disease,nilotinib and dasatinib were also approved for first-line therapy
+33,Chronic myeloid leukemia,Radotinib,drug,inhibits,BCR-ABL protein,gene,radotinib joined the class of novel agents in the inhibition of the BCR-ABL protein
+33,Chronic myeloid leukemia,Radotinib,drug,approved_by,South Korea,organisation,approved in South Korea for people resistant to or intolerant of imatinib
+33,Chronic myeloid leukemia,Bosutinib,drug,approved_by,US Food and Drug Administration,organisation,Bosutinib received US FDA...approval on 4 September 2012
+33,Chronic myeloid leukemia,Bosutinib,drug,approved_by,European Medicines Agency,organisation,Bosutinib...EU European Medicines Agency approval on 27 March 2013
+33,Chronic myeloid leukemia,Asciminib,drug,approved_by,United States,organisation,Asciminib...approved for medical use in the United States in October 2021
+34,Chronic myeloid leukemia,Dasatinib,drug,cannot_overcome_resistance,T315I mutation,gene,neither dasatinib nor nilotinib could overcome drug resistance caused by one particular mutation found to occur in the structure of BCR-ABL1 known as the T315I mutation
+34,Chronic myeloid leukemia,Nilotinib,drug,cannot_overcome_resistance,T315I mutation,gene,neither dasatinib nor nilotinib could overcome drug resistance caused by one particular mutation found to occur in the structure of BCR-ABL1 known as the T315I mutation
+34,Chronic myeloid leukemia,Chemgenex,organisation,developed,CGX-635-CML-202 study,other,"In 2007, Chemgenex released results of an open-label Phase 2/3 study (CGX-635-CML-202) that investigated the use of a non BCR-ABL targeted agent omacetaxine"
+34,Chronic myeloid leukemia,CGX-635-CML-202 study,other,investigates,Omacetaxine,drug,"In 2007, Chemgenex released results of an open-label Phase 2/3 study (CGX-635-CML-202) that investigated the use of a non BCR-ABL targeted agent omacetaxine"
+34,Chronic myeloid leukemia,FDA,organisation,approved_for,Omacetaxine,drug,"In September 2012, the FDA approved omacetaxine for the treatment of CML in the case of resistance to other chemotherapeutic agents"
+34,Chronic myeloid leukemia,ARIAD Pharmaceuticals,organisation,developed,Ponatinib,drug,"Independently, ARIAD pharmaceuticals, adapting the chemical structures from first and second-generation TK inhibitors, arrived at a new pan-BCR-ABL1 inhibitor which showed (for the first time) efficacy against T315I"
+34,Chronic myeloid leukemia,FDA,organisation,approved_for,Ponatinib,drug,"The drug, ponatinib, gained FDA approval in December 2012 for treatment of patients with resistant or intolerant CML"
+34,Chronic myeloid leukemia,FDA,organisation,approved_for,Asciminib,drug,"In October 2021, the Food and Drug Administration approved asciminib (Scemblix), the first TK inhibitor specifically targeting the ABL1 myristoyl pocket (STAMP) via allosteric binding, as a third-line option for patients with chronic-phase-CML"
+34,Chronic myeloid leukemia,BCR/ABL1 p210 fusion protein,gene,used_with,GM-CSF,chemical,"In 2005, encouraging but mixed results of vaccination were reported with the BCR/ABL1 p210 fusion protein in patients with stable disease, with GM-CSF as an adjuvant"
+34,Chronic myeloid leukemia,Tyrosine kinase inhibitors,drug,improved_prognosis,Chronic Myeloid Leukemia,disease,"Before the advent of tyrosine kinase inhibitors, the median survival time for CML patients had been about 3–5 years from time of diagnosis. In the United States, 70% of people survive five years or more after diagnosis (2015–2021)"
+35,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,accounts_for,leukaemias,disease,CML accounts for 8% of all leukaemias in the UK
+35,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,diagnosed,people,other,around 680 people were diagnosed with the disease in 2011
+35,Chronic myeloid leukemia,American Cancer Society,organisation,estimates,"9,560 new cases of chronic myeloid leukemia",disease,"The American Cancer Society estimates that in 2025, about 9,560 new cases of chronic myeloid leukemia will be diagnosed"
+35,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,accounts_for,15% of all newly diagnosed leukemia cases,disease,about 15% of all newly diagnosed leukemia cases will be chronic myeloid leukemia
+35,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,has_average_risk,1 in 526,other,The average risk of a person getting this disease is 1 in 526
+35,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,more_common_in,men,other,The disease is more common in men than women
+35,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,more_common_in,whites,other,more common in whites than African-Americans
+35,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,has_average_age,64 years,other,The average age at diagnosis is 64 years
+35,Chronic myeloid leukemia,Chronic Myeloid Leukemia,disease,is_rare_in,children,other,this disease is rarely seen in children
+35,Chronic myeloid leukemia,The Philadelphia Chromosome: A Mutant Gene and the Quest to Cure Cancer at the Genetic Level,other,written_by,Jessica Wapner,organisation,"Wapner, Jessica (2014). The Philadelphia Chromosome: A Mutant Gene and the Quest to Cure Cancer at the Genetic Level"
+35,Chronic myeloid leukemia,Chronic Myelogenous Leukemia Treatment,other,available_at,US National Cancer Institute,organisation,Chronic Myelogenous Leukemia Treatment at the US National Cancer Institute
+35,Chronic myeloid leukemia,Chronic Myelocytic Leukemia (CML),disease,available_at,Merck Manual of Diagnosis and Therapy Professional Edition,organisation,Chronic Myelocytic Leukemia (CML) at Merck Manual of Diagnosis and Therapy Professional Edition
+45,Melanoma,M0,other,indicates_absence_of,distant metastasis,disease,M0: No evidence of distant metastasis
+45,Melanoma,Clark level,other,quantifies,microscopic depth of tumor invasion,other,"Older systems include ""Clark level"" and ""Breslow's depth"", quantifying microscopic depth of tumor invasion."
+45,Melanoma,Breslow's depth,other,quantifies,microscopic depth of tumor invasion,other,"Older systems include ""Clark level"" and ""Breslow's depth"", quantifying microscopic depth of tumor invasion."
+45,Melanoma,patients diagnosed with melanoma,other,undergo,chest X-rays,other,"It is common for patients diagnosed with melanoma to have chest X-rays, and in some cases CT, MRI, and/or PET scans."
+45,Melanoma,patients diagnosed with melanoma,other,undergo,CT,other,"It is common for patients diagnosed with melanoma to have chest X-rays, and in some cases CT, MRI, and/or PET scans."
+45,Melanoma,patients diagnosed with melanoma,other,undergo,MRI,other,"It is common for patients diagnosed with melanoma to have chest X-rays, and in some cases CT, MRI, and/or PET scans."
+45,Melanoma,patients diagnosed with melanoma,other,undergo,PET scans,other,"It is common for patients diagnosed with melanoma to have chest X-rays, and in some cases CT, MRI, and/or PET scans."
+45,Melanoma,sentinel lymph node biopsies,other,assesses,spread to the lymph nodes,other,sentinel lymph node biopsies and examination of the lymph nodes are also performed in patients to assess spread to the lymph nodes
+45,Melanoma,sentinel lymph node biopsies,other,has,high negative predictive value,other,"this test is very sensitive, with a high negative predictive value"
+45,Melanoma,diagnosis of melanoma,disease,supported_by,S-100 protein marker,chemical,A diagnosis of melanoma is supported by the presence of the S-100 protein marker.
+45,Melanoma,HMB-45,chemical,used_as_marker_for,melanocytic tumors,disease,It is used in anatomic pathology as a marker for such tumors.
+45,Melanoma,HMB-45,chemical,generated_against,extract of melanoma,disease,The antibody was generated against an extract of melanoma.
+45,Melanoma,HMB-45,chemical,reacts_positively_against,melanocytic tumors,disease,It reacts positively against melanocytic tumors but not other tumors
+45,Melanoma,HMB-45,chemical,reacts_positively_against,junctional nevus cells,disease,It reacts positively against junctional nevus cells but not intradermal nevi
+45,Melanoma,HMB-45,chemical,reacts_positively_against,fetal melanocytes,disease,It reacts positively against fetal melanocytes but not normal adult melanocytes
+45,Melanoma,HMB-45,chemical,reacts_positively_against,pigmented schwannoma,disease,"HMB-45 is nonreactive with almost all non-melanoma human malignancies, except rare tumors showing evidence of melanogenesis (e.g., pigmented schwannoma, clear cell sarcoma)"
+45,Melanoma,HMB-45,chemical,reacts_positively_against,clear cell sarcoma,disease,"HMB-45 is nonreactive with almost all non-melanoma human malignancies, except rare tumors showing evidence of melanogenesis (e.g., pigmented schwannoma, clear cell sarcoma)"
+45,Melanoma,HMB-45,chemical,reacts_positively_against,angiomyolipoma,disease,tumors associated with tuberous sclerosis complex (angiomyolipoma and lymphangiomyoma)
+45,Melanoma,HMB-45,chemical,reacts_positively_against,lymphangiomyoma,disease,tumors associated with tuberous sclerosis complex (angiomyolipoma and lymphangiomyoma)
+45,Melanoma,adult population screening for melanoma,other,has_no_evidence,support or refute,other,There is no evidence to support or refute adult population screening for melanoma.
+46,Melanoma,melanoma,disease,has_no_evidence_for_screening,adult population,other,There is no evidence to support or refute adult population screening for melanoma.
+46,Melanoma,ultraviolet radiation,chemical,minimizing_exposure_offers_protection,melanoma,disease,"Minimizing exposure to sources of ultraviolet radiation (the sun and sunbeds) and other sun protection measures such as wearing sun protective clothing (long-sleeved shirts, long trousers, and broad-brimmed hats) can offer protection."
+46,Melanoma,artificial light for tanning,chemical,increases_incidence_of,melanoma,disease,"Using artificial light for tanning was once believed to help prevent skin cancers, but it can lead to an increased incidence of melanomas."
+46,Melanoma,uv nail lamps,chemical,increases_risk_of,melanoma,disease,"UV nail lamps, which are used in nail salons to dry nail polish, are another widespread source of UV radiation that could be avoided."
+46,Melanoma,sunscreen,chemical,prevents,melanoma,disease,Sunscreen appears to be effective in preventing melanoma.
+46,Melanoma,sunscreen,chemical,protects_against,squamous cell carcinoma,disease,"Sunscreen also protects against squamous cell carcinoma, another skin cancer."
+46,Melanoma,statin,drug,decreases_risk_of,melanoma,disease,A 2005 review found tentative evidence that statin and fibrate medication may decrease the risk of melanoma.
+46,Melanoma,fibrate,drug,decreases_risk_of,melanoma,disease,A 2005 review found tentative evidence that statin and fibrate medication may decrease the risk of melanoma.
+46,Melanoma,skin biopsy,other,confirms_diagnosis_of,melanoma,disease,Confirmation of the clinical diagnosis is done with a skin biopsy.
+46,Melanoma,sentinel lymph node biopsy,other,has_controversy_around_benefit,melanoma,disease,Controversy exists around benefit for sentinel lymph node biopsy; with unclear evidence of benefit as of 2015.
+49,Melanoma,BRAF inhibitors,drug,inhibits,downstream pathways,pathway,These inhibitors work to inhibit the downstream pathways involved in cell proliferation and tumour development due to specific gene mutations.
+49,Melanoma,C-Kit inhibitors,drug,inhibits,downstream pathways,pathway,These inhibitors work to inhibit the downstream pathways involved in cell proliferation and tumour development due to specific gene mutations.
+49,Melanoma,NRAS inhibitors,drug,inhibits,downstream pathways,pathway,These inhibitors work to inhibit the downstream pathways involved in cell proliferation and tumour development due to specific gene mutations.
+49,Melanoma,BRAF inhibitors,drug,treats,BRAF positive melanoma,disease,"BRAF inhibitors, such as vemurafenib and dabrafenib and a MEK inhibitor trametinib are the most effective, approved treatments for BRAF positive melanoma."
+49,Melanoma,MEK inhibitors,drug,treats,BRAF positive melanoma,disease,"BRAF inhibitors, such as vemurafenib and dabrafenib and a MEK inhibitor trametinib are the most effective, approved treatments for BRAF positive melanoma."
+49,Melanoma,Combination of BRAF and MEK inhibitors,drug,creates,fast and lasting melanoma therapy response,other,Combining the use of BRAF and MEK inhibitors may create a fast and lasting melanoma therapy response.
+49,Melanoma,Biochemotherapy combined with BRAF inhibitors,drug,improves_survival,BRAF-positive melanoma,disease,Biochemotherapy (chemotherapy with cytokines IL-2 and IFN-α) combined with BRAF inhibitors improved survival for people with BRAF-positive melanoma.
+49,Melanoma,Biochemotherapy alone,drug,does_not_improve_survival,BRAF-positive melanoma,disease,Biochemotherapy alone did not improve overall survival and had higher toxicity than chemotherapy.
+49,Melanoma,Polychemotherapy,drug,does_not_improve_survival,monochemotherapy,drug,Combining multiple chemotherapy agents (polychemotherapy) did not improve survival over monochemotherapy.
+49,Melanoma,Dabrafenib and trametinib combination,drug,has_progression_free_survival,3-year PFS of 23% and 5-year PFS of 13%,other,The therapy combination of dabrafenib and trametinib has a 3-year PFS of 23% and a 5-year PFS of 13%.
+49,Melanoma,Lifileucel (Amtagvi),drug,approved,United States,organisation,Lifileucel (Amtagvi) is a tumor-derived autologous T-cell immunotherapy that was approved for medical use in the United States in February 2024.
+50,Melanoma,Immunotherapy,treatment,treats,Melanoma,disease,Immunotherapy is aimed at stimulating the person's immune system against the tumor to enhance the body's ability to recognize and kill cancer cells.
+50,Melanoma,Immunotherapy,treatment,includes,Cytokine therapies,treatment,"The current approach to treating melanoma with immunotherapy includes three broad categories of treatments, including cytokines, immune checkpoint inhibitors, and adoptive cell transfer."
+50,Melanoma,Immunotherapy,treatment,includes,Immune checkpoint inhibitors,treatment,"The current approach to treating melanoma with immunotherapy includes three broad categories of treatments, including cytokines, immune checkpoint inhibitors, and adoptive cell transfer."
+50,Melanoma,Immunotherapy,treatment,includes,Adoptive cell transfer,treatment,"The current approach to treating melanoma with immunotherapy includes three broad categories of treatments, including cytokines, immune checkpoint inhibitors, and adoptive cell transfer."
+50,Melanoma,Cytokine therapies,treatment,includes,Interferon-alpha (IFN-α),drug,Cytokine therapies used for melanoma include IFN-a and IL-2.
+50,Melanoma,Cytokine therapies,treatment,includes,Interleukin-2 (IL-2),drug,Cytokine therapies used for melanoma include IFN-a and IL-2.
+50,Melanoma,Interleukin-2 (IL-2),drug,treats,Metastatic melanoma,disease,"IL-2 (Proleukin) was the first new therapy approved (1990 EU, 1992 US) for the treatment of metastatic melanoma in 20 years."
+50,Melanoma,Immune checkpoint inhibitors,treatment,includes,Anti-CTLA-4 monoclonal antibodies,treatment,"Immune check point inhibitors include anti-CTLA-4 monoclonal antibodies (ipilimumab and tremelimumab), toll-like receptor (TLR) agonists, CD40 agonists, anti-PD-1 (pembrolizumab, pidilizumab, and nivolumab) and PD-L1 antibodies."
+50,Melanoma,Immune checkpoint inhibitors,treatment,includes,Anti-PD-1 antibodies,treatment,"Immune check point inhibitors include anti-CTLA-4 monoclonal antibodies (ipilimumab and tremelimumab), toll-like receptor (TLR) agonists, CD40 agonists, anti-PD-1 (pembrolizumab, pidilizumab, and nivolumab) and PD-L1 antibodies."
+50,Melanoma,Anti-PD-1 antibodies,treatment,more_effective_than,Anti-CTLA-4 antibodies,treatment,Evidence suggests that anti-PD-1 antibodies are more effective than anti-CTLA4 antibodies with less systemic toxicity.
+50,Melanoma,Pembrolizumab,drug,has_progression_free_survival,21%,other,The five-year progression-free survival for immunotherapy with pembrolizumab is 21%.
+50,Melanoma,Nivolumab,drug,indicated_for,Stage IIB-C disease,disease,Either medication is indicated in Stage IIB-C disease (or observation after resection without using medication is also a treatment option).
+50,Melanoma,Pembrolizumab,drug,indicated_for,Stage IIB-C disease,disease,Either medication is indicated in Stage IIB-C disease (or observation after resection without using medication is also a treatment option).
+50,Melanoma,Nivolumab,drug,indicated_for,Stage IIIA-D disease,disease,"For stage IIIA-D disease, resection of tumor may be followed by 12 months of treatment with nivolumab or pembrolizumab or dabrafenib (BRAF inhibitor) plus trametinib (MEK inhibitor) in BRAF gene positive disease."
+50,Melanoma,Pembrolizumab,drug,indicated_for,Stage IIIA-D disease,disease,"For stage IIIA-D disease, resection of tumor may be followed by 12 months of treatment with nivolumab or pembrolizumab or dabrafenib (BRAF inhibitor) plus trametinib (MEK inhibitor) in BRAF gene positive disease."
+50,Melanoma,Dabrafenib,drug,combination_with,Trametinib,drug,"For stage IIIA-D disease, resection of tumor may be followed by 12 months of treatment with nivolumab or pembrolizumab or dabrafenib (BRAF inhibitor) plus trametinib (MEK inhibitor) in BRAF gene positive disease."
+50,Melanoma,Dabrafenib/Trametinib combination,treatment,indicated_for,BRAF gene positive disease,gene,"For stage IIIA-D disease, resection of tumor may be followed by 12 months of treatment with nivolumab or pembrolizumab or dabrafenib (BRAF inhibitor) plus trametinib (MEK inhibitor) in BRAF gene positive disease."
+50,Melanoma,Nivolumab,drug,combination_with,Ipilimumab,drug,"In those with stage III or IV disease that cannot be surgically removed, dual checkpoint blockade by combining nivolumab and ipilimumab (anti-CTLA4 inhibitor) followed by maintenance nivolumab is associated with increased survival and has a lower mortality than using either agent alone."
+50,Melanoma,Nivolumab/Ipilimumab combination,treatment,more_effective_than,Monotherapy,treatment,A therapeutic approach that includes the combination of different therapies improves overall survival and progression-free survival compared to treatment with the separate immunotherapy drugs alone.
+50,Melanoma,Nivolumab/Relatlimab (Opdualag),drug,approved_in,United States (March 2022),organisation,The combination nivolumab/relatlimab (Opdualag) was approved for medical use in the United States in March 2022.
+51,Melanoma,Standard excision,other,performed_by,surgeons,organisation,Standard excision is still being done by most surgeons.
+51,Melanoma,ill-defined visible surgical margin,other,contributes_to,high recurrence rate,other,This is due to the ill-defined visible surgical margin and the facial location of the lesions...
+51,Melanoma,facial location of the lesions,other,contributes_to,high recurrence rate,other,...and the facial location of the lesions (often forcing the surgeon to use a narrow surgical margin).
+51,Melanoma,narrow surgical margin,other,contributes_to,high false negative error rate,other,"The narrow surgical margin used, combined with the limitation of the standard 'bread-loafing' technique... results in a high 'false negative' error rate..."
+51,Melanoma,bread-loafing technique,other,contributes_to,high false negative error rate,other,"...combined with the limitation of the standard 'bread-loafing' technique of fixed tissue histology, results in a high 'false negative' error rate..."
+51,Melanoma,margin control,other,eliminates,false-negative errors,other,Margin control (peripheral margins) is necessary to eliminate the false-negative errors.
+51,Melanoma,meta-analysis,other,found,no randomized controlled trials,other,A meta-analysis of the literature in 2014 found no randomized controlled trials of surgical interventions...
+51,Melanoma,Mohs surgery,other,has_cure_rate,77% to 95%,other,"Mohs surgery has been done with cure rate reported to be as low as 77%, and as high as 95%..."
+51,Melanoma,double scalpel peripheral margin controlled excision,other,approximates,Mohs method,other,The 'double scalpel' peripheral margin controlled excision method approximates the Mohs method...
+51,Melanoma,imiquimod,drug,treats,melanocytic nevi,disease,"Some melanocytic nevi... have resolved with an experimental treatment, imiquimod (Aldara) topical cream..."
+51,Melanoma,imiquimod,drug,treats,melanoma-in-situ,disease,"...and melanoma-in-situ (lentigo maligna) have resolved with an experimental treatment, imiquimod (Aldara) topical cream..."
+51,Melanoma,surgical excision,other,combined_with,topical Aldara cream,drug,Some derma-surgeons are combining the two methods: surgically excising the cancer and then treating the area with Aldara cream postoperatively...
+51,Melanoma,tazarotene,drug,has_insufficient_evidence,adjuvant use,other,"While some studies have suggested the adjuvant use of topical tazarotene, the current evidence is insufficient to recommend it..."
+51,Melanoma,radiation therapy,other,used_for,locally or regionally advanced melanoma,disease,Radiation therapy is often used after surgical resection for patients with locally or regionally advanced melanoma...
+51,Melanoma,radiation therapy,other,used_for,unresectable distant metastases,disease,...or for patients with unresectable distant metastases.
+51,Melanoma,kilovoltage x-ray beams,other,has_property,maximum radiation dose occurs close to skin surface,other,Kilovoltage x-ray beams are often used for these treatments and have the property that the maximum radiation dose occurs close to the skin surface.
+51,Melanoma,radiation therapy,other,reduces,local recurrence rate,other,It may reduce the rate of local recurrence but does not prolong survival.
+51,Melanoma,radioimmunotherapy,other,investigated_for,metastatic melanoma,disease,Radioimmunotherapy of metastatic melanoma is currently under investigation.
+51,Melanoma,radiotherapy,other,used_for,palliation of metastatic melanoma,other,Radiotherapy has a role in the palliation of metastatic melanoma.
+52,Melanoma,tumor thickness in millimeters (Breslow's depth),other,affects_prognosis,melanoma prognosis,disease,"Factors that affect prognosis include: tumor thickness in millimeters (Breslow's depth),"
+52,Melanoma,depth related to skin structures (Clark level),other,affects_prognosis,melanoma prognosis,disease,"depth related to skin structures (Clark level),"
+52,Melanoma,type of melanoma,disease,affects_prognosis,melanoma prognosis,disease,"type of melanoma,"
+52,Melanoma,presence of ulceration,other,affects_prognosis,melanoma prognosis,disease,"presence of ulceration,"
+52,Melanoma,presence of lymphatic/perineural invasion,other,affects_prognosis,melanoma prognosis,disease,"presence of lymphatic/perineural invasion,"
+52,Melanoma,presence of tumor-infiltrating lymphocytes,other,improves_prognosis,melanoma prognosis,disease,"presence of tumor-infiltrating lymphocytes (if present, prognosis is better),"
+52,Melanoma,location of lesion,other,affects_prognosis,melanoma prognosis,disease,"location of lesion,"
+52,Melanoma,presence of satellite lesions,other,affects_prognosis,melanoma prognosis,disease,"presence of satellite lesions, and"
+52,Melanoma,presence of regional or distant metastasis,other,affects_prognosis,melanoma prognosis,disease,presence of regional or distant metastasis.
+52,Melanoma,certain types of melanoma,disease,have_worse_prognosis,melanoma prognosis,disease,"Certain types of melanoma have worse prognoses, but this is explained by their thickness."
+52,Melanoma,thickness,other,explains_worse_prognosis,certain types of melanoma,disease,but this is explained by their thickness.
+52,Melanoma,less invasive melanomas,disease,have_better_prognosis,melanoma prognosis,disease,"Less invasive melanomas, even with lymph node metastases, carry a better prognosis"
+52,Melanoma,deep melanomas without regional metastasis,disease,have_worse_prognosis,melanoma prognosis,disease,than deep melanomas without regional metastasis at the time of staging.
+52,Melanoma,number of nodes with malignancy,other,is_important_factor,melanoma prognosis,disease,one of the most important factors is the number of nodes with malignancy.
+52,Melanoma,micrometastases,other,have_more_favorable_prognosis,melanoma prognosis,disease,"micrometastases, in which malignancy is only microscopic, have a more favorable prognosis"
+52,Melanoma,macrometastases,other,have_worse_prognosis,melanoma prognosis,disease,than macrometastases.
+52,Melanoma,malignancy detectable by polymerase chain reaction (PCR),other,have_better_prognosis,melanoma prognosis,disease,"if malignancy is only detectable by polymerase chain reaction (PCR), the prognosis is better."
+52,Melanoma,macro-metastases with extracapsular extension,other,have_worse_prognosis,melanoma prognosis,disease,"if nodes are matted or if there is extracapsular extension, the prognosis is worse still."
+52,Melanoma,Stage IV melanoma,disease,has_five_year_survival_rate,34.6%,other,five-year survival in the United States was 34.6% for people diagnosed between 2015 and 2021.
+52,Melanoma,metastases to skin and lungs,other,have_better_prognosis,melanoma prognosis,disease,Metastases to the skin and lungs have a better prognosis.
+52,Melanoma,"metastases to brain, bone, and liver",other,have_worse_prognosis,melanoma prognosis,disease,"Metastases to the brain, bone, and liver are associated with a worse prognosis."
+52,Melanoma,metastasis with unknown primary tumor location,other,have_better_survival,melanoma prognosis,disease,Survival is better with metastasis in which the location of the primary tumor is unknown.
+52,Melanoma,200 genes,gene,are_prognostic,melanoma prognosis,disease,About 200 genes are prognostic in melanoma
+52,Melanoma,MCM6,gene,is_unfavorable_gene,melanoma prognosis,disease,Examples of unfavorable genes are MCM6 and TIMELESS
+52,Melanoma,TIMELESS,gene,is_unfavorable_gene,melanoma prognosis,disease,Examples of unfavorable genes are MCM6 and TIMELESS
+52,Melanoma,WIPI1,gene,is_favorable_gene,melanoma prognosis,disease,an example of a favorable gene is WIPI1.
+52,Melanoma,increased neutrophil-to-lymphocyte ratio,other,associated_with_worse_outcomes,melanoma prognosis,disease,An increased neutrophil-to-lymphocyte ratio is associated with worse outcomes.
+53,Melanoma,Melanoma,disease,occurred_in,people,other,"Globally, in 2012, melanoma occurred in 232,000 people and resulted in 55,000 deaths."
+53,Melanoma,Melanoma,disease,resulted_in,deaths,other,"Globally, in 2012, melanoma occurred in 232,000 people and resulted in 55,000 deaths."
+53,Melanoma,Australia,organisation,has_highest_rate_of,Melanoma,disease,Australia and New Zealand have the highest rates of melanoma in the world.
+53,Melanoma,New Zealand,organisation,has_highest_rate_of,Melanoma,disease,Australia and New Zealand have the highest rates of melanoma in the world.
+53,Melanoma,Melanoma,disease,more_common_in,Caucasian,other,It has become more common in the last 20 years in areas that are mostly Caucasian.
+53,Melanoma,Melanoma,disease,resulted_in_deaths,population,other,"In 2012, deaths from melanoma occurred in 7.3–9.8 per 100,000 population."
+53,Melanoma,Melanoma,disease,is_third_most_common_cancer_in,Australia,organisation,"In Australia, melanoma is the third most common cancer in both sexes."
+53,Melanoma,Melanoma,disease,incidence_higher_than,Lung cancer,disease,"its incidence is higher than for lung cancer, although the latter accounts for more deaths."
+53,Melanoma,Australia,organisation,diagnosed_with,Melanoma,disease,"it is estimated that in 2012, more than 12,000 Australians were diagnosed with melanoma."
+53,Melanoma,Australia,organisation,has_significance,Melanoma,disease,Melanoma incidence in Australia is a matter of significance.
+53,Melanoma,Australia,organisation,incidence_increased_by,Melanoma,disease,Australian melanoma incidence has increased by more than 30 per cent between 1991 and 2009.
+53,Melanoma,Australia,organisation,age_standardized_incidence_rates_higher_than,World average,other,"Australian melanoma age-standardized incidence rates were, as of 2008, at least 12 times higher than the world average."
+53,Melanoma,Australia,organisation,has_highest_incidence,Melanoma,disease,"Australian melanoma incidence is, by some margin, the highest in the world."
+53,Melanoma,Australia,organisation,has_highest_age_standardized_cancer_incidence,Melanoma,disease,"Overall age-standardized cancer incidence in Australia is the highest in the world, and this is attributable to melanoma alone."
+53,Melanoma,Australia,organisation,age_standardized_cancer_incidence_similar_to,New Zealand,organisation,"Age-standardized overall cancer incidence is similar to New Zealand, but there is a statistically significant difference between Australia and all other parts of the developed world."
+53,Melanoma,Australia,organisation,has_statistically_significant_difference_in_age_standardized_cancer_incidence,Developed world,other,"Age-standardized overall cancer incidence is similar to New Zealand, but there is a statistically significant difference between Australia and all other parts of the developed world."
+54,Melanoma,United States,organisation,has_death_rate,"1.40 deaths per 100,000 people",other,"In the United States, about 8-9,000 people die from melanoma a year, and the death rate from melanoma is 1.40 deaths per 100,000 people."
+54,Melanoma,melanoma,disease,incidence_increased_from_to,"8.8 cases per 100,000 people in 1975 to 27.7 cases per 100,000 people in 2021",other,"The incidence of melanoma in the United States increased from 8.8 cases per 100,000 people in 1975 to 27.7 cases per 100,000 people in 2021."
+54,Melanoma,melanoma,disease,mortality_decreased_annually,6.1% annually from 2013 to 2017 and 1.4% annually from 2017 to 2022,other,The annual mortality from melanoma decreased 6.1% annually from 2013 to 2017 and 1.4% annually from 2017 to 2022.
+54,Melanoma,treatment_advances,other,caused,melanoma_mortality_decline,other,Advances in treatment are believed to have caused the rapid decline in mortality over the last decade.
+54,Melanoma,United States,organisation,has_cases,"100,640 cases of melanoma in 2024",other,"In 2024, in the United States, there were 100,640 cases of melanoma and 8290 deaths."
+54,Melanoma,United States,organisation,has_deaths,8290 deaths from melanoma in 2024,other,"In 2024, in the United States, there were 100,640 cases of melanoma and 8290 deaths."
+54,Melanoma,melanoma_in_situ,disease,is_confined_to,epidermis,other,"There were also 107,240 cases of melanoma in situ, in which melanoma is confined to the epidermis."
+54,Melanoma,melanoma,disease,more_common_in,whites,other,Melanoma is more than 20 times more common in whites than in African Americans.
+54,Melanoma,melanoma,disease,lifetime_risk,2.5% (1 in 40) for whites,other,"Overall, the lifetime risk of getting melanoma is about 2.5% (1 in 40) for whites, 0.1% (1 in 1,000) for African Americans, and 0.5% (1 in 200) for Mexicans."
+54,Melanoma,melanoma,disease,risk_increases_with_age,average diagnosis age of 63,other,The risk of melanoma increases as people age. The average age of people when the disease is diagnosed is 63.
+54,Melanoma,melanoma,disease,80_percent_diagnosed_over_50_years,80% of all cases diagnosed in people older than 50 years,other,80% of all cases of melanoma (globally) are diagnosed in people older than 50 years.
+55,Melanoma,Melanoma,disease,evidence_for_occurrence_in,antiquity,other,"evidence for its occurrence in antiquity is rather scarce. However, one example lies in a 1960s examination of nine Peruvian mummies"
+55,Melanoma,John Hunter,other,operated_on,metastatic melanoma,disease,John Hunter is reported to be the first to operate on metastatic melanoma in 1787
+55,Melanoma,Tumor,other,preserved_in,Hunterian Museum of the Royal College of Surgeons of England,organisation,The excised tumor was preserved in the Hunterian Museum of the Royal College of Surgeons of England
+55,Melanoma,René Laennec,other,described,melanoma,disease,The French physician René Laennec was the first to describe melanoma as a disease entity
+55,Melanoma,William Norris,other,presented,melanoma,disease,"The first English-language report of melanoma was presented by an English general practitioner from Stourbridge, William Norris, in 1820"
+55,Melanoma,William Norris,other,remarked_on,familial predisposition for development of melanoma,disease,He remarked that there is a familial predisposition for development of melanoma (Eight Cases of Melanosis with Pathological and Therapeutical Remarks on That Disease)
+55,Melanoma,William Norris,other,suggested_link_between,nevi,disease,Norris was also a pioneer in suggesting a link between nevi and melanoma
+55,Melanoma,William Norris,other,suggested_link_between,melanoma and environmental exposures,other,"the possibility of a relationship between melanoma and environmental exposures, by observing that most of his patients had pale complexions"
+55,Melanoma,William Norris,other,described,amelanotic melanoma,disease,He also described that melanomas could be amelanotic
+55,Melanoma,William Norris,other,described,metastatic nature of melanoma,disease,later showed the metastatic nature of melanoma by observing that they can disseminate to other visceral organs
+55,Melanoma,Samuel Cooper,other,acknowledged,advanced melanoma as untreatable,disease,The first formal acknowledgment of advanced melanoma as untreatable came from Samuel Cooper in 1840
+56,Melanoma,Melanoma,disease,is_a,Melanocytic tumor,disease,The word melanoma has a long history of being used in a broader sense to refer to any melanocytic tumor...
+56,Melanoma,Pharmacotherapy research,other,targets,Un-resectable or metastatic melanoma,disease,Pharmacotherapy research for un-resectable or metastatic melanoma is ongoing.
+56,Melanoma,Adoptive cell therapy,drug,tested_for,Metastatic melanoma,disease,"In clinical research, adoptive cell therapy and gene therapy, are being tested."
+56,Melanoma,Gene therapy,drug,tested_for,Metastatic melanoma,disease,"In clinical research, adoptive cell therapy and gene therapy, are being tested."
+56,Melanoma,Adoptive cell therapy (ACT) using TILs,drug,developed_by,National Cancer Institute (NCI),organisation,Two kinds of experimental treatments developed at the National Cancer Institute (NCI) have been used in metastatic melanoma...
+56,Melanoma,Adoptive transfer of genetically altered autologous lymphocytes,drug,depends_on,T cell receptors (TCRs),other,The second treatment... depends on delivering genes that encode so-called T cell receptors (TCRs)...
+56,Melanoma,TIL therapy following lymphodepletion,drug,results_in,Durable complete response,other,TIL therapy following lymphodepletion can result in durable complete response in a variety of setups.
+56,Melanoma,Cancer vaccine,drug,shows_benefit_against,Melanoma,disease,A cancer vaccine showed modest benefit in late-stage testing in 2009 against melanoma.
+57,Melanoma,Melanoma,disease,has_mutation,B-Raf gene,gene,About 60% of melanomas contain a mutation in the B-Raf gene.
+57,Melanoma,Vemurafenib,drug,inhibits,B-Raf,gene,Early clinical trials suggested that B-Raf inhibitors including Plexxicon's vemurafenib could lead to substantial tumor regression...
+57,Melanoma,Vemurafenib,drug,developed_by,Plexxicon,organisation,Early clinical trials suggested that B-Raf inhibitors including Plexxicon's vemurafenib could lead to substantial tumor regression...
+57,Melanoma,Vemurafenib,drug,approved_by,FDA,organisation,"In August 2011, Vemurafenib received FDA approval for the treatment of late-stage melanoma."
+57,Melanoma,Vemurafenib,drug,treats,Melanoma (late-stage),disease,"In August 2011, Vemurafenib received FDA approval for the treatment of late-stage melanoma."
+57,Melanoma,Dabrafenib,drug,inhibits,BRAF,gene,"In May 2013, the US FDA approved dabrafenib as a single-agent treatment for patients with BRAF V600E mutation-positive advanced melanoma."
+57,Melanoma,Dabrafenib,drug,approved_by,FDA,organisation,"In May 2013, the US FDA approved dabrafenib as a single-agent treatment for patients with BRAF V600E mutation-positive advanced melanoma."
+57,Melanoma,Dabrafenib,drug,combined_with,Trametinib,drug,"In October 2012, a study reported that combining Dabrafenib with a MEK inhibitor trametinib led to even better outcomes."
+57,Melanoma,Trametinib,drug,inhibits,MEK,gene,"In October 2012, a study reported that combining Dabrafenib with a MEK inhibitor trametinib led to even better outcomes."
+57,Melanoma,Dabrafenib + Trametinib,drug,approved_by,FDA,organisation,"In January 2014, the FDA approved the combination of dabrafenib and trametinib for the treatment of people with BRAF V600E/K-mutant metastatic melanoma."
+57,Melanoma,Encorafenib,drug,inhibits,BRAF,gene,"In June 2018, the FDA approved the combination of a BRAF inhibitor encorafenib and a MEK inhibitor binimetinib for the treatment of un-resectable or metastatic melanoma with a BRAF V600E or V600K mutation."
+57,Melanoma,Binimetinib,drug,inhibits,MEK,gene,"In June 2018, the FDA approved the combination of a BRAF inhibitor encorafenib and a MEK inhibitor binimetinib for the treatment of un-resectable or metastatic melanoma with a BRAF V600E or V600K mutation."
+57,Melanoma,Encorafenib + Binimetinib,drug,approved_by,FDA,organisation,"In June 2018, the FDA approved the combination of a BRAF inhibitor encorafenib and a MEK inhibitor binimetinib for the treatment of un-resectable or metastatic melanoma with a BRAF V600E or V600K mutation."
+57,Melanoma,EphA2,protein,causes_resistance_to,BRAF inhibitors,drug,Eventual resistance to BRAF and MEK inhibitors may be due to a cell surface protein known as EphA2 which is now being investigated.
+57,Melanoma,EphA2,protein,causes_resistance_to,MEK inhibitors,drug,Eventual resistance to BRAF and MEK inhibitors may be due to a cell surface protein known as EphA2 which is now being investigated.
+58,Melanoma,Ipilimumab,drug,developed_by,Bristol Myers Squibb,organisation,the Bristol Myers Squibb pharmaceutical company reported the clinical findings of their drug ipilimumab
+58,Melanoma,Ipilimumab,drug,increases_median_survival,advanced melanoma patients,disease,the study found an increase in median survival from 6.4 to 10 months in patients with advanced melanomas treated with the monoclonal ipilimumab
+58,Melanoma,Ipilimumab,drug,compared_to,experimental vaccine,other,versus an experimental vaccine
+58,Melanoma,Ipilimumab,drug,approved_by,FDA,organisation,Ipilimumab was approved by the FDA in March 2011 to treat patients with late-stage melanoma
+58,Melanoma,Ipilimumab,drug,combined_with,Dacarbazine,drug,a clinical trial of ipilimumab plus dacarbazine combined this immune system booster with the standard chemotherapy drug
+58,Melanoma,Ipilimumab,drug,increases_median_survival,late-stage melanoma patients,disease,it showed an increase in median survival for these late-stage patients to 11 months instead of the 9 months normally seen
+58,Melanoma,Ipilimumab,drug,has_cost,"$120,000",other,"a course of treatment costs $120,000"
+58,Melanoma,Ipilimumab,drug,has_serious_adverse_side_effects,patients,other,though serious adverse side effects were seen in some patients
+58,Melanoma,High-resolution ultrasound scanning,other,enables_surveillance_of,metastatic burden to sentinel lymph nodes,other,Advances in high-resolution ultrasound scanning have enabled surveillance of metastatic burden to the sentinel lymph nodes
+58,Melanoma,Screening and Surveillance of Ultrasound in Melanoma trial (SUNMEL),organisation,evaluates,ultrasound as alternative to invasive surgical methods,other,The Screening and Surveillance of Ultrasound in Melanoma trial (SUNMEL) is evaluating ultrasound as an alternative to invasive surgical methods
+59,Melanoma,Talimogene laherparepvec,drug,treats,melanoma,disease,Talimogene laherparepvec (T-VEC) ... was shown to be useful against metastatic melanoma in 2015
+59,Melanoma,Oncolytic virotherapy,other,part_of,virotherapy,other,Oncolytic virotherapy is a promising branch of virotherapy
+59,Melanoma,Oncolytic viruses,other,increases,metabolism,other,"viruses can increase metabolism, reduce anti-tumor immunity, and disorganize vasculature"
+59,Melanoma,Oncolytic viruses,other,reduces,anti-tumor immunity,other,"viruses can increase metabolism, reduce anti-tumor immunity, and disorganize vasculature"
+59,Melanoma,Oncolytic viruses,other,disorganizes,vasculature,other,"viruses can increase metabolism, reduce anti-tumor immunity, and disorganize vasculature"
+59,Melanoma,Antiretrovirals,drug,inhibits,human endogenous retroviruses,gene,The rationale behind this lies in their potential to inhibit human endogenous retroviruses
+59,Melanoma,Antiretrovirals,drug,treats,melanoma,disease,Antiretrovirals have been tested in vitro against melanoma
+59,Melanoma,Lamivudine,drug,downregulates,human endogenous retroviruses,gene,"antiretroviral drugs, including lamivudine ... can effectively downregulate the expression of human endogenous retroviruses"
+59,Melanoma,Doravirine,drug,downregulates,human endogenous retroviruses,gene,"antiretroviral drugs, including ... doravirine ... can effectively downregulate the expression of human endogenous retroviruses"
+59,Melanoma,Cabotegravir,drug,downregulates,human endogenous retroviruses,gene,"antiretroviral drugs, including ... cabotegravir ... can effectively downregulate the expression of human endogenous retroviruses"
+59,Melanoma,Antiretrovirals,drug,reduces,cell growth,other,they can effectively downregulate ... and reduce cell growth and invasiveness
+59,Melanoma,Antiretrovirals,drug,enhances,immune checkpoint therapies,other,they also enhance the potential of immune checkpoint therapies
+59,Melanoma,Antiretrovirals,drug,addresses,resistance mechanisms,other,they have shown promise in addressing resistance mechanisms that emerge following prolonged treatment
+59,Melanoma,Dabrafenib,drug,treats,melanoma,disease,resistance mechanisms that emerge following prolonged treatment with BRAF inhibitors like dabrafenib
+59,Melanoma,AZ628,drug,treats,melanoma,disease,resistance mechanisms that emerge following prolonged treatment with BRAF inhibitors like ... AZ628
+59,Melanoma,miR-139-5p,gene,inhibits,cell proliferation,other,"Overexpression of miR-139-5p has been shown to inhibit cell proliferation, migration, and invasion"
+59,Melanoma,miR-139-5p,gene,induces,apoptosis,other,Overexpression of miR-139-5p ... induces apoptosis in melanoma cells
+59,Melanoma,miR-139-5p,gene,downregulates,IGF1R,gene,These effects are associated with the downregulation of IGF1R
+59,Melanoma,IGF1R,gene,part_of,PI3K/AKT signaling pathway,pathway,a receptor that activates the PI3K/AKT signaling pathway
+59,Melanoma,miR-139-5p,gene,reduces,melanoma cell aggressiveness,other,"By suppressing IGF1R-mediated signaling, miR-139-5p reduces melanoma cell aggressiveness"
+60,Trastuzumab,Trastuzumab,drug,treats,breast cancer,disease,"Trastuzumab, sold under the brand name Herceptin among others, is a monoclonal antibody used to treat breast cancer and stomach cancer."
+60,Trastuzumab,Trastuzumab,drug,treats,stomach cancer,disease,"Trastuzumab, sold under the brand name Herceptin among others, is a monoclonal antibody used to treat breast cancer and stomach cancer."
+60,Trastuzumab,Trastuzumab,drug,targets,HER2 receptor,gene,Trastuzumab works by binding to the HER2 receptor and slowing down cell replication.
+60,Trastuzumab,Trastuzumab,drug,administered_by,intravenous injection,other,Trastuzumab is given by slow injection into a vein and injection just under the skin.
+60,Trastuzumab,Trastuzumab,drug,administered_by,subcutaneous injection,other,Trastuzumab is given by slow injection into a vein and injection just under the skin.
+60,Trastuzumab,Trastuzumab,drug,has_side_effect,fever,other,"Common side effects include fever, infection, cough, headache, trouble sleeping, and rash."
+60,Trastuzumab,Trastuzumab,drug,has_side_effect,infection,other,"Common side effects include fever, infection, cough, headache, trouble sleeping, and rash."
+60,Trastuzumab,Trastuzumab,drug,has_side_effect,cough,other,"Common side effects include fever, infection, cough, headache, trouble sleeping, and rash."
+60,Trastuzumab,Trastuzumab,drug,has_side_effect,headache,other,"Common side effects include fever, infection, cough, headache, trouble sleeping, and rash."
+60,Trastuzumab,Trastuzumab,drug,has_side_effect,trouble sleeping,other,"Common side effects include fever, infection, cough, headache, trouble sleeping, and rash."
+60,Trastuzumab,Trastuzumab,drug,has_side_effect,rash,other,"Common side effects include fever, infection, cough, headache, trouble sleeping, and rash."
+60,Trastuzumab,Trastuzumab,drug,has_side_effect,heart failure,other,"Other severe side effects include heart failure, allergic reactions, and lung disease."
+60,Trastuzumab,Trastuzumab,drug,has_side_effect,allergic reactions,other,"Other severe side effects include heart failure, allergic reactions, and lung disease."
+60,Trastuzumab,Trastuzumab,drug,has_side_effect,lung disease,other,"Other severe side effects include heart failure, allergic reactions, and lung disease."
+60,Trastuzumab,Trastuzumab,drug,may_harm,baby,other,Use during pregnancy may harm the baby.
+60,Trastuzumab,Trastuzumab,drug,approved_in,United States,organisation,"Trastuzumab was approved for medical use in the United States in September 1998, and in the European Union in August 2000."
+60,Trastuzumab,Trastuzumab,drug,approved_in,European Union,organisation,"Trastuzumab was approved for medical use in the United States in September 1998, and in the European Union in August 2000."
+60,Trastuzumab,Trastuzumab,drug,listed_in,World Health Organization's List of Essential Medicines,organisation,It is on the World Health Organization's List of Essential Medicines.
+60,Trastuzumab,Trastuzumab,drug,sold_under_brand_name,Herceptin,other,"Trastuzumab, sold under the brand name Herceptin among others, is a monoclonal antibody used to treat breast cancer and stomach cancer."
+60,Trastuzumab,Trastuzumab,drug,inhibits_cell_replication,cell replication,other,Trastuzumab works by binding to the HER2 receptor and slowing down cell replication.
+61,Trastuzumab,Trastuzumab,drug,used_in_combination_with,Chemotherapy,drug,"The safety and efficacy of trastuzumab-containing combination therapies (with chemotherapy, hormone blockers, or lapatinib) for the treatment of metastatic breast cancer."
+61,Trastuzumab,Trastuzumab,drug,used_in_combination_with,Hormone blockers,drug,"The safety and efficacy of trastuzumab-containing combination therapies (with chemotherapy, hormone blockers, or lapatinib) for the treatment of metastatic breast cancer."
+61,Trastuzumab,Trastuzumab,drug,used_in_combination_with,Lapatinib,drug,"The safety and efficacy of trastuzumab-containing combination therapies (with chemotherapy, hormone blockers, or lapatinib) for the treatment of metastatic breast cancer."
+61,Trastuzumab,Trastuzumab,drug,treats,Metastatic breast cancer,disease,"The safety and efficacy of trastuzumab-containing combination therapies (with chemotherapy, hormone blockers, or lapatinib) for the treatment of metastatic breast cancer."
+61,Trastuzumab,Trastuzumab,drug,improves,Overall survival,other,"In early-stage HER2-positive breast cancer, trastuzumab-containing regimens improved overall survival (Hazard ratio (HR) = 0.66) and disease-free survival (HR = 0.60)."
+61,Trastuzumab,Trastuzumab,drug,improves,Disease-free survival,other,"In early-stage HER2-positive breast cancer, trastuzumab-containing regimens improved overall survival (Hazard ratio (HR) = 0.66) and disease-free survival (HR = 0.60)."
+61,Trastuzumab,Trastuzumab,drug,increases_risk_of,Heart failure,disease,Increased risk of heart failure (RR = 5.11) and decline in left ventricular ejection fraction (relative risk RR = 1.83) were seen in these trials as well.
+61,Trastuzumab,Trastuzumab,drug,increases_risk_of,Decline in left ventricular ejection fraction,other,Increased risk of heart failure (RR = 5.11) and decline in left ventricular ejection fraction (relative risk RR = 1.83) were seen in these trials as well.
+61,Trastuzumab,Trastuzumab,drug,treats,HER2-positive breast cancer,disease,The original studies of trastuzumab showed that it improved overall survival in late-stage (metastatic) HER2-positive breast cancer from 20.3 to 25.1 months.
+61,Trastuzumab,Trastuzumab,drug,reduces_risk_of,Cancer recurrence,other,"In early-stage HER2-positive breast cancer, it reduces the risk of cancer returning after surgery."
+61,Trastuzumab,Trastuzumab,drug,increases_risk_of,Serious heart problems,disease,"However, it increases serious heart problems by an absolute risk of 2.1%, though the problems may resolve if treatment is stopped."
+61,Trastuzumab,Trastuzumab,drug,has_resistance_mechanism,Failure to downregulate p27Kip1,other,"A mechanism of resistance involves failure to downregulate p27Kip1 as well as suppressing p27 translocation to the nucleus in breast cancer, enabling cdk2 to induce cell proliferation."
+61,Trastuzumab,Trastuzumab,drug,has_resistance_mechanism,Suppressing p27 translocation to the nucleus,other,"A mechanism of resistance involves failure to downregulate p27Kip1 as well as suppressing p27 translocation to the nucleus in breast cancer, enabling cdk2 to induce cell proliferation."
+61,Trastuzumab,Pembrolizumab,drug,approved_for,Locally advanced unresectable or metastatic HER2 positive gastric or gastroesophageal junction adenocarcinoma,disease,"In May 2021, the FDA approved pembrolizumab in combination with trastuzumab, fluoropyrimidine- and platinum-containing chemotherapy for the first-line treatment of people with locally advanced unresectable or metastatic HER2 positive gastric or gastroesophageal junction (GEJ) adenocarcinoma."
+61,Trastuzumab,FDA,organisation,approved,Pembrolizumab in combination with trastuzumab and chemotherapy,other,"In May 2021, the FDA approved pembrolizumab in combination with trastuzumab, fluoropyrimidine- and platinum-containing chemotherapy for the first-line treatment of people with locally advanced unresectable or metastatic HER2 positive gastric or gastroesophageal junction (GEJ) adenocarcinoma."
+62,Trastuzumab,Trastuzumab,drug,treats,early breast cancer,disease,The optimal duration of add-on trastuzumab treatment after surgery for early breast cancer is unknown.
+62,Trastuzumab,Trastuzumab,drug,causes,cardiac dysfunction,disease,"One of the more serious complications of trastuzumab is its effect on the heart, although this is rare."
+62,Trastuzumab,Trastuzumab,drug,downregulates,neuregulin-1,gene,"Trastuzumab downregulates neuregulin-1 (NRG-1), which is essential for the activation of cell survival pathways in cardiomyocytes."
+62,Trastuzumab,Neuregulin-1,gene,activates,MAPK pathway,pathway,NRG-1 activates the MAPK pathway and the PI3K/AKT pathway as well as focal adhesion kinases (FAK).
+62,Trastuzumab,Neuregulin-1,gene,activates,PI3K/AKT pathway,pathway,NRG-1 activates the MAPK pathway and the PI3K/AKT pathway as well as focal adhesion kinases (FAK).
+62,Trastuzumab,Trastuzumab,drug,causes,fetal harm,disease,Trastuzumab may harm a developing fetus.
+62,Trastuzumab,Trastuzumab,drug,has_side_effect,flu-like symptoms,other,"Some of the common side effects of trastuzumab are flu-like symptoms (such as fever, chills and mild pain), nausea and diarrhea."
+62,Trastuzumab,Trastuzumab,drug,has_side_effect,nausea,other,"Some of the common side effects of trastuzumab are flu-like symptoms (such as fever, chills and mild pain), nausea and diarrhea."
+62,Trastuzumab,Trastuzumab,drug,has_side_effect,diarrhea,other,"Some of the common side effects of trastuzumab are flu-like symptoms (such as fever, chills and mild pain), nausea and diarrhea."
+62,Trastuzumab,Cardiac dysfunction,disease,includes,congestive heart failure,disease,"cardiac dysfunction, which includes congestive heart failure."
+62,Trastuzumab,Trastuzumab,drug,requires_monitoring_with,MUGA scan,other,regular cardiac screening with either a MUGA scan or echocardiography is commonly undertaken during the trastuzumab treatment period.
+62,Trastuzumab,Trastuzumab,drug,requires_monitoring_with,echocardiography,other,regular cardiac screening with either a MUGA scan or echocardiography is commonly undertaken during the trastuzumab treatment period.
+62,Trastuzumab,Trastuzumab,drug,has_treatment_duration,one year,other,One year of treatment is generally accepted based on clinical trial evidence.
+62,Trastuzumab,Trastuzumab,drug,has_treatment_duration,nine weeks,other,a small Finnish trial also showed similar improvement with nine weeks of treatment over no therapy.
+62,Trastuzumab,New Zealand,organisation,funds,trastuzumab treatment,drug,New Zealand has revised its policy and now funds trastuzumab treatment for up to 12 months.
+63,Trastuzumab,HER2 gene,gene,amplified_in,early-stage breast cancers,disease,The HER2 gene ... is amplified in 20–30% of early-stage breast cancers.
+63,Trastuzumab,Trastuzumab,drug,targets,HER2,gene,Trastuzumab is a monoclonal antibody targeting HER2
+63,Trastuzumab,HER2,gene,part_of,HER2 pathway,pathway,The HER2 pathway promotes cell growth and division
+63,Trastuzumab,HER2 pathway,pathway,promotes,cell growth,other,The HER2 pathway promotes cell growth and division
+63,Trastuzumab,HER2,gene,overexpressed_in,cancer,disease,"In some types of cancer, the pathway is exploited to promote rapid cell growth"
+63,Trastuzumab,EGF pathway,pathway,includes,HER1 (EGFR),gene,"The EGF pathway includes the receptors HER1 (EGFR), HER2, HER3, and HER4"
+63,Trastuzumab,HER2,gene,activates,MAP kinase pathway,pathway,The pathway initiates the MAP kinase pathway
+63,Trastuzumab,HER2,gene,activates,PI3 kinase/AKT pathway,pathway,The pathway initiates the MAP kinase pathway as well as the PI3 kinase/AKT pathway
+63,Trastuzumab,PI3 kinase/AKT pathway,pathway,activates,NF-κB pathway,pathway,which in turn activates the NF-κB pathway
+63,Trastuzumab,HER2,gene,expressed_in,cancer cells,other,In cancer cells the HER2 protein can be expressed up to 100 times more than in normal cells
+63,Trastuzumab,HER receptors,gene,binds_to,human epidermal growth factor,chemical,"The HER (human epidermal growth factor receptor) protein, binds to human epidermal growth factor"
+63,Trastuzumab,HER2,gene,overexpressed_in,breast cancer,disease,"In some cancers, notably certain types of breast cancer, HER2 is over-expressed"
+63,Trastuzumab,Trastuzumab,drug,induces,CDR formation,other,It has been reported that Trastuzumab induces the formation of complementarity-determining regions (CDRs)
+63,Trastuzumab,CDR formation,other,requires,N-WASP,gene,CDR formation requires activation of both the protein regulator of actin polymerization N-WASP
+63,Trastuzumab,CDR formation,other,requires,cofilin,gene,and of the actin-depolymerizing protein cofilin
+63,Trastuzumab,p140Cap,gene,inhibits,CDR formation,other,this latter event may be inhibited by the negative cell motility regulator p140Cap
+63,Trastuzumab,HER2,gene,sidesteps,cell cycle checkpoints,other,"Overexpression of HER2 sidesteps these checkpoints, causing cells to proliferate in an uncontrolled fashion"
+63,Trastuzumab,Trastuzumab,drug,binds_to,domain IV of HER2/neu receptor,other,Trastuzumab binds to domain IV of the extracellular segment of the HER2/neu receptor
+63,Trastuzumab,Trastuzumab,drug,induces,cell cycle arrest,other,Cells treated with trastuzumab undergo arrest during the G1 phase of the cell cycle
+63,Trastuzumab,Trastuzumab,drug,downregulates,AKT activation,other,"it has been suggested that trastuzumab does not alter HER-2 expression, but downregulates activation of AKT"
+63,Trastuzumab,Trastuzumab,drug,suppresses,angiogenesis,other,Trastuzumab suppresses angiogenesis both by induction of antiangiogenic factors
+63,Trastuzumab,Trastuzumab,drug,activates,p27Kip1,gene,One of the most relevant proteins that trastuzumab activates is the tumor suppressor p27Kip1
+63,Trastuzumab,Trastuzumab,drug,inhibits,HER2/neu ectodomain cleavage,other,Trastuzumab has been shown to inhibit HER2/neu ectodomain cleavage in breast cancer cells
+63,Trastuzumab,Trastuzumab,drug,induces,antibody-dependent cell-mediated cytotoxicity,other,antibody-dependent cell-mediated cytotoxicity is another important mechanism of action
+64,Trastuzumab,Trastuzumab,drug,inhibits,HER2,gene,Trastuzumab inhibits the effects of overexpression of HER2.
+64,Trastuzumab,immunohistochemistry,other,used_for,HER2 overexpression,disease,"the most commonly employed methods for this are immunohistochemistry (IHC) and either silver, chromogenic or fluorescent in situ hybridisation (SISH/CISH/FISH)."
+64,Trastuzumab,silver in situ hybridisation,other,used_for,HER2 overexpression,disease,"the most commonly employed methods for this are immunohistochemistry (IHC) and either silver, chromogenic or fluorescent in situ hybridisation (SISH/CISH/FISH)."
+64,Trastuzumab,chromogenic in situ hybridisation,other,used_for,HER2 overexpression,disease,"the most commonly employed methods for this are immunohistochemistry (IHC) and either silver, chromogenic or fluorescent in situ hybridisation (SISH/CISH/FISH)."
+64,Trastuzumab,fluorescent in situ hybridisation,other,used_for,HER2 overexpression,disease,"the most commonly employed methods for this are immunohistochemistry (IHC) and either silver, chromogenic or fluorescent in situ hybridisation (SISH/CISH/FISH)."
+64,Trastuzumab,virtual karyotyping,other,detects,HER2 amplification,gene,HER2 amplification can be detected by virtual karyotyping of formalin-fixed paraffin embedded tumor.
+64,Trastuzumab,Dako HercepTest,organisation,approved_for,HER2 immunohistochemistry,other,There are two FDA-approved commercial kits available for HER2 IHC; Dako HercepTest and Ventana Pathway.

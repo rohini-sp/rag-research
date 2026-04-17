@@ -1,0 +1,3 @@
+chunk_id,source_article,subject,subject_type,predicate,object,object_type,evidence_span
+17,Breast cancer,pressure,other,induces,ischemia,disease,treatment by pressure intended to induce local ischemia
+0,Breast cancer,Breast cancer,disease,is_a,cancer,disease,Breast cancer is a cancer

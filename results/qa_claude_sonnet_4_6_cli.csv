@@ -1,0 +1,24 @@
+question_id,type,question,expected_answer,n_seeds,subgraph_nodes,subgraph_edges,answer,cost_usd,score,notes
+1,single-hop,Which company developed tazemetostat?,Epizyme,1,76,101,Tazemetostat was developed by **Epizyme**. [T4: (tazemetostat | developed_by | epizyme)],0.0,,
+2,multi-hop,What drugs treat epithelioid sarcoma and target the EZH2 gene product?,Tazemetostat,4,467,727,**Tazemetostat** treats epithelioid sarcoma and targets EZH2. It is approved for epithelioid sarcoma [T30] and inhibits EZH2 [T28].,0.0,,
+3,single-hop,What was the original tradename of trastuzumab when it was first approved?,Herceptin,1,438,728,The original tradename of trastuzumab is **Herceptin** [T26: trastuzumab | has_brand_name | herceptin].,0.0,,
+4,multi-hop,"Imatinib is used to treat which leukemia, and what fusion protein does it inhibit?",Chronic myeloid leukemia; BCR-ABL,1,263,460,"Imatinib is used to treat **chronic myelogenous leukemia (CML)** and inhibits the **BCR-ABL** fusion protein.
+
+- BCR-ABL causes CML [T52], and BCR-ABL mutations confer resistance to imatinib [T11], establishing BCR-ABL as imatinib's target.
+- BCR-ABL itself results from the Philadelphia chromosome translocation [T34] and functions as a constitutively active tyrosine kinase [T15].",0.0,,
+5,comparison,Which is more selective for EZH2 over EZH1 — GSK126 or EPZ005687?,"GSK126 is more selective (150-fold over EZH1, vs 50-fold for EPZ005687).",4,455,716,Answer not supported by retrieved evidence.,0.0,,
+6,single-hop,Which tumour-suppressor gene encodes a protein commonly called 'the guardian of the genome'?,TP53 (p53),0,0,0,Answer not supported by retrieved evidence.,0.0,,
+7,multi-hop,"Mutations in which gene predispose women to a much higher lifetime risk of breast cancer, and what type of protein does it encode?",BRCA1; a tumour suppressor / DNA repair protein,1,144,203,Answer not supported by retrieved evidence.,0.0,,
+8,aggregation,List at least three EZH2 inhibitors mentioned in the corpus.,"Any three of: DZNep, EPZ005687, EI1, GSK126, UNC1999, tazemetostat",1,455,716,"Answer not supported by retrieved evidence.
+
+The retrieved triples only mention **tazemetostat** as an EZH2 inhibitor [T25]. No other EZH2 inhibitors appear in the supplied evidence, so listing three cannot be supported.",0.0,,
+9,multi-hop,"Pembrolizumab is a checkpoint inhibitor — which immune-checkpoint receptor does it target, and which skin cancer is it commonly used to treat?",Targets PD-1; used to treat melanoma (also other cancers),5,882,1450,Answer not supported by retrieved evidence.,0.0,,
+10,mechanism,Apoptosis is regulated by two main protein families — name them and say briefly what each does.,Caspases (proteases that execute the cell-death programme) and the Bcl-2 family (anti- and pro-apoptotic regulators of mitochondrial outer-membrane permeabilisation).,1,426,723,"The retrieved evidence partially supports an answer about **two protein families**:
+
+1. **Caspase family** — Executioner caspases carry out the final destruction of the cell, directly causing cell death. [T1]
+
+2. **BCL-2 family** — Members such as BAX and BAK are pro-apoptotic (promote cell death); anti-apoptotic members (BCL-2-like proteins, including viral homologs) suppress apoptosis by inhibiting BAX and BAK. [T12, T13]
+
+---
+
+**Caveat:** The triples provide only fragmentary evidence. T1 confirms executioner caspases cause cell death, and T12/T13 confirm BCL-2-type proteins inhibit pro-apoptotic BAX and BAK, but the evidence does not explicitly label these as *the two main regulatory families* of apoptosis. The broader framing relies on the structural implication of the triples rather than a direct statement in the graph.",0.0,,

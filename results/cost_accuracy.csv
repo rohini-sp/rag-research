@@ -1,7 +1,6 @@
-llm,provider,model_id,prompt_variant,n_chunks,n_triples,wall_clock_sec,n_input_tokens,n_output_tokens,cost_usd,qa_correct_out_of_10,evaluated_at
-GPT-5,openai,gpt-5,default,1,44,147.5,887,14507,0.222,,2026-04-16T21:47:53+00:00
-GPT-5 mini,openai,gpt-5-mini,default,1,41,110.6,887,8567,0.0105,,2026-04-16T21:49:46+00:00
-o4-mini,openai,o4-mini,default,1,31,74.9,887,6280,0.0286,,2026-04-16T21:51:02+00:00
-Kimi K2.5,kimi,kimi-k2.5,default,1,0,10.3,0,0,0.0,,2026-04-16T21:51:15+00:00
-Llama 3.3 70B,groq,llama-3.3-70b-versatile,default,1,14,2.8,929,1091,0.0,,2026-04-16T21:51:19+00:00
-Llama 3.1 8B,groq,llama-3.1-8b-instant,default,1,20,5.7,929,2000,0.0,,2026-04-16T21:51:27+00:00
+llm,provider,n_chunks,n_triples,wall_clock_sec,n_input_tokens,n_output_tokens,cost_usd,qa_correct_out_of_10,completion_note
+Claude Sonnet 4.6,claude_cli,148,2926,4375.7,0,0,0.0,,148/148 chunks
+Claude Opus 4.6,claude_cli,148,3103,2756.0,0,0,0.0,,extrapolated from 60-chunk run
+GPT-5 mini,openai,148,4305,16369.0,131276,1267916,1.55,,extrapolated from 57-chunk run
+Llama 3.3 70B,groq,147,1730,1103.9,109302,118817,0.0,,147/148 chunks
+Llama 3.1 8B,groq,146,2272,1269.0,46159,78176,0.0,,146/148 chunks

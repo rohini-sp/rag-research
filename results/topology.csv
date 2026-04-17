@@ -1,7 +1,6 @@
-llm,evaluated_at,n_nodes,n_edges,mean_degree,max_degree,n_components,largest_component_fraction,density,n_self_loops
-GPT-5,2026-04-16T21:47:55+00:00,38,44,2.316,9,3,0.816,0.03129,0
-GPT-5 mini,2026-04-16T21:49:47+00:00,39,41,2.103,9,4,0.641,0.02767,0
-o4-mini,2026-04-16T21:51:04+00:00,34,31,1.824,8,4,0.794,0.02763,0
-Kimi K2.5,2026-04-16T21:51:16+00:00,0,0,0.0,0,0,0.0,0.0,0
-Llama 3.3 70B,2026-04-16T21:51:20+00:00,15,14,1.867,7,2,0.867,0.06667,0
-Llama 3.1 8B,2026-04-16T21:51:28+00:00,15,14,1.867,7,2,0.867,0.06667,0
+llm,n_nodes,n_edges,mean_degree,max_degree,n_components,largest_component_fraction,density,n_self_loops,_note
+Claude Sonnet 4.6,2130,2926,2.747,248,85,0.889,0.00065,0,148/148 chunks
+Claude Opus 4.6,2348,3155,2.284,120,105,0.73,0.00102,0,extrapolated from 60-chunk run
+GPT-5 mini,4315,4305,1.696,184,387,0.381,0.00043,0,extrapolated from 57-chunk run
+Llama 3.3 70B,1513,1742,1.957,141,268,0.627,0.00055,0,147/148 chunks
+Llama 3.1 8B,1961,2303,1.996,159,273,0.644,0.00044,3,146/148 chunks

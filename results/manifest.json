@@ -1,104 +1,616 @@
-{
-  "timestamp": "2026-04-16T22:21:32+00:00",
-  "python_version": "3.12.3",
-  "platform": "Linux-6.17.0-1009-gcp-x86_64-with-glibc2.39",
-  "architecture": "x86_64",
-  "git_hash": "6f16feb",
-  "models": [
-    {
-      "display_name": "GPT-5",
-      "provider": "openai",
-      "model_id": "gpt-5"
+[
+  {
+    "timestamp": "2026-04-16T22:21:32+00:00",
+    "python_version": "3.12.3",
+    "platform": "Linux-6.17.0-1009-gcp-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "git_hash": "6f16feb",
+    "models": [
+      {
+        "display_name": "GPT-5",
+        "provider": "openai",
+        "model_id": "gpt-5"
+      },
+      {
+        "display_name": "GPT-5 mini",
+        "provider": "openai",
+        "model_id": "gpt-5-mini"
+      },
+      {
+        "display_name": "o4-mini",
+        "provider": "openai",
+        "model_id": "o4-mini"
+      },
+      {
+        "display_name": "Gemini 2.5 Flash",
+        "provider": "gemini",
+        "model_id": "gemini-2.5-flash"
+      },
+      {
+        "display_name": "Llama 3.3 70B",
+        "provider": "groq",
+        "model_id": "llama-3.3-70b-versatile"
+      },
+      {
+        "display_name": "Llama 3.1 8B",
+        "provider": "groq",
+        "model_id": "llama-3.1-8b-instant"
+      }
+    ],
+    "corpus_articles": [
+      {
+        "title": "Breast cancer",
+        "type": "disease"
+      },
+      {
+        "title": "Chronic myeloid leukemia",
+        "type": "disease"
+      },
+      {
+        "title": "Melanoma",
+        "type": "disease"
+      },
+      {
+        "title": "Trastuzumab",
+        "type": "drug"
+      },
+      {
+        "title": "Imatinib",
+        "type": "drug"
+      },
+      {
+        "title": "Pembrolizumab",
+        "type": "drug"
+      },
+      {
+        "title": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "title": "EZH2",
+        "type": "gene"
+      },
+      {
+        "title": "Apoptosis",
+        "type": "pathway"
+      },
+      {
+        "title": "P53",
+        "type": "pathway"
+      }
+    ],
+    "chunk_tokens": 500,
+    "chunk_overlap": 50,
+    "extraction_temperature": 0.0,
+    "extraction_prompt_variant": "default",
+    "packages": {
+      "openai": "2.31.0",
+      "anthropic": "0.95.0",
+      "tiktoken": "0.12.0",
+      "networkx": "3.6.1",
+      "pandas": "2.3.3",
+      "numpy": "2.4.4",
+      "matplotlib": "3.10.8",
+      "scikit-learn": "not-installed",
+      "google-genai": "not-installed",
+      "python-dotenv": "not-installed"
     },
-    {
-      "display_name": "GPT-5 mini",
-      "provider": "openai",
-      "model_id": "gpt-5-mini"
-    },
-    {
-      "display_name": "o4-mini",
-      "provider": "openai",
-      "model_id": "o4-mini"
-    },
-    {
-      "display_name": "Gemini 2.5 Flash",
-      "provider": "gemini",
-      "model_id": "gemini-2.5-flash"
-    },
-    {
-      "display_name": "Llama 3.3 70B",
-      "provider": "groq",
-      "model_id": "llama-3.3-70b-versatile"
-    },
-    {
-      "display_name": "Llama 3.1 8B",
-      "provider": "groq",
-      "model_id": "llama-3.1-8b-instant"
+    "env_keys_present": {
+      "OPENAI_API_KEY": true,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": true,
+      "GROQ_API_KEY": true,
+      "MISTRAL_API_KEY": false
     }
-  ],
-  "corpus_articles": [
-    {
-      "title": "Breast cancer",
-      "type": "disease"
-    },
-    {
-      "title": "Chronic myeloid leukemia",
-      "type": "disease"
-    },
-    {
-      "title": "Melanoma",
-      "type": "disease"
-    },
-    {
-      "title": "Trastuzumab",
-      "type": "drug"
-    },
-    {
-      "title": "Imatinib",
-      "type": "drug"
-    },
-    {
-      "title": "Pembrolizumab",
-      "type": "drug"
-    },
-    {
-      "title": "BRCA1",
-      "type": "gene"
-    },
-    {
-      "title": "EZH2",
-      "type": "gene"
-    },
-    {
-      "title": "Apoptosis",
-      "type": "pathway"
-    },
-    {
-      "title": "P53",
-      "type": "pathway"
-    }
-  ],
-  "chunk_tokens": 500,
-  "chunk_overlap": 50,
-  "extraction_temperature": 0.0,
-  "extraction_prompt_variant": "default",
-  "packages": {
-    "openai": "2.31.0",
-    "anthropic": "0.95.0",
-    "tiktoken": "0.12.0",
-    "networkx": "3.6.1",
-    "pandas": "2.3.3",
-    "numpy": "2.4.4",
-    "matplotlib": "3.10.8",
-    "scikit-learn": "not-installed",
-    "google-genai": "not-installed",
-    "python-dotenv": "not-installed"
   },
-  "env_keys_present": {
-    "OPENAI_API_KEY": true,
-    "ANTHROPIC_API_KEY": false,
-    "GEMINI_API_KEY": true,
-    "GROQ_API_KEY": true,
-    "MISTRAL_API_KEY": false
+  {
+    "timestamp": "2026-04-17T07:28:17+00:00",
+    "python_version": "3.12.3",
+    "platform": "Linux-6.17.0-1009-gcp-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "git_hash": "6efd084",
+    "models": [
+      {
+        "display_name": "GPT-5",
+        "provider": "openai",
+        "model_id": "gpt-5"
+      },
+      {
+        "display_name": "GPT-5 mini",
+        "provider": "openai",
+        "model_id": "gpt-5-mini"
+      },
+      {
+        "display_name": "o4-mini",
+        "provider": "openai",
+        "model_id": "o4-mini"
+      },
+      {
+        "display_name": "Gemini 2.5 Flash",
+        "provider": "gemini",
+        "model_id": "gemini-2.5-flash"
+      },
+      {
+        "display_name": "Llama 3.3 70B",
+        "provider": "groq",
+        "model_id": "llama-3.3-70b-versatile"
+      },
+      {
+        "display_name": "Llama 3.1 8B",
+        "provider": "groq",
+        "model_id": "llama-3.1-8b-instant"
+      }
+    ],
+    "corpus_articles": [
+      {
+        "title": "Breast cancer",
+        "type": "disease"
+      },
+      {
+        "title": "Chronic myeloid leukemia",
+        "type": "disease"
+      },
+      {
+        "title": "Melanoma",
+        "type": "disease"
+      },
+      {
+        "title": "Trastuzumab",
+        "type": "drug"
+      },
+      {
+        "title": "Imatinib",
+        "type": "drug"
+      },
+      {
+        "title": "Pembrolizumab",
+        "type": "drug"
+      },
+      {
+        "title": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "title": "EZH2",
+        "type": "gene"
+      },
+      {
+        "title": "Apoptosis",
+        "type": "pathway"
+      },
+      {
+        "title": "P53",
+        "type": "pathway"
+      }
+    ],
+    "chunk_tokens": 500,
+    "chunk_overlap": 50,
+    "extraction_temperature": 0.0,
+    "extraction_prompt_variant": "default",
+    "packages": {
+      "openai": "2.31.0",
+      "anthropic": "0.95.0",
+      "tiktoken": "0.12.0",
+      "networkx": "3.6.1",
+      "pandas": "2.3.3",
+      "numpy": "2.4.4",
+      "matplotlib": "3.10.8",
+      "scikit-learn": "not-installed",
+      "google-genai": "not-installed",
+      "python-dotenv": "not-installed"
+    },
+    "env_keys_present": {
+      "OPENAI_API_KEY": true,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": true,
+      "GROQ_API_KEY": true,
+      "MISTRAL_API_KEY": false
+    }
+  },
+  {
+    "timestamp": "2026-04-17T07:28:23+00:00",
+    "python_version": "3.12.3",
+    "platform": "Linux-6.17.0-1009-gcp-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "git_hash": "6efd084",
+    "models": [
+      {
+        "display_name": "GPT-5",
+        "provider": "openai",
+        "model_id": "gpt-5"
+      },
+      {
+        "display_name": "GPT-5 mini",
+        "provider": "openai",
+        "model_id": "gpt-5-mini"
+      },
+      {
+        "display_name": "o4-mini",
+        "provider": "openai",
+        "model_id": "o4-mini"
+      },
+      {
+        "display_name": "Gemini 2.5 Flash",
+        "provider": "gemini",
+        "model_id": "gemini-2.5-flash"
+      },
+      {
+        "display_name": "Llama 3.3 70B",
+        "provider": "groq",
+        "model_id": "llama-3.3-70b-versatile"
+      },
+      {
+        "display_name": "Llama 3.1 8B",
+        "provider": "groq",
+        "model_id": "llama-3.1-8b-instant"
+      }
+    ],
+    "corpus_articles": [
+      {
+        "title": "Breast cancer",
+        "type": "disease"
+      },
+      {
+        "title": "Chronic myeloid leukemia",
+        "type": "disease"
+      },
+      {
+        "title": "Melanoma",
+        "type": "disease"
+      },
+      {
+        "title": "Trastuzumab",
+        "type": "drug"
+      },
+      {
+        "title": "Imatinib",
+        "type": "drug"
+      },
+      {
+        "title": "Pembrolizumab",
+        "type": "drug"
+      },
+      {
+        "title": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "title": "EZH2",
+        "type": "gene"
+      },
+      {
+        "title": "Apoptosis",
+        "type": "pathway"
+      },
+      {
+        "title": "P53",
+        "type": "pathway"
+      }
+    ],
+    "chunk_tokens": 500,
+    "chunk_overlap": 50,
+    "extraction_temperature": 0.0,
+    "extraction_prompt_variant": "default",
+    "packages": {
+      "openai": "2.31.0",
+      "anthropic": "0.95.0",
+      "tiktoken": "0.12.0",
+      "networkx": "3.6.1",
+      "pandas": "2.3.3",
+      "numpy": "2.4.4",
+      "matplotlib": "3.10.8",
+      "scikit-learn": "not-installed",
+      "google-genai": "not-installed",
+      "python-dotenv": "not-installed"
+    },
+    "env_keys_present": {
+      "OPENAI_API_KEY": true,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": true,
+      "GROQ_API_KEY": true,
+      "MISTRAL_API_KEY": false
+    }
+  },
+  {
+    "timestamp": "2026-04-17T07:28:31+00:00",
+    "python_version": "3.12.3",
+    "platform": "Linux-6.17.0-1009-gcp-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "git_hash": "6efd084",
+    "models": [
+      {
+        "display_name": "GPT-5",
+        "provider": "openai",
+        "model_id": "gpt-5"
+      },
+      {
+        "display_name": "GPT-5 mini",
+        "provider": "openai",
+        "model_id": "gpt-5-mini"
+      },
+      {
+        "display_name": "o4-mini",
+        "provider": "openai",
+        "model_id": "o4-mini"
+      },
+      {
+        "display_name": "Gemini 2.5 Flash",
+        "provider": "gemini",
+        "model_id": "gemini-2.5-flash"
+      },
+      {
+        "display_name": "Llama 3.3 70B",
+        "provider": "groq",
+        "model_id": "llama-3.3-70b-versatile"
+      },
+      {
+        "display_name": "Llama 3.1 8B",
+        "provider": "groq",
+        "model_id": "llama-3.1-8b-instant"
+      }
+    ],
+    "corpus_articles": [
+      {
+        "title": "Breast cancer",
+        "type": "disease"
+      },
+      {
+        "title": "Chronic myeloid leukemia",
+        "type": "disease"
+      },
+      {
+        "title": "Melanoma",
+        "type": "disease"
+      },
+      {
+        "title": "Trastuzumab",
+        "type": "drug"
+      },
+      {
+        "title": "Imatinib",
+        "type": "drug"
+      },
+      {
+        "title": "Pembrolizumab",
+        "type": "drug"
+      },
+      {
+        "title": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "title": "EZH2",
+        "type": "gene"
+      },
+      {
+        "title": "Apoptosis",
+        "type": "pathway"
+      },
+      {
+        "title": "P53",
+        "type": "pathway"
+      }
+    ],
+    "chunk_tokens": 500,
+    "chunk_overlap": 50,
+    "extraction_temperature": 0.0,
+    "extraction_prompt_variant": "default",
+    "packages": {
+      "openai": "2.31.0",
+      "anthropic": "0.95.0",
+      "tiktoken": "0.12.0",
+      "networkx": "3.6.1",
+      "pandas": "2.3.3",
+      "numpy": "2.4.4",
+      "matplotlib": "3.10.8",
+      "scikit-learn": "not-installed",
+      "google-genai": "not-installed",
+      "python-dotenv": "not-installed"
+    },
+    "env_keys_present": {
+      "OPENAI_API_KEY": true,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": true,
+      "GROQ_API_KEY": true,
+      "MISTRAL_API_KEY": false
+    }
+  },
+  {
+    "timestamp": "2026-04-17T07:33:15+00:00",
+    "python_version": "3.12.3",
+    "platform": "Linux-6.17.0-1009-gcp-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "git_hash": "6efd084",
+    "models": [
+      {
+        "display_name": "GPT-5",
+        "provider": "openai",
+        "model_id": "gpt-5"
+      },
+      {
+        "display_name": "GPT-5 mini",
+        "provider": "openai",
+        "model_id": "gpt-5-mini"
+      },
+      {
+        "display_name": "o4-mini",
+        "provider": "openai",
+        "model_id": "o4-mini"
+      },
+      {
+        "display_name": "Llama 3.3 70B",
+        "provider": "groq",
+        "model_id": "llama-3.3-70b-versatile"
+      },
+      {
+        "display_name": "Llama 3.1 8B",
+        "provider": "groq",
+        "model_id": "llama-3.1-8b-instant"
+      }
+    ],
+    "corpus_articles": [
+      {
+        "title": "Breast cancer",
+        "type": "disease"
+      },
+      {
+        "title": "Chronic myeloid leukemia",
+        "type": "disease"
+      },
+      {
+        "title": "Melanoma",
+        "type": "disease"
+      },
+      {
+        "title": "Trastuzumab",
+        "type": "drug"
+      },
+      {
+        "title": "Imatinib",
+        "type": "drug"
+      },
+      {
+        "title": "Pembrolizumab",
+        "type": "drug"
+      },
+      {
+        "title": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "title": "EZH2",
+        "type": "gene"
+      },
+      {
+        "title": "Apoptosis",
+        "type": "pathway"
+      },
+      {
+        "title": "P53",
+        "type": "pathway"
+      }
+    ],
+    "chunk_tokens": 500,
+    "chunk_overlap": 50,
+    "extraction_temperature": 0.0,
+    "extraction_prompt_variant": "default",
+    "packages": {
+      "openai": "2.31.0",
+      "anthropic": "0.95.0",
+      "tiktoken": "0.12.0",
+      "networkx": "3.6.1",
+      "pandas": "2.3.3",
+      "numpy": "2.4.4",
+      "matplotlib": "3.10.8",
+      "scikit-learn": "not-installed",
+      "google-genai": "not-installed",
+      "python-dotenv": "not-installed"
+    },
+    "env_keys_present": {
+      "OPENAI_API_KEY": true,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": true,
+      "GROQ_API_KEY": true,
+      "MISTRAL_API_KEY": false
+    }
+  },
+  {
+    "timestamp": "2026-04-17T07:38:56+00:00",
+    "python_version": "3.12.3",
+    "platform": "Linux-6.17.0-1009-gcp-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "git_hash": "6efd084",
+    "models": [
+      {
+        "display_name": "GPT-5",
+        "provider": "openai",
+        "model_id": "gpt-5"
+      },
+      {
+        "display_name": "GPT-5 mini",
+        "provider": "openai",
+        "model_id": "gpt-5-mini"
+      },
+      {
+        "display_name": "o4-mini",
+        "provider": "openai",
+        "model_id": "o4-mini"
+      },
+      {
+        "display_name": "Llama 3.3 70B",
+        "provider": "groq",
+        "model_id": "llama-3.3-70b-versatile"
+      },
+      {
+        "display_name": "Llama 3.1 8B",
+        "provider": "groq",
+        "model_id": "llama-3.1-8b-instant"
+      }
+    ],
+    "corpus_articles": [
+      {
+        "title": "Breast cancer",
+        "type": "disease"
+      },
+      {
+        "title": "Chronic myeloid leukemia",
+        "type": "disease"
+      },
+      {
+        "title": "Melanoma",
+        "type": "disease"
+      },
+      {
+        "title": "Trastuzumab",
+        "type": "drug"
+      },
+      {
+        "title": "Imatinib",
+        "type": "drug"
+      },
+      {
+        "title": "Pembrolizumab",
+        "type": "drug"
+      },
+      {
+        "title": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "title": "EZH2",
+        "type": "gene"
+      },
+      {
+        "title": "Apoptosis",
+        "type": "pathway"
+      },
+      {
+        "title": "P53",
+        "type": "pathway"
+      }
+    ],
+    "chunk_tokens": 500,
+    "chunk_overlap": 50,
+    "extraction_temperature": 0.0,
+    "extraction_prompt_variant": "default",
+    "packages": {
+      "openai": "2.31.0",
+      "anthropic": "0.95.0",
+      "tiktoken": "0.12.0",
+      "networkx": "3.6.1",
+      "pandas": "2.3.3",
+      "numpy": "2.4.4",
+      "matplotlib": "3.10.8",
+      "scikit-learn": "not-installed",
+      "google-genai": "not-installed",
+      "python-dotenv": "not-installed"
+    },
+    "env_keys_present": {
+      "OPENAI_API_KEY": true,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": true,
+      "GROQ_API_KEY": true,
+      "MISTRAL_API_KEY": false
+    }
   }
-}
+]

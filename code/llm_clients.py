@@ -61,6 +61,11 @@ def estimate_cost(model_id: str, n_in: int, n_out: int) -> float:
 
 # ---- Client cache ----
 _CLIENTS: dict[str, object] = {}
+_LAST_CALL_TS: dict[str, float] = {}
+_GROQ_KEYS: list[str] | None = None
+_GROQ_KEY_INDEX: int = 0
+_GEMINI_KEYS: list[str] | None = None
+_GEMINI_KEY_INDEX: int = 0
 
 
 def _openai_client():
@@ -85,6 +90,67 @@ def _openai_compat_client(base_url: str, api_key_env: str, cache_key: str):
             base_url=base_url,
         )
     return _CLIENTS[cache_key]
+
+
+def _groq_keys() -> list[str]:
+    """Return ordered Groq keys from env: GROQ_API_KEY, GROQ_API_KEY_2.._10."""
+    global _GROQ_KEYS
+    if _GROQ_KEYS is not None:
+        return _GROQ_KEYS
+
+    keys: list[str] = []
+    for name in ["GROQ_API_KEY"] + [f"GROQ_API_KEY_{i}" for i in range(2, 11)]:
+        v = os.environ.get(name, "").strip()
+        if v:
+            keys.append(v)
+    if not keys:
+        raise KeyError("Missing GROQ_API_KEY (and GROQ_API_KEY_2..10)")
+    _GROQ_KEYS = keys
+    return _GROQ_KEYS
+
+
+def _groq_client_with_active_key():
+    """Build a Groq OpenAI-compatible client using the currently active key."""
+    from openai import OpenAI
+    keys = _groq_keys()
+    key = keys[_GROQ_KEY_INDEX % len(keys)]
+    return OpenAI(api_key=key, base_url="https://api.groq.com/openai/v1")
+
+
+def _rotate_groq_key() -> None:
+    global _GROQ_KEY_INDEX
+    keys = _groq_keys()
+    _GROQ_KEY_INDEX = (_GROQ_KEY_INDEX + 1) % len(keys)
+
+
+def _gemini_keys() -> list[str]:
+    """Return ordered Gemini keys from env: GEMINI_API_KEY, GEMINI_API_KEY_2.._10."""
+    global _GEMINI_KEYS
+    if _GEMINI_KEYS is not None:
+        return _GEMINI_KEYS
+
+    keys: list[str] = []
+    for name in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 11)]:
+        v = os.environ.get(name, "").strip()
+        if v:
+            keys.append(v)
+    if not keys:
+        raise KeyError("Missing GEMINI_API_KEY (and GEMINI_API_KEY_2..10)")
+    _GEMINI_KEYS = keys
+    return _GEMINI_KEYS
+
+
+def _gemini_client_with_active_key():
+    from google import genai
+    keys = _gemini_keys()
+    key = keys[_GEMINI_KEY_INDEX % len(keys)]
+    return genai.Client(api_key=key)
+
+
+def _rotate_gemini_key() -> None:
+    global _GEMINI_KEY_INDEX
+    keys = _gemini_keys()
+    _GEMINI_KEY_INDEX = (_GEMINI_KEY_INDEX + 1) % len(keys)
 
 
 # ---- Main entry point ----
@@ -160,13 +226,17 @@ def chat(
                 n_out = r.usage.output_tokens
 
             elif provider == "gemini":
-                # Use the native Google GenAI SDK
-                if "gemini" not in _CLIENTS:
-                    from google import genai
-                    _CLIENTS["gemini"] = genai.Client(
-                        api_key=os.environ["GEMINI_API_KEY"]
-                    )
-                client = _CLIENTS["gemini"]
+                # Use Gemini key rotation if multiple keys are set.
+                client = _gemini_client_with_active_key()
+
+                # Safety throttle for free-tier style limits (e.g., ~5 req/min).
+                # Keep at least ~13s between Gemini calls from this process.
+                min_interval_sec = 13.0
+                last_ts = _LAST_CALL_TS.get("gemini", 0.0)
+                now_ts = time.time()
+                if now_ts - last_ts < min_interval_sec:
+                    time.sleep(min_interval_sec - (now_ts - last_ts))
+
                 from google.genai import types as gtypes
                 r = client.models.generate_content(
                     model=model_id,
@@ -179,11 +249,10 @@ def chat(
                 text  = r.text or ""
                 n_in  = getattr(r.usage_metadata, "prompt_token_count", 0)
                 n_out = getattr(r.usage_metadata, "candidates_token_count", 0)
+                _LAST_CALL_TS["gemini"] = time.time()
 
             elif provider == "groq":
-                client = _openai_compat_client(
-                    "https://api.groq.com/openai/v1",
-                    "GROQ_API_KEY", "groq")
+                client = _groq_client_with_active_key()
                 r = client.chat.completions.create(
                     model=model_id,
                     messages=[{"role": "system", "content": system},
@@ -211,9 +280,11 @@ def chat(
                 n_out = r.usage.completion_tokens
 
             elif provider == "kimi":
-                client = _openai_compat_client(
-                    "https://api.moonshot.cn/v1",
-                    "KIMI_API_KEY", "kimi")
+                kimi_key = os.environ.get("MOONSHOT_API_KEY") or os.environ.get("KIMI_API_KEY")
+                if not kimi_key:
+                    raise KeyError("Missing MOONSHOT_API_KEY / KIMI_API_KEY")
+                from openai import OpenAI
+                client = OpenAI(api_key=kimi_key, base_url="https://api.moonshot.cn/v1")
                 r = client.chat.completions.create(
                     model=model_id,
                     messages=[{"role": "system", "content": system},
@@ -288,6 +359,36 @@ def chat(
 
         except Exception as e:
             last_err = e
+            err_s = str(e).lower()
+
+            # Groq key rotation for quota/rate/credit failures.
+            if provider == "groq" and any(k in err_s for k in [
+                "rate limit", "too many requests", "quota", "insufficient", "credit", "token per day",
+            ]):
+                try:
+                    old_idx = _GROQ_KEY_INDEX
+                    _rotate_groq_key()
+                    print(
+                        f"  [warn] {provider}/{model_id} quota/rate issue on key#{old_idx + 1}; "
+                        f"rotated to key#{_GROQ_KEY_INDEX + 1}"
+                    )
+                except Exception:
+                    pass
+
+            # Gemini key rotation for quota/rate failures.
+            if provider == "gemini" and any(k in err_s for k in [
+                "resource_exhausted", "quota", "rate limit", "too many requests", "429",
+            ]):
+                try:
+                    old_idx = _GEMINI_KEY_INDEX
+                    _rotate_gemini_key()
+                    print(
+                        f"  [warn] {provider}/{model_id} quota/rate issue on key#{old_idx + 1}; "
+                        f"rotated to key#{_GEMINI_KEY_INDEX + 1}"
+                    )
+                except Exception:
+                    pass
+
             wait = 2 ** attempt
             print(f"  [warn] {provider}/{model_id} attempt {attempt + 1} failed: {e}; "
                   f"retry in {wait}s")

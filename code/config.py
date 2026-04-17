@@ -46,16 +46,19 @@ CHUNK_OVERLAP_TOKENS = 50
 # To add/remove models, comment/uncomment lines below.
 # Use the exact model_id each provider lists in their docs.
 MODELS = [
-    # --- OpenAI (paid, you have a key) ---
-    ("GPT-5",              "openai",  "gpt-5"),
-    ("GPT-5 mini",         "openai",  "gpt-5-mini"),
-    ("o4-mini",            "openai",  "o4-mini"),       # reasoning model
+    # --- OpenAI (excluded for this run) ---
+    # ("GPT-5",                  "openai",     "gpt-5"),
+    # ("GPT-5 mini",             "openai",     "gpt-5-mini"),
+    # ("o4-mini",                "openai",     "o4-mini"),
 
-    # --- Google AI Studio (free) ---
-    ("Gemini 2.5 Flash",   "gemini",  "gemini-2.5-flash"),
+    # --- Anthropic via Claude CLI (no Anthropic API key) ---
+    ("Claude Sonnet 4.6 CLI",  "claude_cli", "sonnet"),
+    ("Claude Opus Latest CLI", "claude_cli", "opus"),
 
+    # --- Google ---
+    ("Gemini 2.5 Flash",       "gemini",     "gemini-2.5-flash"),
 
-    # --- Groq (free) ---
-    ("Llama 3.3 70B",      "groq",    "llama-3.3-70b-versatile"),
-    ("Llama 3.1 8B",       "groq",    "llama-3.1-8b-instant"),
+    # --- Groq ---
+    ("Llama 3.3 70B",          "groq",       "llama-3.3-70b-versatile"),
+    ("Llama 3.1 8B",           "groq",       "llama-3.1-8b-instant"),
 ]

@@ -30,6 +30,7 @@ import json
 import re
 import sys
 import time
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -55,6 +56,42 @@ def slugify(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
 
 
+def _clean_llm_text(text: str) -> str:
+    """Strip common non-JSON wrappers (<think>, markdown fences, prose)."""
+    t = (text or "").strip()
+
+    # Remove any number of leading <think>...</think> blocks.
+    while True:
+        t2 = re.sub(r"^\s*<think>.*?</think>\s*", "", t, flags=re.DOTALL | re.IGNORECASE)
+        if t2 == t:
+            break
+        t = t2.strip()
+
+    # Remove markdown code fences (including ```json)
+    t = re.sub(r"^```(?:json)?\s*", "", t, flags=re.IGNORECASE)
+    t = re.sub(r"\s*```\s*$", "", t)
+    return t.strip()
+
+
+def _normalize_predicate(value: object) -> str:
+    """Normalize relation labels to snake_case with trimmed separators."""
+    s = str(value or "").strip().lower()
+    s = re.sub(r"[^a-z0-9]+", "_", s)
+    s = re.sub(r"_+", "_", s).strip("_")
+    return s
+
+
+def _normalize_triples(triples: list[dict]) -> list[dict]:
+    out: list[dict] = []
+    for t in triples:
+        if not isinstance(t, dict):
+            continue
+        tt = dict(t)
+        tt["predicate"] = _normalize_predicate(tt.get("predicate", ""))
+        out.append(tt)
+    return out
+
+
 def parse_json_response(text: str) -> list[dict]:
     """Best-effort extraction of the {triples: [...]} block from LLM output.
 
@@ -63,10 +100,7 @@ def parse_json_response(text: str) -> list[dict]:
         - Truncated JSON (missing closing brackets — common with small models)
         - Extra prose before/after the JSON
     """
-    text = text.strip()
-    # Strip markdown fences if present
-    text = re.sub(r"^```(?:json)?\s*", "", text)
-    text = re.sub(r"\s*```\s*$", "", text)
+    text = _clean_llm_text(text)
 
     # Locate the start of the JSON object
     start = text.find("{")
@@ -103,6 +137,37 @@ def parse_json_response(text: str) -> list[dict]:
     return obj["triples"]
 
 
+def _snapshot_checkpoint(
+    *,
+    checkpoint_dir: Path,
+    slug: str,
+    out_csv: Path,
+    log_path: Path,
+    chunk_id: int,
+    key_index: int | None = None,
+) -> None:
+    checkpoint_dir.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    csv_snap = checkpoint_dir / f"extracted_triples_{slug}__chunk_{chunk_id}__{ts}.csv"
+    log_snap = checkpoint_dir / f"extraction_{slug}__chunk_{chunk_id}__{ts}.jsonl"
+    if out_csv.exists():
+        shutil.copy2(out_csv, csv_snap)
+    if log_path.exists():
+        shutil.copy2(log_path, log_snap)
+
+    progress = {
+        "slug": slug,
+        "last_chunk": chunk_id,
+        "timestamp_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    if key_index is not None:
+        progress["key_index"] = key_index
+
+    (checkpoint_dir / f"progress_{slug}.json").write_text(
+        json.dumps(progress, indent=2), encoding="utf-8"
+    )
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--provider", required=True,
@@ -120,6 +185,10 @@ def main() -> int:
                     help="hard cap on number of chunks (for cost control)")
     ap.add_argument("--temperature", type=float, default=0.0)
     ap.add_argument("--max-output-tokens", type=int, default=2000)
+    ap.add_argument("--resume", action="store_true",
+                    help="resume from existing extraction log/csv if present")
+    ap.add_argument("--checkpoint-every", type=int, default=0,
+                    help="snapshot CSV+JSONL every N successful chunks (0 disables)")
     args = ap.parse_args()
 
     chunks = json.loads((CORPUS / "chunks.json").read_text(encoding="utf-8"))
@@ -143,38 +212,96 @@ def main() -> int:
     print(f"  chunks: {len(chunks)}  ({chunks[0]['chunk_id']}..{chunks[-1]['chunk_id']})\n")
 
     log_path = LOGS / f"extraction_{slug}.jsonl"
-    log_f = log_path.open("w", encoding="utf-8")
+    out_csv = RESULTS / f"extracted_triples_{slug}.csv"
+    checkpoint_dir = Path("runtime/checkpoints")
 
+    completed_chunk_ids: set[int] = set()
+    if args.resume and log_path.exists():
+        for line in log_path.read_text(encoding="utf-8").splitlines():
+            try:
+                row = json.loads(line)
+            except Exception:
+                continue
+            if "n_triples" in row and "chunk_id" in row:
+                completed_chunk_ids.add(int(row["chunk_id"]))
+
+    if completed_chunk_ids:
+        chunks = [c for c in chunks if c["chunk_id"] not in completed_chunk_ids]
+        print(f"  resume: skipping {len(completed_chunk_ids)} already completed chunks")
+
+    # keep prior successful triples when resuming
     all_triples: list[dict] = []
+    if args.resume and out_csv.exists():
+        try:
+            prev_df = pd.read_csv(out_csv)
+            all_triples = prev_df.to_dict(orient="records")
+            print(f"  resume: loaded {len(all_triples)} prior triples from {out_csv}")
+        except Exception as e:
+            print(f"  [warn] could not read existing CSV for resume: {e}")
+
+    if not chunks:
+        print("All selected chunks already completed.")
+        return 0
+
+    log_f = log_path.open("a" if args.resume else "w", encoding="utf-8")
+
     total_in = total_out = 0
     total_cost = 0.0
     t_start = time.time()
+    successful_since_checkpoint = 0
 
     for c in chunks:
         user = EXTRACTION_USER_TEMPLATE.format(text=c["text"])
-        try:
-            resp = chat(
-                provider=args.provider,
-                model_id=args.model,
-                system=system,
-                user=user,
-                max_tokens=args.max_output_tokens,
-                temperature=args.temperature,
-            )
-        except Exception as e:
-            print(f"  [chunk {c['chunk_id']}] FAILED: {e}")
-            log_f.write(json.dumps({
-                "chunk_id": c["chunk_id"], "error": str(e)
-            }) + "\n")
+        is_gpt_model = args.model.startswith("gpt-")
+
+        # Per-chunk parse retries (in addition to provider/client retries).
+        max_parse_attempts = 3
+        resp = None
+        triples = None
+        parse_err: Exception | None = None
+
+        for parse_attempt in range(1, max_parse_attempts + 1):
+            try:
+                resp = chat(
+                    provider=args.provider,
+                    model_id=args.model,
+                    system=system,
+                    user=user,
+                    max_tokens=args.max_output_tokens,
+                    temperature=args.temperature,
+                    retries=1 if is_gpt_model else 3,
+                )
+            except Exception as e:
+                print(f"  [chunk {c['chunk_id']}] FAILED: {e}")
+                log_f.write(json.dumps({
+                    "chunk_id": c["chunk_id"], "error": str(e)
+                }) + "\n")
+                resp = None
+                break
+
+            try:
+                triples = _normalize_triples(parse_json_response(resp.text))
+                parse_err = None
+                break
+            except ValueError as e:
+                parse_err = e
+                if parse_attempt < max_parse_attempts:
+                    print(
+                        f"  [chunk {c['chunk_id']}] PARSE ERROR on attempt "
+                        f"{parse_attempt}/{max_parse_attempts}: {e}; retrying chunk"
+                    )
+                    time.sleep(1)
+                else:
+                    print(f"  [chunk {c['chunk_id']}] PARSE ERROR: {e}")
+
+        if resp is None:
             continue
 
-        try:
-            triples = parse_json_response(resp.text)
-        except ValueError as e:
-            print(f"  [chunk {c['chunk_id']}] PARSE ERROR: {e}")
+        if triples is None:
             log_f.write(json.dumps({
-                "chunk_id": c["chunk_id"], "parse_error": str(e),
-                "raw_response": resp.text
+                "chunk_id": c["chunk_id"],
+                "parse_error": str(parse_err) if parse_err else "unknown parse error",
+                "raw_response": resp.text,
             }) + "\n")
             continue
 
@@ -196,6 +323,36 @@ def main() -> int:
             "n_triples":     len(triples),
             "raw_response":  resp.text,
         }) + "\n")
+        log_f.flush()
+
+        # Persist partial CSV every successful chunk so restarts lose almost nothing.
+        df = pd.DataFrame(all_triples)
+        cols = ["chunk_id", "source_article", "subject", "subject_type",
+                "predicate", "object", "object_type", "evidence_span"]
+        for ccol in cols:
+            if ccol not in df.columns:
+                df[ccol] = ""
+        df = df[cols + [ccol for ccol in df.columns if ccol not in cols]]
+        df.to_csv(out_csv, index=False)
+
+        successful_since_checkpoint += 1
+        if args.checkpoint_every > 0 and successful_since_checkpoint >= args.checkpoint_every:
+            key_index = None
+            if args.provider == "groq":
+                try:
+                    from llm_clients import _GROQ_KEY_INDEX  # type: ignore
+                    key_index = int(_GROQ_KEY_INDEX) + 1
+                except Exception:
+                    key_index = None
+            _snapshot_checkpoint(
+                checkpoint_dir=checkpoint_dir,
+                slug=slug,
+                out_csv=out_csv,
+                log_path=log_path,
+                chunk_id=c["chunk_id"],
+                key_index=key_index,
+            )
+            successful_since_checkpoint = 0
 
         print(f"  chunk {c['chunk_id']:>3}: {len(triples):>3} triples, "
               f"{resp.n_input_tokens:>5}+{resp.n_output_tokens:>4} tok, "

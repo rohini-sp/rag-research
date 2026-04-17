@@ -145,9 +145,11 @@ def main() -> int:
         user = QA_USER_TEMPLATE.format(question=q["question"], evidence_block=evidence)
 
         try:
+            is_gpt_model = args.model.startswith("gpt-")
             resp = chat(provider=args.provider, model_id=args.model,
                         system=QA_SYSTEM, user=user,
-                        max_tokens=args.max_tokens, temperature=args.temperature)
+                        max_tokens=args.max_tokens, temperature=args.temperature,
+                        retries=1 if is_gpt_model else 3)
             answer = resp.text.strip()
             cost   = resp.cost_usd
         except Exception as e:

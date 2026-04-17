@@ -45,15 +45,26 @@ def main() -> int:
     for display, provider, model_id in MODELS:
         print(f"\n{'=' * 70}\n  {display}  ({provider}/{model_id})\n{'=' * 70}")
 
-        # 1. Extraction
-        cmd = [PY, str(CODE / "run_extraction.py"),
-               "--provider", provider, "--model", model_id,
-               "--display-name", display,
-               "--prompt-variant", args.prompt_variant]
-        if args.gold_only:
-            cmd.append("--gold-only")
-        if run(cmd) != 0:
-            print(f"[skip] extraction failed for {display}")
+        # Retry policy: retry all models except GPT-* models
+        max_attempts = 1 if model_id.startswith("gpt-") else 3
+
+        extraction_ok = False
+        for attempt in range(1, max_attempts + 1):
+            # 1. Extraction
+            cmd = [PY, str(CODE / "run_extraction.py"),
+                   "--provider", provider, "--model", model_id,
+                   "--display-name", display,
+                   "--prompt-variant", args.prompt_variant]
+            if args.gold_only:
+                cmd.append("--gold-only")
+            rc = run(cmd)
+            if rc == 0:
+                extraction_ok = True
+                break
+            print(f"[warn] extraction attempt {attempt}/{max_attempts} failed for {display}")
+
+        if not extraction_ok:
+            print(f"[skip] extraction failed for {display} after {max_attempts} attempt(s)")
             continue
 
         # 2. Metrics
@@ -72,8 +83,12 @@ def main() -> int:
 
         # 3. QA
         if not args.skip_qa:
-            run([PY, str(CODE / "qa_eval.py"),
-                 "--llm", display, "--provider", provider, "--model", model_id])
+            for qa_attempt in range(1, max_attempts + 1):
+                qa_rc = run([PY, str(CODE / "qa_eval.py"),
+                             "--llm", display, "--provider", provider, "--model", model_id])
+                if qa_rc == 0:
+                    break
+                print(f"[warn] qa attempt {qa_attempt}/{max_attempts} failed for {display}")
 
     # 4. Auto-grade QA (if QA was run)
     if not args.skip_qa:

@@ -199,7 +199,21 @@ def main() -> int:
 
         print(f"  chunk {c['chunk_id']:>3}: {len(triples):>3} triples, "
               f"{resp.n_input_tokens:>5}+{resp.n_output_tokens:>4} tok, "
-              f"{resp.elapsed_sec}s, ${resp.cost_usd:.4f}")
+              f"{resp.elapsed_sec}s, ${resp.cost_usd:.4f}", flush=True)
+
+        # ---- Incremental save every 10 chunks so we don't lose work
+        #      if the run aborts (rate limit, network error, Ctrl-C) ----
+        if all_triples and len(all_triples) % 50 == 0:
+            out_csv = RESULTS / f"extracted_triples_{slug}.csv"
+            df = pd.DataFrame(all_triples)
+            cols = ["chunk_id", "source_article", "subject", "subject_type",
+                    "predicate", "object", "object_type", "evidence_span"]
+            for col in cols:
+                if col not in df.columns:
+                    df[col] = ""
+            df = df[cols + [x for x in df.columns if x not in cols]]
+            df.to_csv(out_csv, index=False)
+            log_f.flush()
 
     log_f.close()
     elapsed = round(time.time() - t_start, 1)

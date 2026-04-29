@@ -1,0 +1,32 @@
+chunk_id,source_article,subject,subject_type,predicate,object,object_type,evidence_span
+112,EZH2,DZNep,drug,reduces_levels_of,EZH2,gene,it lowers EZH2 levels
+112,EZH2,DZNep,drug,induces,apoptosis,other,induces apoptosis in breast and colon cancer cells
+112,EZH2,DZNep,drug,inhibits,hydrolysis of S-adenosyl-L-homocysteine,other,inhibits the hydrolysis of S-adenosyl-L-homocysteine (SAH)
+112,EZH2,S-adenosyl-L-homocysteine,chemical,inhibits,EZH2,gene,which in turn inhibits EZH2
+112,EZH2,S-adenosyl-L-homocysteine,chemical,inhibits,all protein methyltransferases,other,is a product-based inhibitor of all protein methyltransferases
+112,EZH2,DZNep,drug,inhibits,DNA methyltransferases,other,also inhibits other DNA methyltransferases
+112,EZH2,EPZ005687,drug,inhibits,EZH2,gene,blocks EZH2 activity by binding to the SET domain active site
+112,EZH2,EPZ005687,drug,binds,SET domain active site,other,binding to the SET domain active site of the enzyme
+112,EZH2,EPZ005687,drug,inhibits,EZH2 Y641 mutant,gene,can also inhibit the Y641 ... mutant of EZH2
+112,EZH2,EPZ005687,drug,inhibits,EZH2 A677 mutant,gene,and A677 mutants of EZH2
+112,EZH2,EPZ005687,drug,treats,non-Hodgkin's lymphoma,disease,may be applicable for treating non-Hodgkin's lymphoma
+112,EZH2,Tazemetostat,drug,inhibits,EZH2,gene,"another EZH2 inhibitor, tazemetostat"
+112,EZH2,Tazemetostat,drug,in_trial_for,B-cell lymphoma,disease,Phase I clinical trials ... for patients with B-cell lymphoma
+112,EZH2,Tazemetostat,drug,approved_by,FDA,organisation,gained an FDA accelerated approval
+112,EZH2,Tazemetostat,drug,treats,metastatic or locally advanced epithelioid sarcoma,disease,treatment of metastatic or locally advanced epithelioid sarcoma
+112,EZH2,Tazemetostat,drug,treats,relapsed follicular lymphoma,disease,treatment of patients with relapsed follicular lymphoma
+112,EZH2,Sinefungin,drug,binds,cofactor binding pocket of DNA methyltransferases,other,binding in the cofactor binding pocket of DNA methyltransferases
+112,EZH2,Sinefungin,drug,blocks,methyl transfer,other,to block methyl transfer
+112,EZH2,EI1,drug,developed_by,Novartis,organisation,developed by Novartis
+112,EZH2,EI1,drug,inhibits,EZH2,gene,showed EZH2 inhibitory activity in lymphoma tumor cells
+112,EZH2,EI1,drug,competes_with,S-adenosylmethionine,chemical,competing with the SAM cofactor for binding to EZH2
+112,EZH2,GSK126,drug,developed_by,GlaxoSmithKline,organisation,developed by GlaxoSmithKline
+112,EZH2,GSK126,drug,inhibits,EZH2,gene,SAM-competitive EZH2 inhibitor
+112,EZH2,GSK126,drug,has_selectivity_for,EZH2 over EZH1,gene,150-fold selectivity over EZH1
+112,EZH2,UNC1999,drug,developed_as_analogue_of,GSK126,drug,developed as an analogue of GSK126
+112,EZH2,UNC1999,drug,inhibits,EZH2,gene,first orally bioavailable EZH2 inhibitor to show activity
+112,EZH2,UNC1999,drug,binds,EZH1,gene,it binds to EZH1 as well
+112,EZH2,Etoposide,drug,combined_with,EZH2 inhibitor,drug,when combined with an EZH2 inhibitor
+112,EZH2,Etoposide and an EZH2 inhibitor,other,more_effective_for,non-small cell lung cancers with BRG1 and EGFR mutations,disease,becomes more effective for non-small cell lung cancers with BRG1 and EGFR mutations
+112,EZH2,EZH2,gene,has_tumor_suppressing_activity,tumor suppressing activity,other,EZH2 and lysine methylation can have tumor suppressing activity
+112,EZH2,lysine methylation,other,has_tumor_suppressing_activity,tumor suppressing activity,other,EZH2 and lysine methylation can have tumor suppressing activity

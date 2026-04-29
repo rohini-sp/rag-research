@@ -1,0 +1,9 @@
+llm,provider,model_id,prompt_variant,n_chunks,n_triples,wall_clock_sec,n_input_tokens,n_output_tokens,cost_usd,qa_correct_out_of_10,evaluated_at
+GPT-5,openai,gpt-5,default,1,44,147.5,887,14507,0.222,,2026-04-16T21:47:53+00:00
+GPT-5 mini,openai,gpt-5-mini,default,1,41,110.6,887,8567,0.0105,,2026-04-16T21:49:46+00:00
+o4-mini,openai,o4-mini,default,1,31,74.9,887,6280,0.0286,,2026-04-16T21:51:02+00:00
+Kimi K2.5,kimi,kimi-k2.5,default,1,0,10.3,0,0,0.0,,2026-04-16T21:51:15+00:00
+Claude Sonnet 4.6 CLI,claude_cli,sonnet,default,148,2926,4375.7,0,0,0.0,,2026-04-17T08:20:10+00:00
+Llama 3.3 70B,groq,llama-3.3-70b-versatile,default,147,1730,1103.9,109302,118817,0.0,,2026-04-17T09:23:47+00:00
+Claude Opus Latest CLI,claude_cli,opus,default,61,1279,1136.1,0,0,0.0,,2026-04-17T09:28:02+00:00
+Llama 3.1 8B,groq,llama-3.1-8b-instant,default,64,2272,1269.0,46159,78176,0.0,,2026-04-17T10:02:22+00:00

@@ -1,0 +1,42 @@
+question_id,type,question,expected_answer,n_seeds,subgraph_nodes,subgraph_edges,answer,cost_usd,score,notes
+1,single-hop,Which company developed tazemetostat?,Epizyme,1,3,2,Answer not supported by retrieved evidence.,0.0,,
+2,multi-hop,What drugs treat epithelioid sarcoma and target the EZH2 gene product?,Tazemetostat,1,83,90,Answer not supported by retrieved evidence.,0.0,,
+3,single-hop,What was the original tradename of trastuzumab when it was first approved?,Herceptin,1,219,267,Answer not supported by retrieved evidence.,0.0,,
+4,multi-hop,"Imatinib is used to treat which leukemia, and what fusion protein does it inhibit?",Chronic myeloid leukemia; BCR-ABL,2,202,246,"Imatinib is used to treat Chronic Myelogenous Leukemia (CML), and it inhibits the BCR-ABL fusion protein.
+
+[CML | is_linked_to | bcr-abl protein] [bcr-abl protein | is_target_of | imatinib] [cml | is_linked_to | bcr-abl protein]",0.0,,
+5,comparison,Which is more selective for EZH2 over EZH1 — GSK126 or EPZ005687?,"GSK126 is more selective (150-fold over EZH1, vs 50-fold for EPZ005687).",4,89,96,Answer not supported by retrieved evidence.,0.0,,
+6,single-hop,Which tumour-suppressor gene encodes a protein commonly called 'the guardian of the genome'?,TP53 (p53),1,9,9,Answer not supported by retrieved evidence.,0.0,,
+7,multi-hop,"Mutations in which gene predispose women to a much higher lifetime risk of breast cancer, and what type of protein does it encode?",BRCA1; a tumour suppressor / DNA repair protein,4,313,374,"Mutations in the BRCA1 and BRCA2 genes predispose women to a much higher lifetime risk of breast cancer. These genes encode for proteins that help repair damaged DNA and maintain the stability of a cell's genetic material.
+
+[16: breast cancer | is_caused_by | brca mutations]
+[17: breast cancer | develops_in | cells from the lining of milk ducts]
+[16: breast cancer | is_caused_by | brca mutations]
+[1: (marine omega-3 polyunsaturated fatty acids | reduce_risk_of | breast cancer)]
+[8: (diet high in vegetables, fruits, whole grains, and legumes | reduce_risk_of | breast cancer)]
+[4: (avoiding smoking | prevents | breast cancer)]
+[48: (breast cancer | decreased_by | breastfeeding)]
+[51: (breast cancer | decreased_by | hormone treatment with estrogen alone)]",0.0,,
+8,aggregation,List at least three EZH2 inhibitors mentioned in the corpus.,"Any three of: DZNep, EPZ005687, EI1, GSK126, UNC1999, tazemetostat",2,91,98,Answer not supported by retrieved evidence.,0.0,,
+9,multi-hop,"Pembrolizumab is a checkpoint inhibitor — which immune-checkpoint receptor does it target, and which skin cancer is it commonly used to treat?",Targets PD-1; used to treat melanoma (also other cancers),4,370,454,"Pembrolizumab targets the PD-1 immune-checkpoint receptor. It is commonly used to treat melanoma.
+
+The answer is supported by the following triples:
+[Pembrolizumab | targets | PD-1] (not present in the retrieved evidence, but it is known that pembrolizumab targets PD-1)
+However, we can infer that pembrolizumab targets PD-1 from the fact that it is a checkpoint inhibitor, and PD-1 is a checkpoint receptor. Unfortunately, this information is not present in the retrieved evidence.
+
+However, we can infer that pembrolizumab is used to treat melanoma from the following triples:
+[T19: (temozolomide | is_potential_treatment_option | melanoma)]
+[T20: (cdkn2a mutations | increases_risk | melanoma)]
+[T25: (uv nail lamps | increases_risk_of | melanoma)]
+[T28: (sunscreen | is_effective_against | melanoma)]
+[T29: (rené laennec | describes | melanoma)]
+[T30: (rené laennec | presents_report | melanoma)]
+
+Answer not supported by retrieved evidence for the immune-checkpoint receptor targeted by pembrolizumab.",0.0,,
+10,mechanism,Apoptosis is regulated by two main protein families — name them and say briefly what each does.,Caspases (proteases that execute the cell-death programme) and the Bcl-2 family (anti- and pro-apoptotic regulators of mitochondrial outer-membrane permeabilisation).,3,279,337,"The two main protein families that regulate apoptosis are:
+
+1. The Tumor Necrosis Factor Receptor (TNFR) family, which includes death receptors that initiate apoptosis (T11). 
+   [T9, T10, T11]
+2. The BCL-2 family is not mentioned in the retrieved evidence, but the BCL-2 family is a well-known protein family that regulates apoptosis. However, the retrieved evidence does mention the BRCA1 protein, which is involved in DNA repair and has a role in apoptosis regulation. However, it is not a main protein family that regulates apoptosis.
+
+However, the retrieved evidence does not provide enough information to name the second main protein family that regulates apoptosis.",0.0,,

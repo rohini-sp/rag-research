@@ -14,24 +14,23 @@ for d in (CORPUS, GOLD, RESULTS, GRAPHS, LOGS, PLOTS):
     d.mkdir(parents=True, exist_ok=True)
 
 # ---- Corpus definition ----
-# 10 Wikipedia articles spanning four entity types in the cancer drug-target domain.
-# Article titles are exact Wikipedia page titles (case- and punctuation-sensitive).
+# 5 Wikipedia articles spanning four entity types in the cancer drug-target
+# domain. Shrunk from 10 to keep full-corpus runs tractable within the
+# free-tier token budgets of Groq and Gemini.
 CORPUS_ARTICLES = [
-    # Cancers (diseases)
-    ("Breast cancer",              "disease"),
-    ("Chronic myeloid leukemia",   "disease"),
-    ("Melanoma",                   "disease"),
-    # Drugs
-    ("Trastuzumab",                "drug"),
-    ("Imatinib",                   "drug"),
-    ("Pembrolizumab",              "drug"),
-    # Genes / targets
-    ("BRCA1",                      "gene"),
-    ("EZH2",                       "gene"),
-    # Pathways
-    ("Apoptosis",                  "pathway"),
-    ("P53",                        "pathway"),
+    ("Breast cancer",              "disease"),   # motivating disease
+    ("Trastuzumab",                "drug"),      # breast-cancer drug (multi-hop)
+    ("Imatinib",                   "drug"),      # CML drug (covers CML in body)
+    ("EZH2",                       "gene"),      # gold-graph source (inhibitors section)
+    ("P53",                        "pathway"),   # pathway + tumour suppressor
 ]
+
+# ---- Gold annotation anchor ----
+# Chunk ID for the manually-annotated gold slice. Recompute whenever the
+# corpus/chunker changes (see scripts/find_gold_chunk.py). In the 5-article
+# corpus with 500-token chunks this resolves to chunk 54 — the "Inhibitors"
+# section of the EZH2 article.
+GOLD_CHUNK_ID = 54
 
 # ---- Chunking ----
 # Token budget per chunk for downstream LLM extraction.
@@ -51,8 +50,9 @@ MODELS = [
     ("GPT-5 mini",         "openai",  "gpt-5-mini"),
     ("o4-mini",            "openai",  "o4-mini"),       # reasoning model
 
-    # --- Google AI Studio (free) ---
-    ("Gemini 2.5 Flash",   "gemini",  "gemini-2.5-flash"),
+    # --- Google AI Studio (free, but 5 req/min rate limit makes it
+    #     impractical for 148-chunk corpus — disabled) ---
+    # ("Gemini 2.5 Flash",   "gemini",  "gemini-2.5-flash"),
 
 
     # --- Groq (free) ---

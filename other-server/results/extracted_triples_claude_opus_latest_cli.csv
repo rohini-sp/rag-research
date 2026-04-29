@@ -1,0 +1,1280 @@
+chunk_id,source_article,subject,subject_type,predicate,object,object_type,evidence_span
+87,Pembrolizumab,Pembrolizumab,drug,priced_at,"US$150,000 per year",other,"Pembrolizumab was priced at US$150,000 per year when it launched in 2014."
+87,Pembrolizumab,Pembrolizumab,drug,launched_in,2014,other,"Pembrolizumab was priced at US$150,000 per year when it launched in 2014."
+87,Pembrolizumab,Pembrolizumab,drug,added_to,Cancer Drugs Fund,organisation,It was added to the Cancer Drugs Fund list of NHS England in November 2022
+87,Pembrolizumab,Cancer Drugs Fund,organisation,part_of,NHS England,organisation,added to the Cancer Drugs Fund list of NHS England in November 2022
+87,Pembrolizumab,Pembrolizumab,drug,manufactured_by,Merck Sharp and Dohme,organisation,"after a ""confidential"" deal with manufacturer Merck Sharp and Dohme"
+87,Pembrolizumab,Keytruda,drug,top_selling_drug_in,2024,other,"Keytruda was the world's top-selling drug in 2024, with $29.5 billion in sales."
+87,Pembrolizumab,Keytruda,drug,had_sales_of,$29.5 billion,other,"Keytruda was the world's top-selling drug in 2024, with $29.5 billion in sales."
+87,Pembrolizumab,Pembrolizumab,drug,studied_in,head and neck cancer,disease,much attention was given to early results in head and neck cancer
+87,Pembrolizumab,Pembrolizumab,drug,studied_in,triple-negative breast cancer,disease,pembrolizumab was in phase IB clinical trials for triple-negative breast cancer (TNBC)
+87,Pembrolizumab,Pembrolizumab,drug,studied_in,gastric cancer,disease,"phase IB clinical trials for triple-negative breast cancer (TNBC), gastric cancer, urothelial cancer, and head and neck cancer"
+87,Pembrolizumab,Pembrolizumab,drug,studied_in,urothelial cancer,disease,"phase IB clinical trials for triple-negative breast cancer (TNBC), gastric cancer, urothelial cancer, and head and neck cancer"
+87,Pembrolizumab,Keynote-012,other,investigates,Pembrolizumab,drug,"all under the ""Keynote-012"" trial"
+87,Pembrolizumab,Keynote-086,other,investigates,Pembrolizumab,drug,"in phase II trial for TNBC (the ""Keynote-086"" trial)"
+87,Pembrolizumab,Pembrolizumab,drug,studied_in,Merkel-cell carcinoma,disease,Results of a phase II clinical trial in Merkel-cell carcinoma were reported in June 2016.
+87,Pembrolizumab,Pembrolizumab,drug,combined_with,epacadostat,drug,"A clinical phase III trial in combination with epacadostat, an Indoleamine 2,3-dioxygenase (IDO1) inhibitor to treat melanoma"
+87,Pembrolizumab,epacadostat,drug,inhibits,"Indoleamine 2,3-dioxygenase",gene,"epacadostat, an Indoleamine 2,3-dioxygenase (IDO1) inhibitor"
+87,Pembrolizumab,epacadostat,drug,treats,melanoma,disease,"an Indoleamine 2,3-dioxygenase (IDO1) inhibitor to treat melanoma"
+87,Pembrolizumab,Pembrolizumab,drug,combined_with,NL-201,drug,"a combination clinical trial of pembrolizumab and NL-201, a de novo protein"
+87,Pembrolizumab,NL-201,drug,studied_in,"advanced, relapsed or refractory solid tumors",disease,"NL-201, a de novo protein undergoing a phase I clinical trial in people with advanced, relapsed or refractory solid tumors"
+87,Pembrolizumab,NRG-GY018,other,investigates,Pembrolizumab,drug,"Merck reported the results of NRG-GY018, a phase III clinical trial"
+87,Pembrolizumab,NRG-GY018,other,studied_in,endometrial carcinoma,disease,phase III clinical trial in people with stage three to four or recurrent endometrial carcinoma
+87,Pembrolizumab,mRNA-4157/V940,drug,combined_with,Pembrolizumab,drug,"mRNA-4157/V940 drug candidate, a cancer vaccine, was studied alongside pembrolizumab"
+87,Pembrolizumab,mRNA-4157/V940,drug,treats,skin cancer,disease,studied alongside pembrolizumab for treatment of skin and pancreatic cancers
+87,Pembrolizumab,mRNA-4157/V940,drug,treats,pancreatic cancer,disease,studied alongside pembrolizumab for treatment of skin and pancreatic cancers
+87,Pembrolizumab,mRNA-4157/V940,drug,granted_designation_by,FDA,organisation,mRNA-4157/V940 went on to be granted breakthrough therapy designation by the FDA
+88,Pembrolizumab,Pembrolizumab,drug,listed_by,National Cancer Institute,organisation,"""Pembrolizumab"". National Cancer Institute. 18 September 2014."
+88,Pembrolizumab,Pembrolizumab,drug,indexed_in,U.S. National Library of Medicine Medical Subject Headings,organisation,Pembrolizumab at the U.S. National Library of Medicine Medical Subject Headings (MeSH)
+89,BRCA1,Breast cancer type 1 susceptibility protein,gene,encoded_by,BRCA1,gene,Breast cancer type 1 susceptibility protein is a protein that in humans is encoded by the BRCA1 () gene.
+89,BRCA1,BRCA1,gene,is_a,caretaker gene,other,"BRCA1 is a caretaker gene (responsible for repairing DNA), a type of tumor suppressor gene."
+89,BRCA1,BRCA1,gene,is_a,tumor suppressor gene,other,"BRCA1 is a caretaker gene (responsible for repairing DNA), a type of tumor suppressor gene."
+89,BRCA1,caretaker gene,other,repairs,DNA,other,BRCA1 is a caretaker gene (responsible for repairing DNA)
+89,BRCA1,BRCA1,gene,expressed_in,breast,other,both are normally expressed in the cells of breast and other tissues
+89,BRCA1,BRCA2,gene,expressed_in,breast,other,both are normally expressed in the cells of breast and other tissues
+89,BRCA1,BRCA1,gene,repairs,damaged DNA,other,"they help repair damaged DNA, or destroy cells if DNA cannot be repaired"
+89,BRCA1,BRCA2,gene,repairs,damaged DNA,other,"they help repair damaged DNA, or destroy cells if DNA cannot be repaired"
+89,BRCA1,BRCA1,gene,involved_in,repair of DNA double-strand breaks,pathway,involved in the repair of chromosomal damage with an important role in the error-free repair of DNA double-strand breaks
+89,BRCA1,BRCA2,gene,involved_in,repair of DNA double-strand breaks,pathway,involved in the repair of chromosomal damage with an important role in the error-free repair of DNA double-strand breaks
+89,BRCA1,BRCA mutation,other,damages,BRCA1,gene,If BRCA1 or BRCA2 itself is damaged by a BRCA mutation
+89,BRCA1,BRCA mutation,other,damages,BRCA2,gene,If BRCA1 or BRCA2 itself is damaged by a BRCA mutation
+89,BRCA1,BRCA mutation,other,increases_risk_of,breast cancer,disease,"damaged DNA is not repaired properly, and this increases the risk for breast cancer"
+89,BRCA1,BRCA1,gene,associated_with,breast cancer,disease,"BRCA1 and BRCA2 have been described as ""breast cancer susceptibility genes"""
+89,BRCA1,BRCA2,gene,associated_with,breast cancer,disease,"BRCA1 and BRCA2 have been described as ""breast cancer susceptibility genes"""
+89,BRCA1,high penetrance mutations,other,increases_risk_of,breast cancer,disease,"high penetrance mutations in these genes cause a loss of tumor-suppressive function, which correlates with an increased risk of breast cancer"
+89,BRCA1,BRCA1,gene,part_of,BRCA1-associated genome surveillance complex,other,"BRCA1 combines with other tumor suppressors, DNA damage sensors and signal transducers to form a large multi-subunit protein complex known as the BRCA1-associated genome surveillance complex (BASC)"
+89,BRCA1,BRCA1,gene,interacts_with,RNA polymerase II,gene,The BRCA1 protein associates with RNA polymerase II
+89,BRCA1,BRCA1,gene,interacts_with,histone deacetylase complexes,other,"through the C-terminal domain, also interacts with histone deacetylase complexes"
+89,BRCA1,BRCA1,gene,involved_in,transcription,pathway,"this protein plays a role in transcription, and DNA repair of double-strand DNA breaks"
+89,BRCA1,BRCA1,gene,involved_in,ubiquitination,pathway,"DNA repair of double-strand DNA breaks ubiquitination, transcriptional regulation"
+89,BRCA1,BRCA1,gene,involved_in,transcriptional regulation,pathway,"ubiquitination, transcriptional regulation as well as other functions"
+89,BRCA1,Myriad Genetics,organisation,owns,BRCA1 and BRCA2 testing patents,other,Methods to test for the likelihood of a patient with mutations in BRCA1 and BRCA2 developing cancer were covered by patents owned or controlled by Myriad Genetics
+89,BRCA1,Association for Molecular Pathology v. Myriad Genetics,other,lawsuit_against,Myriad Genetics,organisation,landmark Association for Molecular Pathology v. Myriad Genetics lawsuit
+90,BRCA1,BRCA1,gene,chromosomal_location_discovered_by,Mary-Claire King's team,organisation,The chromosomal location of BRCA1 was discovered by Mary-Claire King's team at UC Berkeley in 1990.
+90,BRCA1,Mary-Claire King's team,organisation,part_of,UC Berkeley,organisation,Mary-Claire King's team at UC Berkeley in 1990
+90,BRCA1,BRCA1,gene,cloned_by,University of Utah,organisation,"the gene was cloned in 1994 by scientists at University of Utah, National Institute of Environmental Health Sciences (NIEHS) and Myriad Genetics"
+90,BRCA1,BRCA1,gene,cloned_by,National Institute of Environmental Health Sciences,organisation,"the gene was cloned in 1994 by scientists at University of Utah, National Institute of Environmental Health Sciences (NIEHS) and Myriad Genetics"
+90,BRCA1,BRCA1,gene,cloned_by,Myriad Genetics,organisation,"the gene was cloned in 1994 by scientists at University of Utah, National Institute of Environmental Health Sciences (NIEHS) and Myriad Genetics"
+90,BRCA1,BRCA1,gene,has_orthologs_in,vertebrates,other,BRCA1 orthologs have been identified in most vertebrates for which complete genome data are available.
+90,BRCA1,BRCA1 protein,other,contains_domain,"Zinc finger, C3HC4 type (RING finger)",other,"The BRCA1 protein contains the following domains: Zinc finger, C3HC4 type (RING finger)"
+90,BRCA1,BRCA1 protein,other,contains_domain,BRCA1 C Terminus (BRCT) domain,other,The BRCA1 protein contains the following domains: ... BRCA1 C Terminus (BRCT) domain
+90,BRCA1,BRCA1 protein,other,contains_motif,nuclear localization signals,other,This protein also contains nuclear localization signals and nuclear export signal motifs.
+90,BRCA1,BRCA1 protein,other,contains_motif,nuclear export signal motifs,other,This protein also contains nuclear localization signals and nuclear export signal motifs.
+90,BRCA1,human BRCA1 protein,other,contains_domain,Znf C3HC4-RING domain,other,The human BRCA1 protein consists of four major protein domains: the Znf C3HC4- RING domain
+90,BRCA1,human BRCA1 protein,other,contains_domain,BRCA1 serine domain,other,"four major protein domains: the Znf C3HC4- RING domain, the BRCA1 serine domain and two BRCT domains"
+90,BRCA1,human BRCA1 protein,other,contains_domain,BRCT domain,other,"four major protein domains: the Znf C3HC4- RING domain, the BRCA1 serine domain and two BRCT domains"
+90,BRCA1,BRCA1,gene,has_isoform_count,six,other,There are six known isoforms of BRCA1
+90,BRCA1,BRCA1 isoform 1,other,has_length,1863 amino acids,other,isoforms 1 and 2 comprising 1863 amino acids each
+90,BRCA1,BRCA1 isoform 2,other,has_length,1863 amino acids,other,isoforms 1 and 2 comprising 1863 amino acids each
+91,BRCA1,RING motif,other,is_type_of,Zn finger,other,"The RING motif, a Zn finger found in eukaryotic peptides"
+91,BRCA1,RING motif,other,has_length,40–60 amino acids,other,is 40–60 amino acids long
+91,BRCA1,RING motif,other,contains,eight conserved metal-binding residues,other,consists of eight conserved metal-binding residues
+91,BRCA1,RING motif,other,coordinates,zinc atoms,chemical,two quartets of cysteine or histidine residues that coordinate two zinc atoms
+91,BRCA1,RING motif,other,contains,anti-parallel beta-sheet,other,This motif contains a short anti-parallel beta-sheet
+91,BRCA1,RING motif,other,contains,zinc-binding loops,other,two zinc-binding loops and a central alpha helix
+91,BRCA1,RING motif,other,contains,central alpha helix,other,two zinc-binding loops and a central alpha helix in a small domain
+91,BRCA1,RING domain,other,interacts_with,BARD1,gene,"This RING domain interacts with associated proteins, including BARD1"
+91,BRCA1,BARD1,gene,contains,RING motif,other,"BARD1, which also contains a RING motif, to form a heterodimer"
+91,BRCA1,BARD1,gene,forms_heterodimer_with,BRCA1,gene,"BARD1, which also contains a RING motif, to form a heterodimer"
+91,BRCA1,BRCA1 RING motif,other,flanked_by,alpha helices,other,The BRCA1 RING motif is flanked by alpha helices formed by residues 8–22 and 81–96
+91,BRCA1,BRCA1 RING motif,other,part_of,BRCA1,gene,alpha helices formed by residues 8–22 and 81–96 of the BRCA1 protein
+91,BRCA1,BRCA1,gene,interacts_with,BARD1,gene,It interacts with a homologous region in BARD1 also consisting of a RING finger
+91,BRCA1,BARD1,gene,contains,RING finger,other,a homologous region in BARD1 also consisting of a RING finger flanked by two alpha-helices
+91,BRCA1,alpha helices,other,form,heterodimerization interface,other,These four helices combine to form a heterodimerization interface
+91,BRCA1,alpha helices,other,stabilizes,BRCA1-BARD1 heterodimer complex,other,stabilize the BRCA1-BARD1 heterodimer complex
+91,BRCA1,tumorigenic amino acid substitutions in BRCA1,other,disrupts,BARD1/BRCA1 interaction,other,The BARD1/BRCA1 interaction is disrupted by tumorigenic amino acid substitutions in BRCA1
+91,BRCA1,BRCA1,gene,functions_as,tumor suppressor,other,may be an essential aspect of BRCA1 tumor suppression
+91,BRCA1,RING domain,other,part_of,ubiquitin E3 ligases,other,The RING domain is an important element of ubiquitin E3 ligases
+91,BRCA1,ubiquitin E3 ligases,other,catalyzes,protein ubiquitination,other,"ubiquitin E3 ligases, which catalyze protein ubiquitination"
+91,BRCA1,Ubiquitin,other,is_type_of,small regulatory protein,other,Ubiquitin is a small regulatory protein found in all tissues
+91,BRCA1,Ubiquitin,other,directs,proteins,other,directs proteins to compartments within the cell
+91,BRCA1,Lys-48-linked polyubiquitin chains,other,part_of,BRCA1 polypeptides,gene,"BRCA1 polypeptides, in particular, Lys-48-linked polyubiquitin chains are dispersed throughout the resting cell nucleus"
+91,BRCA1,Lys-48-linked polyubiquitin chains,other,colocalizes_with,BRCA2,gene,they gather in restrained groups that also contain BRCA2 and BARD1
+91,BRCA1,Lys-48-linked polyubiquitin chains,other,colocalizes_with,BARD1,gene,they gather in restrained groups that also contain BRCA2 and BARD1
+91,BRCA1,BARD1,gene,recognizes,protein targets for ubiquitination,other,BARD1 is thought to be involved in the recognition and binding of protein targets for ubiquitination
+91,BRCA1,BARD1,gene,labels,proteins,other,It attaches to proteins and labels them for destruction
+91,BRCA1,BRCA1 fusion protein,gene,mediates,ubiquitination,other,Ubiquitination occurs via the BRCA1 fusion protein
+91,BRCA1,zinc chelation,other,abolishes,ubiquitination,other,is abolished by zinc chelation
+91,BRCA1,BRCA1 fusion protein enzyme activity,other,depends_on,RING domain folding,other,The enzyme activity of the fusion protein is dependent on the proper folding of the RING domain
+92,BRCA1,BRCA1 serine cluster domain,gene,part_of,BRCA1,gene,BRCA1 serine cluster domain (SCD) spans amino acids 1280–1524.
+92,BRCA1,BRCA1 serine cluster domain,gene,located_in,exons 11–13,other,A portion of the domain is located in exons 11–13.
+92,BRCA1,exons 11–13,other,has_property,high mutation rate,other,High rates of mutation occur in exons 11–13.
+92,BRCA1,BRCA1,gene,phosphorylated_by,ATM,gene,"Reported phosphorylation sites of BRCA1 are concentrated in the SCD, where they are phosphorylated by ATM/ATR kinases"
+92,BRCA1,BRCA1,gene,phosphorylated_by,ATR,gene,"Reported phosphorylation sites of BRCA1 are concentrated in the SCD, where they are phosphorylated by ATM/ATR kinases"
+92,BRCA1,ATM,gene,activated_by,DNA damage,other,ATM/ATR are kinases activated by DNA damage.
+92,BRCA1,ATR,gene,activated_by,DNA damage,other,ATM/ATR are kinases activated by DNA damage.
+92,BRCA1,serine residue mutation,other,affects,BRCA1 localization,other,Mutation of serine residues may affect the localization of BRCA1 to sites of DNA damage
+92,BRCA1,serine residue mutation,other,affects,DNA damage response,pathway,Mutation of serine residues may affect the localization of BRCA1 to sites of DNA damage and DNA damage response.
+92,BRCA1,BRCT domain,other,part_of,BRCA1,gene,The dual repeat BRCT domain of the BRCA1 protein is an elongated structure approximately 70 Å long
+92,BRCA1,C-terminal BRCT region,other,part_of,BRCA1,gene,The C-terminal BRCT region of the BRCA1 protein is essential for repair of DNA
+92,BRCA1,C-terminal BRCT region,other,essential_for,DNA repair,pathway,"The C-terminal BRCT region of the BRCA1 protein is essential for repair of DNA, transcription regulation, and tumor-suppressor function."
+92,BRCA1,C-terminal BRCT region,other,essential_for,transcription regulation,pathway,"The C-terminal BRCT region of the BRCA1 protein is essential for repair of DNA, transcription regulation, and tumor-suppressor function."
+92,BRCA1,C-terminal BRCT region,other,essential_for,tumor-suppressor function,pathway,"The C-terminal BRCT region of the BRCA1 protein is essential for repair of DNA, transcription regulation, and tumor-suppressor function."
+92,BRCA1,BRCT domains,other,regulates,DNA damage response,pathway,These homologous domains interact to control cellular responses to DNA damage.
+92,BRCA1,BRCT interface missense mutation,other,perturbs,cell cycle,pathway,A missense mutation at the interface of these two proteins can perturb the cell cycle
+92,BRCA1,BRCT interface missense mutation,other,increases_risk_of,cancer,disease,"perturb the cell cycle, resulting in a greater risk of developing cancer."
+93,BRCA1,BRCA1,gene,part_of,DNA double-strand break repair complex,other,BRCA1 is part of a complex that repairs double-strand breaks in DNA.
+93,BRCA1,biallelic BRCA1 mutations,gene,cause,"Fanconi Anemia, Complementation Group S",disease,"biallelic mutations in BRCA1 have been identified to be responsible for Fanconi Anemia, Complementation Group S (FA-S)"
+93,BRCA1,"Fanconi Anemia, Complementation Group S",disease,associated_with,hypersensitivity to DNA crosslinking agents,other,"Fanconi Anemia, Complementation Group S (FA-S), a genetic disease associated with hypersensitivity to DNA crosslinking agents"
+93,BRCA1,BRCA1,gene,participates_in,homology-directed repair,pathway,The double-strand repair mechanism in which BRCA1 participates is homology-directed repair
+93,BRCA1,BRCA1,gene,interacts_with,RAD51,gene,the BRCA1 protein interacts with RAD51 during repair of DNA double-strand breaks
+93,BRCA1,BRCA2,gene,interacts_with,RAD51,gene,"The BRCA2 protein, which has a function similar to that of BRCA1, also interacts with the RAD51 protein"
+93,BRCA1,BRCA1,gene,participates_in,mismatch repair,pathway,"BRCA1 is also involved in another type of DNA repair, termed mismatch repair"
+93,BRCA1,BRCA1,gene,interacts_with,MSH2,gene,BRCA1 interacts with the DNA mismatch repair protein MSH2
+93,BRCA1,MSH2,gene,elevated_in,BRCA1-deficient mammary tumors,disease,"MSH2, MSH6, PARP, and some other proteins involved in single-strand repair are reported to be elevated in BRCA1-deficient mammary tumors"
+93,BRCA1,MSH6,gene,elevated_in,BRCA1-deficient mammary tumors,disease,"MSH2, MSH6, PARP, and some other proteins involved in single-strand repair are reported to be elevated in BRCA1-deficient mammary tumors"
+93,BRCA1,PARP,gene,elevated_in,BRCA1-deficient mammary tumors,disease,"MSH2, MSH6, PARP, and some other proteins involved in single-strand repair are reported to be elevated in BRCA1-deficient mammary tumors"
+93,BRCA1,valosin-containing protein,gene,recruits,BRCA1,gene,"valosin-containing protein (VCP, also known as p97) plays a role in recruiting BRCA1 to the damaged DNA sites"
+93,BRCA1,valosin-containing protein,gene,cooperates_with,RNF8,gene,VCP is recruited to DNA lesions and cooperates with the ubiquitin ligase RNF8 to orchestrate assembly of signaling complexes
+93,BRCA1,BRCA1,gene,interacts_with,valosin-containing protein,gene,BRCA1 interacts with VCP
+93,BRCA1,BRCA1,gene,interacts_with,c-Myc,gene,"BRCA1 also interacts with c-Myc, and other proteins that are critical to maintain genome stability"
+93,BRCA1,BRCA1,gene,binds_to,DNA,chemical,"BRCA1 directly binds to DNA, with a higher affinity for branched DNA structures"
+93,BRCA1,BRCA1,gene,inhibits,MRN complex,other,This ability to bind to DNA contributes to its ability to inhibit the nuclease activity of the MRN complex
+93,BRCA1,BRCA1,gene,inhibits,Mre11,gene,inhibit the nuclease activity of the MRN complex as well as the nuclease activity of Mre11 alone
+93,BRCA1,BRCA1,gene,promotes,non-homologous end joining,pathway,a role for BRCA1 to promote lower fidelity DNA repair by non-homologous end joining (NHEJ)
+93,BRCA1,BRCA1,gene,colocalizes_with,γ-H2AX,gene,BRCA1 also colocalizes with γ-H2AX (histone H2AX phosphorylated on serine-139) in DNA double-strand break repair foci
+93,BRCA1,formaldehyde,chemical,causes,DNA cross-links,other,Formaldehyde and acetaldehyde are common environmental sources of DNA cross-links
+93,BRCA1,acetaldehyde,chemical,causes,DNA cross-links,other,Formaldehyde and acetaldehyde are common environmental sources of DNA cross-links
+94,BRCA1,BRCA1,gene,co_purifies_with,human RNA polymerase II holoenzyme,other,BRCA1 was shown to co-purify with the human RNA polymerase II holoenzyme in HeLa extracts
+94,BRCA1,BRCA1,gene,part_of,2 megadalton complex containing SWI/SNF,other,the predominant complex including BRCA1 in HeLa cells is a 2 megadalton complex containing SWI/SNF
+94,BRCA1,2 megadalton complex containing SWI/SNF,other,contains,SWI/SNF,other,a 2 megadalton complex containing SWI/SNF
+94,BRCA1,SWI/SNF,other,is_a,chromatin remodeling complex,other,SWI/SNF is a chromatin remodeling complex
+94,BRCA1,BRCA1,gene,decondenses,heterochromatin,other,Artificial tethering of BRCA1 to chromatin was shown to decondense heterochromatin
+94,BRCA1,BRCA1,gene,interacts_with,NELF-B,gene,BRCA1 interacts with the NELF-B (COBRA1) subunit of the NELF complex
+94,BRCA1,NELF-B,gene,part_of,NELF complex,other,the NELF-B (COBRA1) subunit of the NELF complex
+95,BRCA1,BRCA1,gene,increases_risk_of,breast cancer,disease,Certain variations of the BRCA1 gene lead to an increased risk for breast cancer
+95,BRCA1,BRCA1,gene,part_of,hereditary breast-ovarian cancer syndrome,disease,increased risk for breast cancer as part of a hereditary breast–ovarian cancer syndrome
+95,BRCA1,BRCA1,gene,increases_risk_of,ovarian cancer,disease,increased risk of developing ovarian cancer is about 55% for females with BRCA1 mutations
+95,BRCA1,BRCA2,gene,increases_risk_of,breast cancer,disease,Females with an abnormal BRCA1 or BRCA2 gene have up to an 80% risk of developing breast cancer
+95,BRCA1,BRCA2,gene,increases_risk_of,ovarian cancer,disease,about 25% for females with BRCA2 mutations
+95,BRCA1,PCR,other,detects,BRCA1 mutations,other,can be identified with PCR and DNA sequencing
+95,BRCA1,DNA sequencing,other,detects,BRCA1 mutations,other,can be identified with PCR and DNA sequencing
+95,BRCA1,multiplex ligation-dependent probe amplification,other,detects,large rearrangements,other,"Other methods have been proposed: traditional quantitative PCR, multiplex ligation-dependent probe amplification (MLPA)"
+95,BRCA1,Quantitative Multiplex PCR of Short Fluorescent Fragments,other,detects,large rearrangements,other,Quantitative Multiplex PCR of Short Fluorescent Fragments (QMPSF)
+95,BRCA1,heteroduplex analysis,other,detects,large rearrangements,other,heteroduplex analysis (HDA) by multi-capillary electrophoresis
+95,BRCA1,array-CGH,other,detects,large rearrangements,other,dedicated oligonucleotide array based on comparative genomic hybridization (array-CGH)
+95,BRCA1,BRCA1 promoter hypermethylation,other,inactivates,BRCA1,gene,hypermethylation of the BRCA1 promoter... could be considered as an inactivating mechanism for BRCA1 expression
+95,BRCA1,BRCA1 protein,gene,repairs,DNA damage,other,the defective BRCA1 protein is unable to help fix DNA damage
+95,BRCA1,BRCA1 inactivating mutations,other,predisposes_to,cancer,disease,BRCA1 inactivating mutations lead to a predisposition for cancer
+95,BRCA1,Mir-17 microRNA,gene,binds_to,BRCA1 mRNA 3' UTR,gene,"BRCA1 mRNA 3' UTR can be bound by an miRNA, Mir-17 microRNA"
+95,BRCA1,Mir-17 microRNA,gene,increases_risk_of,breast cancer,disease,"variations in this miRNA, along with Mir-30 microRNA could confer susceptibility to breast cancer"
+95,BRCA1,Mir-30 microRNA,gene,increases_risk_of,breast cancer,disease,"variations in this miRNA, along with Mir-30 microRNA could confer susceptibility to breast cancer"
+95,BRCA1,BRCA1,gene,increases_risk_of,prostate cancer,disease,mutations in the BRCA1 gene also increase the risk of ovarian and prostate cancers
+95,BRCA1,BRCA1,gene,associated_with,fallopian tube dysplasia,disease,precancerous lesions (dysplasia) within the fallopian tube have been linked to BRCA1 gene mutations
+95,BRCA1,BRCA1,gene,increases_risk_of,leukemia,disease,Pathogenic mutations anywhere in a model pathway containing BRCA1 and BRCA2 greatly increase risks for a subset of leukemias and lymphomas
+95,BRCA1,BRCA1,gene,increases_risk_of,lymphoma,disease,Pathogenic mutations anywhere in a model pathway containing BRCA1 and BRCA2 greatly increase risks for a subset of leukemias and lymphomas
+95,BRCA1,BRCA2,gene,increases_risk_of,leukemia,disease,Pathogenic mutations anywhere in a model pathway containing BRCA1 and BRCA2 greatly increase risks for a subset of leukemias and lymphomas
+95,BRCA1,BRCA2,gene,increases_risk_of,lymphoma,disease,Pathogenic mutations anywhere in a model pathway containing BRCA1 and BRCA2 greatly increase risks for a subset of leukemias and lymphomas
+95,BRCA1,BRCA1,gene,causes,FA-S,disease,biallelic and homozygous inheritance of the BRCA1 gene leads to FA-S
+96,BRCA1,BRCA1,gene,has_reduced_expression_in,high-grade ductal breast cancer,disease,"BRCA1 expression is reduced or undetectable in the majority of high-grade, ductal breast cancers"
+96,BRCA1,loss of BRCA1 activity,other,leads_to,tumor formation,disease,"loss of BRCA1 activity, either by germ-line mutations or by down-regulation of gene expression, leads to tumor formation"
+96,BRCA1,decreased BRCA1 expression,other,contributes_to,sporadic breast tumor progression,disease,decreased BRCA1 expression contributes to both sporadic and inherited breast tumor progression
+96,BRCA1,decreased BRCA1 expression,other,contributes_to,inherited breast tumor progression,disease,decreased BRCA1 expression contributes to both sporadic and inherited breast tumor progression
+96,BRCA1,BRCA1,gene,part_of,homologous recombination,pathway,"repair of DNA damages, especially double-strand breaks, by the potentially error-free pathway of homologous recombination"
+96,BRCA1,BRCA1,gene,repairs,DNA double-strand breaks,other,"plays an important role in the repair of DNA damages, especially double-strand breaks"
+96,BRCA1,reduction of BRCA1,other,generates,mutations,other,the reduction or silencing of this protein generates mutations and gross chromosomal rearrangements
+96,BRCA1,reduction of BRCA1,other,generates,gross chromosomal rearrangements,other,the reduction or silencing of this protein generates mutations and gross chromosomal rearrangements
+96,BRCA1,gross chromosomal rearrangements,other,leads_to,breast cancer,disease,generates mutations and gross chromosomal rearrangements that can lead to progression to breast cancer
+96,BRCA1,BRCA1,gene,has_reduced_expression_in,sporadic epithelial ovarian cancer,disease,BRCA1 expression is low in the majority (55%) of sporadic epithelial ovarian cancers (EOCs)
+96,BRCA1,epithelial ovarian cancer,disease,part_of,ovarian cancer,disease,"EOCs are the most common type of ovarian cancer, representing approximately 90% of ovarian cancers"
+96,BRCA1,serous ovarian carcinoma,disease,part_of,epithelial ovarian cancer,disease,"serous ovarian carcinomas, a sub-category constituting about 2/3 of EOCs"
+96,BRCA1,BRCA1,gene,has_reduced_expression_in,serous ovarian carcinoma,disease,In serous ovarian carcinomas... low BRCA1 expression occurs in more than 50% of cases
+96,BRCA1,BRCA1 deficiency,other,causes,deficient homologous recombination repair,pathway,deficient homologous recombination repair caused by BRCA1 deficiency is tumorigenic
+96,BRCA1,deficient homologous recombination repair,pathway,causes,tumorigenesis,disease,deficient homologous recombination repair caused by BRCA1 deficiency is tumorigenic
+96,BRCA1,BRCA1 deficiency,other,initiates,high-grade serous ovarian cancer evolution,disease,this deficiency initiates a cascade of molecular events that sculpt the evolution of high-grade serous ovarian cancer
+96,BRCA1,BRCA1 mutation,other,causes,BRCA1 deficiency,other,"BRCA1 deficiency could be the cause of tumorigenesis, whether due to BRCA1 mutation"
+96,BRCA1,BRCA1,gene,facilitates,apoptosis,pathway,BRCA1 facilitates apoptosis in breast and ovarian cell lines when cells are stressed
+96,BRCA1,ionizing radiation,other,causes,DNA damage,other,"stressed by agents, including ionizing radiation, that cause DNA damages"
+96,BRCA1,DNA repair deficiency,other,leads_to,accumulation of DNA damage,other,Cells that are deficient in DNA repair tend to accumulate DNA damages
+96,BRCA1,DNA replication,pathway,leads_to,mutations,other,Replication of DNA in such cells leads to mutations
+96,BRCA1,mutations,other,causes,cancer,disease,these mutations may cause cancer
+96,BRCA1,BRCA1,gene,induces,apoptosis,pathway,the second role is to induce apoptosis if the level of such DNA damage is beyond the cell's repair capability
+97,BRCA1,BRCA1,gene,mutated_in,breast cancer,disease,women with breast cancer carry a mutation in BRCA1 or BRCA2
+97,BRCA1,BRCA2,gene,mutated_in,breast cancer,disease,women with breast cancer carry a mutation in BRCA1 or BRCA2
+97,BRCA1,BRCA1,gene,mutated_in,ovarian cancer,disease,BRCA1 mutations are only seen in about 18% of ovarian cancers
+97,BRCA1,latent viruses,other,detected_in,breast cancer,disease,"Certain latent viruses, which are frequently detected in breast cancer tumors"
+97,BRCA1,latent viruses,other,decreases_expression_of,BRCA1,gene,latent viruses... can decrease the expression of the BRCA1 gene
+97,BRCA1,latent viruses,other,causes,breast tumors,disease,decrease the expression of the BRCA1 gene and cause the development of breast tumors
+97,BRCA1,BRCA1 promoter hypermethylation,other,present_in,primary breast carcinomas,disease,BRCA1 promoter hypermethylation was present in only 13% of unselected primary breast carcinomas
+97,BRCA1,BRCA1 promoter hypermethylation,other,present_in,EOC,disease,BRCA1 promoter hypermethylation was present in only 5% to 15% of EOC cases
+97,BRCA1,BRCA1 promoter methylation,other,reduces_expression_of,BRCA1,gene,"BRCA1 expression is low in these cancers, BRCA1 promoter methylation is only a minor cause of reduced expression"
+98,BRCA1,microRNA-182,gene,targets,BRCA1,gene,microRNA-182 (miR-182) specifically targets BRCA1
+98,BRCA1,microRNA-182,gene,overexpressed_in,triple-negative breast cancer,disease,All four types of breast cancer were found to have an average of about 100-fold increase in miR-182
+98,BRCA1,microRNA-182,gene,overexpressed_in,HER2+ breast cancer,disease,All four types of breast cancer were found to have an average of about 100-fold increase in miR-182
+98,BRCA1,microRNA-182,gene,overexpressed_in,ER+/PR+ breast cancer,disease,All four types of breast cancer were found to have an average of about 100-fold increase in miR-182
+98,BRCA1,microRNA-182,gene,overexpressed_in,Invasive lobular carcinoma,disease,All four types of breast cancer were found to have an average of about 100-fold increase in miR-182
+98,BRCA1,microRNA-182,gene,inversely_correlated_with,BRCA1,gene,there is an inverse correlation of BRCA1 protein levels with miR-182 expression
+98,BRCA1,microRNA-182,gene,reduces_expression_of,BRCA1,gene,much of the reduction or absence of BRCA1 in high-grade ductal breast cancers may be due to over-expressed miR-182
+98,BRCA1,miR-146a,gene,represses,BRCA1,gene,"miR-146a and miR-146b-5p, also repress BRCA1 expression"
+98,BRCA1,miR-146b-5p,gene,represses,BRCA1,gene,"miR-146a and miR-146b-5p, also repress BRCA1 expression"
+98,BRCA1,miR-146a,gene,overexpressed_in,triple-negative breast cancer,disease,These two microRNAs are over-expressed in triple-negative tumors
+98,BRCA1,miR-146b-5p,gene,overexpressed_in,triple-negative breast cancer,disease,These two microRNAs are over-expressed in triple-negative tumors
+98,BRCA1,miR-146a,gene,inactivates,BRCA1,gene,their over-expression results in BRCA1 inactivation
+98,BRCA1,miR-146b-5p,gene,inactivates,BRCA1,gene,their over-expression results in BRCA1 inactivation
+99,BRCA1,miR-182,gene,overexpressed_in,serous tubal intraepithelial carcinoma,disease,In both serous tubal intraepithelial carcinoma ... miR-182 is overexpressed in about 70% of cases.
+99,BRCA1,serous tubal intraepithelial carcinoma,disease,precursor_to,high grade serous ovarian carcinoma,disease,serous tubal intraepithelial carcinoma (the precursor lesion to high grade serous ovarian carcinoma (HG-SOC))
+99,BRCA1,miR-182,gene,overexpressed_in,high grade serous ovarian carcinoma,disease,"and in HG-SOC itself, miR-182 is overexpressed in about 70% of cases."
+99,BRCA1,miR-182,gene,represses,BRCA1,gene,"In cells with over-expressed miR-182, BRCA1 remained low, even after exposure to ionizing radiation"
+99,BRCA1,ionizing radiation,other,increases_expression_of,BRCA1,gene,exposure to ionizing radiation (which normally raises BRCA1 expression)
+99,BRCA1,miR-9,gene,represses,BRCA1,gene,Another microRNA known to reduce the expression of BRCA1 in ovarian cancer cells is miR-9.
+99,BRCA1,miR-9,gene,inversely_correlated_with,BRCA1,gene,an inverse correlation was found between expressions of miR-9 and BRCA1
+99,BRCA1,miR-9,gene,overexpressed_in,serous ovarian cancer,disease,increased miR-9 may also contribute to reduced expression of BRCA1 in these ovarian cancers
+99,BRCA1,DNA damage,other,causes,cancer,disease,DNA damage appears to be the primary underlying cause of cancer
+99,BRCA1,DNA repair deficiency,other,causes,cancer,disease,deficiencies in DNA repair appear to underlie many forms of cancer
+99,BRCA1,DNA repair deficiency,other,causes,DNA damage accumulation,other,"If DNA repair is deficient, DNA damage tends to accumulate."
+99,BRCA1,DNA damage,other,increases,mutational errors,other,excess DNA damage may increase mutational errors during DNA replication due to error-prone translesion synthesis
+99,BRCA1,DNA damage,other,increases,epigenetic alterations,other,Excess DNA damage may also increase epigenetic alterations due to errors during DNA repair
+99,BRCA1,BRCA1 deficiency,other,contributes_to,breast cancer,disease,frequent microRNA-induced deficiency of BRCA1 in breast and ovarian cancers likely contributes to the progression of those cancers
+99,BRCA1,BRCA1 deficiency,other,contributes_to,ovarian cancer,disease,frequent microRNA-induced deficiency of BRCA1 in breast and ovarian cancers likely contributes to the progression of those cancers
+100,BRCA1,BRCA1 185delAG,gene,founder_mutation_in,Ashkenazi Jews,other,Three mutations in BRCA1 have been reported to account for the majority of Ashkenazi Jewish patients
+100,BRCA1,BRCA1 188del11,gene,founder_mutation_in,Ashkenazi Jews,other,Three mutations in BRCA1 have been reported to account for the majority of Ashkenazi Jewish patients
+100,BRCA1,BRCA1 5382insC,gene,founder_mutation_in,Ashkenazi Jews,other,Three mutations in BRCA1 have been reported to account for the majority of Ashkenazi Jewish patients
+100,BRCA1,BRCA1 185delAG,gene,associated_with,breast cancer,disease,"Ashkenazi Jewish patients with inherited BRCA1-related breast and/or ovarian cancer: 185delAG, 188del11, and 5382insC"
+100,BRCA1,BRCA1 185delAG,gene,associated_with,ovarian cancer,disease,"Ashkenazi Jewish patients with inherited BRCA1-related breast and/or ovarian cancer: 185delAG, 188del11, and 5382insC"
+100,BRCA1,BRCA1 188del11,gene,associated_with,breast cancer,disease,"Ashkenazi Jewish patients with inherited BRCA1-related breast and/or ovarian cancer: 185delAG, 188del11, and 5382insC"
+100,BRCA1,BRCA1 188del11,gene,associated_with,ovarian cancer,disease,"Ashkenazi Jewish patients with inherited BRCA1-related breast and/or ovarian cancer: 185delAG, 188del11, and 5382insC"
+100,BRCA1,BRCA1 5382insC,gene,associated_with,breast cancer,disease,"Ashkenazi Jewish patients with inherited BRCA1-related breast and/or ovarian cancer: 185delAG, 188del11, and 5382insC"
+100,BRCA1,BRCA1 5382insC,gene,associated_with,ovarian cancer,disease,"Ashkenazi Jewish patients with inherited BRCA1-related breast and/or ovarian cancer: 185delAG, 188del11, and 5382insC"
+100,BRCA1,BRCA1 185delAG,gene,part_of,BRCA1,gene,"185delAG, 188del11, and 5382insC in the BRCA1 gene"
+100,BRCA1,BRCA1 188del11,gene,part_of,BRCA1,gene,"185delAG, 188del11, and 5382insC in the BRCA1 gene"
+100,BRCA1,BRCA1 5382insC,gene,part_of,BRCA1,gene,"185delAG, 188del11, and 5382insC in the BRCA1 gene"
+101,BRCA1,BRCA1,gene,associated_with,diminished oocyte reserve,other,Women with a germ-line BRCA1 mutation appear to have a diminished oocyte reserve
+101,BRCA1,BRCA1,gene,associated_with,decreased fertility,other,Women with a germ-line BRCA1 mutation appear to have a diminished oocyte reserve and decreased fertility
+101,BRCA1,BRCA1 mutation,other,causes,premature menopause,disease,women with an inherited BRCA1 mutation undergo menopause prematurely
+101,BRCA1,BRCA1,gene,functions_as,DNA repair protein,other,BRCA1 is a key DNA repair protein
+101,BRCA1,BRCA1,gene,part_of,homologous recombinational repair,pathway,the BRCA1 protein plays a key role in homologous recombinational repair
+101,BRCA1,homologous recombinational repair,pathway,repairs,DNA double-strand breaks,other,the only known cellular process that can accurately repair DNA double-strand breaks
+101,BRCA1,DNA double-strand breaks,other,accumulate_in,primordial follicles,other,DNA double-strand breaks accumulate with age in humans and mice in primordial follicles
+101,BRCA1,primordial follicles,other,contain,oocytes,other,Primordial follicles contain oocytes that are at an intermediate (prophase I) stage of meiosis
+101,BRCA1,meiosis,pathway,produces,germ cells,other,Meiosis is the general process in eukaryotic organisms by which germ cells are formed
+101,BRCA1,meiosis,pathway,removes,DNA damages,other,"it is likely an adaptation for removing DNA damages, especially double-strand breaks, from germ line DNA"
+101,BRCA1,homologous recombinational repair,pathway,promoted_during,meiosis,pathway,Homologous recombinational repair employing BRCA1 is especially promoted during meiosis
+101,BRCA1,BRCA1,gene,necessary_for,homologous recombinational repair,pathway,"expression of four key genes necessary for homologous recombinational repair of DNA double-strand breaks (BRCA1, MRE11, RAD51 and ATM)"
+101,BRCA1,MRE11,gene,necessary_for,homologous recombinational repair,pathway,"expression of four key genes necessary for homologous recombinational repair of DNA double-strand breaks (BRCA1, MRE11, RAD51 and ATM)"
+101,BRCA1,RAD51,gene,necessary_for,homologous recombinational repair,pathway,"expression of four key genes necessary for homologous recombinational repair of DNA double-strand breaks (BRCA1, MRE11, RAD51 and ATM)"
+101,BRCA1,ATM,gene,necessary_for,homologous recombinational repair,pathway,"expression of four key genes necessary for homologous recombinational repair of DNA double-strand breaks (BRCA1, MRE11, RAD51 and ATM)"
+101,BRCA1,BRCA1,gene,expression_declines_in,oocytes,other,"expression of four key genes necessary for homologous recombinational repair of DNA double-strand breaks (BRCA1, MRE11, RAD51 and ATM) decline with age in the oocytes"
+101,BRCA1,MRE11,gene,expression_declines_in,oocytes,other,"expression of four key genes necessary for homologous recombinational repair of DNA double-strand breaks (BRCA1, MRE11, RAD51 and ATM) decline with age in the oocytes"
+101,BRCA1,RAD51,gene,expression_declines_in,oocytes,other,"expression of four key genes necessary for homologous recombinational repair of DNA double-strand breaks (BRCA1, MRE11, RAD51 and ATM) decline with age in the oocytes"
+101,BRCA1,ATM,gene,expression_declines_in,oocytes,other,"expression of four key genes necessary for homologous recombinational repair of DNA double-strand breaks (BRCA1, MRE11, RAD51 and ATM) decline with age in the oocytes"
+101,BRCA1,DNA double-strand break repair,pathway,necessary_for,oocyte reserve maintenance,other,DNA double-strand break repair is necessary for the maintenance of oocyte reserve
+101,BRCA1,decline in repair efficiency,other,contributes_to,ovarian aging,other,a decline in efficiency of repair with age plays a role in ovarian aging
+101,BRCA1,ovarian reserve decline,other,causes,menopause,disease,leads to nearly complete exhaustion of the reserve by about age 52
+101,BRCA1,aging,other,associated_with,pregnancy failure,disease,"As ovarian reserve and fertility decline with age, there is also a parallel increase in pregnancy failure and meiotic errors"
+101,BRCA1,aging,other,associated_with,meiotic errors,other,"As ovarian reserve and fertility decline with age, there is also a parallel increase in pregnancy failure and meiotic errors"
+101,BRCA1,meiotic errors,other,cause,chromosomally abnormal conceptions,other,"increase in pregnancy failure and meiotic errors, resulting in chromosomally abnormal conceptions"
+102,BRCA1,Non-small cell lung cancer,disease,leading_cause_of,cancer deaths worldwide,other,Non-small cell lung cancer (NSCLC) is the leading cause of cancer deaths worldwide.
+102,BRCA1,Non-small cell lung cancer,disease,treated_with,cisplatin,drug,"Persons with NSCLC are often treated with therapeutic platinum compounds (e.g., cisplatin, carboplatin, or oxaliplatin)"
+102,BRCA1,Non-small cell lung cancer,disease,treated_with,carboplatin,drug,"Persons with NSCLC are often treated with therapeutic platinum compounds (e.g., cisplatin, carboplatin, or oxaliplatin)"
+102,BRCA1,Non-small cell lung cancer,disease,treated_with,oxaliplatin,drug,"Persons with NSCLC are often treated with therapeutic platinum compounds (e.g., cisplatin, carboplatin, or oxaliplatin)"
+102,BRCA1,cisplatin,drug,causes,inter-strand cross-links in DNA,other,"therapeutic platinum compounds (e.g., cisplatin, carboplatin, or oxaliplatin) that cause inter-strand cross-links in DNA"
+102,BRCA1,carboplatin,drug,causes,inter-strand cross-links in DNA,other,"therapeutic platinum compounds (e.g., cisplatin, carboplatin, or oxaliplatin) that cause inter-strand cross-links in DNA"
+102,BRCA1,oxaliplatin,drug,causes,inter-strand cross-links in DNA,other,"therapeutic platinum compounds (e.g., cisplatin, carboplatin, or oxaliplatin) that cause inter-strand cross-links in DNA"
+102,BRCA1,BRCA1,gene,low_expression_correlates_with,improved survival after platinum-containing chemotherapy,other,low expression of BRCA1 in the primary tumor correlated with improved survival after platinum-containing chemotherapy
+102,BRCA1,BRCA1,gene,part_of,DNA repair,pathway,"low BRCA1 in cancer, and the consequent low level of DNA repair"
+102,BRCA1,BRCA1,gene,protects,cancer cells,other,High BRCA1 may protect cancer cells by acting in a pathway that removes the DNA damage introduced by the platinum drugs.
+102,BRCA1,BRCA1,gene,removes,DNA damage,other,High BRCA1 may protect cancer cells by acting in a pathway that removes the DNA damage introduced by the platinum drugs.
+102,BRCA1,BRCA1 expression,gene,relevant_to,ovarian cancer treatment,other,The level of BRCA1 expression is also relevant to ovarian cancer treatment.
+102,BRCA1,sporadic ovarian cancer,disease,treated_with,platinum drugs,drug,Patients having sporadic ovarian cancer who were treated with platinum drugs
+102,BRCA1,low BRCA1 expression,gene,correlates_with,longer median survival,other,longer median survival times if their BRCA1 expression was low compared to patients with higher BRCA1 expression
+103,BRCA1,BRCA1 gene,gene,associated_with,breast cancer,disease,methods to diagnose the likelihood of getting breast cancer
+103,BRCA1,University of Utah,organisation,filed_patent_for,BRCA1 gene,gene,A patent application for the isolated BRCA1 gene... was filed by the University of Utah
+103,BRCA1,National Institute of Environmental Health Sciences,organisation,filed_patent_for,BRCA1 gene,gene,"filed by the University of Utah, National Institute of Environmental Health Sciences (NIEHS) and Myriad Genetics in 1994"
+103,BRCA1,Myriad Genetics,organisation,filed_patent_for,BRCA1 gene,gene,"filed by the University of Utah, National Institute of Environmental Health Sciences (NIEHS) and Myriad Genetics in 1994"
+103,BRCA1,Myriad Genetics,organisation,collaborated_with,"Endo Recherche, Inc.",organisation,"Myriad, (in collaboration with investigators at Endo Recherche, Inc., HSC Research & Development Limited Partnership, and University of Pennsylvania)"
+103,BRCA1,Myriad Genetics,organisation,collaborated_with,HSC Research & Development Limited Partnership,organisation,"in collaboration with investigators at Endo Recherche, Inc., HSC Research & Development Limited Partnership, and University of Pennsylvania"
+103,BRCA1,Myriad Genetics,organisation,collaborated_with,University of Pennsylvania,organisation,"in collaboration with investigators at Endo Recherche, Inc., HSC Research & Development Limited Partnership, and University of Pennsylvania"
+103,BRCA1,Myriad Genetics,organisation,isolated,BRCA2 gene,gene,Myriad... isolated and sequenced the BRCA2 gene and identified key mutations
+103,BRCA1,Myriad Genetics,organisation,sequenced,BRCA2 gene,gene,isolated and sequenced the BRCA2 gene and identified key mutations
+103,BRCA1,Myriad Genetics,organisation,filed_patent_for,BRCA2 gene,gene,the first BRCA2 patent was filed in the U.S. by Myriad and other institutions in 1995
+103,BRCA1,Myriad Genetics,organisation,exclusive_licensee_of,BRCA1 and BRCA2 patents,other,Myriad is the exclusive licensee of these patents and has enforced them in the US against clinical diagnostic labs
+103,BRCA1,Association for Molecular Pathology v. Myriad Genetics,other,filed_against,Myriad Genetics,organisation,the landmark Association for Molecular Pathology v. Myriad Genetics lawsuit
+103,BRCA1,BRCA1 and BRCA2 patents,other,began_expiring_in,2014,other,The patents began to expire in 2014
+103,BRCA1,Peter Meldrum,other,ceo_of,Myriad Genetics,organisation,"Peter Meldrum, CEO of Myriad Genetics"
+103,BRCA1,Myriad Genetics,organisation,owns,genotype-phenotype correlations database,other,"Myriad has a large, proprietary database of such genotype-phenotype correlations"
+103,BRCA1,US Supreme Court,organisation,invalidated_patents_on,BRCA1 gene,gene,invalidating Myriad's patents on the BRCA1 and BRCA2 genes
+103,BRCA1,US Supreme Court,organisation,invalidated_patents_on,BRCA2 gene,gene,invalidating Myriad's patents on the BRCA1 and BRCA2 genes
+103,BRCA1,Federal Court of Australia,organisation,upheld_patent_on,BRCA1 gene,gene,upholding the validity of an Australian Myriad Genetics patent over the BRCA1 gene in February 2013
+103,BRCA1,Yvonne D'Arcy,other,won_case_against,Myriad Genetics,organisation,Yvonne D'Arcy won her case against US-based biotech company Myriad Genetics in the High Court of Australia
+103,BRCA1,BRCA1 gene,gene,encodes,BRCA1 protein,other,"an isolated nucleic acid, coding for a BRCA1 protein"
+103,BRCA1,BRCA1 protein,other,indicates_susceptibility_to,breast cancer,disease,specific variations from the norm that are indicative of susceptibility to breast cancer and ovarian cancer
+103,BRCA1,BRCA1 protein,other,indicates_susceptibility_to,ovarian cancer,disease,indicative of susceptibility to breast cancer and ovarian cancer
+104,BRCA1,BRCA1,gene,interacts_with,proteins,other,BRCA1 has been shown to interact with the following proteins
+104,BRCA1,BRCA1 Protein,gene,part_of,U.S. National Library of Medicine Medical Subject Headings,organisation,BRCA1 Protein at the U.S. National Library of Medicine Medical Subject Headings (MeSH)
+104,BRCA1,BRCA1,gene,part_of,U.S. National Library of Medicine Medical Subject Headings,organisation,"Genes, BRCA1 at the U.S. National Library of Medicine Medical Subject Headings (MeSH)"
+104,BRCA1,PDBe-KB,organisation,provides,structure information for Human BRCA1,other,PDBe-KB provides an overview of all the structure information available in the PDB for Human BRCA1
+104,BRCA1,Human BRCA1,gene,part_of,PDB,organisation,structure information available in the PDB for Human BRCA1
+105,EZH2,Enhancer of zeste homolog 2,gene,encoded_by,EZH2 gene,gene,Enhancer of zeste homolog 2 (EZH2) is a histone-lysine N-methyltransferase enzyme (EC 2.1.1.43) encoded by EZH2 gene
+105,EZH2,Enhancer of zeste homolog 2,gene,participates_in,histone methylation,pathway,"participates in histone methylation and, ultimately, transcriptional repression"
+105,EZH2,Enhancer of zeste homolog 2,gene,participates_in,transcriptional repression,pathway,"participates in histone methylation and, ultimately, transcriptional repression"
+105,EZH2,Enhancer of zeste homolog 2,gene,catalyzes,addition of methyl groups to histone H3 at lysine 27,other,EZH2 catalyzes the addition of methyl groups to histone H3 at lysine 27
+105,EZH2,Enhancer of zeste homolog 2,gene,uses_cofactor,S-adenosyl-L-methionine,chemical,"addition of methyl groups to histone H3 at lysine 27, by using the cofactor S-adenosyl-L-methionine"
+105,EZH2,Enhancer of zeste homolog 2,gene,facilitates,heterochromatin formation,pathway,Methylation activity of EZH2 facilitates heterochromatin formation thereby silences gene function
+105,EZH2,Enhancer of zeste homolog 2,gene,silences,gene function,other,facilitates heterochromatin formation thereby silences gene function
+105,EZH2,Enhancer of zeste homolog 2,gene,required_during,cell mitosis,pathway,Remodeling of chromosomal heterochromatin by EZH2 is also required during cell mitosis
+105,EZH2,Enhancer of zeste homolog 2,gene,part_of,Polycomb Repressive Complex 2,other,EZH2 is the functional enzymatic component of the Polycomb Repressive Complex 2 (PRC2)
+105,EZH2,Polycomb Repressive Complex 2,other,responsible_for,embryonic development,pathway,"Polycomb Repressive Complex 2 (PRC2), which is responsible for healthy embryonic development through the epigenetic maintenance of genes"
+105,EZH2,Enhancer of zeste homolog 2,gene,responsible_for,methylation activity of PRC2,pathway,EZH2 is responsible for the methylation activity of PRC2
+105,EZH2,EED,gene,part_of,Polycomb Repressive Complex 2,other,"the complex also contains proteins required for optimal function (EED, SUZ12, JARID2, AEBP2, RbAp46/48, and PCL)"
+105,EZH2,SUZ12,gene,part_of,Polycomb Repressive Complex 2,other,"the complex also contains proteins required for optimal function (EED, SUZ12, JARID2, AEBP2, RbAp46/48, and PCL)"
+105,EZH2,JARID2,gene,part_of,Polycomb Repressive Complex 2,other,"the complex also contains proteins required for optimal function (EED, SUZ12, JARID2, AEBP2, RbAp46/48, and PCL)"
+105,EZH2,AEBP2,gene,part_of,Polycomb Repressive Complex 2,other,"the complex also contains proteins required for optimal function (EED, SUZ12, JARID2, AEBP2, RbAp46/48, and PCL)"
+105,EZH2,RbAp46/48,gene,part_of,Polycomb Repressive Complex 2,other,"the complex also contains proteins required for optimal function (EED, SUZ12, JARID2, AEBP2, RbAp46/48, and PCL)"
+105,EZH2,PCL,gene,part_of,Polycomb Repressive Complex 2,other,"the complex also contains proteins required for optimal function (EED, SUZ12, JARID2, AEBP2, RbAp46/48, and PCL)"
+105,EZH2,Enhancer of zeste homolog 2,gene,associated_with,cancer,disease,Mutation or over-expression of EZH2 has been linked to many forms of cancer
+105,EZH2,Enhancer of zeste homolog 2,gene,inhibits,tumor suppressor genes,gene,EZH2 inhibits genes responsible for suppressing tumor development
+105,EZH2,Enhancer of zeste homolog 2,gene,upregulated_in,breast cancer,disease,"it is upregulated in multiple cancers including, but not limited to, breast, prostate, melanoma, and bladder cancer"
+105,EZH2,Enhancer of zeste homolog 2,gene,upregulated_in,prostate cancer,disease,"it is upregulated in multiple cancers including, but not limited to, breast, prostate, melanoma, and bladder cancer"
+105,EZH2,Enhancer of zeste homolog 2,gene,upregulated_in,melanoma,disease,"it is upregulated in multiple cancers including, but not limited to, breast, prostate, melanoma, and bladder cancer"
+105,EZH2,Enhancer of zeste homolog 2,gene,upregulated_in,bladder cancer,disease,"it is upregulated in multiple cancers including, but not limited to, breast, prostate, melanoma, and bladder cancer"
+105,EZH2,EZH2 gene,gene,associated_with,Weaver syndrome,disease,"Mutations in the EZH2 gene are also associated with Weaver syndrome, a rare congenital disorder"
+105,EZH2,Enhancer of zeste homolog 2,gene,involved_in,ataxia telangiectasia,disease,"EZH2 is involved in causing neurodegenerative symptoms in the nervous system disorder, ataxia telangiectasia"
+105,EZH2,Enhancer of zeste homolog 2,gene,catalytic_subunit_of,Polycomb Repressive Complex 2,other,EZH2 is the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2)
+105,EZH2,Enhancer of zeste homolog 2,gene,forms_complex_with,SUZ12,gene,"EZH2's catalytic activity relies on its formation of a complex with at least two other PRC2 components, SUZ12 and EED"
+105,EZH2,Enhancer of zeste homolog 2,gene,forms_complex_with,EED,gene,"EZH2's catalytic activity relies on its formation of a complex with at least two other PRC2 components, SUZ12 and EED"
+106,EZH2,EZH2,gene,is_a,histone methyltransferase,other,"As a histone methyltransferase (HMTase), EZH2's primary function is to methylate Lys-27 on histone 3"
+106,EZH2,EZH2,gene,methylates,Lys-27 on histone 3,other,EZH2's primary function is to methylate Lys-27 on histone 3 (H3K27me)
+106,EZH2,EZH2,gene,uses_cofactor,S-adenosyl-L-methionine,chemical,transferring a methyl group from the cofactor S-adenosyl-L-methionine (SAM)
+106,EZH2,EZH2,gene,methylates,H3K27,other,"EZH2 is capable of mono-, di-, and tri-methylation of H3K27"
+106,EZH2,EZH2,gene,involved_in,transcriptional regulation in hematopoiesis,other,"associated with a variety of biological functions, including transcriptional regulation in hematopoiesis, development, and cell differentiation"
+106,EZH2,EZH2,gene,involved_in,development,other,"associated with a variety of biological functions, including transcriptional regulation in hematopoiesis, development, and cell differentiation"
+106,EZH2,EZH2,gene,involved_in,cell differentiation,other,"associated with a variety of biological functions, including transcriptional regulation in hematopoiesis, development, and cell differentiation"
+106,EZH2,EZH2,gene,methylates,non-histone proteins,other,EZH2 has also been identified as capable of methylating non-histone proteins
+106,EZH2,EZH2,gene,part_of,PRC2,other,"EZH2, as a part of PRC2, catalyzes trimethylation of H3K27"
+106,EZH2,EZH2,gene,catalyzes,H3K27me3,other,"EZH2, as a part of PRC2, catalyzes trimethylation of H3K27 (H3K27me3)"
+106,EZH2,H3K27me3,other,part_of,histone code,other,"trimethylation of H3K27 (H3K27me3), which is a histone modification that has been characterized as part of the histone code"
+106,EZH2,H3K27me3,other,associated_with,long term transcription repression,other,EZH2-mediated catalysis of H3K27me3 is associated with long term transcription repression
+106,EZH2,EZH2,gene,part_of,Polycomb group proteins,other,"EZH2, as well as other Polycomb group proteins, are involved in establishing and maintaining gene repression"
+106,EZH2,PRC2/EZH2-EED,other,mediates,H3K27 methylation,other,transcriptionally repressive state is thought to be due to PRC2/EZH2-EED-mediated H3K27 methylation
+106,EZH2,H3K27 methylation,other,recruits,PRC1,other,PRC2/EZH2-EED-mediated H3K27 methylation and subsequent recruitment of PRC1
+106,EZH2,PRC1,other,facilitates,chromatin condensation,other,recruitment of PRC1 which facilitates condensation of chromatin and formation of heterochromatin
+106,EZH2,PRC1,other,facilitates,heterochromatin formation,other,recruitment of PRC1 which facilitates condensation of chromatin and formation of heterochromatin
+106,EZH2,heterochromatin,other,suppresses,transcription,other,"Heterochromatin is tightly packed chromatin which limits the accessibility of transcription machinery to the underlying DNA, thereby suppressing transcription"
+106,EZH2,heterochromatin formation,other,required_for,chromosome segregation,other,"During cell division, heterochromatin formation is required for proper chromosome segregation"
+106,EZH2,PRC2/EED-EZH2 complex,other,recruits,DNA methyltransferases,gene,PRC2/EED-EZH2 complex may also be involved in the recruitment of DNA methyltransferases (DNMTs)
+106,EZH2,DNA methyltransferases,gene,increases,DNA methylation,other,"recruitment of DNA methyltransferases (DNMTs), which results in increased DNA methylation"
+106,EZH2,EZH2,gene,represses,HOXA9,gene,"Specific genes that have been identified as targets of EZH2-mediated transcriptional repression include HOXA9, HOXC8, MYT1, CDKN2A"
+106,EZH2,EZH2,gene,represses,HOXC8,gene,"Specific genes that have been identified as targets of EZH2-mediated transcriptional repression include HOXA9, HOXC8, MYT1, CDKN2A"
+106,EZH2,EZH2,gene,represses,MYT1,gene,"Specific genes that have been identified as targets of EZH2-mediated transcriptional repression include HOXA9, HOXC8, MYT1, CDKN2A"
+106,EZH2,EZH2,gene,represses,CDKN2A,gene,"Specific genes that have been identified as targets of EZH2-mediated transcriptional repression include HOXA9, HOXC8, MYT1, CDKN2A"
+106,EZH2,EZH2,gene,represses,retinoic acid target genes,gene,CDKN2A and retinoic acid target genes
+107,EZH2,EZH2,gene,activates,NF-κB target genes,gene,"In breast cancer cells, EZH2 has been demonstrated to activate NF-κB target genes"
+107,EZH2,EZH2,gene,independent_of,PRC2,other,"EZH2 may play a role in activation of transcription, independently of PRC2"
+107,EZH2,EZH2,gene,regulates,transcriptional repression,other,it helps control transcriptional repression of genes that regulate cell differentiation
+107,EZH2,EZH2,gene,trimethylates,H3K27,chemical,EZH2-mediated trimethylation of H3K27me3 in regions containing developmental genes
+107,EZH2,H3K27me3,chemical,part_of,cell differentiation maintenance,other,appears to be important for maintenance of normal cell differentiation
+107,EZH2,H3K27me3,chemical,drives,X-inactivation,other,H3K27me3 is also important in driving X-inactivation
+107,EZH2,EZH2,gene,initiates,heterochromatin formation,other,EZH2 is involved in initiating heterochromatin formation by trimethylating H3K27
+107,EZH2,EZH2,gene,part_of,B-cell development,other,EZH2 has been identified as an essential protein involved in development and differentiation of B-cells
+107,EZH2,EZH2,gene,part_of,T-cell development,other,essential protein involved in development and differentiation of B-cells and T-cells
+107,EZH2,H3K27me3,chemical,suppresses,differentiation-promoting genes,gene,H3K27me3 is involved in suppressing genes that promote differentiation
+107,EZH2,H3K27me3,chemical,regulates,hematopoiesis,other,maintaining an undifferentiated state of B- and T-cells and playing an important role in regulating hematopoiesis
+107,EZH2,phosphorylation of T350,chemical,activates,EZH2,gene,phosphorylation of T350 has been linked to an increase in EZH2 activity
+107,EZH2,phosphorylation of T492,chemical,inhibits,EZH2,gene,phosphorylation of T492 and S21 have been linked to a decrease in EZH2 activity
+107,EZH2,phosphorylation of S21,chemical,inhibits,EZH2,gene,phosphorylation of T492 and S21 have been linked to a decrease in EZH2 activity
+107,EZH2,phosphorylation of T492,chemical,disrupts,EZH2-PRC2 binding,other,Phosphorylation of T492 has been suggested to disrupt contacts between human EZH2 and its binding partners in the PRC2 complex
+107,EZH2,H3K27ac,chemical,inhibits,PRC2/EZH2-EED activity,other,"PRC2/EZH2-EED activity is antagonized by transcription-activating histone marks, such as acetylation of H3K27 (H3K27ac)"
+107,EZH2,H3K36me,chemical,inhibits,PRC2/EZH2-EED activity,other,"PRC2/EZH2-EED activity is antagonized by transcription-activating histone marks, such as ... methylation of H3K36 (H3K36me)"
+107,EZH2,estrogen signaling,pathway,regulates,EZH2 expression,gene,EZH2 expression is regulated by estrogen signaling in human normal breast epithelium and human breast cancers
+108,EZH2,EZH2,gene,recruited_by,PRC2 complex,other,EZH2 function is highly dependent upon its recruitment by the PRC2 complex
+108,EZH2,embryonic ectoderm development,gene,part_of,PRC2 complex,other,WD40-repeat protein embryonic ectoderm development (EED) and zinc finger protein suppressor of zeste 12 (SUZ12) are needed to stabilize the interaction of EZH2
+108,EZH2,suppressor of zeste 12,gene,part_of,PRC2 complex,other,WD40-repeat protein embryonic ectoderm development (EED) and zinc finger protein suppressor of zeste 12 (SUZ12) are needed to stabilize the interaction of EZH2
+108,EZH2,embryonic ectoderm development,gene,stabilizes_interaction_of,EZH2,gene,EED and SUZ12 are needed to stabilize the interaction of EZH2 with its histone substrate
+108,EZH2,suppressor of zeste 12,gene,stabilizes_interaction_of,EZH2,gene,EED and SUZ12 are needed to stabilize the interaction of EZH2 with its histone substrate
+108,EZH2,EZH2,gene,interacts_with,histone substrate,other,needed to stabilize the interaction of EZH2 with its histone substrate
+108,EZH2,EZH2α,gene,isoform_of,EZH2,gene,two isoforms of EZH2 generated from alternative splicing have been identified in humans: EZH2α and EZH2β
+108,EZH2,EZH2β,gene,isoform_of,EZH2,gene,two isoforms of EZH2 generated from alternative splicing have been identified in humans: EZH2α and EZH2β
+108,EZH2,EZH2α,gene,generated_by,alternative splicing,other,two isoforms of EZH2 generated from alternative splicing have been identified in humans
+108,EZH2,EZH2β,gene,generated_by,alternative splicing,other,two isoforms of EZH2 generated from alternative splicing have been identified in humans
+108,EZH2,EZH2β,gene,lacks,exon 4,other,"EZH2β, which lacks exons 4 and 8, has been shown to be active"
+108,EZH2,EZH2β,gene,lacks,exon 8,other,"EZH2β, which lacks exons 4 and 8, has been shown to be active"
+108,EZH2,EZH2α,gene,contains,nuclear localization signal,other,Both isoforms contain elements that have been identified as important for EZH2 function including the nuclear localization signal
+108,EZH2,EZH2β,gene,contains,nuclear localization signal,other,Both isoforms contain elements that have been identified as important for EZH2 function including the nuclear localization signal
+108,EZH2,EZH2α,gene,contains,EED binding site,other,Both isoforms contain elements... the EED and SUZ12 binding sites as well as the conserved SET domain
+108,EZH2,EZH2β,gene,contains,EED binding site,other,Both isoforms contain elements... the EED and SUZ12 binding sites as well as the conserved SET domain
+108,EZH2,EZH2α,gene,contains,SUZ12 binding site,other,Both isoforms contain elements... the EED and SUZ12 binding sites as well as the conserved SET domain
+108,EZH2,EZH2β,gene,contains,SUZ12 binding site,other,Both isoforms contain elements... the EED and SUZ12 binding sites as well as the conserved SET domain
+108,EZH2,EZH2α,gene,contains,SET domain,other,Both isoforms contain elements... the EED and SUZ12 binding sites as well as the conserved SET domain
+108,EZH2,EZH2β,gene,contains,SET domain,other,Both isoforms contain elements... the EED and SUZ12 binding sites as well as the conserved SET domain
+108,EZH2,PRC2/EZH2β complex,other,regulates,distinct genes,gene,PRC2/EZH2β complexes act on distinct genes from that of its PRC2/EZH2α counterpart
+108,EZH2,EZH2,gene,catalyzes,lysine methylation,other,EZH2 may also be capable of lysine methylation independent of association with PRC2
+108,EZH2,EZH2,gene,methylates,histone H3 lysine 27,other,part of the silencing function of the EZH2 complex is the methylation of histone H3 on lysine 27
+108,EZH2,EZH2 complex,other,performs,gene silencing,other,at least part of the silencing function of the EZH2 complex is the methylation of histone H3 on lysine 27
+108,EZH2,histone lysine methylation,other,regulates,gene expression,other,methylated lysines are important in the control of mammalian gene expression
+108,EZH2,histone lysine methylation,other,part_of,heterochromatin formation,other,"have a functional role in heterochromatin formation, X-chromosome inactivation and transcriptional regulation"
+108,EZH2,histone lysine methylation,other,part_of,X-chromosome inactivation,other,"have a functional role in heterochromatin formation, X-chromosome inactivation and transcriptional regulation"
+108,EZH2,histone lysine methylation,other,part_of,transcriptional regulation,other,"have a functional role in heterochromatin formation, X-chromosome inactivation and transcriptional regulation"
+108,EZH2,methyl modifications,chemical,affects,protein binding to histones,other,Methyl modifications can affect the binding of proteins to these histones and either activate or inhibit transcription
+109,EZH2,EZH2,gene,member_of,SET domain family of lysine methyltransferases,other,EZH2 is a member of the SET domain family of lysine methyltransferases
+109,EZH2,SET domain family of lysine methyltransferases,other,adds_methyl_groups_to,lysine side chains of substrate proteins,chemical,lysine methyltransferases which function to add methyl groups to lysine side chains of substrate proteins
+109,EZH2,SET methyltransferases,other,depends_on,S-Adenosyl methionine,chemical,SET methyltransferases depend on a S-Adenosyl methionine (SAM) cofactor
+109,EZH2,S-Adenosyl methionine,chemical,acts_as,methyl donor,chemical,S-Adenosyl methionine (SAM) cofactor to act as a methyl donor for their catalytic activity
+109,EZH2,SET domain proteins,other,binds,substrate,chemical,they bind their substrate and SAM cofactor on opposite sides of the active site
+109,EZH2,SET domain proteins,other,binds,SAM cofactor,chemical,they bind their substrate and SAM cofactor on opposite sides of the active site of the enzyme
+109,EZH2,EZH2,gene,structurally_aligns_with,human SET7/9 methyltransferase,gene,STAMP structure alignment with the human SET7/9 methyltransferase shows conserved tyrosine residues
+109,EZH2,EZH2,gene,has_residue,tyrosine 726,chemical,tyrosine 726 in the EZH2 active site was acting as a general base
+109,EZH2,tyrosine 726,chemical,located_in,EZH2 active site,other,tyrosine 726 in the EZH2 active site
+109,EZH2,EZH2,gene,catalyzes,mono-methylation of H3K27,chemical,EZH2 primarily catalyzes mono- and di-methylation of H3K27
+109,EZH2,EZH2,gene,catalyzes,di-methylation of H3K27,chemical,EZH2 primarily catalyzes mono- and di-methylation of H3K27
+109,EZH2,EZH2 Y641F mutation,gene,increases,H3K27 tri-methylation activity,chemical,mutation of residue tyrosine 641 to phenylalanine (Y641F) results in higher H3K27 tri-methylation activity
+109,EZH2,EZH2,gene,has_residue,tyrosine 641,chemical,mutation of residue tyrosine 641 to phenylalanine (Y641F)
+110,EZH2,EZH2,gene,target_for,anti-cancer therapy,other,EZH2 is an attractive target for anti-cancer therapy
+110,EZH2,EZH2,gene,promotes,cancerous cell division,other,it helps cancerous cells divide and proliferate
+110,EZH2,EZH2,gene,overexpressed_in,breast cancer,disease,found in larger amounts than in healthy cells in a wide range of cancers including breast
+110,EZH2,EZH2,gene,overexpressed_in,prostate cancer,disease,"found in larger amounts than in healthy cells in a wide range of cancers including breast, prostate"
+110,EZH2,EZH2,gene,overexpressed_in,bladder cancer,disease,"wide range of cancers including breast, prostate, bladder"
+110,EZH2,EZH2,gene,overexpressed_in,uterine cancer,disease,"cancers including breast, prostate, bladder, uterine"
+110,EZH2,EZH2,gene,overexpressed_in,renal cancer,disease,"breast, prostate, bladder, uterine, and renal cancers"
+110,EZH2,EZH2,gene,overexpressed_in,melanoma,disease,as well as melanoma and lymphoma
+110,EZH2,EZH2,gene,overexpressed_in,lymphoma,disease,as well as melanoma and lymphoma
+110,EZH2,EZH2,gene,functions_as,gene suppressor,other,EZH2 is a gene suppressor
+110,EZH2,EZH2,gene,silences,tumor suppressor genes,gene,"when it becomes overexpressed, many tumor suppressor genes that are normally turned on, are turned off"
+110,EZH2,EZH2 inhibition,other,shrinks,malignant tumors,disease,Inhibition of EZH2 function shrinks malignant tumors in some reported cases
+110,EZH2,EZH2 overexpression,other,diagnostic_marker_of,cancer,disease,overexpression of EZH2 can be used as a diagnostic marker of cancer
+110,EZH2,EZH2 overexpression,other,diagnostic_marker_of,neurodegenerative disorders,disease,diagnostic marker of cancer and some neurodegenerative disorders
+110,EZH2,EZH2,gene,part_of,pRB-E2F pathway,pathway,One example of a cancer pathway in which EZH2 plays a role is the pRB-E2F pathway
+110,EZH2,EZH2,gene,downstream_of,pRB-E2F pathway,pathway,It is downstream from the pRB-E2F pathway
+110,EZH2,pRB-E2F pathway,pathway,causes_overexpression_of,EZH2,gene,signals from this pathway lead to EZH2 overexpression
+110,EZH2,EZH2,gene,activates_without,PRC2,other,"when EZH2 is overexpressed, it can activate genes without forming PRC2"
+110,EZH2,EZH2,gene,activates,cell proliferation genes,gene,"In breast cancer cells, EZH2 activates genes that promote cell proliferation and survival"
+110,EZH2,EZH2,gene,activates,c-myc,gene,It can also activate regulatory genes like c-myc and cyclin D1
+110,EZH2,EZH2,gene,activates,cyclin D1,gene,activate regulatory genes like c-myc and cyclin D1
+110,EZH2,EZH2,gene,interacts_with,Wnt signaling factors,pathway,by interacting with Wnt signaling factors
+110,EZH2,tyrosine 641 mutation,other,associated_with,B-cell lymphoma,disease,mutation of tyrosine 641 in the active SET domain to a number of different amino acids is a common feature of some B-cell lymphomas
+111,EZH2,EZH2 inhibitor,drug,inhibits,EZH2,gene,Developing an inhibitor of EZH2
+111,EZH2,EZH2,gene,causes,histone methylation of tumor suppressor genes,other,preventing unwanted histone methylation of tumor suppressor genes
+111,EZH2,EZH2 inhibitor development,other,targets,SET domain active site,other,EZH2 inhibitor development has focused on targeting the SET domain active site of the protein
+111,EZH2,SET domain active site,other,part_of,EZH2,gene,targeting the SET domain active site of the protein
+111,EZH2,3-deazaneplanocin A,drug,inhibits,EZH2,gene,"Several inhibitors of EZH2 have been developed as of 2015, including 3-deazaneplanocin A (DZNep)"
+111,EZH2,EPZ005687,drug,inhibits,EZH2,gene,"inhibitors of EZH2 have been developed as of 2015, including 3-deazaneplanocin A (DZNep), EPZ005687"
+111,EZH2,EI1,drug,inhibits,EZH2,gene,"inhibitors of EZH2 have been developed as of 2015, including ... EI1"
+111,EZH2,GSK126,drug,inhibits,EZH2,gene,"inhibitors of EZH2 have been developed as of 2015, including ... GSK126"
+111,EZH2,UNC1999,drug,inhibits,EZH2,gene,"inhibitors of EZH2 have been developed as of 2015, including ... UNC1999"
+112,EZH2,DZNep,drug,has_property,antiviral,other,DZNep has potential antiviral and anti-cancer properties
+112,EZH2,DZNep,drug,has_property,anti-cancer,other,DZNep has potential antiviral and anti-cancer properties
+112,EZH2,DZNep,drug,lowers,EZH2,gene,it lowers EZH2 levels and induces apoptosis in breast and colon cancer cells
+112,EZH2,DZNep,drug,induces_apoptosis_in,breast cancer cells,disease,induces apoptosis in breast and colon cancer cells
+112,EZH2,DZNep,drug,induces_apoptosis_in,colon cancer cells,disease,induces apoptosis in breast and colon cancer cells
+112,EZH2,DZNep,drug,inhibits,S-adenosyl-L-homocysteine hydrolysis,other,DZNep inhibits the hydrolysis of S-adenosyl-L-homocysteine (SAH)
+112,EZH2,S-adenosyl-L-homocysteine,chemical,inhibits,protein methyltransferases,gene,"S-adenosyl-L-homocysteine (SAH), which is a product-based inhibitor of all protein methyltransferases"
+112,EZH2,S-adenosyl-L-homocysteine,chemical,inhibits,EZH2,gene,increased cellular concentrations of SAH which in turn inhibits EZH2
+112,EZH2,DZNep,drug,inhibits,DNA methyltransferases,gene,DZNep is not specific to EZH2 and also inhibits other DNA methyltransferases
+112,EZH2,EPZ005687,drug,developed_by,Epizyme,organisation,a company called Epizyme revealed EPZ005687
+112,EZH2,EPZ005687,drug,inhibits,EZH2,gene,an S-adenosylmethionine (SAM) competitive inhibitor that is more selective than DZNep
+112,EZH2,EPZ005687,drug,competes_with,S-adenosylmethionine,chemical,an S-adenosylmethionine (SAM) competitive inhibitor
+112,EZH2,EPZ005687,drug,binds_to,EZH2 SET domain,other,blocks EZH2 activity by binding to the SET domain active site of the enzyme
+112,EZH2,EPZ005687,drug,inhibits,EZH2 Y641 mutant,gene,EPZ005687 can also inhibit the Y641 and A677 mutants of EZH2
+112,EZH2,EPZ005687,drug,inhibits,EZH2 A677 mutant,gene,EPZ005687 can also inhibit the Y641 and A677 mutants of EZH2
+112,EZH2,EPZ005687,drug,treats,non-Hodgkin's lymphoma,disease,which may be applicable for treating non-Hodgkin's lymphoma
+112,EZH2,Tazemetostat,drug,also_known_as,EPZ-6438,drug,"another EZH2 inhibitor, tazemetostat (EPZ-6438)"
+112,EZH2,Tazemetostat,drug,also_known_as,Tazverik,drug,"tazemetostat, with the tradename Tazverik"
+112,EZH2,Tazemetostat,drug,inhibits,EZH2,gene,"Epizyme began Phase I clinical trials with another EZH2 inhibitor, tazemetostat"
+112,EZH2,Tazemetostat,drug,developed_by,Epizyme,organisation,"Epizyme began Phase I clinical trials with another EZH2 inhibitor, tazemetostat"
+112,EZH2,Tazemetostat,drug,treats,B-cell lymphoma,disease,"Phase I clinical trials with another EZH2 inhibitor, tazemetostat (EPZ-6438), for patients with B-cell lymphoma"
+112,EZH2,Tazemetostat,drug,treats,metastatic epithelioid sarcoma,disease,FDA accelerated approval for the treatment of metastatic or locally advanced epithelioid sarcoma
+112,EZH2,Tazemetostat,drug,treats,locally advanced epithelioid sarcoma,disease,FDA accelerated approval for the treatment of metastatic or locally advanced epithelioid sarcoma
+112,EZH2,Tazemetostat,drug,treats,relapsed follicular lymphoma,disease,accelerated approval for the treatment of patients with relapsed follicular lymphoma
+112,EZH2,Tazemetostat,drug,approved_by,FDA,organisation,"tazemetostat, with the tradename Tazverik, gained an FDA accelerated approval"
+112,EZH2,Sinefungin,drug,competes_with,S-adenosylmethionine,chemical,Sinefungin is another SAM-competitive inhibitor
+112,EZH2,Sinefungin,drug,binds_to,DNA methyltransferases,gene,binding in the cofactor binding pocket of DNA methyltransferases to block methyl transfer
+112,EZH2,Sinefungin,drug,inhibits,DNA methyltransferases,gene,binding in the cofactor binding pocket of DNA methyltransferases to block methyl transfer
+112,EZH2,EI1,drug,developed_by,Novartis,organisation,"EI1 is another inhibitor, developed by Novartis"
+112,EZH2,EI1,drug,inhibits,EZH2,gene,showed EZH2 inhibitory activity in lymphoma tumor cells
+112,EZH2,EI1,drug,inhibits,EZH2 Y641 mutant,gene,"lymphoma tumor cells, including cells with the Y641 mutation"
+112,EZH2,EI1,drug,competes_with,S-adenosylmethionine,chemical,mechanism of this inhibitor also involves competing with the SAM cofactor for binding to EZH2
+112,EZH2,GSK126,drug,inhibits,EZH2,gene,"GSK126 is a potent, SAM-competitive EZH2 inhibitor developed by GlaxoSmithKline"
+112,EZH2,GSK126,drug,competes_with,S-adenosylmethionine,chemical,"GSK126 is a potent, SAM-competitive EZH2 inhibitor"
+112,EZH2,GSK126,drug,developed_by,GlaxoSmithKline,organisation,SAM-competitive EZH2 inhibitor developed by GlaxoSmithKline
+112,EZH2,UNC1999,drug,analogue_of,GSK126,drug,UNC1999 was developed as an analogue of GSK126
+112,EZH2,UNC1999,drug,inhibits,EZH2,gene,the first orally bioavailable EZH2 inhibitor to show activity
+112,EZH2,UNC1999,drug,binds_to,EZH1,gene,"it binds to EZH1 as well, increasing the potential for off-target effects"
+112,EZH2,Etoposide,drug,inhibits,topoisomerase,gene,"Etoposide, a topoisomerase inhibitor"
+112,EZH2,Etoposide,drug,combined_with,EZH2 inhibitor,drug,"Etoposide, a topoisomerase inhibitor, when combined with an EZH2 inhibitor"
+112,EZH2,Etoposide,drug,treats,non-small cell lung cancer,disease,becomes more effective for non-small cell lung cancers with BRG1 and EGFR mutations
+112,EZH2,EZH2,gene,suppresses,myelodysplastic syndrome,disease,"EZH2 and lysine methylation can have tumor suppressing activity, for example in myelodysplastic syndrome"
+113,EZH2,EZH2,gene,regulates,osteochondrogenesis,other,EZH2 is crucial for epigenetic regulation of specific patterning during osteochondrogenesis
+113,EZH2,EZH2,gene,promotes,bone and cartilage formation,other,EZH2 promotes bone and cartilage formation in facial skeletal features arising from the neural crest
+113,EZH2,EZH2,gene,biomarker_for,Inflammatory Breast Cancer,disease,Above average EZH2 expression has become a biological marker for the most aggressive form for breast cancer known as Inflammatory Breast Cancer
+113,EZH2,EZH2 knockdown,other,inhibits,Inflammatory Breast Cancer cell migration,other,the knockdown gene for EZH2 inhibited both the migration and invasion of IBC cells
+113,EZH2,EZH2 knockdown,other,inhibits,Inflammatory Breast Cancer cell invasion,other,the knockdown gene for EZH2 inhibited both the migration and invasion of IBC cells
+113,EZH2,EZH2 knockdown,other,suppresses,tumor growth,other,"its knockdown gene suppressed tumor growth, most likely by the presence of fewer blood vessels"
+113,EZH2,EZH2 knockdown,other,reduces,angiogenesis,other,"fewer blood vessels, or reduced angiogenesis, in the EZH2 knockdown tumor versus EZH2 tumors"
+113,EZH2,EZH2 mutations,gene,associated_with,Weaver syndrome,disease,Mutations in the EZH2 gene have been linked with Weaver syndrome
+113,EZH2,Weaver syndrome,disease,characterized_by,advanced bone age,other,"Weaver syndrome, a rare disorder characterized by advanced bone age, macrocephaly, and hypertelorism"
+113,EZH2,Weaver syndrome,disease,characterized_by,macrocephaly,other,"Weaver syndrome, a rare disorder characterized by advanced bone age, macrocephaly, and hypertelorism"
+113,EZH2,Weaver syndrome,disease,characterized_by,hypertelorism,other,"Weaver syndrome, a rare disorder characterized by advanced bone age, macrocephaly, and hypertelorism"
+113,EZH2,EZH2 histidine-to-tyrosine mutation,gene,found_in,Weaver syndrome,disease,The histidine residue in the active site of the wild-type EZH2 was mutated to tyrosine in patients diagnosed with Weaver syndrome
+113,EZH2,EZH2 mutation,gene,disrupts,cofactor binding,other,The mutation likely interferes with cofactor binding and causes disruption of the natural function of the protein
+113,EZH2,Enhancer of zeste,gene,identified_in,Drosophila melanogaster,other,Enhancer of zeste (E(z)) was originally identified in Drosophila melanogaster
+113,EZH2,EZH1,gene,homolog_of,Enhancer of zeste,gene,its mammalian homologs were subsequently identified and named EZH1 (enhancer of zeste homolog 1)
+113,EZH2,EZH2,gene,homolog_of,Enhancer of zeste,gene,its mammalian homologs were subsequently identified and named EZH1 (enhancer of zeste homolog 1) and EZH2 (enhancer of zeste homolog 2)
+113,EZH2,EZH2,gene,part_of,development,other,"play essential roles in development, cell differentiation, and cell division"
+113,EZH2,EZH2,gene,part_of,cell differentiation,other,"play essential roles in development, cell differentiation, and cell division"
+113,EZH2,EZH2,gene,part_of,cell division,other,"play essential roles in development, cell differentiation, and cell division"
+114,Apoptosis,apoptosis,other,is_a,programmed cell death,other,Apoptosis ... is a form of programmed cell death
+114,Apoptosis,apoptosis,other,occurs_in,multicellular organisms,other,programmed cell death that occurs in multicellular organisms
+114,Apoptosis,apoptosis,other,occurs_in,eukaryotic single-celled microorganisms,other,"occurs in multicellular organisms and in some eukaryotic, single-celled microorganisms such as yeast"
+114,Apoptosis,apoptosis,other,causes,blebbing,other,"These changes include blebbing, cell shrinkage, nuclear fragmentation"
+114,Apoptosis,apoptosis,other,causes,cell shrinkage,other,"These changes include blebbing, cell shrinkage, nuclear fragmentation"
+114,Apoptosis,apoptosis,other,causes,nuclear fragmentation,other,"blebbing, cell shrinkage, nuclear fragmentation, chromatin condensation"
+114,Apoptosis,apoptosis,other,causes,chromatin condensation,other,"nuclear fragmentation, chromatin condensation, DNA fragmentation"
+114,Apoptosis,apoptosis,other,causes,DNA fragmentation,other,"chromatin condensation, DNA fragmentation, and mRNA decay"
+114,Apoptosis,apoptosis,other,causes,mRNA decay,other,"DNA fragmentation, and mRNA decay"
+114,Apoptosis,necrosis,other,is_a,traumatic cell death,other,"necrosis, which is a form of traumatic cell death that results from acute cellular injury"
+114,Apoptosis,necrosis,other,results_from,acute cellular injury,other,traumatic cell death that results from acute cellular injury
+114,Apoptosis,apoptosis,other,produces,apoptotic bodies,other,apoptosis produces cell fragments called apoptotic bodies
+114,Apoptosis,phagocytes,other,engulfs,apoptotic bodies,other,apoptotic bodies that phagocytes are able to engulf and remove
+114,Apoptosis,intrinsic pathway,pathway,initiates,apoptosis,other,Apoptosis can be initiated through one of two pathways. In the intrinsic pathway the cell kills itself
+114,Apoptosis,extrinsic pathway,pathway,initiates,apoptosis,other,in the extrinsic pathway the cell kills itself because of signals from other cells
+114,Apoptosis,intrinsic pathway,pathway,activated_by,cell stress,other,in the intrinsic pathway the cell kills itself because it senses cell stress
+114,Apoptosis,extrinsic pathway,pathway,activated_by,signals from other cells,other,extrinsic pathway the cell kills itself because of signals from other cells
+114,Apoptosis,intrinsic pathway,pathway,activates,caspases,gene,Both pathways induce cell death by activating caspases
+114,Apoptosis,extrinsic pathway,pathway,activates,caspases,gene,Both pathways induce cell death by activating caspases
+114,Apoptosis,caspases,gene,is_a,proteases,gene,"activating caspases, which are proteases, or enzymes that degrade proteins"
+114,Apoptosis,initiator caspases,gene,activates,executioner caspases,gene,"activate initiator caspases, which then activate executioner caspases"
+114,Apoptosis,executioner caspases,gene,causes,cell death,other,"executioner caspases, which then kill the cell by degrading proteins indiscriminately"
+114,Apoptosis,excessive apoptosis,other,causes,atrophy,disease,Excessive apoptosis causes atrophy
+114,Apoptosis,insufficient apoptosis,other,causes,cancer,disease,"an insufficient amount results in uncontrolled cell proliferation, such as cancer"
+114,Apoptosis,Fas receptors,gene,promotes,apoptosis,other,"Fas receptors and caspases, promote apoptosis"
+114,Apoptosis,caspases,gene,promotes,apoptosis,other,"Fas receptors and caspases, promote apoptosis"
+114,Apoptosis,Bcl-2 family,gene,inhibits,apoptosis,other,some members of the Bcl-2 family of proteins inhibit apoptosis
+115,Apoptosis,Carl Vogt,other,described,apoptosis,other,German scientist Carl Vogt was first to describe the principle of apoptosis in 1842.
+115,Apoptosis,Walther Flemming,other,described,programmed cell death,other,"In 1885, anatomist Walther Flemming delivered a more precise description of the process of programmed cell death."
+115,Apoptosis,John Kerr,other,affiliated_with,University of Queensland,organisation,John Kerr at the University of Queensland was able to distinguish apoptosis from traumatic cell death.
+115,Apoptosis,John Kerr,other,distinguished,apoptosis,other,John Kerr at the University of Queensland was able to distinguish apoptosis from traumatic cell death.
+115,Apoptosis,Andrew Wyllie,other,graduate_student_of,Alastair Currie,other,"Andrew Wyllie, who was Currie's graduate student, at the University of Aberdeen."
+115,Apoptosis,Alastair Currie,other,affiliated_with,University of Aberdeen,organisation,"join Alastair Currie, as well as Andrew Wyllie, who was Currie's graduate student, at the University of Aberdeen."
+115,Apoptosis,Andrew Wyllie,other,affiliated_with,University of Aberdeen,organisation,"Andrew Wyllie, who was Currie's graduate student, at the University of Aberdeen."
+115,Apoptosis,John Kerr,other,co_authored_with,Alastair Currie,other,"In 1972, the trio published a seminal article in the British Journal of Cancer."
+115,Apoptosis,John Kerr,other,co_authored_with,Andrew Wyllie,other,"In 1972, the trio published a seminal article in the British Journal of Cancer."
+115,Apoptosis,John Kerr,other,published_in,British Journal of Cancer,organisation,"In 1972, the trio published a seminal article in the British Journal of Cancer."
+115,Apoptosis,James Cormack,other,suggested_term,apoptosis,other,"credited James Cormack, a professor of Greek language at University of Aberdeen, with suggesting the term apoptosis."
+115,Apoptosis,James Cormack,other,affiliated_with,University of Aberdeen,organisation,"James Cormack, a professor of Greek language at University of Aberdeen"
+115,Apoptosis,John Kerr,other,received,Paul Ehrlich and Ludwig Darmstaedter Prize,other,"Kerr received the Paul Ehrlich and Ludwig Darmstaedter Prize on March 14, 2000, for his description of apoptosis."
+115,Apoptosis,John Kerr,other,shared_prize_with,H. Robert Horvitz,other,He shared the prize with Boston biologist H. Robert Horvitz.
+115,Apoptosis,BCL2,gene,responsible_for,follicular lymphoma,disease,"BCL2, the gene responsible for follicular lymphoma, encoded a protein that inhibited cell death."
+115,Apoptosis,BCL2,gene,encodes,cell death inhibiting protein,other,"BCL2, the gene responsible for follicular lymphoma, encoded a protein that inhibited cell death."
+115,Apoptosis,BCL2 protein,other,inhibits,cell death,other,"BCL2, the gene responsible for follicular lymphoma, encoded a protein that inhibited cell death."
+115,Apoptosis,Sydney Brenner,other,received,2002 Nobel Prize in Medicine,other,"The 2002 Nobel Prize in Medicine was awarded to Sydney Brenner, H. Robert Horvitz and John Sulston"
+115,Apoptosis,H. Robert Horvitz,other,received,2002 Nobel Prize in Medicine,other,"The 2002 Nobel Prize in Medicine was awarded to Sydney Brenner, H. Robert Horvitz and John Sulston"
+115,Apoptosis,John Sulston,other,received,2002 Nobel Prize in Medicine,other,"The 2002 Nobel Prize in Medicine was awarded to Sydney Brenner, H. Robert Horvitz and John Sulston"
+115,Apoptosis,Sydney Brenner,other,identified,apoptosis genes,gene,"awarded to Sydney Brenner, H. Robert Horvitz and John Sulston for their work identifying genes that control apoptosis."
+115,Apoptosis,H. Robert Horvitz,other,identified,apoptosis genes,gene,"awarded to Sydney Brenner, H. Robert Horvitz and John Sulston for their work identifying genes that control apoptosis."
+115,Apoptosis,John Sulston,other,identified,apoptosis genes,gene,"awarded to Sydney Brenner, H. Robert Horvitz and John Sulston for their work identifying genes that control apoptosis."
+115,Apoptosis,apoptosis genes,gene,identified_in,C. elegans,other,The genes were identified by studies in the nematode C. elegans
+115,Apoptosis,apoptosis genes,gene,regulate,apoptosis,other,homologues of these genes function in humans to regulate apoptosis.
+116,Apoptosis,apoptosis,other,translates_to,falling off of leaves from a tree,other,"In Greek, apoptosis translates to the ""falling off"" of leaves from a tree."
+116,Apoptosis,James Cormack,other,reintroduced,apoptosis,other,"Cormack, professor of Greek language, reintroduced the term for medical use"
+116,Apoptosis,James Cormack,other,professor_of,Greek language,other,"Cormack, professor of Greek language, reintroduced the term for medical use"
+116,Apoptosis,Hippocrates,other,used_term,apoptosis,other,"Hippocrates used the term to mean ""the falling off of the bones""."
+116,Apoptosis,apoptosis,other,meant,falling off of the bones,other,"Hippocrates used the term to mean ""the falling off of the bones""."
+116,Apoptosis,Galen,other,extended_meaning_of,apoptosis,other,"Galen extended its meaning to ""the dropping of the scabs""."
+116,Apoptosis,apoptosis,other,meant,dropping of the scabs,other,"Galen extended its meaning to ""the dropping of the scabs""."
+116,Apoptosis,James Cormack,other,suggested_name,apoptosis,other,Cormack was no doubt aware of this usage when he suggested the name.
+116,Apoptosis,James Cormack,other,part_of,"Department of Greek, University of Aberdeen",organisation,"Professor James Cormack of the Department of Greek, University of Aberdeen, for suggesting this term"
+116,Apoptosis,Department of Greek,organisation,part_of,University of Aberdeen,organisation,"Professor James Cormack of the Department of Greek, University of Aberdeen"
+116,Apoptosis,apoptosis,other,describes,dropping off of petals from flowers,other,"""apoptosis"" (ἀπόπτωσις) is used in Greek to describe the ""dropping off"" or ""falling off"" of petals from flowers"
+116,Apoptosis,apoptosis,other,describes,falling off of leaves from trees,other,"used in Greek to describe the ""dropping off"" or ""falling off"" of petals from flowers, or leaves from trees"
+116,Apoptosis,ptosis,other,derived_from_root,to fall,other,"pronounced like ""ptosis"" (with the ""p"" silent), which comes from the same root ""to fall"""
+116,Apoptosis,ptosis,other,describes,drooping of the upper eyelid,other,is already used to describe the drooping of the upper eyelid
+117,Apoptosis,apoptosis,other,regulated_by,activation mechanisms,other,The initiation of apoptosis is tightly regulated by activation mechanisms
+117,Apoptosis,apoptosis,other,leads_to,cell death,other,"once apoptosis has begun, it inevitably leads to the death of the cell"
+117,Apoptosis,intrinsic pathway,pathway,also_known_as,mitochondrial pathway,pathway,the intrinsic pathway (also called the mitochondrial pathway)
+117,Apoptosis,intrinsic pathway,pathway,activated_by,intracellular signals,other,The intrinsic pathway is activated by intracellular signals generated when cells are stressed
+117,Apoptosis,intrinsic pathway,pathway,depends_on,release of proteins from the intermembrane space of mitochondria,other,depends on the release of proteins from the intermembrane space of mitochondria
+117,Apoptosis,extrinsic pathway,pathway,activated_by,extracellular ligands,other,The extrinsic pathway is activated by extracellular ligands binding to cell-surface death receptors
+117,Apoptosis,extracellular ligands,other,binds_to,cell-surface death receptors,other,extracellular ligands binding to cell-surface death receptors
+117,Apoptosis,extrinsic pathway,pathway,leads_to,death-inducing signaling complex,other,leads to the formation of the death-inducing signaling complex (DISC)
+117,Apoptosis,glucocorticoids,chemical,binds_to,nuclear receptors,other,The binding of nuclear receptors by glucocorticoids
+117,Apoptosis,glucocorticoids,chemical,triggers,intracellular apoptotic signals,other,binding of nuclear receptors by glucocorticoids... can all trigger the release of intracellular apoptotic signals
+117,Apoptosis,heat,other,triggers,intracellular apoptotic signals,other,"heat, radiation, nutrient deprivation... can all trigger the release of intracellular apoptotic signals"
+117,Apoptosis,radiation,other,triggers,intracellular apoptotic signals,other,"heat, radiation, nutrient deprivation... can all trigger the release of intracellular apoptotic signals"
+117,Apoptosis,nutrient deprivation,other,triggers,intracellular apoptotic signals,other,"nutrient deprivation, viral infection, hypoxia... can all trigger the release of intracellular apoptotic signals"
+117,Apoptosis,viral infection,disease,triggers,intracellular apoptotic signals,other,"viral infection, hypoxia, increased intracellular concentration of free fatty acids... can all trigger"
+117,Apoptosis,hypoxia,disease,triggers,intracellular apoptotic signals,other,"hypoxia, increased intracellular concentration of free fatty acids... can all trigger the release"
+117,Apoptosis,increased intracellular concentration of free fatty acids,other,triggers,intracellular apoptotic signals,other,increased intracellular concentration of free fatty acids... can all trigger the release of intracellular apoptotic signals
+117,Apoptosis,increased intracellular calcium concentration,other,triggers,intracellular apoptotic signals,other,"increased intracellular calcium concentration, for example, by damage to the membrane, can all trigger"
+117,Apoptosis,poly ADP ribose polymerase,gene,regulates,apoptosis,other,"cellular components, such as poly ADP ribose polymerase, may also help regulate apoptosis"
+117,Apoptosis,apoptotic signals,other,initiates,apoptosis pathway,pathway,apoptotic signals must cause regulatory proteins to initiate the apoptosis pathway
+117,Apoptosis,drug activity,other,causes,increase in calcium concentration,other,an increase in calcium concentration within a cell caused by drug activity
+117,Apoptosis,increase in calcium concentration,other,causes,apoptosis,other,"increase in calcium concentration within a cell caused by drug activity, which also can cause apoptosis"
+117,Apoptosis,calpain,gene,mediates,apoptosis,other,can cause apoptosis via a calcium binding protease calpain
+118,Apoptosis,intrinsic pathway,pathway,also_known_as,mitochondrial pathway,pathway,The intrinsic pathway is also known as the mitochondrial pathway.
+118,Apoptosis,apoptotic proteins,other,target,mitochondria,other,Apoptotic proteins that target mitochondria affect them in different ways.
+118,Apoptosis,apoptotic proteins,other,causes,mitochondrial swelling,other,They may cause mitochondrial swelling through the formation of membrane pores
+118,Apoptosis,apoptotic proteins,other,increases_permeability_of,mitochondrial membrane,other,they may increase the permeability of the mitochondrial membrane and cause apoptotic effectors to leak out
+118,Apoptosis,nitric oxide,chemical,induces,apoptosis,pathway,nitric oxide is able to induce apoptosis by helping to dissipate the membrane potential of mitochondria
+118,Apoptosis,nitric oxide,chemical,dissipates,mitochondrial membrane potential,other,nitric oxide is able to induce apoptosis by helping to dissipate the membrane potential of mitochondria
+118,Apoptosis,nitric oxide,chemical,initiates,apoptosis,pathway,Nitric oxide has been implicated in initiating and inhibiting apoptosis
+118,Apoptosis,cytochrome c,other,released_from,mitochondria,other,cytochrome c is released from mitochondria through the actions of the proteins Bax and Bak
+118,Apoptosis,Bax,gene,releases,cytochrome c,other,cytochrome c is released from mitochondria through the actions of the proteins Bax and Bak
+118,Apoptosis,Bak,gene,releases,cytochrome c,other,cytochrome c is released from mitochondria through the actions of the proteins Bax and Bak
+118,Apoptosis,Bax,gene,inserts_into,outer mitochondrial membrane,other,a multitude of Bax/Bak homo- and hetero-dimers of Bax/Bak inserted into the outer membrane
+118,Apoptosis,Bak,gene,inserts_into,outer mitochondrial membrane,other,a multitude of Bax/Bak homo- and hetero-dimers of Bax/Bak inserted into the outer membrane
+118,Apoptosis,cytochrome c,other,binds_to,Apoptotic protease activating factor – 1,gene,Once cytochrome c is released it binds with Apoptotic protease activating factor – 1 (Apaf-1) and ATP
+118,Apoptosis,cytochrome c,other,binds_to,ATP,chemical,Once cytochrome c is released it binds with Apoptotic protease activating factor – 1 (Apaf-1) and ATP
+118,Apoptosis,Apoptotic protease activating factor – 1,gene,binds_to,pro-caspase-9,gene,"binds with Apoptotic protease activating factor – 1 (Apaf-1) and ATP, which then bind to pro-caspase-9"
+118,Apoptosis,ATP,chemical,binds_to,pro-caspase-9,gene,"binds with Apoptotic protease activating factor – 1 (Apaf-1) and ATP, which then bind to pro-caspase-9"
+118,Apoptosis,apoptosome,other,part_of,intrinsic pathway,pathway,bind to pro-caspase-9 to create a protein complex known as an apoptosome
+118,Apoptosis,cytochrome c,other,part_of,apoptosome,other,bind to pro-caspase-9 to create a protein complex known as an apoptosome
+118,Apoptosis,Apoptotic protease activating factor – 1,gene,part_of,apoptosome,other,bind to pro-caspase-9 to create a protein complex known as an apoptosome
+118,Apoptosis,ATP,chemical,part_of,apoptosome,other,bind to pro-caspase-9 to create a protein complex known as an apoptosome
+118,Apoptosis,pro-caspase-9,gene,part_of,apoptosome,other,bind to pro-caspase-9 to create a protein complex known as an apoptosome
+118,Apoptosis,apoptosome,other,cleaves,pro-caspase-9,gene,The apoptosome cleaves the pro-caspase to its active form of caspase-9
+118,Apoptosis,apoptosome,other,activates,caspase-9,gene,The apoptosome cleaves the pro-caspase to its active form of caspase-9
+118,Apoptosis,caspase-9,gene,cleaves,pro-caspase-3,gene,"caspase-9, which in turn cleaves and activates pro-caspase into the effector caspase-3"
+118,Apoptosis,caspase-9,gene,activates,caspase-3,gene,"caspase-9, which in turn cleaves and activates pro-caspase into the effector caspase-3"
+118,Apoptosis,mitochondria,other,releases,second mitochondria-derived activator of caspases,other,Mitochondria also release proteins known as SMACs (second mitochondria-derived activator of caspases) into the cell's cytosol
+118,Apoptosis,second mitochondria-derived activator of caspases,other,binds_to,inhibitors of apoptosis proteins,gene,SMAC binds to proteins that inhibit apoptosis (IAPs) thereby deactivating them
+118,Apoptosis,second mitochondria-derived activator of caspases,other,inhibits,inhibitors of apoptosis proteins,gene,"SMAC binds to proteins that inhibit apoptosis (IAPs) thereby deactivating them, and preventing the IAPs from arresting the process"
+118,Apoptosis,inhibitors of apoptosis proteins,gene,inhibits,apoptosis,pathway,SMAC binds to proteins that inhibit apoptosis (IAPs) thereby deactivating them
+118,Apoptosis,inhibitors of apoptosis proteins,gene,inhibits,caspases,gene,IAP also normally suppresses the activity of a group of cysteine proteases called caspases
+118,Apoptosis,caspases,gene,causes,cell degradation,other,"caspases, which carry out the degradation of the cell"
+119,Apoptosis,tumor necrosis factor,chemical,induces,apoptosis,other,the TNF-induced (tumor necrosis factor) model
+119,Apoptosis,Fas ligand,chemical,binds_to,Fas,gene,the Fas-Fas ligand-mediated model
+119,Apoptosis,tumor necrosis factor receptor,gene,part_of,TNF receptor family,other,both involving receptors of the TNF receptor (TNFR) family
+119,Apoptosis,tumor necrosis factor,chemical,produced_by,activated macrophages,other,TNF is a cytokine produced mainly by activated macrophages
+119,Apoptosis,tumor necrosis factor,chemical,mediates,apoptosis,other,is the major extrinsic mediator of apoptosis
+119,Apoptosis,tumor necrosis factor,chemical,binds_to,TNFR1,gene,The binding of TNF to TNFR1
+119,Apoptosis,tumor necrosis factor,chemical,binds_to,TNFR2,gene,Most cells in the human body have two receptors for TNF: TNFR1 and TNFR2
+119,Apoptosis,TNFR1,gene,activates,caspase,gene,binding of TNF to TNFR1 has been shown to initiate the pathway that leads to caspase activation
+119,Apoptosis,TNFR1,gene,interacts_with,TNF receptor-associated death domain,gene,caspase activation via the intermediate membrane proteins TNF receptor-associated death domain (TRADD)
+119,Apoptosis,TNFR1,gene,interacts_with,Fas-associated death domain protein,gene,intermediate membrane proteins TNF receptor-associated death domain (TRADD) and Fas-associated death domain protein (FADD)
+119,Apoptosis,cIAP1/2,gene,inhibits,TNF signaling,pathway,cIAP1/2 can inhibit TNF signaling by binding to TRAF2
+119,Apoptosis,cIAP1/2,gene,binds_to,TRAF2,gene,cIAP1/2 can inhibit TNF signaling by binding to TRAF2
+119,Apoptosis,FLIP,gene,inhibits,caspase-8,gene,FLIP inhibits the activation of caspase-8
+119,Apoptosis,TNFR1,gene,activates,transcription factors,other,Binding of this receptor can also indirectly lead to the activation of transcription factors
+119,Apoptosis,TNFR1,gene,induces,apoptosis,other,signalling through TNFR1 might also induce apoptosis in a caspase-independent manner
+119,Apoptosis,tumor necrosis factor,chemical,associated_with,autoimmune diseases,disease,"abnormal production of TNF plays a fundamental role in several human diseases, especially in autoimmune diseases"
+119,Apoptosis,DR4,gene,part_of,TNF receptor superfamily,other,"The TNF receptor superfamily also includes death receptors (DRs), such as DR4 and DR5"
+119,Apoptosis,DR5,gene,part_of,TNF receptor superfamily,other,"The TNF receptor superfamily also includes death receptors (DRs), such as DR4 and DR5"
+119,Apoptosis,DR4,gene,binds_to,TRAIL,chemical,These receptors bind to the protein TRAIL and mediate apoptosis
+119,Apoptosis,DR5,gene,binds_to,TRAIL,chemical,These receptors bind to the protein TRAIL and mediate apoptosis
+119,Apoptosis,DR4,gene,mediates,apoptosis,other,These receptors bind to the protein TRAIL and mediate apoptosis
+119,Apoptosis,DR5,gene,mediates,apoptosis,other,These receptors bind to the protein TRAIL and mediate apoptosis
+119,Apoptosis,apoptosis,other,part_of,targeted cancer therapy,other,Apoptosis is known to be one of the primary mechanisms of targeted cancer therapy
+119,Apoptosis,Luminescent iridium complex-peptide hybrids,chemical,mimics,TRAIL,chemical,"Luminescent iridium complex-peptide hybrids (IPHs) have recently been designed, which mimic TRAIL"
+119,Apoptosis,Luminescent iridium complex-peptide hybrids,chemical,binds_to,death receptors,gene,bind to death receptors on cancer cells
+119,Apoptosis,Luminescent iridium complex-peptide hybrids,chemical,induces,apoptosis,other,"bind to death receptors on cancer cells, thereby inducing their apoptosis"
+120,Apoptosis,Fas receptor,gene,also_known_as,Apo-1,gene,The fas receptor (First apoptosis signal) – (also known as Apo-1 or CD95)
+120,Apoptosis,Fas receptor,gene,also_known_as,CD95,gene,The fas receptor (First apoptosis signal) – (also known as Apo-1 or CD95)
+120,Apoptosis,Fas receptor,gene,part_of,TNF family,other,is a transmembrane protein of the TNF family
+120,Apoptosis,Fas receptor,gene,binds,Fas ligand,gene,transmembrane protein of the TNF family which binds the Fas ligand (FasL)
+120,Apoptosis,Fas ligand,gene,also_known_as,FasL,gene,binds the Fas ligand (FasL)
+120,Apoptosis,Fas receptor,gene,interacts_with,Fas ligand,gene,The interaction between Fas and FasL results in the formation of the death-inducing signaling complex
+120,Apoptosis,Fas-FasL interaction,other,forms,death-inducing signaling complex,other,The interaction between Fas and FasL results in the formation of the death-inducing signaling complex (DISC)
+120,Apoptosis,death-inducing signaling complex,other,also_known_as,DISC,other,the death-inducing signaling complex (DISC)
+120,Apoptosis,death-inducing signaling complex,other,contains,FADD,gene,"the death-inducing signaling complex (DISC), which contains the FADD, caspase-8 and caspase-10"
+120,Apoptosis,death-inducing signaling complex,other,contains,caspase-8,gene,"the death-inducing signaling complex (DISC), which contains the FADD, caspase-8 and caspase-10"
+120,Apoptosis,death-inducing signaling complex,other,contains,caspase-10,gene,"the death-inducing signaling complex (DISC), which contains the FADD, caspase-8 and caspase-10"
+120,Apoptosis,caspase-8,gene,activates,caspase family,gene,processed caspase-8 directly activates other members of the caspase family
+120,Apoptosis,caspase-8,gene,triggers,apoptosis,pathway,triggers the execution of apoptosis of the cell
+120,Apoptosis,Fas-DISC,other,triggers,mitochondrial feedback loop,pathway,the Fas-DISC starts a feedback loop that spirals into increasing release of proapoptotic factors from mitochondria
+120,Apoptosis,BAX,gene,part_of,Bcl-2 family,gene,"a balance between proapoptotic (BAX, BID, BAK, or BAD) and anti-apoptotic (Bcl-Xl and Bcl-2) members of the Bcl-2 family"
+120,Apoptosis,BID,gene,part_of,Bcl-2 family,gene,"a balance between proapoptotic (BAX, BID, BAK, or BAD) and anti-apoptotic (Bcl-Xl and Bcl-2) members of the Bcl-2 family"
+120,Apoptosis,BAK,gene,part_of,Bcl-2 family,gene,"a balance between proapoptotic (BAX, BID, BAK, or BAD) and anti-apoptotic (Bcl-Xl and Bcl-2) members of the Bcl-2 family"
+120,Apoptosis,BAD,gene,part_of,Bcl-2 family,gene,"a balance between proapoptotic (BAX, BID, BAK, or BAD) and anti-apoptotic (Bcl-Xl and Bcl-2) members of the Bcl-2 family"
+120,Apoptosis,Bcl-Xl,gene,part_of,Bcl-2 family,gene,anti-apoptotic (Bcl-Xl and Bcl-2) members of the Bcl-2 family
+120,Apoptosis,Bcl-2,gene,part_of,Bcl-2 family,gene,anti-apoptotic (Bcl-Xl and Bcl-2) members of the Bcl-2 family
+120,Apoptosis,proapoptotic homodimers,other,permeabilizes,mitochondrial membrane,other,proapoptotic homodimers are required to make the mitochondrial membrane permeable for the release of caspase activators
+120,Apoptosis,mitochondrial membrane,other,releases,cytochrome c,chemical,release of caspase activators such as cytochrome c and SMAC
+120,Apoptosis,mitochondrial membrane,other,releases,SMAC,gene,release of caspase activators such as cytochrome c and SMAC
+120,Apoptosis,cytochrome c,chemical,activates,caspase family,gene,release of caspase activators such as cytochrome c and SMAC
+120,Apoptosis,SMAC,gene,activates,caspase family,gene,release of caspase activators such as cytochrome c and SMAC
+120,Apoptosis,BH3-only proteins,gene,activates,BAX,gene,Bax or Bak are activated by the activation of BH3-only proteins
+120,Apoptosis,BH3-only proteins,gene,activates,BAK,gene,Bax or Bak are activated by the activation of BH3-only proteins
+120,Apoptosis,BH3-only proteins,gene,part_of,Bcl-2 family,gene,"BH3-only proteins, part of the Bcl-2 family"
+121,Apoptosis,caspases,other,play_role_in,transduction of ER apoptotic signals,pathway,Caspases play the central role in the transduction of ER apoptotic signals.
+121,Apoptosis,caspases,other,is_a,cysteine-dependent aspartate-specific proteases,other,"Caspases are proteins that are highly conserved, cysteine-dependent aspartate-specific proteases."
+121,Apoptosis,initiator caspases,other,part_of,caspases,other,"There are two types of caspases: initiator caspases (caspases 2, 8, 9, 10, 11, and 12)"
+121,Apoptosis,effector caspases,other,part_of,caspases,other,"and effector caspases (caspases 3, 6, and 7)."
+121,Apoptosis,caspase 2,other,is_a,initiator caspases,other,"initiator caspases (caspases 2, 8, 9, 10, 11, and 12)"
+121,Apoptosis,caspase 8,other,is_a,initiator caspases,other,"initiator caspases (caspases 2, 8, 9, 10, 11, and 12)"
+121,Apoptosis,caspase 9,other,is_a,initiator caspases,other,"initiator caspases (caspases 2, 8, 9, 10, 11, and 12)"
+121,Apoptosis,caspase 10,other,is_a,initiator caspases,other,"initiator caspases (caspases 2, 8, 9, 10, 11, and 12)"
+121,Apoptosis,caspase 11,other,is_a,initiator caspases,other,"initiator caspases (caspases 2, 8, 9, 10, 11, and 12)"
+121,Apoptosis,caspase 12,other,is_a,initiator caspases,other,"initiator caspases (caspases 2, 8, 9, 10, 11, and 12)"
+121,Apoptosis,caspase 3,other,is_a,effector caspases,other,"effector caspases (caspases 3, 6, and 7)"
+121,Apoptosis,caspase 6,other,is_a,effector caspases,other,"effector caspases (caspases 3, 6, and 7)"
+121,Apoptosis,caspase 7,other,is_a,effector caspases,other,"effector caspases (caspases 3, 6, and 7)"
+121,Apoptosis,initiator caspases,other,binds_to,oligomeric activator protein,other,The activation of initiator caspases requires binding to specific oligomeric activator protein.
+121,Apoptosis,initiator caspases,other,activates,effector caspases,other,These active initiator caspases activate the effector caspases through proteolytic cleavage.
+121,Apoptosis,effector caspases,other,degrades,intracellular proteins,other,The active effector caspases then proteolytically degrade a host of intracellular proteins
+121,Apoptosis,effector caspases,other,part_of,cell death program,pathway,proteolytically degrade a host of intracellular proteins to carry out the cell death program.
+121,Apoptosis,apoptosis-inducing factor,other,mediates,caspase-independent apoptotic pathway,pathway,caspase-independent apoptotic pathway that is mediated by AIF (apoptosis-inducing factor).
+121,Apoptosis,Xenopus laevis,other,model_for,apoptosis,pathway,The frog Xenopus laevis serves as an ideal model system for the study of the mechanisms of apoptosis.
+121,Apoptosis,iodine,chemical,stimulates,apoptosis,pathway,"iodine and thyroxine also stimulate the spectacular apoptosis of the cells of the larval gills, tail and fins"
+121,Apoptosis,thyroxine,chemical,stimulates,apoptosis,pathway,"iodine and thyroxine also stimulate the spectacular apoptosis of the cells of the larval gills, tail and fins"
+121,Apoptosis,iodine,chemical,stimulates,nervous system evolution,pathway,"stimulate the evolution of their nervous system transforming the aquatic, vegetarian tadpole into the terrestrial, carnivorous frog."
+121,Apoptosis,thyroxine,chemical,stimulates,nervous system evolution,pathway,"stimulate the evolution of their nervous system transforming the aquatic, vegetarian tadpole into the terrestrial, carnivorous frog."
+121,Apoptosis,negative regulation of apoptosis,pathway,inhibits,cell death signaling pathways,pathway,Negative regulation of apoptosis inhibits cell death signaling pathways
+121,Apoptosis,negative regulation of apoptosis,pathway,contributes_to,drug resistance,other,helping tumors to evade cell death and developing drug resistance.
+121,Apoptosis,Bcl-2,gene,is_a,anti-apoptotic protein,other,The ratio between anti-apoptotic (Bcl-2) and pro-apoptotic (Bax) proteins determines whether a cell lives or dies.
+121,Apoptosis,Bax,gene,is_a,pro-apoptotic protein,other,The ratio between anti-apoptotic (Bcl-2) and pro-apoptotic (Bax) proteins determines whether a cell lives or dies.
+121,Apoptosis,IAPs,gene,is_a,antiapoptotic factors,other,"antiapoptotic factors, such as IAPs and Bcl-2 proteins"
+121,Apoptosis,Bcl-2 proteins,gene,is_a,antiapoptotic factors,other,"antiapoptotic factors, such as IAPs and Bcl-2 proteins"
+121,Apoptosis,cFLIP,gene,is_a,prosurvival factors,other,"prosurvival factors like cFLIP, BNIP3, FADD, Akt, and NF-κB."
+121,Apoptosis,BNIP3,gene,is_a,prosurvival factors,other,"prosurvival factors like cFLIP, BNIP3, FADD, Akt, and NF-κB."
+121,Apoptosis,FADD,gene,is_a,prosurvival factors,other,"prosurvival factors like cFLIP, BNIP3, FADD, Akt, and NF-κB."
+121,Apoptosis,Akt,gene,is_a,prosurvival factors,other,"prosurvival factors like cFLIP, BNIP3, FADD, Akt, and NF-κB."
+121,Apoptosis,NF-κB,gene,is_a,prosurvival factors,other,"prosurvival factors like cFLIP, BNIP3, FADD, Akt, and NF-κB."
+122,Apoptosis,proteolytic caspases,other,cause,degradation of cellular organelles,other,it undergoes organized degradation of cellular organelles by activated proteolytic caspases
+122,Apoptosis,apoptosis,other,triggers,mRNA decay,other,mRNA decay is triggered very early in apoptosis
+122,Apoptosis,caspases,other,break_down,proteinaceous cytoskeleton,other,retraction of lamellipodia and the breakdown of the proteinaceous cytoskeleton by caspases
+122,Apoptosis,cell shrinkage and rounding,other,caused_by,retraction of lamellipodia,other,Cell shrinkage and rounding occur because of the two parallel processes: (a) retraction of lamellipodia
+122,Apoptosis,cell shrinkage and rounding,other,caused_by,water removal,other,(b) water removal decreasing cytoplasmic diffusion
+122,Apoptosis,water removal,other,decreases,cytoplasmic diffusion,other,water removal decreasing cytoplasmic diffusion
+122,Apoptosis,chromatin condensation,other,part_of,pyknosis,other,Chromatin undergoes condensation into compact patches against the nuclear envelope ... in a process known as pyknosis
+122,Apoptosis,pyknosis,other,hallmark_of,apoptosis,other,"pyknosis, a hallmark of apoptosis"
+122,Apoptosis,karyorrhexis,other,involves,DNA fragmentation,other,the DNA inside it is fragmented in a process referred to as karyorrhexis
+122,Apoptosis,karyorrhexis,other,causes,nucleus breakage into chromatin bodies,other,The nucleus breaks into several discrete chromatin bodies or nucleosomal units due to the degradation of DNA
+122,Apoptosis,endonuclease activation,other,part_of,karyorrhexis,other,"During karyorrhexis, endonuclease activation leaves short DNA fragments"
+122,Apoptosis,endonuclease activation,other,produces,short DNA fragments,other,"endonuclease activation leaves short DNA fragments, regularly spaced in size"
+122,Apoptosis,short DNA fragments,other,produce,laddered appearance on agar gel,other,"These give a characteristic ""laddered"" appearance on agar gel after electrophoresis"
+122,Apoptosis,DNA laddering test,other,differentiates,apoptosis,other,Tests for DNA laddering differentiate apoptosis from ischemic or toxic cell death
+123,Apoptosis,ROCK1,gene,regulates,apoptotic cell membrane blebbing,other,An important regulator of apoptotic cell membrane blebbing is ROCK1
+123,Apoptosis,Pannexin 1,gene,part_of,membrane channels,other,Pannexin 1 is an important component of membrane channels involved in the formation of apoptopodia
+123,Apoptosis,membrane channels,other,involved_in,formation of apoptopodia,other,membrane channels involved in the formation of apoptopodia and beaded apoptopodia
+123,Apoptosis,membrane channels,other,involved_in,formation of beaded apoptopodia,other,membrane channels involved in the formation of apoptopodia and beaded apoptopodia
+123,Apoptosis,apoptotic bodies,other,undergo,phagocytosis,other,"multiple vesicles called apoptotic bodies, which undergo phagocytosis"
+123,Apoptosis,membrane protrusions,other,facilitate,phagocytosis of apoptotic bodies,other,plasma membrane protrusions may help bring apoptotic bodies closer to phagocytes
+123,Apoptosis,efferocytosis,other,is,removal of dead cells by phagocytic cells,other,removal of dead cells by neighboring phagocytic cells has been termed efferocytosis
+123,Apoptosis,apoptotic cells,other,display,apoptotic-cell associated molecular patterns,other,Dying cells that undergo the final stages of apoptosis display apoptotic-cell associated molecular patterns (ACAMPs)
+123,Apoptosis,phosphatidylserine,chemical,is_a,apoptotic-cell associated molecular pattern,other,"apoptotic-cell associated molecular patterns (ACAMPs), such as phosphatidylserine on the outer leaflet"
+123,Apoptosis,scramblase,gene,redistributes,phosphatidylserine,chemical,redistributed during apoptosis to the extracellular surface by a protein known as scramblase
+123,Apoptosis,macrophages,other,perform,phagocytosis,other,"mark the cell for phagocytosis by cells possessing the appropriate receptors, such as macrophages"
+124,Apoptosis,tumor necrosis factor,gene,knockout_created_by_removing,exon containing nucleotides 3704-5364,other,an exon containing the nucleotides 3704–5364 was removed from the gene
+124,Apoptosis,exon containing nucleotides 3704-5364,other,encodes,mature TNF domain,other,"This exon encodes a portion of the mature TNF domain, as well as the leader sequence"
+124,Apoptosis,exon containing nucleotides 3704-5364,other,encodes,leader sequence,other,"This exon encodes a portion of the mature TNF domain, as well as the leader sequence"
+124,Apoptosis,leader sequence,other,necessary_for,intracellular processing,pathway,"the leader sequence, which is a highly conserved region necessary for proper intracellular processing"
+124,Apoptosis,TNF-/- mice,other,develop_normally,mice,other,TNF-/- mice develop normally and have no gross structural or morphological abnormalities
+124,Apoptosis,TNF-/- mice,other,deficient_in,antibody response maturation,pathway,these mice demonstrated a deficiency in the maturation of an antibody response
+124,Apoptosis,TNF-/- mice,other,generate_normal_levels_of,IgM,other,they were able to generate normal levels of IgM
+124,Apoptosis,Apaf-1,gene,activates,caspase 9,gene,Apaf-1 is the protein that turns on caspase 9 by cleavage to begin the caspase cascade
+124,Apoptosis,caspase cascade,pathway,leads_to,apoptosis,pathway,the caspase cascade that leads to apoptosis
+124,Apoptosis,APAF-1 -/- mutation,other,causes,embryonic lethality,disease,a -/- mutation in the APAF-1 gene is embryonic lethal
+124,Apoptosis,gene trap strategy,other,used_to_generate,APAF-1 -/- mouse,other,a gene trap strategy was used in order to generate an APAF-1 -/- mouse
+124,Apoptosis,gene trap strategy,other,disrupts,gene function,pathway,This assay is used to disrupt gene function by creating an intragenic gene fusion
+124,Apoptosis,APAF-1 gene trap,other,causes,spina bifida,disease,"many morphological changes occur, such as spina bifida, the persistence of interdigital webs, and open brain"
+124,Apoptosis,APAF-1 gene trap,other,causes,persistence of interdigital webs,disease,"many morphological changes occur, such as spina bifida, the persistence of interdigital webs, and open brain"
+124,Apoptosis,APAF-1 gene trap,other,causes,open brain,disease,"many morphological changes occur, such as spina bifida, the persistence of interdigital webs, and open brain"
+124,Apoptosis,APAF-1 cells,other,protected_from,apoptosis,pathway,APAF-1 cells are protected from apoptosis stimuli such as irradiation
+124,Apoptosis,irradiation,other,induces,apoptosis,pathway,APAF-1 cells are protected from apoptosis stimuli such as irradiation
+124,Apoptosis,BAX-1 knock-out mouse,other,exhibits,normal forebrain formation,other,A BAX-1 knock-out mouse exhibits normal forebrain formation and a decreased programmed cell death
+124,Apoptosis,BAX-1 knock-out mouse,other,exhibits_decreased,programmed cell death,pathway,A BAX-1 knock-out mouse exhibits normal forebrain formation and a decreased programmed cell death in some neuronal populations
+124,Apoptosis,BAX-1 knock-out mouse,other,leads_to_increase_in,motor neurons,other,"decreased programmed cell death in some neuronal populations and in the spinal cord, leading to an increase in motor neurons"
+124,Apoptosis,caspase proteins,gene,part_of,apoptosis pathway,pathway,The caspase proteins are integral parts of the apoptosis pathway
+124,Apoptosis,caspase 9 knock-out,other,causes,severe brain malformation,disease,A caspase 9 knock-out leads to a severe brain malformation
+124,Apoptosis,caspase 8 knock-out,other,causes,cardiac failure,disease,A caspase 8 knock-out leads to cardiac failure and thus embryonic lethality
+124,Apoptosis,caspase 8 knock-out,other,causes,embryonic lethality,disease,A caspase 8 knock-out leads to cardiac failure and thus embryonic lethality
+124,Apoptosis,cre-lox technology,other,used_to_create,conditional caspase 8 knock-out,other,"with the use of cre-lox technology, a caspase 8 knock-out has been created"
+124,Apoptosis,conditional caspase 8 knock-out,other,exhibits,increase in peripheral T cells,other,"exhibits an increase in peripheral T cells, an impaired T cell response, and a defect in neural tube closure"
+124,Apoptosis,conditional caspase 8 knock-out,other,exhibits,impaired T cell response,disease,"exhibits an increase in peripheral T cells, an impaired T cell response, and a defect in neural tube closure"
+124,Apoptosis,conditional caspase 8 knock-out,other,exhibits,defect in neural tube closure,disease,"exhibits an increase in peripheral T cells, an impaired T cell response, and a defect in neural tube closure"
+124,Apoptosis,conditional caspase 8 knock-out mice,other,resistant_to,CD95-mediated apoptosis,pathway,"These mice were found to be resistant to apoptosis mediated by CD95, TNFR, etc."
+124,Apoptosis,conditional caspase 8 knock-out mice,other,resistant_to,TNFR-mediated apoptosis,pathway,"These mice were found to be resistant to apoptosis mediated by CD95, TNFR, etc."
+124,Apoptosis,UV irradiation,other,induces,apoptosis,pathway,"not resistant to apoptosis caused by UV irradiation, chemotherapeutic drugs, and other stimuli"
+124,Apoptosis,chemotherapeutic drugs,drug,induces,apoptosis,pathway,"not resistant to apoptosis caused by UV irradiation, chemotherapeutic drugs, and other stimuli"
+124,Apoptosis,caspase 3 knock-out,other,characterized_by,ectopic cell masses in the brain,disease,a caspase 3 knock-out was characterized by ectopic cell masses in the brain and abnormal apoptotic features
+124,Apoptosis,caspase 3 knock-out,other,characterized_by,membrane blebbing,other,abnormal apoptotic features such as membrane blebbing or nuclear fragmentation
+124,Apoptosis,caspase 3 knock-out,other,characterized_by,nuclear fragmentation,other,abnormal apoptotic features such as membrane blebbing or nuclear fragmentation
+124,Apoptosis,Casp3 KO mice,other,have,neural tissue deformations,disease,"Casp3, 9, APAF-1 KO mice have deformations of neural tissue"
+124,Apoptosis,Casp9 KO mice,other,have,neural tissue deformations,disease,"Casp3, 9, APAF-1 KO mice have deformations of neural tissue"
+124,Apoptosis,APAF-1 KO mice,other,have,neural tissue deformations,disease,"Casp3, 9, APAF-1 KO mice have deformations of neural tissue"
+124,Apoptosis,FADD KO mice,other,have,defective heart development,disease,FADD and Casp 8 KO showed defective heart development
+124,Apoptosis,Casp8 KO mice,other,have,defective heart development,disease,FADD and Casp 8 KO showed defective heart development
+125,Apoptosis,label-free live cell imaging,other,used_to_compare,apoptotic and necrotic cells,other,"Label-free live cell imaging, time-lapse microscopy, flow fluorocytometry, and transmission electron microscopy can be used to compare apoptotic and necrotic cells."
+125,Apoptosis,time-lapse microscopy,other,used_to_compare,apoptotic and necrotic cells,other,"Label-free live cell imaging, time-lapse microscopy, flow fluorocytometry, and transmission electron microscopy can be used to compare apoptotic and necrotic cells."
+125,Apoptosis,flow fluorocytometry,other,used_to_compare,apoptotic and necrotic cells,other,"Label-free live cell imaging, time-lapse microscopy, flow fluorocytometry, and transmission electron microscopy can be used to compare apoptotic and necrotic cells."
+125,Apoptosis,transmission electron microscopy,other,used_to_compare,apoptotic and necrotic cells,other,"Label-free live cell imaging, time-lapse microscopy, flow fluorocytometry, and transmission electron microscopy can be used to compare apoptotic and necrotic cells."
+125,Apoptosis,flow cytometry,other,analyzes,phosphatidylserine exposure,other,analysis of cell surface markers (phosphatidylserine exposure versus cell permeability by flow cytometry)
+125,Apoptosis,flow cytometry,other,analyzes,cell permeability,other,analysis of cell surface markers (phosphatidylserine exposure versus cell permeability by flow cytometry)
+125,Apoptosis,flow cytometry,other,analyzes,DNA fragmentation,other,cellular markers such as DNA fragmentation (flow cytometry)
+125,Apoptosis,Western blotting,other,analyzes,caspase activation,other,"caspase activation, Bid cleavage, and cytochrome c release (Western blotting)"
+125,Apoptosis,Western blotting,other,analyzes,Bid cleavage,other,"caspase activation, Bid cleavage, and cytochrome c release (Western blotting)"
+125,Apoptosis,Western blotting,other,analyzes,cytochrome c release,other,"caspase activation, Bid cleavage, and cytochrome c release (Western blotting)"
+125,Apoptosis,supernatant screening,other,detects,caspases,other,"Supernatant screening for caspases, HMGB1, and cytokeratin 18 release can identify primary from secondary necrotic cells."
+125,Apoptosis,supernatant screening,other,detects,HMGB1,other,"Supernatant screening for caspases, HMGB1, and cytokeratin 18 release can identify primary from secondary necrotic cells."
+125,Apoptosis,supernatant screening,other,detects,cytokeratin 18,other,"Supernatant screening for caspases, HMGB1, and cytokeratin 18 release can identify primary from secondary necrotic cells."
+125,Apoptosis,supernatant screening,other,distinguishes,primary from secondary necrotic cells,other,"Supernatant screening for caspases, HMGB1, and cytokeratin 18 release can identify primary from secondary necrotic cells."
+125,Apoptosis,caspase activation,other,part_of,apoptotic markers,other,"absence of apoptotic markers (caspase activation, cytochrome c release, and oligonucleosomal DNA fragmentation)"
+125,Apoptosis,cytochrome c release,other,part_of,apoptotic markers,other,"absence of apoptotic markers (caspase activation, cytochrome c release, and oligonucleosomal DNA fragmentation)"
+125,Apoptosis,oligonucleosomal DNA fragmentation,other,part_of,apoptotic markers,other,"absence of apoptotic markers (caspase activation, cytochrome c release, and oligonucleosomal DNA fragmentation)"
+125,Apoptosis,phosphatidylserine exposure,other,part_of,cell death markers,other,differential kinetics of cell death markers (phosphatidylserine exposure and cell membrane permeabilization)
+125,Apoptosis,cell membrane permeabilization,other,part_of,cell death markers,other,differential kinetics of cell death markers (phosphatidylserine exposure and cell membrane permeabilization)
+126,Apoptosis,X-linked inhibitor of apoptosis protein,gene,overexpressed_in,NCI-H460,disease,The X-linked inhibitor of apoptosis protein (XIAP) is overexpressed in cells of the H460 cell line.
+126,Apoptosis,X-linked inhibitor of apoptosis protein,gene,binds_to,caspase-9,gene,XIAPs bind to the processed form of caspase-9
+126,Apoptosis,X-linked inhibitor of apoptosis protein,gene,suppresses,cytochrome c,gene,suppress the activity of apoptotic activator cytochrome c
+126,Apoptosis,cytochrome c,gene,part_of,apoptosis,pathway,suppress the activity of apoptotic activator cytochrome c
+126,Apoptosis,NCI-H460,disease,part_of,lung cancer,disease,the development of a lung cancer called NCI-H460
+126,Apoptosis,NF-κB,gene,regulates,apoptosis,pathway,defects in molecules that control transcription factor NF-κB in cancer change the mode of transcriptional regulation and the response to apoptotic signals
+127,Apoptosis,alpha-interferon,gene,induces_transcription_of,p53,gene,"alpha-interferon and beta-interferon, which induce transcription of the p53 gene"
+127,Apoptosis,beta-interferon,gene,induces_transcription_of,p53,gene,"alpha-interferon and beta-interferon, which induce transcription of the p53 gene"
+127,Apoptosis,p53,gene,enhances,cancer cell-apoptosis,pathway,increase of p53 protein level and enhancement of cancer cell-apoptosis
+127,Apoptosis,p53,gene,inhibits,cell replication,pathway,p53 prevents the cell from replicating by stopping the cell cycle at G1
+127,Apoptosis,p53,gene,induces,apoptosis,pathway,it will induce apoptosis if damage is extensive and repair efforts fail
+127,Apoptosis,p53 dysregulation,other,results_in,impaired apoptosis,pathway,Any disruption to the regulation of the p53 or interferon genes will result in impaired apoptosis
+127,Apoptosis,p53 dysregulation,other,results_in,tumor formation,disease,disruption to the regulation of the p53 or interferon genes will result in impaired apoptosis and the possible formation of tumors
+127,Apoptosis,apoptosis inhibition,pathway,results_in,cancer,disease,"Inhibition of apoptosis can result in a number of cancers, inflammatory diseases, and viral infections"
+127,Apoptosis,apoptosis inhibition,pathway,results_in,inflammatory diseases,disease,"Inhibition of apoptosis can result in a number of cancers, inflammatory diseases, and viral infections"
+127,Apoptosis,apoptosis inhibition,pathway,results_in,viral infections,disease,"Inhibition of apoptosis can result in a number of cancers, inflammatory diseases, and viral infections"
+127,Apoptosis,cancer,disease,characterized_by,IAP family overexpression,gene,"cancer, the disease of excessive cellular proliferation, which is often characterized by an overexpression of IAP family members"
+127,Apoptosis,p53,gene,mutated_in,diseased cells,other,"Cycle-regulating genes (such as p53, ras or c-myc) are mutated or inactivated in diseased cells"
+127,Apoptosis,ras,gene,mutated_in,diseased cells,other,"Cycle-regulating genes (such as p53, ras or c-myc) are mutated or inactivated in diseased cells"
+127,Apoptosis,c-myc,gene,mutated_in,diseased cells,other,"Cycle-regulating genes (such as p53, ras or c-myc) are mutated or inactivated in diseased cells"
+127,Apoptosis,bcl-2,gene,modifies_expression_in,tumors,disease,further genes (such as bcl-2) also modify their expression in tumors
+127,Apoptosis,cytochrome C,gene,part_of,mitochondrial respiration,pathway,Some apoptotic factors are vital during mitochondrial respiration e.g. cytochrome C
+127,Apoptosis,apoptosis inactivation,pathway,correlated_with,glycolysis shift,pathway,Pathological inactivation of apoptosis in cancer cells is correlated with frequent respiratory metabolic shifts toward glycolysis
+127,Apoptosis,HeLa cell apoptosis,pathway,inhibited_by,inhibitory proteins,other,Apoptosis in HeLa cells is inhibited by proteins produced by the cell
+127,Apoptosis,inhibitory proteins,other,targets,retinoblastoma tumor-suppressing proteins,gene,these inhibitory proteins target retinoblastoma tumor-suppressing proteins
+127,Apoptosis,retinoblastoma tumor-suppressing proteins,gene,regulates,cell cycle,pathway,These tumor-suppressing proteins regulate the cell cycle
+127,Apoptosis,HPV E6,gene,expressed_by,human papillomavirus,other,HPV E6 and E7 are inhibitory proteins expressed by the human papillomavirus
+127,Apoptosis,HPV E7,gene,expressed_by,human papillomavirus,other,HPV E6 and E7 are inhibitory proteins expressed by the human papillomavirus
+127,Apoptosis,human papillomavirus,other,causes,cervical tumor,disease,HPV being responsible for the formation of the cervical tumor from which HeLa cells are derived
+127,Apoptosis,HeLa cells,other,derived_from,cervical tumor,disease,the cervical tumor from which HeLa cells are derived
+127,Apoptosis,HPV E6,gene,inactivates,p53,gene,"HPV E6 causes p53, which regulates the cell cycle, to become inactive"
+127,Apoptosis,p53,gene,regulates,cell cycle,pathway,"HPV E6 causes p53, which regulates the cell cycle, to become inactive"
+127,Apoptosis,HPV E7,gene,binds_to,retinoblastoma tumor-suppressing proteins,gene,HPV E7 binds to retinoblastoma tumor suppressing proteins and limits its ability to control cell division
+127,Apoptosis,HPV E6,gene,inhibits,apoptosis,pathway,These two inhibitory proteins are partially responsible for HeLa cells' immortality by inhibiting apoptosis
+127,Apoptosis,HPV E7,gene,inhibits,apoptosis,pathway,These two inhibitory proteins are partially responsible for HeLa cells' immortality by inhibiting apoptosis
+128,Apoptosis,death receptor ligands,other,stimulates,apoptosis,other,"To stimulate apoptosis, one can increase the number of death receptor ligands"
+128,Apoptosis,TNF,chemical,is_a,death receptor ligands,other,death receptor ligands (such as TNF or TRAIL)
+128,Apoptosis,TRAIL,chemical,is_a,death receptor ligands,other,death receptor ligands (such as TNF or TRAIL)
+128,Apoptosis,Smac mimetics,drug,inhibits,IAPs,other,introduce Smac mimetics to inhibit the inhibitor (IAPs)
+128,Apoptosis,Bcl-2 pathway,pathway,inhibits,apoptosis,other,antagonize the anti-apoptotic Bcl-2 pathway
+128,Apoptosis,Herceptin,drug,activates,apoptosis,other,"Herceptin, Iressa, or Gleevec works to stop cells from cycling and causes apoptosis activation"
+128,Apoptosis,Iressa,drug,activates,apoptosis,other,"Herceptin, Iressa, or Gleevec works to stop cells from cycling and causes apoptosis activation"
+128,Apoptosis,Gleevec,drug,activates,apoptosis,other,"Herceptin, Iressa, or Gleevec works to stop cells from cycling and causes apoptosis activation"
+128,Apoptosis,Herceptin,drug,blocks,growth and survival signaling,pathway,causes apoptosis activation by blocking growth and survival signaling further upstream
+128,Apoptosis,Iressa,drug,blocks,growth and survival signaling,pathway,causes apoptosis activation by blocking growth and survival signaling further upstream
+128,Apoptosis,Gleevec,drug,blocks,growth and survival signaling,pathway,causes apoptosis activation by blocking growth and survival signaling further upstream
+128,Apoptosis,p53-MDM2 complexes,other,activates,p53 pathway,pathway,adding p53-MDM2 complexes displaces p53 and activates the p53 pathway
+128,Apoptosis,p53 pathway,pathway,causes,cell cycle arrest,other,"activates the p53 pathway, leading to cell cycle arrest and apoptosis"
+128,Apoptosis,p53 pathway,pathway,causes,apoptosis,other,"activates the p53 pathway, leading to cell cycle arrest and apoptosis"
+128,Apoptosis,chemotherapy,other,induces,apoptosis,other,Cancer treatment by chemotherapy and irradiation kills target cells primarily by inducing apoptosis
+128,Apoptosis,irradiation,other,induces,apoptosis,other,Cancer treatment by chemotherapy and irradiation kills target cells primarily by inducing apoptosis
+128,Apoptosis,chemotherapy,other,treats,cancer,disease,Cancer treatment by chemotherapy and irradiation kills target cells
+128,Apoptosis,irradiation,other,treats,cancer,disease,Cancer treatment by chemotherapy and irradiation kills target cells
+129,Apoptosis,excess apoptosis,other,causes,neurodegenerative diseases,disease,loss of control of cell death (resulting in excess apoptosis) can lead to neurodegenerative diseases
+129,Apoptosis,excess apoptosis,other,causes,hematologic diseases,disease,"excess apoptosis) can lead to neurodegenerative diseases, hematologic diseases, and tissue damage"
+129,Apoptosis,excess apoptosis,other,causes,tissue damage,other,"excess apoptosis) can lead to neurodegenerative diseases, hematologic diseases, and tissue damage"
+129,Apoptosis,neurons,other,undergo,apoptosis,other,Neurons that rely on mitochondrial respiration undergo apoptosis in neurodegenerative diseases
+129,Apoptosis,apoptosis,other,occurs_in,Alzheimer's disease,disease,undergo apoptosis in neurodegenerative diseases such as Alzheimer's and Parkinson's
+129,Apoptosis,apoptosis,other,occurs_in,Parkinson's disease,disease,undergo apoptosis in neurodegenerative diseases such as Alzheimer's and Parkinson's
+129,Apoptosis,neurodegenerative diseases,disease,inversely_comorbid_with,cancer,disease,there is an inverse epidemiological comorbidity between neurodegenerative diseases and cancer
+129,Apoptosis,excess unregulated apoptosis,other,linked_to,HIV progression,disease,"The progression of HIV is directly linked to excess, unregulated apoptosis"
+129,Apoptosis,CD4+ lymphocytes,other,die_by,uncontrolled apoptosis,other,"CD4+ lymphocytes die at an accelerated rate through uncontrolled apoptosis, when stimulated"
+129,Apoptosis,bone marrow,other,fails_to_regenerate,CD4+ cells,other,this balance is lost due to an inability of the bone marrow to regenerate CD4+ cells
+129,Apoptosis,defects in signaling pathways,other,causes,hyperactive apoptosis,other,hyperactive apoptosis can be caused by defects in signaling pathways that regulate the Bcl-2 family proteins
+129,Apoptosis,signaling pathways,pathway,regulates,Bcl-2 family proteins,gene,defects in signaling pathways that regulate the Bcl-2 family proteins
+129,Apoptosis,BIM,gene,causes,cell death,other,"Increased expression of apoptotic proteins such as BIM, or their decreased proteolysis, leads to cell death"
+129,Apoptosis,cancer cells,other,suppresses,BIM,gene,Cancer cells can escape apoptosis through mechanisms that suppress BIM expression
+129,Apoptosis,cancer cells,other,escape,apoptosis,other,Cancer cells can escape apoptosis through mechanisms that suppress BIM expression
+129,Apoptosis,treatments,other,inhibits,caspases,gene,Treatments aiming to inhibit works to block specific caspases
+129,Apoptosis,Akt,gene,promotes,cell survival,other,the Akt protein kinase promotes cell survival through two pathways
+129,Apoptosis,Akt,gene,phosphorylates,Bad,gene,Akt phosphorylates and inhibits Bad (a Bcl-2 family member)
+129,Apoptosis,Akt,gene,inhibits,Bad,gene,Akt phosphorylates and inhibits Bad (a Bcl-2 family member)
+129,Apoptosis,Bad,gene,part_of,Bcl-2 family,gene,Akt phosphorylates and inhibits Bad (a Bcl-2 family member)
+129,Apoptosis,Bad,gene,interacts_with,14-3-3 scaffold,gene,causing Bad to interact with the 14-3-3 scaffold
+129,Apoptosis,Akt,gene,activates,IKKα,gene,"Akt also activates IKKα, which leads to NF-κB activation and cell survival"
+129,Apoptosis,IKKα,gene,activates,NF-κB,gene,"Akt also activates IKKα, which leads to NF-κB activation and cell survival"
+129,Apoptosis,NF-κB,gene,promotes,cell survival,other,which leads to NF-κB activation and cell survival
+129,Apoptosis,NF-κB,gene,induces,Bcl-2,gene,Active NF-κB induces the expression of anti-apoptotic genes such as Bcl-2
+129,Apoptosis,Bcl-2,gene,inhibits,apoptosis,other,"anti-apoptotic genes such as Bcl-2, resulting in inhibition of apoptosis"
+130,Apoptosis,human immunodeficiency virus,disease,progresses_to,AIDS,disease,The progression of the human immunodeficiency virus infection into AIDS
+130,Apoptosis,human immunodeficiency virus,disease,depletes,CD4+ T-helper lymphocytes,other,due primarily to the depletion of CD4+ T-helper lymphocytes
+130,Apoptosis,CD4+ T-helper lymphocyte depletion,other,causes,compromised immune system,disease,"too rapid for the body's bone marrow to replenish the cells, leading to a compromised immune system"
+130,Apoptosis,apoptosis,pathway,depletes,T-helper cells,other,One of the mechanisms by which T-helper cells are depleted is apoptosis
+130,Apoptosis,HIV enzymes,other,deactivates,Bcl-2,gene,HIV enzymes deactivate anti-apoptotic Bcl-2
+130,Apoptosis,HIV enzymes,other,activates,procaspase-8,gene,these enzymes activate proapoptotic procaspase-8
+130,Apoptosis,procaspase-8,gene,activates,mitochondrial apoptosis events,pathway,"proapoptotic procaspase-8, which does directly activate the mitochondrial events of apoptosis"
+130,Apoptosis,human immunodeficiency virus,disease,increases,Fas-mediated apoptosis proteins,other,HIV may increase the level of cellular proteins that prompt Fas-mediated apoptosis
+130,Apoptosis,HIV proteins,other,decreases,CD4 glycoprotein,gene,HIV proteins decrease the amount of CD4 glycoprotein marker present on the cell membrane
+130,Apoptosis,viral particles,other,induces,apoptosis,pathway,"Released viral particles and proteins present in extracellular fluid are able to induce apoptosis in nearby ""bystander"" T helper cells"
+130,Apoptosis,cytotoxic T cell,other,signals,CD4+ cell death,pathway,The infected CD4+ cell may also receive the death signal from a cytotoxic T cell
+130,Apoptosis,HIV-1 expression,other,induces,tubular cell G2/M arrest,pathway,HIV-1 expression induces tubular cell G2/M arrest and apoptosis
+130,Apoptosis,HIV-1 expression,other,induces,apoptosis,pathway,HIV-1 expression induces tubular cell G2/M arrest and apoptosis
+130,Apoptosis,HIV infection,disease,classified_as,AIDS,disease,classified as AIDS once a given patient's CD4+ cell count falls below 200
+130,Apoptosis,Lock-in and apoptosis,other,developed_by,Kumamoto University,organisation,"Researchers from Kumamoto University in Japan have developed a new method to eradicate HIV in viral reservoir cells, named ""Lock-in and apoptosis."""
+130,Apoptosis,Heptanoylphosphatidyl L-Inositol Pentakisphophate,chemical,binds_to,PR55Gag,gene,Heptanoylphosphatidyl L-Inositol Pentakisphophate (or L-Hippo) to bind strongly to the HIV protein PR55Gag
+130,Apoptosis,Heptanoylphosphatidyl L-Inositol Pentakisphophate,chemical,suppresses,viral budding,pathway,"bind strongly to the HIV protein PR55Gag, they were able to suppress viral budding"
+130,Apoptosis,viral budding suppression,pathway,induces,apoptosis,pathway,"By suppressing viral budding, the researchers were able to trap the HIV virus in the cell and allow for the cell to undergo apoptosis"
+130,Apoptosis,Mikako Fujita,other,part_of,Kumamoto University,organisation,Associate Professor Mikako Fujita has stated that the approach
+131,Apoptosis,virus,other,induces,apoptosis,other,Viral induction of apoptosis occurs when one or several cells of a living organism are infected with a virus
+131,Apoptosis,viral infection,disease,causes,cell death,other,"cells of a living organism are infected with a virus, leading to cell death"
+131,Apoptosis,cell death,other,required_for,normal cell development,other,Cell death in organisms is necessary for the normal development of cells and the cell cycle maturation
+131,Apoptosis,cell death,other,required_for,cell cycle maturation,other,necessary for the normal development of cells and the cell cycle maturation
+131,Apoptosis,virus,other,triggers,apoptosis,other,Viruses can trigger apoptosis of infected cells via a range of mechanisms
+133,Apoptosis,plant programmed cell death,other,has_similarities_to,animal apoptosis,other,Programmed cell death in plants has a number of molecular similarities to that of animal apoptosis
+133,Apoptosis,plant cell,other,contains,cell wall,other,notable ones being the presence of a cell wall
+133,Apoptosis,dying plant cell,other,synthesizes,breakdown substances,chemical,the dying cell synthesizes substances to break itself down
+133,Apoptosis,breakdown substances,chemical,placed_in,vacuole,other,places them in a vacuole that ruptures as the cell dies
+133,Apoptosis,vacuole,other,ruptures_during,cell death,other,places them in a vacuole that ruptures as the cell dies
+133,Apoptosis,phagocytic cells,other,part_of,apoptotic body removal,other,"phagocytic cells, which are essential in the process of breaking down and removing apoptotic bodies"
+133,Apoptosis,caspase inhibitors,chemical,developed_from,caspase characterization,other,The characterization of the caspases allowed the development of caspase inhibitors
+133,Apoptosis,caspase inhibitors,chemical,used_to_determine,caspase activity in cellular processes,other,can be used to determine whether a cellular process involves active caspases
+133,Apoptosis,caspase-independent apoptosis,other,associated_with,AIF release,other,Later studies linked this phenomenon to the release of AIF (apoptosis-inducing factor) from the mitochondria
+133,Apoptosis,apoptosis-inducing factor,gene,released_from,mitochondria,other,the release of AIF (apoptosis-inducing factor) from the mitochondria
+133,Apoptosis,apoptosis-inducing factor,gene,translocates_to,nucleus,other,its translocation into the nucleus mediated by its NLS (nuclear localization signal)
+133,Apoptosis,nuclear localization signal,other,mediates,AIF translocation,other,its translocation into the nucleus mediated by its NLS (nuclear localization signal)
+133,Apoptosis,apoptosis-inducing factor,gene,anchored_to,mitochondrial inner membrane,other,"Inside the mitochondria, AIF is anchored to the inner membrane"
+133,Apoptosis,calpain protease,gene,cleaves,apoptosis-inducing factor,gene,the protein is cleaved by a calcium-dependent calpain protease
+133,Apoptosis,calpain protease,gene,depends_on,calcium,chemical,cleaved by a calcium-dependent calpain protease
+134,Apoptosis,bcl-2,gene,triggers,apoptosis,pathway,mechanisms of apoptosis triggered by internal signals (bcl-2)
+134,Apoptosis,apoptosis,pathway,part_of,caspase-9 pathway,pathway,"internal signals (bcl-2), along the caspase-9, caspase-3 and caspase-7 pathway"
+134,Apoptosis,apoptosis,pathway,part_of,caspase-3 pathway,pathway,"internal signals (bcl-2), along the caspase-9, caspase-3 and caspase-7 pathway"
+134,Apoptosis,apoptosis,pathway,part_of,caspase-7 pathway,pathway,"internal signals (bcl-2), along the caspase-9, caspase-3 and caspase-7 pathway"
+134,Apoptosis,FAS,gene,triggers,apoptosis,pathway,"by external signals (FAS and TNF), along the caspase 8 pathway"
+134,Apoptosis,TNF,gene,triggers,apoptosis,pathway,"by external signals (FAS and TNF), along the caspase 8 pathway"
+134,Apoptosis,apoptosis,pathway,part_of,caspase-8 pathway,pathway,"external signals (FAS and TNF), along the caspase 8 pathway"
+134,Apoptosis,apoptosis signaling pathway,pathway,developed_by,Cusabio,organisation,Apoptosis signaling pathway created by Cusabio
+134,Apoptosis,DeathBase,other,contains,proteins involved in cell death,other,DeathBase: a database of proteins involved in cell death
+135,P53,tumor protein p53,gene,also_known_as,TP53,gene,"p53, also known as tumor protein p53, TP53"
+135,P53,tumor protein p53,gene,also_known_as,cellular tumor antigen p53,gene,"also known as tumor protein p53, TP53, cellular tumor antigen p53 (UniProt name)"
+135,P53,tumor protein p53,gene,also_known_as,transformation-related protein 53,gene,or transformation-related protein 53 (TRP53)
+135,P53,p53,gene,is_a,regulatory transcription factor protein,other,is a regulatory transcription factor protein that is often mutated in human cancers
+135,P53,p53,gene,mutated_in,human cancers,disease,a regulatory transcription factor protein that is often mutated in human cancers
+135,P53,p53 proteins,gene,prevents,cancer formation,disease,"crucial in vertebrates, where they prevent cancer formation"
+135,P53,p53,gene,described_as,guardian of the genome,other,"p53 has been described as ""the guardian of the genome"""
+135,P53,p53,gene,prevents,genome mutation,other,conserving stability by preventing genome mutation
+135,P53,TP53,gene,classified_as,tumor suppressor gene,gene,Hence TP53 is classified as a tumor suppressor gene
+135,P53,TP53 gene,gene,most_frequently_mutated_in,human cancer,disease,TP53 gene is the most frequently mutated gene (>50%) in human cancer
+135,P53,TP53 gene,gene,prevents,cancer formation,disease,TP53 gene plays a crucial role in preventing cancer formation
+135,P53,TP53 gene,gene,encodes,DNA-binding proteins,other,TP53 gene encodes proteins that bind to DNA and regulate gene expression
+135,P53,TP53 gene,gene,regulates,gene expression,other,encodes proteins that bind to DNA and regulate gene expression to prevent mutations
+135,P53,human TP53 gene,gene,encodes,12 protein isoforms,other,the human TP53 gene encodes at least 12 protein isoforms
+135,P53,modern humans,other,exhibit,"expansion of over 1,000 mutated variations",other,"modern humans exhibit a  expansion of over 1,000 mutated variations"
+135,P53,protein-coding variants,other,arose_within,"5,000 to 10,000 years ago",other,"arose very recently in human history, specifically concentrated within a window of 5,000 to 10,000 years ago"
+135,P53,TP53 gene,gene,located_on,short arm of chromosome 17 (17p13.1),other,the TP53 gene is located on the short arm of chromosome 17 (17p13.1)
+135,P53,TP53 gene,gene,spans,20 kb,other,"The gene spans 20 kb, with a non-coding exon 1"
+135,P53,TP53 gene,gene,overlaps,Hp53int1 gene,gene,"a very long first intron of 10 kb, overlapping the Hp53int1 gene"
+135,P53,TP53 coding sequence,gene,conserved_in,vertebrates,other,five regions showing a high degree of conservation in vertebrates
+135,P53,TP53 orthologs,gene,identified_in,mammals,other,TP53 orthologs have been identified in most mammals for which complete genome data are available
+135,P53,Elephants,other,have,20 genes for TP53,gene,"Elephants, with 20 genes for TP53, rarely get cancer"
+135,P53,Elephants,other,rarely_get,cancer,disease,"Elephants, with 20 genes for TP53, rarely get cancer"
+135,P53,p53α,gene,comprises,seven distinct protein domains,other,The full-length p53 protein (p53α) comprises seven distinct protein domains
+136,P53,p53 protein,gene,has_isoform,p53α,gene,The full-length p53 protein (p53α) comprises seven distinct protein domains
+136,P53,p53α,gene,has_domain,transactivation domain,other,"An acidic N-terminus transactivation domain (TAD), including activation domains 1 and 2"
+136,P53,transactivation domain,other,contains,activation domain 1,other,"transactivation domain (TAD), including activation domains 1 and 2 (AD1: residues 1–42"
+136,P53,transactivation domain,other,contains,activation domain 2,other,including activation domains 1 and 2 (AD1: residues 1–42; AD2: residues 43–63)
+136,P53,transactivation domain,other,regulates,pro-apoptotic genes,gene,activation domains 1 and 2 ... which regulate transcription of several pro-apoptotic genes
+136,P53,p53α,gene,has_domain,proline-rich domain,other,"A proline-rich domain (residues 64–92), involved in apoptotic function"
+136,P53,proline-rich domain,other,involved_in,apoptotic function,pathway,"A proline-rich domain (residues 64–92), involved in apoptotic function and nuclear export"
+136,P53,proline-rich domain,other,involved_in,nuclear export,pathway,proline-rich domain ... involved in apoptotic function and nuclear export via MAPK signaling
+136,P53,nuclear export,pathway,mediated_by,MAPK signaling,pathway,involved in apoptotic function and nuclear export via MAPK signaling
+136,P53,p53α,gene,has_domain,DNA-binding domain,other,A central DNA-binding domain (DBD; residues 102–292)
+136,P53,DNA-binding domain,other,contains,zinc atom,chemical,"A central DNA-binding domain (DBD; residues 102–292), containing a zinc atom"
+136,P53,DNA-binding domain,other,contains,arginine residues,chemical,containing a zinc atom and multiple arginine residues
+136,P53,DNA-binding domain,other,essential_for,sequence-specific DNA interaction,other,essential for sequence-specific DNA interaction and co-repressor binding
+136,P53,DNA-binding domain,other,binds,LMO3,gene,essential for sequence-specific DNA interaction and co-repressor binding such as LMO3
+136,P53,p53α,gene,has_domain,nuclear localization sequence,other,"A nuclear localization sequence (NLS; residues 316–325), required for nuclear import"
+136,P53,nuclear localization sequence,other,required_for,nuclear import,pathway,"A nuclear localization sequence (NLS; residues 316–325), required for nuclear import"
+136,P53,p53α,gene,has_domain,homo-oligomerization domain,other,"A homo-oligomerization domain (OD; residues 307–355), which mediates tetramerization"
+136,P53,homo-oligomerization domain,other,mediates,tetramerization,other,"A homo-oligomerization domain (OD; residues 307–355), which mediates tetramerization"
+136,P53,tetramerization,other,essential_for,p53 activity,other,mediates tetramerization—essential for p53 activity in vivo
+136,P53,p53α,gene,has_domain,C-terminal regulatory domain,other,"A C-terminal regulatory domain (residues 356–393), which modulates the DNA-binding activity"
+136,P53,C-terminal regulatory domain,other,modulates,DNA-binding domain,other,"C-terminal regulatory domain (residues 356–393), which modulates the DNA-binding activity of the central domain"
+136,P53,TP53,gene,has_mutations_in,DNA-binding domain,other,Most cancer-associated mutations in TP53 occur in the DBD
+136,P53,TP53 mutations,other,associated_with,cancer,disease,Most cancer-associated mutations in TP53 occur in the DBD
+136,P53,DBD mutations,other,impairs,DNA binding,other,"mutations in TP53 occur in the DBD, impairing DNA binding and transcriptional activation"
+136,P53,DBD mutations,other,impairs,transcriptional activation,pathway,"occur in the DBD, impairing DNA binding and transcriptional activation"
+136,P53,OD mutations,other,exerts,dominant negative effects,other,mutations in the OD can exert dominant negative effects by forming inactive complexes with wild-type p53
+136,P53,OD mutations,other,forms_complex_with,wild-type p53,gene,dominant negative effects by forming inactive complexes with wild-type p53
+136,P53,wild-type p53,gene,is_a,labile protein,other,Wild-type p53 is a labile protein containing both folded and intrinsically disordered regions
+136,P53,p53α,gene,has_molecular_weight,43.7 kDa,other,the actual molecular weight of p53α is 43.7 kDa
+136,P53,p53α,gene,migrates_as,53 kDa protein,other,Although designated as a 53 kDa protein by SDS-PAGE
+136,P53,electrophoretic migration,other,slowed_by,proline content,chemical,"due to its high proline content, which slows electrophoretic migration"
+137,P53,p53,gene,forms,dimers,other,p53 initially forms dimers cotranslationally during protein synthesis on ribosomes
+137,P53,p53 dimer,other,consists_of,p53 monomers,other,Each dimer consists of two p53 monomers joined through their oligomerization domains
+137,P53,p53 monomers,other,joined_through,oligomerization domains,other,two p53 monomers joined through their oligomerization domains
+137,P53,dimerization interface,other,spans,residues 325-356,other,The dimerization interface spans residues 325–356
+137,P53,dimerization interface,other,includes,beta-strand,other,includes a beta-strand (residues 325–333)
+137,P53,dimerization interface,other,includes,alpha-helix,other,a alpha-helix (residues 335–356)
+137,P53,dimerization interface,other,includes,Gly334,other,a sharp turn at the conserved hinge residue Gly334
+137,P53,beta-strand,other,spans,residues 325-333,other,a beta-strand (residues 325–333)
+137,P53,alpha-helix,other,spans,residues 335-356,other,a alpha-helix (residues 335–356)
+137,P53,beta-strand,other,contributes_to,antiparallel intermolecular beta-sheet,other,The beta-strand contributes to the formation of an antiparallel intermolecular beta-sheet between two p53 monomers
+137,P53,antiparallel intermolecular beta-sheet,other,stabilized_by,hydrophobic interactions,other,"stabilized by hydrophobic interactions involving Phe328, Leu330, and Ile332"
+137,P53,hydrophobic interactions,other,involves,Phe328,other,"hydrophobic interactions involving Phe328, Leu330, and Ile332"
+137,P53,hydrophobic interactions,other,involves,Leu330,other,"hydrophobic interactions involving Phe328, Leu330, and Ile332"
+137,P53,hydrophobic interactions,other,involves,Ile332,other,"hydrophobic interactions involving Phe328, Leu330, and Ile332"
+137,P53,alpha-helix,other,forms,antiparallel coiled-coil,other,The alpha-helix forms an antiparallel coiled-coil between the two monomers
+137,P53,antiparallel coiled-coil,other,has_packing_angle,156°,other,"an antiparallel coiled-coil between the two monomers, with a packing angle of 156°"
+137,P53,helix-helix interactions,other,stabilized_by,hydrophobic contacts,other,"Helix–helix interactions are stabilized by hydrophobic contacts (e.g., Phe338, Phe341, Leu344)"
+137,P53,hydrophobic contacts,other,involves,Phe338,other,"hydrophobic contacts (e.g., Phe338, Phe341, Leu344)"
+137,P53,hydrophobic contacts,other,involves,Phe341,other,"hydrophobic contacts (e.g., Phe338, Phe341, Leu344)"
+137,P53,hydrophobic contacts,other,involves,Leu344,other,"hydrophobic contacts (e.g., Phe338, Phe341, Leu344)"
+137,P53,helix-helix interactions,other,stabilized_by,electrostatic interactions,other,"electrostatic interactions, such as the Arg337–Asp352 salt bridge"
+137,P53,electrostatic interactions,other,includes,Arg337-Asp352 salt bridge,other,"electrostatic interactions, such as the Arg337–Asp352 salt bridge"
+137,P53,p53 dimers,other,associate_to_form,tetramers,other,p53 dimers associate posttranslationally to form tetramers (dimers of dimers)
+137,P53,tetramerization domain,other,spans,residues 325-356,other,The tetramerization domain (residues 325–356)
+137,P53,tetramerization domain,other,stabilizes,tetrameric structure,other,plays a central role in stabilizing the tetrameric structure
+137,P53,primary dimers,other,associate_at_angle,roughly orthogonal,other,"the two primary dimers associate at an angle described as ""roughly orthogonal"""
+137,P53,helix bundle,other,has_packing_angle,80°,other,a helix bundle packing angle (θ) of approximately 80°
+137,P53,p53 tetramers,other,active_form_for,DNA binding,other,Tetramers represent the active form of p53 for DNA binding and transcriptional regulation
+137,P53,p53 tetramers,other,active_form_for,transcriptional regulation,other,Tetramers represent the active form of p53 for DNA binding and transcriptional regulation
+138,P53,TP53,gene,encodes,p53 isoforms,other,"TP53 encodes multiple proteins, collectively known as the p53 isoforms"
+138,P53,p53α,other,isoform_of,p53,other,"12 human p53 isoforms have been identified: p53α, p53β, p53γ"
+138,P53,p53β,other,isoform_of,p53,other,"12 human p53 isoforms have been identified: p53α, p53β, p53γ"
+138,P53,p53γ,other,isoform_of,p53,other,"12 human p53 isoforms have been identified: p53α, p53β, p53γ"
+138,P53,∆40p53α,other,isoform_of,p53,other,"∆40p53α, ∆40p53β, ∆40p53γ"
+138,P53,∆40p53β,other,isoform_of,p53,other,"∆40p53α, ∆40p53β, ∆40p53γ"
+138,P53,∆40p53γ,other,isoform_of,p53,other,"∆40p53α, ∆40p53β, ∆40p53γ"
+138,P53,∆133p53α,other,isoform_of,p53,other,"∆133p53α, ∆133p53β, ∆133p53γ"
+138,P53,∆133p53β,other,isoform_of,p53,other,"∆133p53α, ∆133p53β, ∆133p53γ"
+138,P53,∆133p53γ,other,isoform_of,p53,other,"∆133p53α, ∆133p53β, ∆133p53γ"
+138,P53,∆160p53α,other,isoform_of,p53,other,"∆160p53α, ∆160p53β, and ∆160p53γ"
+138,P53,∆160p53β,other,isoform_of,p53,other,"∆160p53α, ∆160p53β, and ∆160p53γ"
+138,P53,∆160p53γ,other,isoform_of,p53,other,"∆160p53α, ∆160p53β, and ∆160p53γ"
+138,P53,Δ133p53β,other,lacks,transactivation domain,other,"Δ133p53β/γ and Δ160p53α/β/γ, lack the transactivation or proline-rich domains"
+138,P53,Δ133p53γ,other,lacks,transactivation domain,other,"Δ133p53β/γ and Δ160p53α/β/γ, lack the transactivation or proline-rich domains"
+138,P53,Δ160p53α,other,lacks,transactivation domain,other,"Δ160p53α/β/γ, lack the transactivation or proline-rich domains"
+138,P53,Δ160p53β,other,lacks,transactivation domain,other,"Δ160p53α/β/γ, lack the transactivation or proline-rich domains"
+138,P53,Δ160p53γ,other,lacks,transactivation domain,other,"Δ160p53α/β/γ, lack the transactivation or proline-rich domains"
+138,P53,Δ133p53β,other,lacks,proline-rich domain,other,lack the transactivation or proline-rich domains
+138,P53,Δ133p53γ,other,lacks,proline-rich domain,other,lack the transactivation or proline-rich domains
+138,P53,Δ160p53α,other,lacks,proline-rich domain,other,lack the transactivation or proline-rich domains
+138,P53,Δ160p53β,other,lacks,proline-rich domain,other,lack the transactivation or proline-rich domains
+138,P53,Δ160p53γ,other,lacks,proline-rich domain,other,lack the transactivation or proline-rich domains
+138,P53,Δ133p53β,other,deficient_in,apoptosis induction,pathway,"deficient in apoptosis induction, illustrating the functional diversity of TP53"
+138,P53,Δ133p53γ,other,deficient_in,apoptosis induction,pathway,"deficient in apoptosis induction, illustrating the functional diversity of TP53"
+138,P53,Δ160p53α,other,deficient_in,apoptosis induction,pathway,"deficient in apoptosis induction, illustrating the functional diversity of TP53"
+138,P53,Δ160p53β,other,deficient_in,apoptosis induction,pathway,"deficient in apoptosis induction, illustrating the functional diversity of TP53"
+138,P53,Δ160p53γ,other,deficient_in,apoptosis induction,pathway,"deficient in apoptosis induction, illustrating the functional diversity of TP53"
+138,P53,alternative splicing of intron 9,other,generates,β isoforms,other,Alternative splicing of intron 9 creates the β and γ isoforms with altered C-termini
+138,P53,alternative splicing of intron 9,other,generates,γ isoforms,other,Alternative splicing of intron 9 creates the β and γ isoforms with altered C-termini
+138,P53,internal promoter in intron 4,other,generates,∆133 isoforms,other,An internal promoter in intron 4 produces the ∆133 and ∆160 isoforms
+138,P53,internal promoter in intron 4,other,generates,∆160 isoforms,other,An internal promoter in intron 4 produces the ∆133 and ∆160 isoforms
+138,P53,∆133 isoforms,other,lacks,TAD,other,"∆133 and ∆160 isoforms, which lack part of the TAD and DBD"
+138,P53,∆133 isoforms,other,lacks,DBD,other,"∆133 and ∆160 isoforms, which lack part of the TAD and DBD"
+138,P53,∆160 isoforms,other,lacks,TAD,other,"∆133 and ∆160 isoforms, which lack part of the TAD and DBD"
+138,P53,∆160 isoforms,other,lacks,DBD,other,"∆133 and ∆160 isoforms, which lack part of the TAD and DBD"
+138,P53,alternative translation initiation at codon 40,other,generates,∆40p53,other,Alternative translation initiation at codons 40 or 160 results in ∆40p53 and ∆160p53 isoforms
+138,P53,alternative translation initiation at codon 160,other,generates,∆160p53,other,Alternative translation initiation at codons 40 or 160 results in ∆40p53 and ∆160p53 isoforms
+138,P53,p53,other,regulates,cell cycle progression,pathway,"p53 regulates cell cycle progression, apoptosis, and genomic stability"
+138,P53,p53,other,regulates,apoptosis,pathway,"p53 regulates cell cycle progression, apoptosis, and genomic stability"
+138,P53,p53,other,regulates,genomic stability,pathway,"p53 regulates cell cycle progression, apoptosis, and genomic stability"
+139,P53,p53,gene,regulates,cell cycle progression,other,"p53 regulates cell cycle progression, apoptosis, and genomic stability through multiple mechanisms"
+139,P53,p53,gene,regulates,apoptosis,other,"p53 regulates cell cycle progression, apoptosis, and genomic stability through multiple mechanisms"
+139,P53,p53,gene,regulates,genomic stability,other,"p53 regulates cell cycle progression, apoptosis, and genomic stability through multiple mechanisms"
+139,P53,p53,gene,activates,DNA repair proteins,other,Activates DNA repair proteins in response to DNA damage
+139,P53,p53,gene,arrests,cell cycle at G1/S checkpoint,other,Arrests the cell cycle at the G1/S checkpoint upon DNA damage
+139,P53,p53,gene,initiates,apoptosis,other,Initiates apoptosis if the damage is beyond repair
+139,P53,p53,gene,essential_for,senescence response,other,Essential for the senescence response triggered by short telomeres
+139,P53,p53,gene,functions_as,transcription factor,other,p53 functions as a transcription factor by binding DNA as a tetramer
+139,P53,p53,gene,binds,DNA,other,p53 functions as a transcription factor by binding DNA as a tetramer
+139,P53,p53,gene,induces_transcription_of,OGG1,gene,components of base excision repair (BER) such as OGG1 and MUTYH
+139,P53,p53,gene,induces_transcription_of,MUTYH,gene,components of base excision repair (BER) such as OGG1 and MUTYH
+139,P53,p53,gene,induces_transcription_of,DDB2,gene,nucleotide excision repair (NER) factors like DDB2 and XPC
+139,P53,p53,gene,induces_transcription_of,XPC,gene,nucleotide excision repair (NER) factors like DDB2 and XPC
+139,P53,p53,gene,induces_transcription_of,MSH2,gene,mismatch repair (MMR) genes such as MSH2 and MLH1
+139,P53,p53,gene,induces_transcription_of,MLH1,gene,mismatch repair (MMR) genes such as MSH2 and MLH1
+139,P53,OGG1,gene,part_of,base excision repair,pathway,components of base excision repair (BER) such as OGG1 and MUTYH
+139,P53,MUTYH,gene,part_of,base excision repair,pathway,components of base excision repair (BER) such as OGG1 and MUTYH
+139,P53,DDB2,gene,part_of,nucleotide excision repair,pathway,nucleotide excision repair (NER) factors like DDB2 and XPC
+139,P53,XPC,gene,part_of,nucleotide excision repair,pathway,nucleotide excision repair (NER) factors like DDB2 and XPC
+139,P53,MSH2,gene,part_of,mismatch repair,pathway,mismatch repair (MMR) genes such as MSH2 and MLH1
+139,P53,MLH1,gene,part_of,mismatch repair,pathway,mismatch repair (MMR) genes such as MSH2 and MLH1
+139,P53,p53,gene,participates_in,DNA damage response,pathway,These transcriptional responses are crucial for the DNA damage response (DDR)
+139,P53,p53,gene,regulates,homologous recombination,pathway,"non-transcriptional regulation of DNA repair processes, particularly in HR and NHEJ"
+139,P53,p53,gene,regulates,non-homologous end-joining,pathway,"non-transcriptional regulation of DNA repair processes, particularly in HR and NHEJ"
+139,P53,p53,gene,binds,CDKN1A promoter,other,"p53 binds specific elements in the promoter of target genes, including CDKN1A"
+139,P53,CDKN1A,gene,encodes,p21,gene,"CDKN1A, which encodes p21"
+139,P53,p53,gene,activates,p21,gene,"Upon activation by p53, p21 inhibits cyclin-dependent kinases"
+139,P53,p21,gene,inhibits,cyclin-dependent kinases,gene,"p21 inhibits cyclin-dependent kinases, leading to cell cycle arrest"
+139,P53,p21,gene,contributes_to,tumor suppression,other,leading to cell cycle arrest and contributing to tumor suppression
+139,P53,p21,gene,induced_by,differentiation,other,p21 can also be induced independently of p53 during processes such as differentiation
+139,P53,p21,gene,induced_by,development,other,"induced independently of p53 during processes such as differentiation, development"
+139,P53,p21,gene,induced_by,serum stimulation,other,in response to serum stimulation
+139,P53,p21,gene,binds,CDK2,gene,"p21 (WAF1) binds to cyclin-CDK complexes (notably CDK2, CDK1, CDK4, and CDK6)"
+139,P53,p21,gene,binds,CDK1,gene,"p21 (WAF1) binds to cyclin-CDK complexes (notably CDK2, CDK1, CDK4, and CDK6)"
+139,P53,p21,gene,binds,CDK4,gene,"p21 (WAF1) binds to cyclin-CDK complexes (notably CDK2, CDK1, CDK4, and CDK6)"
+139,P53,p21,gene,binds,CDK6,gene,"p21 (WAF1) binds to cyclin-CDK complexes (notably CDK2, CDK1, CDK4, and CDK6)"
+139,P53,p21,gene,inhibits,CDK2,gene,"binds to cyclin-CDK complexes (notably CDK2, CDK1, CDK4, and CDK6), inhibiting their activity"
+139,P53,p21,gene,blocks,G1/S transition,other,inhibiting their activity and blocking the G1/S transition
+139,P53,p21,gene,upregulated_by,DNA damage,other,"In cells with functional p53, p21 is upregulated in response to DNA damage"
+139,P53,miR-302,gene,inhibits,p21 translation,other,"the miR-302 family of microRNAs, which inhibit p21 translation"
+139,P53,miR-302,gene,suppresses,p21,gene,"miR-302, which is constitutively expressed and suppresses p21 expression"
+139,P53,p53,gene,binds,CDKN1A promoter,other,Although p53 binds the CDKN1A promoter in hESCs
+139,P53,p14^ARF,gene,links,p53 pathway,pathway,The p53 pathway is interconnected with the RB1 pathway via p14^ARF
+139,P53,p14^ARF,gene,links,RB1 pathway,pathway,The p53 pathway is interconnected with the RB1 pathway via p14^ARF
+139,P53,UV radiation,other,induces,p53,gene,p53 expression can be induced by UV radiation
+139,P53,UV radiation,other,causes,DNA damage,other,"induced by UV radiation, which also causes DNA damage"
+139,P53,p53,gene,initiates,melanin production,other,p53 activation can initiate processes that lead to melanin production and tanning
+139,P53,p53,gene,initiates,tanning,other,p53 activation can initiate processes that lead to melanin production and tanning
+140,P53,p53,gene,maintains,stem cells,other,Levels of p53 play an important role in the maintenance of stem cells throughout development
+140,P53,p53,gene,maintained_low_in,human embryonic stem cells,other,"In human embryonic stem cells (hESCs)s, p53 is maintained at low inactive levels"
+140,P53,p53,gene,promotes_differentiation_of,human embryonic stem cells,other,p53 promotes differentiation of hESCs and plays a key role in cell cycle as a differentiation regulator
+140,P53,p53,gene,regulates,cell cycle,pathway,p53 promotes differentiation of hESCs and plays a key role in cell cycle as a differentiation regulator
+140,P53,p53,gene,increases,p21,gene,"When p53 becomes stabilized and activated in hESCs, it increases p21 to establish a longer G1"
+140,P53,p21,gene,establishes,G1 phase,pathway,it increases p21 to establish a longer G1
+140,P53,p53,gene,activates,miR-34a,gene,p53 also activates miR-34a and miR-145
+140,P53,p53,gene,activates,miR-145,gene,p53 also activates miR-34a and miR-145
+140,P53,miR-34a,gene,represses,hESCs pluripotency factors,other,"activates miR-34a and miR-145, which then repress the hESCs pluripotency factors"
+140,P53,miR-145,gene,represses,hESCs pluripotency factors,other,"activates miR-34a and miR-145, which then repress the hESCs pluripotency factors"
+140,P53,p53,gene,regulates,adult stem cells,other,"In adult stem cells, p53 regulation is important for maintenance of stemness in adult stem cell niches"
+140,P53,hypoxia,other,affects,p53,gene,Mechanical signals such as hypoxia affect levels of p53 in these niche cells through the hypoxia inducible factors
+140,P53,HIF-1α,gene,stabilizes,p53,gene,"While HIF-1α stabilizes p53, HIF-2α suppresses it"
+140,P53,HIF-2α,gene,suppresses,p53,gene,"While HIF-1α stabilizes p53, HIF-2α suppresses it"
+140,P53,p53 suppression,other,part_of,cancer stem cell phenotype,disease,"Suppression of p53 plays important roles in cancer stem cell phenotype, induced pluripotent stem cells"
+140,P53,p53 suppression,other,part_of,induced pluripotent stem cells,other,"Suppression of p53 plays important roles in cancer stem cell phenotype, induced pluripotent stem cells"
+140,P53,p53 suppression,other,part_of,blastema formation,other,"Suppression of p53 plays important roles in cancer stem cell phenotype, induced pluripotent stem cells and other stem cell roles and behaviors, such as blastema formation"
+140,P53,decreased p53,other,promotes,reprogramming into stem cells,other,Cells with decreased levels of p53 have been shown to reprogram into stem cells with a much greater efficiency
+140,P53,decreased p53,other,part_of,blastema formation,other,Decreased levels of p53 were also shown to be a crucial aspect of blastema formation in the legs of salamanders
+141,P53,p53,gene,inhibits,angiogenesis,other,p53 has a tissue-level anticancer effect that works by inhibiting angiogenesis
+141,P53,p53,gene,interferes_with,HIF1,gene,"interfering with regulators of tumor hypoxia that also affect angiogenesis, such as HIF1 and HIF2"
+141,P53,p53,gene,interferes_with,HIF2,gene,"interfering with regulators of tumor hypoxia that also affect angiogenesis, such as HIF1 and HIF2"
+141,P53,p53,gene,inhibits,angiogenic promoting factors,other,inhibiting the production of angiogenic promoting factors
+141,P53,p53,gene,increases_production_of,arresten,other,"directly increasing the production of angiogenesis inhibitors, such as arresten"
+141,P53,p53,gene,regulates,Leukemia Inhibitory Factor,gene,p53 by regulating Leukemia Inhibitory Factor has been shown to facilitate implantation
+141,P53,p53,gene,facilitates,implantation,other,p53 by regulating Leukemia Inhibitory Factor has been shown to facilitate implantation in the mouse
+141,P53,Mycoplasma,other,inhibits,p53,gene,Checkpoint control of the cell cycle and of apoptosis by p53 is inhibited by some infections such as Mycoplasma bacteria
+141,P53,MDM2,gene,degrades,p53,gene,p53 is maintained at low levels through continuous degradation mediated by the E3 ubiquitin ligase MDM2
+141,P53,MDM2,gene,binds,p53,gene,"MDM2 binds p53, exports it from the nucleus, and targets it for proteasomal degradation"
+141,P53,MDM2,gene,exports_from_nucleus,p53,gene,"MDM2 binds p53, exports it from the nucleus, and targets it for proteasomal degradation"
+141,P53,p53,gene,activates,MDM2,gene,"p53 transcriptionally activates MDM2, establishing a classic negative feedback loop"
+141,P53,DNA damage,other,activates,p53,gene,"p53 is activated in response to a range of cellular stressors, including DNA damage"
+141,P53,ultraviolet radiation,other,causes,DNA damage,other,DNA damage (for example from ultraviolet or ionizing radiation)
+141,P53,ionizing radiation,other,causes,DNA damage,other,DNA damage (for example from ultraviolet or ionizing radiation)
+141,P53,osmotic shock,other,activates,p53,gene,"cellular stressors, including DNA damage ... osmotic shock, ribonucleotide depletion"
+141,P53,ribonucleotide depletion,other,activates,p53,gene,"osmotic shock, ribonucleotide depletion, oncogene activation"
+141,P53,oncogene activation,other,activates,p53,gene,"ribonucleotide depletion, oncogene activation, and some viral infections"
+141,P53,viral infections,other,activates,p53,gene,"oncogene activation, and some viral infections"
+141,P53,stress-activated kinases,other,phosphorylates,p53,gene,phosphorylation of residues in the N-terminal transactivation domain by stress-activated kinases
+141,P53,Ser20 phosphorylation,other,reduces_binding_of,MDM2,gene,Phosphorylation of sites within the Mdm2-binding region (for example Ser20) can reduce binding to MDM2
+142,P53,JNK1-3,gene,member_of,MAPK pathway,pathway,"members of the MAPK pathways, including JNK1–3, ERK1/2 and p38 MAPK"
+142,P53,ERK1/2,gene,member_of,MAPK pathway,pathway,"members of the MAPK pathways, including JNK1–3, ERK1/2 and p38 MAPK"
+142,P53,p38 MAPK,gene,member_of,MAPK pathway,pathway,"members of the MAPK pathways, including JNK1–3, ERK1/2 and p38 MAPK"
+142,P53,JNK1-3,gene,activated_by,oxidative stress,other,activated by diverse cellular stresses such as oxidative stress and heat shock
+142,P53,JNK1-3,gene,activated_by,heat shock,other,activated by diverse cellular stresses such as oxidative stress and heat shock
+142,P53,ERK1/2,gene,activated_by,oxidative stress,other,activated by diverse cellular stresses such as oxidative stress and heat shock
+142,P53,ERK1/2,gene,activated_by,heat shock,other,activated by diverse cellular stresses such as oxidative stress and heat shock
+142,P53,p38 MAPK,gene,activated_by,oxidative stress,other,activated by diverse cellular stresses such as oxidative stress and heat shock
+142,P53,p38 MAPK,gene,activated_by,heat shock,other,activated by diverse cellular stresses such as oxidative stress and heat shock
+142,P53,ATM,gene,member_of,DNA damage response,pathway,"DNA damage response kinases, including ATM, ATR and DNA-PK"
+142,P53,ATR,gene,member_of,DNA damage response,pathway,"DNA damage response kinases, including ATM, ATR and DNA-PK"
+142,P53,DNA-PK,gene,member_of,DNA damage response,pathway,"DNA damage response kinases, including ATM, ATR and DNA-PK"
+142,P53,CHK1,gene,activated_by,DNA damage,other,"downstream checkpoint kinases such as CHK1 and CHK2, which are activated by DNA damage and replication stress"
+142,P53,CHK2,gene,activated_by,DNA damage,other,"downstream checkpoint kinases such as CHK1 and CHK2, which are activated by DNA damage and replication stress"
+142,P53,CHK1,gene,activated_by,replication stress,other,"downstream checkpoint kinases such as CHK1 and CHK2, which are activated by DNA damage and replication stress"
+142,P53,CHK2,gene,activated_by,replication stress,other,"downstream checkpoint kinases such as CHK1 and CHK2, which are activated by DNA damage and replication stress"
+142,P53,ATM,gene,activated_by,DNA damage,other,activated by DNA damage and replication stress and contribute to p53 regulation
+142,P53,ATR,gene,activated_by,DNA damage,other,activated by DNA damage and replication stress and contribute to p53 regulation
+142,P53,DNA-PK,gene,activated_by,DNA damage,other,activated by DNA damage and replication stress and contribute to p53 regulation
+142,P53,ATM,gene,regulates,p53,gene,contribute to p53 regulation through phosphorylation-dependent signalling
+142,P53,ATR,gene,regulates,p53,gene,contribute to p53 regulation through phosphorylation-dependent signalling
+142,P53,DNA-PK,gene,regulates,p53,gene,contribute to p53 regulation through phosphorylation-dependent signalling
+142,P53,CHK1,gene,regulates,p53,gene,contribute to p53 regulation through phosphorylation-dependent signalling
+142,P53,CHK2,gene,regulates,p53,gene,contribute to p53 regulation through phosphorylation-dependent signalling
+142,P53,CDK-activating kinase,gene,phosphorylates,p53,gene,"the CDK-activating kinase (CAK; CDK7–cyclin H–MAT1), which has been shown to phosphorylate p53"
+142,P53,CDK7,gene,part_of,CDK-activating kinase,gene,CDK-activating kinase (CAK; CDK7–cyclin H–MAT1)
+142,P53,cyclin H,gene,part_of,CDK-activating kinase,gene,CDK-activating kinase (CAK; CDK7–cyclin H–MAT1)
+142,P53,MAT1,gene,part_of,CDK-activating kinase,gene,CDK-activating kinase (CAK; CDK7–cyclin H–MAT1)
+142,P53,TP53RK,gene,phosphorylates,p53,gene,"TP53RK (PRPK), which has been reported to phosphorylate p53 at Ser15"
+142,P53,p14ARF,gene,inhibits,MDM2,gene,"p14ARF (ARF), which inhibits the p53 antagonist MDM2"
+142,P53,p14ARF,gene,stabilizes,p53,gene,inhibits the p53 antagonist MDM2 and thereby stabilizes p53
+142,P53,MDM2,gene,inhibits,p53,gene,"p14ARF (ARF), which inhibits the p53 antagonist MDM2"
+142,P53,USP7,gene,deubiquitinates,p53,gene,"USP7, also known as HAUSP, can deubiquitinate both p53 and MDM2"
+142,P53,USP7,gene,deubiquitinates,MDM2,gene,"USP7, also known as HAUSP, can deubiquitinate both p53 and MDM2"
+142,P53,USP7,gene,stabilizes,MDM2,gene,"In unstressed cells, HAUSP preferentially stabilizes MDM2"
+142,P53,USP42,gene,stabilizes,p53,gene,USP42 is another DUB that stabilizes p53 and enhances its ability to respond to stress
+142,P53,USP10,gene,deubiquitinates,p53,gene,counteracts MDM2 by directly deubiquitinating p53
+142,P53,USP10,gene,stabilizes,p53,gene,"After DNA damage, USP10 translocates to the nucleus and further stabilizes p53"
+143,P53,Phosphorylation,other,prevents_binding_of,MDM2,gene,Phosphorylation of the N-terminus not only prevents MDM2 binding
+143,P53,Phosphorylation,other,facilitates_recruitment_of,cofactors,other,prevents MDM2 binding but also facilitates the recruitment of cofactors
+143,P53,Pin1,gene,enhances_conformational_changes_in,p53,gene,Pin1 enhances conformational changes in p53
+143,P53,p300,gene,acetylates,p53,gene,p300 and PCAF acetylate the C-terminus
+143,P53,PCAF,gene,acetylates,p53,gene,p300 and PCAF acetylate the C-terminus
+143,P53,Acetylation,other,exposes,DNA-binding domain,other,"acetylate the C-terminus, exposing the DNA-binding domain"
+143,P53,Acetylation,other,enhances,transcriptional activation,other,exposing the DNA-binding domain and enhancing transcriptional activation
+143,P53,Sirt1,gene,deacetylates,p53,gene,deacetylases such as Sirt1 and Sirt7 remove these modifications
+143,P53,Sirt7,gene,deacetylates,p53,gene,deacetylases such as Sirt1 and Sirt7 remove these modifications
+143,P53,Sirt1,gene,suppresses,apoptosis,pathway,"remove these modifications, suppressing apoptosis and promoting cell survival"
+143,P53,Sirt7,gene,suppresses,apoptosis,pathway,"remove these modifications, suppressing apoptosis and promoting cell survival"
+143,P53,Sirt1,gene,promotes,cell survival,pathway,suppressing apoptosis and promoting cell survival
+143,P53,Sirt7,gene,promotes,cell survival,pathway,suppressing apoptosis and promoting cell survival
+143,P53,oncogenes,gene,activates,p53,gene,Some oncogenes can also activate p53 indirectly by inhibiting MDM2
+143,P53,oncogenes,gene,inhibits,MDM2,gene,activate p53 indirectly by inhibiting MDM2
+143,P53,p53,gene,oscillates_in_response_to,cellular signals,other,p53 levels oscillate over time in response to cellular signals
+143,P53,DNA damage,other,enhances_oscillations_of,p53,gene,These oscillations become more pronounced in the presence of DNA damage
+143,P53,double-stranded breaks,other,causes,DNA damage,other,"DNA damage, such as double-stranded breaks or UV exposure"
+143,P53,UV exposure,other,causes,DNA damage,other,"DNA damage, such as double-stranded breaks or UV exposure"
+143,P53,TRIM24,gene,restricts_binding_of,p53,gene,The corepressor TRIM24 restricts p53 binding to epigenetically repressed loci by recognizing methylated histones
+143,P53,TRIM24,gene,recognizes,methylated histones,other,restricts p53 binding to epigenetically repressed loci by recognizing methylated histones
+143,P53,chromatin environment,other,influences,p53,gene,p53 function is also influenced by chromatin environment
+144,P53,TP53,gene,suppresses,tumors,disease,"If the TP53 gene is damaged, its ability to suppress tumors is severely compromised."
+144,P53,TP53,gene,predisposes_to,Li–Fraumeni syndrome,disease,"Individuals who inherit only one functional copy of TP53 are predisposed to developing tumors in early adulthood, a condition known as Li–Fraumeni syndrome."
+144,P53,mutagens,chemical,alters,TP53,gene,"The TP53 gene can also be altered by mutagens—such as chemicals, radiation, or certain viruses"
+144,P53,mutagens,chemical,increases,uncontrolled cell division,other,"altered by mutagens—such as chemicals, radiation, or certain viruses—thereby increasing the likelihood of uncontrolled cell division"
+144,P53,TP53 mutation,other,found_in,human tumors,disease,More than 50 percent of human tumors harbor a mutation or deletion of the TP53 gene.
+144,P53,loss of p53 function,other,leads_to,genomic instability,other,"Loss of p53 function leads to genomic instability, frequently resulting in an aneuploidy phenotype."
+144,P53,genomic instability,other,results_in,aneuploidy phenotype,other,"genomic instability, frequently resulting in an aneuploidy phenotype."
+144,P53,human papillomavirus,other,produces,E6,other,"human papillomavirus (HPV) produces the viral protein E6, which binds to and inactivates p53."
+144,P53,E6,other,binds_to,p53,gene,"the viral protein E6, which binds to and inactivates p53."
+144,P53,E6,other,inactivates,p53,gene,"the viral protein E6, which binds to and inactivates p53."
+144,P53,human papillomavirus,other,produces,E7,other,"In conjunction with the HPV protein E7, which inactivates the cell cycle regulator pRb"
+144,P53,E7,other,inactivates,pRb,gene,"the HPV protein E7, which inactivates the cell cycle regulator pRb"
+144,P53,human papillomavirus,other,causes,warts,disease,"this promotes repeated cell division, clinically presenting as warts."
+144,P53,HPV type 16,other,drives_progression_to,cervical dysplasia,disease,"High-risk HPV types, particularly types 16 and 18, can drive the progression from benign warts to low- or high-grade cervical dysplasia"
+144,P53,HPV type 18,other,drives_progression_to,cervical dysplasia,disease,"High-risk HPV types, particularly types 16 and 18, can drive the progression from benign warts to low- or high-grade cervical dysplasia"
+144,P53,persistent cervical infection,disease,leads_to,carcinoma in situ,disease,"Persistent cervical infection can lead to irreversible changes, including carcinoma in situ and invasive cervical cancer."
+144,P53,persistent cervical infection,disease,leads_to,invasive cervical cancer,disease,"Persistent cervical infection can lead to irreversible changes, including carcinoma in situ and invasive cervical cancer."
+144,P53,human papillomavirus,other,integrates_into,host genome,other,These outcomes are primarily driven by viral integration into the host genome and the continued expression of the E6 and E7 oncoproteins.
+144,P53,TP53 mutation,other,detected_by,DNA sequencing,other,Most p53 mutations are detected by DNA sequencing.
+144,P53,TP53 mutation,other,gives_rise_to,p53 isoforms,other,"Mutations in TP53 can give rise to different isoforms, preventing their overall functionality in different cellular mechanisms"
+144,P53,p53 isoforms,other,prevent,cancer,disease,different isoforms of p53 proteins have different cellular mechanisms for prevention against cancer.
+144,P53,p53 isoforms,other,expressed_in,human tissues,other,p53 isoforms are differentially expressed in different human tissues
+144,P53,p53 isoform mutations,other,cause,tissue-specific cancer,disease,loss-of-function or gain-of-function mutations within the isoforms can cause tissue-specific cancer
+144,P53,p53 isoform mutations,other,provides,cancer stem cell potential,other,loss-of-function or gain-of-function mutations within the isoforms can cause tissue-specific cancer or provide cancer stem cell potential in different tissues.
+144,P53,TP53 mutation,other,affects,energy metabolism,pathway,TP53 mutation also hits energy metabolism and increases glycolysis in breast cancer cells.
+144,P53,TP53 mutation,other,increases,glycolysis,pathway,TP53 mutation also hits energy metabolism and increases glycolysis in breast cancer cells.
+145,P53,TP53,gene,has_polymorphism_at,codon 72,other,A common human polymorphism in TP53 involves a substitution of arginine for proline at codon 72 of exon 4.
+145,P53,codon 72 polymorphism,other,associated_with,pancreatic cancer,disease,the proline variant significantly increased pancreatic cancer risk in males
+145,P53,proline homozygosity,other,associated_with_decreased_risk_of,breast cancer,disease,proline homozygosity was associated with decreased breast cancer risk in Arab women
+145,P53,TP53 codon 72 polymorphism,other,interacts_with,MDM2 SNP309,other,"TP53 codon 72 polymorphisms, in combination with MDM2 SNP309 and A2164G, may affect susceptibility"
+145,P53,TP53 codon 72 polymorphism,other,interacts_with,A2164G,other,"TP53 codon 72 polymorphisms, in combination with MDM2 SNP309 and A2164G, may affect susceptibility"
+145,P53,TP53 codon 72 polymorphism,other,affects_susceptibility_to,non-oropharyngeal cancers,disease,may affect susceptibility and age of onset for non-oropharyngeal cancers in women
+145,P53,codon 72 polymorphism,other,associated_with,lung cancer,disease,linked the polymorphism to an increased risk of lung cancer in a Korean population
+145,P53,arginine variant,other,associated_with,individuals without a family history of cancer,other,an association between the arginine variant and individuals without a family history of cancer
+145,P53,Pro/Pro genotype,other,associated_with,renal cell carcinoma,disease,individuals with the homozygous Pro/Pro genotype had a significantly increased risk of renal cell carcinoma
+145,P53,sustained p53 activation,other,causes,premature aging,disease,sustained p53 activation can cause premature aging
+145,P53,endogenous p53 restoration,other,leads_to,tumor regression,other,"In some tumor types, this leads to regression via apoptosis or normalization of cell growth."
+145,P53,Gendicine,drug,approved_in,China,organisation,"The first commercial gene therapy, Gendicine, was approved in China in 2003"
+145,P53,Gendicine,drug,treats,head and neck squamous cell carcinoma,disease,approved in China in 2003 for head and neck squamous cell carcinoma
+145,P53,Gendicine,drug,delivers,TP53,gene,It delivers a functional copy of the TP53 gene using a modified adenovirus.
+145,P53,Gendicine,drug,uses,modified adenovirus,other,delivers a functional copy of the TP53 gene using a modified adenovirus
+145,P53,MI-63,drug,inhibits,MDM2,gene,The small-molecule inhibitor MI-63 can bind to MDM2
+145,P53,MI-63,drug,blocks_interaction_of,MDM2,gene,blocking its interaction with p53
+145,P53,MI-63,drug,reactivates,p53,gene,reactivating p53 in cancers where its function is suppressed
+146,P53,p53,gene,identified_by,Lionel Crawford,other,"p53 was identified in 1979 by Lionel Crawford, David P. Lane, Arnold Levine, and Lloyd Old"
+146,P53,p53,gene,identified_by,David P. Lane,other,"p53 was identified in 1979 by Lionel Crawford, David P. Lane, Arnold Levine, and Lloyd Old"
+146,P53,p53,gene,identified_by,Arnold Levine,other,"p53 was identified in 1979 by Lionel Crawford, David P. Lane, Arnold Levine, and Lloyd Old"
+146,P53,p53,gene,identified_by,Lloyd Old,other,"p53 was identified in 1979 by Lionel Crawford, David P. Lane, Arnold Levine, and Lloyd Old"
+146,P53,Lionel Crawford,other,affiliated_with,Imperial Cancer Research Fund,organisation,"working at Imperial Cancer Research Fund (UK), Princeton University/UMDNJ (Cancer Institute of New Jersey), and Memorial Sloan Kettering Cancer Center, respectively"
+146,P53,David P. Lane,other,affiliated_with,Imperial Cancer Research Fund,organisation,"working at Imperial Cancer Research Fund (UK), Princeton University/UMDNJ (Cancer Institute of New Jersey), and Memorial Sloan Kettering Cancer Center, respectively"
+146,P53,Arnold Levine,other,affiliated_with,Princeton University,organisation,Princeton University/UMDNJ (Cancer Institute of New Jersey)
+146,P53,Arnold Levine,other,affiliated_with,Cancer Institute of New Jersey,organisation,Princeton University/UMDNJ (Cancer Institute of New Jersey)
+146,P53,Lloyd Old,other,affiliated_with,Memorial Sloan Kettering Cancer Center,organisation,"Memorial Sloan Kettering Cancer Center, respectively"
+146,P53,p53,gene,target_of,SV40 virus,other,hypothesized to exist before as the target of the SV40 virus
+146,P53,SV40 virus,other,induces,tumors,disease,"SV40 virus, a strain that induced development of tumors"
+146,P53,TP53,gene,cloned_by,Peter Chumakov,other,The TP53 gene from the mouse was first cloned by Peter Chumakov of the Academy of Sciences of the USSR in 1982
+146,P53,Peter Chumakov,other,affiliated_with,Academy of Sciences of the USSR,organisation,Peter Chumakov of the Academy of Sciences of the USSR in 1982
+146,P53,TP53,gene,cloned_by,Moshe Oren,other,independently in 1983 by Moshe Oren in collaboration with David Givol (Weizmann Institute of Science)
+146,P53,TP53,gene,cloned_by,David Givol,other,Moshe Oren in collaboration with David Givol (Weizmann Institute of Science)
+146,P53,David Givol,other,affiliated_with,Weizmann Institute of Science,organisation,David Givol (Weizmann Institute of Science)
+146,P53,p53,gene,functions_as,tumor suppressor gene,other,Its role as a tumor suppressor gene was revealed in 1989 by Bert Vogelstein
+146,P53,p53,gene,identified_by,Bert Vogelstein,other,tumor suppressor gene was revealed in 1989 by Bert Vogelstein at the Johns Hopkins School of Medicine
+146,P53,Bert Vogelstein,other,affiliated_with,Johns Hopkins School of Medicine,organisation,Bert Vogelstein at the Johns Hopkins School of Medicine
+146,P53,Arnold Levine,other,affiliated_with,Princeton University,organisation,Arnold Levine at Princeton University
+146,P53,p53,gene,functions_as,transcription factor,other,p53 went on to be identified as a transcription factor by Guillermina Lozano
+146,P53,p53,gene,identified_by,Guillermina Lozano,other,identified as a transcription factor by Guillermina Lozano working at MD Anderson Cancer Center
+146,P53,Guillermina Lozano,other,affiliated_with,MD Anderson Cancer Center,organisation,Guillermina Lozano working at MD Anderson Cancer Center
+146,P53,Warren Maltzman,other,affiliated_with,Waksman Institute of Rutgers University,organisation,"Warren Maltzman, of the Waksman Institute of Rutgers University"
+146,P53,TP53,gene,responds_to,DNA damage,other,first demonstrated that TP53 was responsive to DNA damage in the form of ultraviolet radiation
+146,P53,TP53,gene,responds_to,ultraviolet radiation,other,TP53 was responsive to DNA damage in the form of ultraviolet radiation
+146,P53,Michael Kastan,other,affiliated_with,Johns Hopkins University,organisation,Michael Kastan of Johns Hopkins University
+146,P53,TP53,gene,part_of,signal transduction pathway,pathway,TP53 was a critical part of a signal transduction pathway that helped cells respond to DNA damage
+146,P53,Eprenetapopt,drug,reactivates,p53,gene,"Eprenetapopt, a reactivator of some mutant forms of p53"
+146,P53,Pifithrin,drug,inhibits,p53,gene,"Pifithrin, an inhibitor of p53"
+147,P53,Eprenetapopt,drug,reactivates,p53,gene,"Eprenetapopt, a reactivator of some mutant forms of p53"
+147,P53,Pifithrin,drug,inhibits,p53,gene,"Pifithrin, an inhibitor of p53"

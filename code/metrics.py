@@ -29,7 +29,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from config import GOLD, RESULTS
+from config import GOLD, RESULTS, GOLD_CHUNK_ID
 
 
 def normalise(s: str) -> str:
@@ -47,13 +47,26 @@ def to_triple_set(df: pd.DataFrame, include_predicate: bool = True) -> set[tuple
             for r in df.itertuples()}
 
 
-def evaluate(extracted_csv: Path, llm_name: str | None = None) -> dict:
+def evaluate(extracted_csv: Path, llm_name: str | None = None,
+             gold_chunk_only: bool = True) -> dict:
+    """
+    Compare extracted triples against the gold reference graph.
+
+    The gold graph is annotated from a single chunk (see config.GOLD_CHUNK_ID),
+    so by default we restrict the predicted triples to that chunk for a fair
+    comparison. Pass gold_chunk_only=False to evaluate against the full
+    corpus (will produce many false positives since most extracted triples
+    come from non-annotated chunks).
+    """
     gold = pd.read_csv(GOLD / "gold_triples.csv")
     pred = pd.read_csv(extracted_csv)
 
     for col in ("subject", "predicate", "object"):
         if col not in pred.columns:
             raise ValueError(f"Extracted CSV is missing required column: {col}")
+
+    if gold_chunk_only and "chunk_id" in pred.columns:
+        pred = pred[pred["chunk_id"] == GOLD_CHUNK_ID].reset_index(drop=True)
 
     g_strict = to_triple_set(gold, include_predicate=True)
     p_strict = to_triple_set(pred, include_predicate=True)
@@ -107,13 +120,16 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("extracted_csv", type=Path)
     ap.add_argument("--llm", default=None)
+    ap.add_argument("--full-corpus", action="store_true",
+                    help="evaluate against full corpus (default: gold chunk only)")
     args = ap.parse_args()
 
     if not args.extracted_csv.exists():
         print(f"Not found: {args.extracted_csv}")
         return 1
 
-    row = evaluate(args.extracted_csv, args.llm)
+    row = evaluate(args.extracted_csv, args.llm,
+                   gold_chunk_only=not args.full_corpus)
 
     print(f"Extraction quality for: {row['llm']}")
     print(f"  Gold triples:         {row['n_gold']}")

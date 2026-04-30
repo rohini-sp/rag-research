@@ -496,9 +496,8 @@ Traditional graph-based RAG systems retrieve entire communities or local
 neighbourhoods around query-related nodes. This produces prompts that are
 rich in information but also saturated with irrelevant content, which
 degrades LLM reasoning quality and inflates token cost. The central problem,
-as highlighted in recent work \citep{chen2025pathrag} and in the project's
-reference video lecture \citep{videoref2026}, is not the \emph{absence} of
-information but the \emph{excess} of it. In parallel, purely structural
+as highlighted in recent work \citep{chen2025pathrag, guo2025lightrag},
+is not the \emph{absence} of information but the \emph{excess} of it. In parallel, purely structural
 retrieval methods fail to fully align retrieved paths with query semantics,
 and one-shot retrieval leaves no room for refinement when the initial
 evidence is insufficient.
@@ -585,10 +584,9 @@ others open:
 
 A focused comparative study of PathRAG, S-PathRAG, and LightRAG is therefore
 timely and directly useful for researchers and engineers selecting a
-graph-based RAG architecture. The present work is further motivated by the
-reference video lecture on the evolution of graph-based RAG
-\citep{videoref2026}, which frames redundancy and hallucination as the two
-dominant failure modes that next-generation frameworks must address.
+graph-based RAG architecture. The present work targets redundancy and
+hallucination \citep{tonmoy2024} as the two dominant failure modes that
+next-generation graph-RAG frameworks must address.
 
 % ------------------------------------------------------------
 \chapter{Literature Review}
@@ -1111,7 +1109,8 @@ and memory footprint. PathRAG and S-PathRAG, which retrieve over the
 knowledge graph rather than over raw chunks, treat the vector index
 as a means to identify anchor nodes; LightRAG treats it as the
 primary low-level retrieval mechanism, which is why its index cost
-appears explicitly in Table~\ref{tab:complexity}.
+appears explicitly in the complexity discussion of
+Section~\ref{sec:complexity}.
 
 \subsection{Choices Made in This Work}
 
@@ -1657,12 +1656,13 @@ handles multi-hop questions through its hybrid mode, where high-level themes
 are combined with low-level entity facts to form a more complete context.
 
 \subsection{Domain Specialisation}
-LightRAG has seen rapid adoption in specialised domains. In geosciences, a
-LightRAG-based GeoGPT pipeline achieved an F1-score of $0.835$ for entity
-extraction, surpassing general-purpose models by $53$--$78\%$ in
-remote-sensing benchmarks \citep{geogpt2026}. In clinical settings,
-Co-MedGraphRAG uses LightRAG's dual-level retrieval to generate personalised,
-evidence-based responses at low latency \citep{limedgraph2026}.
+LightRAG has seen rapid adoption in specialised domains. In clinical
+settings, Co-MedGraphRAG uses LightRAG's dual-level retrieval to generate
+personalised, evidence-based responses at low latency
+\citep{limedgraph2026}. Open-source extensions in the official repository
+\citep{hkuds2025} have also been applied to legal and biomedical corpora,
+where the dual-level retriever's ability to combine entity-level facts with
+high-level themes is particularly well suited to long, structured documents.
 
 \section{Summary Comparison}
 
@@ -2013,9 +2013,6 @@ reasoning, and efficiency.
 %  REFERENCES
 % =============================================================
 \clearpage
-\phantomsection
-\addcontentsline{toc}{chapter}{References}
-
 \renewcommand{\bibname}{References}
 \begin{thebibliography}{99}
 \setlength{\itemsep}{4pt}
@@ -2054,11 +2051,6 @@ arXiv:2603.23512.
 Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J.,
 Wang, H., 2023. Retrieval-augmented generation for large language
 models: a survey. arXiv:2312.10997.
-
-\bibitem{geogpt2026}
-GeoGPT Consortium, 2026. Toward knowledge-enhanced geohazard
-intelligence: fusing geoscience LLMs and LightRAG. ResearchGate.
-\url{https://bit.ly/GeoGPT-LightRAG}.
 
 \bibitem{guo2025lightrag}
 Guo, Z., Xia, L., Yu, Y., Ao, T., Huang, C., 2025. LightRAG: simple and
@@ -2139,11 +2131,6 @@ arXiv:2408.08921.
 Tonmoy, S.M., Zaman, S.M., Jain, V., Rani, A., Rawte, V., Chadha, A.,
 Das, A., 2024. A comprehensive survey of hallucination mitigation
 techniques in large language models. arXiv:2401.01313.
-
-\bibitem{videoref2026}
-Reference Video Lecture, 2026. Graph-based retrieval-augmented
-generation: LightRAG implementation walkthrough. YouTube.
-\url{https://youtu.be/1sTOOEwb_4I} (accessed 14 April 2026).
 
 \bibitem{wei2022}
 Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F.,
